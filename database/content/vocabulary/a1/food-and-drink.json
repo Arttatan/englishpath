@@ -1,0 +1,45 @@
+{
+  "title": "Food and drink",
+  "level": "a1",
+  "section": "vocabulary",
+  "sort_order": 3,
+  "explanation": "<h2>Food and drink</h2><ul><li><strong>breakfast, lunch, dinner</strong></li><li><strong>fruit, vegetables, meat, fish</strong></li><li><strong>bread, rice, pasta, salad</strong></li><li><strong>water, juice, coffee, tea</strong></li><li>Verbs: <strong>eat, drink, cook, order</strong></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "I'd like a glass of ____, please. | *water | bread | salad", "feedback": "You drink water."},
+        {"text": "She doesn't eat ____. She's vegetarian. | *meat | juice | rice", "feedback": "Vegetarians don't eat meat."},
+        {"text": "We had pasta for ____. | *dinner | breakfast | fruit", "feedback": "Evening meal = dinner."},
+        {"text": "Can I have a ____ of coffee? | *cup | plate | bowl", "feedback": "A cup of coffee."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option to complete these sentences. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": ["apple", "chicken", "bread", "milk", "salad", "orange juice", "cheese", "soup", "eggs", "fish"],
+      "questions": [
+        {"text": "I had an ____ for a snack. | apple", "feedback": ""},
+        {"text": "She ordered ____ for her main course. | chicken", "feedback": ""},
+        {"text": "Would you like some ____ with your meal? | bread", "feedback": ""},
+        {"text": "The children drink ____ every morning. | milk", "feedback": ""},
+        {"text": "I started with a bowl of ____. | soup", "feedback": ""}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Bananas and oranges are ____. | *fruit | vegetables | meat", "feedback": "Fruit."},
+        {"text": "Carrots and tomatoes are ____. | *vegetables | drinks | pasta", "feedback": "Vegetables."},
+        {"text": "Let's ____ a pizza tonight. | *make | drink | fruit", "feedback": "Make/cook a pizza."},
+        {"text": "I'd like to ____ the bill, please. | *pay | eat | cook", "feedback": "Pay the bill in a restaurant."}
+      ]
+    }
+  ]
+}

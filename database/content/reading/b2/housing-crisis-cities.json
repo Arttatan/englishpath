@@ -1,0 +1,78 @@
+{
+  "title": "The housing crisis in major cities",
+  "level": "b2",
+  "section": "reading",
+  "sort_order": 3,
+  "explanation": "<h2>The housing crisis in major cities</h2><p>Rising property prices have made it increasingly difficult for young professionals and families to live near city centres. Developers argue that limited land and high construction costs make affordable housing hard to provide. Tenant groups counter that too many new flats are sold to investors rather than local residents. Some cities have introduced rent controls and requirements for social housing in new projects. While these policies may stabilise prices in the short term, economists debate whether they reduce investment in the long run.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "High prices make it hard for families to live near [*city centres|airports only|mountains only].",
+          "feedback": "City centres."
+        },
+        {
+          "text": "Developers mention limited land and high [*construction costs|ticket prices|food quality].",
+          "feedback": "Construction costs."
+        },
+        {
+          "text": "Tenant groups say many flats go to [*investors|tourists only|students only].",
+          "feedback": "Sold to investors."
+        },
+        {
+          "text": "Some cities require [*social housing|swimming pools|car parks only] in new projects.",
+          "feedback": "Social housing."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Young ____ struggle to afford central districts. | *professionals | rivers | storms",
+          "feedback": "Young professionals."
+        },
+        {
+          "text": "Rent controls may stabilise prices in the short ____.  | *term | flight | song",
+          "feedback": "Short term."
+        },
+        {
+          "text": "Economists question whether controls reduce long-term ____.  | *investment | sunlight | humour",
+          "feedback": "Reduce investment."
+        },
+        {
+          "text": "The text describes a housing ____.  | *crisis | festival | concert",
+          "feedback": "Housing crisis."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The writer presents arguments from [*developers and tenant groups|only children|only athletes].",
+          "feedback": "Both sides."
+        },
+        {
+          "text": "The issue is mainly about [*affordable housing|museum funding|film reviews].",
+          "feedback": "Housing in cities."
+        },
+        {
+          "text": "Policies may help prices short term but raise questions about [*long-term investment|sports funding|weather].",
+          "feedback": "Long-run investment."
+        },
+        {
+          "text": "The tone is [*analytical|humorous|poetic].",
+          "feedback": "Analytical article."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "City life and urban problems",
+  "level": "b1plus",
+  "section": "vocabulary",
+  "sort_order": 8,
+  "explanation": "<h2>City life and urban problems</h2><ul><li>housing, traffic jam, public transport, noise pollution, overcrowding</li><li>pedestrian area, cycle lane, suburb, city centre</li><li>verbs: commute, expand, improve, reduce</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Heavy ____ can make a short journey take an hour. | *traffic | evidence | income",
+          "feedback": "Traffic problems cause delays."
+        },
+        {
+          "text": "Many people move to the ____ because housing is cheaper there. | *suburbs | runways | theories",
+          "feedback": "Suburbs are outside the centre."
+        },
+        {
+          "text": "The council wants to create more ____ so cyclists can travel safely. | *cycle lanes | luggage belts | deadlines",
+          "feedback": "Cycle lanes for bikes."
+        },
+        {
+          "text": "Living in a huge city often means dealing with ____. | *overcrowding | scholarships | revisions",
+          "feedback": "Too many people in one place."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "commute",
+        "expand",
+        "reduce",
+        "centre",
+        "improve",
+        "pedestrian",
+        "housing",
+        "public transport",
+        "pollution",
+        "suburbs"
+      ],
+      "questions": [
+        {
+          "text": "She has to ____ for ninety minutes every day. | commute",
+          "feedback": ""
+        },
+        {
+          "text": "The city plans to ____ the tram network next year. | expand",
+          "feedback": ""
+        },
+        {
+          "text": "A new law could help ____ noise pollution at night. | reduce",
+          "feedback": ""
+        },
+        {
+          "text": "Many tourists prefer to stay in the city ____.  | centre",
+          "feedback": ""
+        },
+        {
+          "text": "Better buses would ____ daily life for residents. | improve",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "This street is a ____ area, so cars cannot enter. | *pedestrian | volunteer | broadcast",
+          "feedback": "Pedestrian area = for walkers only."
+        },
+        {
+          "text": "Young adults often struggle with high ____ costs. | *housing | platform | weather",
+          "feedback": "Housing costs."
+        },
+        {
+          "text": "Good ____ is essential in large cities. | *public transport | salary | furniture",
+          "feedback": "Buses and trains."
+        },
+        {
+          "text": "Air ____ is worse near busy roads. | *pollution | promotion | discussion",
+          "feedback": "Pollution from traffic."
+        }
+      ]
+    }
+  ]
+}

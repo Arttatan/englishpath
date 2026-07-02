@@ -1,0 +1,45 @@
+{
+  "title": "Numbers and time",
+  "level": "a1",
+  "section": "vocabulary",
+  "sort_order": 8,
+  "explanation": "<h2>Numbers and time</h2><ul><li><strong>numbers:</strong> 1–100, first, second, third</li><li><strong>time:</strong> o'clock, half past, quarter past, quarter to</li><li><strong>days:</strong> Monday, Tuesday… Sunday</li><li><strong>months:</strong> January… December</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The lesson starts at three ____. | *o'clock | half | Monday", "feedback": "Three o'clock."},
+        {"text": "Today is ____. Tomorrow is Friday. | *Thursday | January | second", "feedback": "Day before Friday."},
+        {"text": "My birthday is in ____. | *March | Monday | half past", "feedback": "March is a month."},
+        {"text": "It is half ____ six. | *past | to | o'clock", "feedback": "Half past six."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": ["Sunday", "twenty", "quarter past", "July", "half past", "Wednesday", "fifty", "morning", "night", "second"],
+      "questions": [
+        {"text": "The shop is closed on ____. | Sunday", "feedback": ""},
+        {"text": "She is ____ years old. | twenty", "feedback": ""},
+        {"text": "It is ____ three. | quarter past", "feedback": ""},
+        {"text": "School starts in the ____. | morning", "feedback": ""},
+        {"text": "We go on holiday in ____. | July", "feedback": ""}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The bus leaves at ____ to eight. | *quarter | half | Monday", "feedback": "Quarter to eight."},
+        {"text": "____ is the first day of the week for many people. | *Monday | March | fifty", "feedback": "Monday."},
+        {"text": "There are ____ minutes in an hour. | *sixty | seven | July", "feedback": "60 minutes."},
+        {"text": "I go to bed at ____. | *night | morning | second", "feedback": "At night."}
+      ]
+    }
+  ]
+}

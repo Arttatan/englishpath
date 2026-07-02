@@ -1,0 +1,45 @@
+{
+  "title": "Stative vs dynamic verbs",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 13,
+  "explanation": "<h2>Stative vs dynamic verbs</h2><p><strong>Dynamic verbs</strong> describe actions and can use continuous forms: <em>run, eat, play, work</em></p><p><strong>Stative verbs</strong> describe states, feelings, possession, senses — usually NOT continuous: <em>know, believe, love, hate, need, want, belong, seem</em></p><ul><li><em>I know the answer.</em> (NOT I am knowing)</li><li><em>I am thinking about it.</em> (= considering — dynamic use)</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct form.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*know|am knowing|knowing] the answer.", "feedback": "Know = stative, no continuous."},
+        {"text": "She [*wants|is wanting|want] a new phone.", "feedback": "Want = stative."},
+        {"text": "They [*are playing|play|playing] football now.", "feedback": "Play = dynamic → continuous."},
+        {"text": "This book [*belongs|is belonging|belonging] to me.", "feedback": "Belong = stative."},
+        {"text": "I [*am thinking|think|thinking] about your offer.", "feedback": "Thinking = considering (dynamic)." },
+        {"text": "He [*needs|is needing|need] help right now.", "feedback": "Need is usually stative."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "She ____ him. They've been married for years. | *loves | is loving | love", "feedback": "Love = stative."},
+        {"text": "Listen! Someone ____ at the door. | *is knocking | knocks | knock", "feedback": "Knock = dynamic action now."},
+        {"text": "I ____ this film. It's boring. | *don't like | am not liking | not like", "feedback": "Like = stative."},
+        {"text": "The soup ____ delicious. | *smells | is smelling | smell", "feedback": "Smell (linking) = stative."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct form.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "We [*are having|have|having] dinner at the moment.", "feedback": "Having dinner = action (dynamic)." },
+        {"text": "She [*seems|is seeming|seem] tired today.", "feedback": "Seem = stative."},
+        {"text": "I [*don't understand|am not understanding|not understand] this exercise.", "feedback": "Understand = stative."},
+        {"text": "He [*is working|works|work] from home today.", "feedback": "Work = dynamic → continuous."},
+        {"text": "They [*own|are owning|owning] two cars.", "feedback": "Own = stative."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 2",
+  "level": "b1",
+  "section": "use-of-english",
+  "sort_order": 2,
+  "explanation": "<h2>Use of English - B1 Test 2</h2><p>More mixed B1 practice.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "She asked me where I [*had bought|did buy|have bought] the jacket.",
+          "feedback": "Reported question with backshift."
+        },
+        {
+          "text": "This app is [*more reliable|reliabler|most reliable] than the old one.",
+          "feedback": "Comparative long adjective."
+        },
+        {
+          "text": "We [*used to live|were used to live|use to living] near the station.",
+          "feedback": "Used to for past state."
+        },
+        {
+          "text": "You [*mustn't|don't have to|shouldn't to] use your phone during the exam.",
+          "feedback": "Mustn't for prohibition."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "He promised ____ me as soon as he arrived. | *to call | calling | call",
+          "feedback": "Promise + infinitive."
+        },
+        {
+          "text": "I know the caf\u00e9 ____ serves excellent coffee. | *which | where | whose",
+          "feedback": "Which for things."
+        },
+        {
+          "text": "The weather was awful, but we ____ managed to finish the walk. | *still | yet | already",
+          "feedback": "Still works in this sentence."
+        },
+        {
+          "text": "She has been studying ____ six o'clock. | *since | for | during",
+          "feedback": "Since for a starting point."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The city has introduced a bike scheme to reduce [*traffic|lecture|trust].",
+          "feedback": "Traffic fits the context."
+        },
+        {
+          "text": "I [*would not have gone|did not go|would not go] there if I had known the truth.",
+          "feedback": "Third conditional."
+        },
+        {
+          "text": "They [*have never travelled|never travelled|are never travelling] abroad before.",
+          "feedback": "Present perfect for experience."
+        },
+        {
+          "text": "He needs to [*hand in|set off|grow up] the assignment by Friday.",
+          "feedback": "Hand in homework."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Present simple or present continuous?",
+  "level": "a1",
+  "section": "grammar",
+  "sort_order": 4,
+  "explanation": "<h2>Present simple or present continuous?</h2><p><strong>Present simple</strong> — habits, facts, routines (every day, usually, always).</p><p><strong>Present continuous</strong> — now, today, at the moment, this week.</p><ul><li>I <em>work</em> in a shop. (fact / routine)</li><li>I <em>am working</em> now. (now)</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I usually [*go|am going|going] to bed at ten.", "feedback": "Usually → present simple."},
+        {"text": "Listen! The baby [*is crying|cries|cry].", "feedback": "Listen! → now → continuous."},
+        {"text": "She [*works|is working|work] in a hospital.", "feedback": "Permanent job → present simple."},
+        {"text": "We [*are having|have|has] lunch right now.", "feedback": "Right now → continuous."},
+        {"text": "Water [*boils|is boiling|boil] at 100°C.", "feedback": "Scientific fact → present simple."},
+        {"text": "They [*aren't studying|don't study|doesn't study] today — it's a holiday.", "feedback": "Today (temporary) → continuous."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Where's Tom? He ____ a shower. | *is having | has | have", "feedback": "Now → is having."},
+        {"text": "She ____ to work by bus every day. | *goes | is going | go", "feedback": "Every day → goes."},
+        {"text": "I ____ TV at the moment. | *am not watching | don't watch | doesn't watch", "feedback": "At the moment → am not watching."},
+        {"text": "My parents ____ in Scotland. | *live | are living | lives", "feedback": "Permanent → live."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "She [*is reading|reads|read] a book — don't disturb her.", "feedback": "Now → is reading."},
+        {"text": "I [*don't eat|am not eating|not eat] meat.", "feedback": "General habit → don't eat."},
+        {"text": "Look! It [*is snowing|snows|snow].", "feedback": "Look! → is snowing."},
+        {"text": "We [*meet|are meeting|meets] our friends every Friday.", "feedback": "Every Friday → meet."},
+        {"text": "He [*is working|works|work] from home this week.", "feedback": "This week (temporary) → is working."}
+      ]
+    }
+  ]
+}

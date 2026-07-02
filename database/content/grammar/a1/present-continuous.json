@@ -1,0 +1,45 @@
+{
+  "title": "Present continuous: I'm doing",
+  "level": "a1",
+  "section": "grammar",
+  "sort_order": 3,
+  "explanation": "<h2>Present continuous</h2><p>Use <strong>am / is / are + verb-ing</strong> for actions happening <strong>now</strong> or around now.</p><ul><li>I <strong>am working</strong>.</li><li>She <strong>is reading</strong>.</li><li>They <strong>are watching</strong> TV.</li></ul><p>Spelling: sit → sitting, run → running, make → making.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*am studying|study|studies] for my exam right now.", "feedback": "Right now → present continuous."},
+        {"text": "She [*is cooking|cook|cooks] dinner at the moment.", "feedback": "At the moment → is + -ing."},
+        {"text": "They [*aren't working|don't work|doesn't work] today.", "feedback": "Negative continuous: aren't + -ing."},
+        {"text": "[*Are|Do|Does] you listening to me?", "feedback": "Question: Are you + -ing?" },
+        {"text": "We [*are waiting|wait|waits] for the bus.", "feedback": "We → are waiting."},
+        {"text": "He [*isn't sleeping|don't sleep|doesn't sleeping] — he's watching TV.", "feedback": "He → isn't + -ing."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Look! It ____. Take an umbrella! | *is raining | rains | rain", "feedback": "Look! → happening now → is raining."},
+        {"text": "The children ____ in the garden. | *are playing | play | plays", "feedback": "Now → are playing."},
+        {"text": "I can't talk — I ____ a shower. | *am having | have | has", "feedback": "Now → am having."},
+        {"text": "She ____ her homework at the moment. | *is doing | does | do", "feedback": "At the moment → is doing."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "What [*are you doing|do you do|you are doing]?", "feedback": "Question about now: What are you doing?" },
+        {"text": "I [*am not working|don't working|not work] this week.", "feedback": "Temporary situation → am not working."},
+        {"text": "They [*are sitting|sit|sits] in the café.", "feedback": "Now → are sitting."},
+        {"text": "[*Is|Does|Do] he coming to the party?", "feedback": "He → Is he + -ing?" },
+        {"text": "We [*are learning|learn|learning] English this year.", "feedback": "Temporary period → are learning."}
+      ]
+    }
+  ]
+}

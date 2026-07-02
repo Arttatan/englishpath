@@ -1,0 +1,326 @@
+/*
+  Extra styles on top of Tailwind.
+  Most styling is done with Tailwind classes directly in the HTML;
+  this file only holds things that are easier to keep in one place.
+*/
+
+:root {
+  --brand: #d63384;
+  --brand-dark: #b82a6f;
+  --te-pink: #d63384;
+  --te-pink-dark: #b82a6f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Smooth appearance of blocks on load */
+.fade-in {
+  animation: fadeIn 0.6s ease both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Level/section card: gentle lift on hover */
+.lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px -12px rgba(0, 0, 0, 0.18);
+}
+
+/* Colored bar on top of a level card */
+.level-bar {
+  height: 6px;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+/* Formatted lesson explanation (HTML from the database) */
+.lesson-content h2,
+.lesson-content h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+.lesson-content p {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+  color: #374151;
+}
+.lesson-content ul,
+.lesson-content ol {
+  margin: 0.75rem 0 0.75rem 1.25rem;
+  color: #374151;
+}
+.lesson-content li {
+  margin-bottom: 0.35rem;
+}
+.lesson-content strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Exercise blocks */
+.exercise-card.correct {
+  border-color: #4ade80;
+  background: #f0fdf4;
+}
+.exercise-card.incorrect {
+  border-color: #f87171;
+  background: #fef2f2;
+}
+.exercise-feedback {
+  display: none;
+}
+.exercise-card.checked .exercise-feedback {
+  display: block;
+}
+
+/* test-english.com style lesson UI */
+.te-tabs .te-tab {
+  padding: 0.75rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6b7280;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -1px;
+}
+.te-tab-active {
+  color: var(--brand);
+  border-bottom-color: var(--brand) !important;
+}
+.te-instruction-box {
+  background: #f3f4f6;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  font-size: 0.875rem;
+  color: #374151;
+}
+.te-ex-num {
+  display: inline-flex;
+  height: 2rem;
+  min-width: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  border: 1px solid #e5e7eb;
+  background: white;
+  font-weight: 600;
+  color: #6b7280;
+}
+.te-ex-num-active {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: white;
+}
+.te-ex-num-done {
+  background: #fce7f3;
+  border-color: #f9a8d4;
+  color: var(--brand);
+}
+.te-ex-num-locked {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+.te-q-num {
+  display: flex;
+  height: 1.75rem;
+  width: 1.75rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: var(--brand);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+}
+
+/* Question row: pink number + content */
+.te-question-item {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  list-style: none;
+}
+#questions-list {
+  padding: 0;
+  margin: 0;
+}
+.te-question-body {
+  flex: 1;
+  min-width: 0;
+}
+.te-q-sentence {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #111827;
+  margin: 0 0 1.25rem;
+}
+.te-q-sentence-inline {
+  margin-bottom: 0;
+}
+
+/* Vertical lettered options — test-english.com style */
+.te-options-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 36rem;
+}
+.te-option-row {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  background: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.te-option-row:hover:not(.te-correct):not(.te-wrong):not(.te-reveal-correct) {
+  border-color: #9ca3af;
+}
+.te-option-letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.25rem;
+  padding: 0.75rem 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #374151;
+  border-right: 1px solid #e5e7eb;
+  flex-shrink: 0;
+}
+.te-option-text {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 0.9375rem;
+  color: #111827;
+}
+.te-option-row.te-selected {
+  background: var(--te-pink);
+  border-color: var(--te-pink);
+}
+.te-option-row.te-selected .te-option-letter,
+.te-option-row.te-selected .te-option-text {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+.te-option-row.te-correct {
+  background: #f0fdf4;
+  border-color: #22c55e;
+}
+.te-option-row.te-wrong {
+  background: #fef2f2;
+  border-color: #ef4444;
+}
+.te-option-row.te-reveal-correct {
+  background: #f0fdf4;
+  border-color: #22c55e;
+}
+
+/* Inline dropdown gaps */
+.te-dropdown {
+  display: inline-block;
+  margin: 0 0.15rem;
+  max-width: 14rem;
+  padding: 0.35rem 1.75rem 0.35rem 0.5rem;
+  font-size: 0.9375rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b7280' d='M3 5l3 3 3-3'/%3E%3C/svg%3E") no-repeat right 0.5rem center;
+  appearance: none;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+.te-dropdown:focus {
+  outline: 2px solid var(--brand);
+  outline-offset: 1px;
+}
+
+/* Check / Next buttons */
+.te-check-btn {
+  width: 100%;
+  max-width: 12rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  background: var(--brand);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.te-check-btn:hover:not(:disabled) {
+  background: var(--brand-dark);
+}
+.te-check-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.te-next-btn {
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.375rem;
+  background: #fff;
+  border: 2px solid var(--brand);
+  color: var(--brand);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.te-next-btn:hover {
+  background: #fdf2f8;
+}
+.te-score-box {
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+.te-score-good {
+  background: #f0fdf4;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+.te-score-ok {
+  background: #fdf2f8;
+  color: #9d174d;
+  border: 1px solid #f9a8d4;
+}
+.te-score-low {
+  background: #fff7ed;
+  color: #9a3412;
+  border: 1px solid #fed7aa;
+}
+.te-ex-nav-bottom {
+  padding-top: 0.5rem;
+}
+.te-select-correct {
+  border-color: #22c55e !important;
+  background: #f0fdf4;
+}
+.te-select-wrong {
+  border-color: #f87171 !important;
+  background: #fef2f2;
+}

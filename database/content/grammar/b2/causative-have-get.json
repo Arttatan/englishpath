@@ -1,0 +1,86 @@
+{
+  "title": "Causative have and get",
+  "level": "b2",
+  "section": "grammar",
+  "sort_order": 7,
+  "explanation": "<h2>Causative have and get</h2><p>Use <strong>have/get + object + past participle</strong> when someone else does something for you.</p><ul><li><em>I had my hair cut yesterday.</em></li><li><em>She got her car repaired at the garage.</em></li><li><em>We need to have the documents translated.</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "I need to [*have|get|make] my laptop repaired before the trip.",
+          "feedback": "Have + object + past participle."
+        },
+        {
+          "text": "She [*got|had|made] her passport renewed last week.",
+          "feedback": "Get + object + past participle."
+        },
+        {
+          "text": "They are [*having|getting|making] the house painted this month.",
+          "feedback": "Present continuous causative."
+        },
+        {
+          "text": "He [*had|got|made] his suit cleaned before the interview.",
+          "feedback": "Past causative."
+        },
+        {
+          "text": "We should [*have|get|do] the contract checked by a lawyer.",
+          "feedback": "Have something done by someone."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "I must ____ my eyes tested soon. | *have | make | do",
+          "feedback": "Have my eyes tested."
+        },
+        {
+          "text": "She ____ her phone screen replaced at the shop. | *got | made | did",
+          "feedback": "Got + object + replaced."
+        },
+        {
+          "text": "They are ____ the roof fixed after the storm. | *having | making | doing",
+          "feedback": "Having the roof fixed."
+        },
+        {
+          "text": "He finally ____ his documents translated professionally. | *had | made | got to",
+          "feedback": "Had + object + translated."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "We [*had|made|did] the invitations printed yesterday.",
+          "feedback": "Had + object + past participle."
+        },
+        {
+          "text": "She wants to [*get|have|make] her nails done before the wedding.",
+          "feedback": "Get + object + done."
+        },
+        {
+          "text": "They [*are having|are making|are doing] the garden redesigned.",
+          "feedback": "Present continuous."
+        },
+        {
+          "text": "You should [*have|get|make] that tooth looked at.",
+          "feedback": "Have + object + looked at."
+        },
+        {
+          "text": "We [*had|made|did] the windows cleaned before the guests arrived.",
+          "feedback": "Have + object + past participle."
+        }
+      ]
+    }
+  ]
+}

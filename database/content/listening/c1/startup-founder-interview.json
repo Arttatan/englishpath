@@ -1,0 +1,79 @@
+{
+  "title": "Startup founder interview",
+  "level": "c1",
+  "section": "listening",
+  "sort_order": 3,
+  "explanation": "<h2>Startup founder interview</h2><p>Listen to an interview with a tech founder.</p><h3>Transcript</h3><p><strong>Interviewer:</strong> What almost killed the company in year two?<br><strong>Founder:</strong> Cash flow. We scaled too fast and underestimated how long enterprise clients take to sign contracts. We had to cut staff and renegotiate with investors. It was painful, but it forced us to focus on sustainable growth rather than hype.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The main problem in year two was [*cash flow|product design|office location].",
+          "feedback": "Cash flow."
+        },
+        {
+          "text": "They scaled [*too fast|too slowly|not at all].",
+          "feedback": "Scaled too fast."
+        },
+        {
+          "text": "Enterprise clients take a long time to [*sign contracts|visit offices|choose logos].",
+          "feedback": "Sign contracts."
+        },
+        {
+          "text": "The crisis forced a focus on [*sustainable growth|publicity stunts|luxury offices].",
+          "feedback": "Sustainable growth rather than hype."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "They had to cut ____.  | *staff | coffee | windows",
+          "feedback": "Cut staff."
+        },
+        {
+          "text": "They renegotiated with ____.  | *investors | tourists | actors",
+          "feedback": "Renegotiate with investors."
+        },
+        {
+          "text": "The experience was ____.  | *painful | boring | silent",
+          "feedback": "Painful but instructive."
+        },
+        {
+          "text": "They previously chased too much ____.  | *hype | sleep | silence",
+          "feedback": "Rather than hype."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The founder's tone is [*reflective|aggressive|uninterested].",
+          "feedback": "Reflective interview."
+        },
+        {
+          "text": "The lesson concerns [*business discipline|recipe design|sports training].",
+          "feedback": "Startup survival."
+        },
+        {
+          "text": "The company survived by [*changing strategy|ignoring investors|stopping sales].",
+          "feedback": "Focus and renegotiation."
+        },
+        {
+          "text": "Enterprise sales are portrayed as [*slow|instant|impossible].",
+          "feedback": "Take long to sign."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=7y_hbz6lM9E"
+}

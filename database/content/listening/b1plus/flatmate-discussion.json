@@ -1,0 +1,79 @@
+{
+  "title": "Flatmate discussion",
+  "level": "b1plus",
+  "section": "listening",
+  "sort_order": 1,
+  "explanation": "<h2>Flatmate discussion</h2><p>Listen to two flatmates talking about household rules.</p><h3>Transcript</h3><p><strong>Ella:</strong> We need to talk about the cleaning rota. I feel like I have been doing most of the kitchen this month.<br><strong>Tom:</strong> You are right. I have been busy, but that is not an excuse. How about we make a proper schedule?<br><strong>Ella:</strong> Good idea. And could we also agree not to invite friends over on weeknights without asking first?<br><strong>Tom:</strong> Fair enough. That sounds reasonable.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Ella says she has been doing most of the [*kitchen cleaning|shopping|rent payments].",
+          "feedback": "She mentions the kitchen specifically."
+        },
+        {
+          "text": "Tom admits he has been [*busy|ill|away].",
+          "feedback": "He says he has been busy."
+        },
+        {
+          "text": "They decide to make a [*schedule|phone call|complaint].",
+          "feedback": "A proper schedule."
+        },
+        {
+          "text": "Ella wants flatmates to ask before inviting [*friends over on weeknights|family for weekends|repair workers].",
+          "feedback": "That is the second issue she raises."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The topic is the cleaning ____.  | *rota | campaign | bargain",
+          "feedback": "A rota is a schedule of duties."
+        },
+        {
+          "text": "Tom says being busy is not an ____.  | *excuse | update | argument",
+          "feedback": "He calls it not an excuse."
+        },
+        {
+          "text": "Ella thinks the new rule sounds ____.  | *reasonable | impossible | unfair",
+          "feedback": "Reasonable is the conclusion."
+        },
+        {
+          "text": "They are discussing life in a shared ____.  | *flat | office | hotel",
+          "feedback": "It is a flatmate discussion."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The conversation is about [*shared responsibilities|travel plans|exam stress].",
+          "feedback": "Cleaning and visitors in a shared home."
+        },
+        {
+          "text": "Tom reacts in a [*cooperative|defensive|aggressive] way overall.",
+          "feedback": "He agrees and suggests a solution."
+        },
+        {
+          "text": "Ella's complaint is [*specific|unclear|unrelated].",
+          "feedback": "She mentions the kitchen and weeknights."
+        },
+        {
+          "text": "The tone becomes more [*constructive|hostile|formal] by the end.",
+          "feedback": "They find a practical solution."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=8O6272q0Awo"
+}

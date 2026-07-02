@@ -1,0 +1,95 @@
+{
+  "title": "Workplace communication",
+  "level": "b1plus",
+  "section": "vocabulary",
+  "sort_order": 2,
+  "explanation": "<h2>Workplace communication</h2><ul><li>agenda, minutes, feedback, deadline, negotiation</li><li>clarify, interrupt, persuade, summarise</li><li>phrases: make a point, raise a concern</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Please send me the meeting ____ before tomorrow morning. | *agenda | headline | contract",
+          "feedback": "Agenda = plan for the meeting."
+        },
+        {
+          "text": "Could you ____ what you mean by 'urgent'? | *clarify | interrupt | negotiate",
+          "feedback": "Clarify = explain clearly."
+        },
+        {
+          "text": "The manager gave me useful ____ on my presentation. | *feedback | broadcast | evidence",
+          "feedback": "Feedback = comments on performance."
+        },
+        {
+          "text": "We need someone to take the meeting ____. | *minutes | platforms | vacancies",
+          "feedback": "Meeting minutes = written notes."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "interrupt",
+        "persuade",
+        "summarise",
+        "raise",
+        "negotiation",
+        "agenda",
+        "feedback",
+        "deadline",
+        "minutes",
+        "clarify"
+      ],
+      "questions": [
+        {
+          "text": "Try not to ____ people while they are speaking. | interrupt",
+          "feedback": ""
+        },
+        {
+          "text": "She managed to ____ the client to accept the proposal. | persuade",
+          "feedback": ""
+        },
+        {
+          "text": "At the end, I will ____ the key decisions. | summarise",
+          "feedback": ""
+        },
+        {
+          "text": "He wanted to ____ a concern about the budget. | raise",
+          "feedback": ""
+        },
+        {
+          "text": "We spent two hours in ____ over the final price. | negotiation",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The project is due on Friday, so the ____ is close. | *deadline | agenda | discount",
+          "feedback": "Deadline = final date."
+        },
+        {
+          "text": "She made a strong ____ about the need for better planning. | *point | queue | forecast",
+          "feedback": "Make a point."
+        },
+        {
+          "text": "I need to ____ this sentence in a simpler way. | *rephrase | delay | depart",
+          "feedback": "Rephrase = say again differently."
+        },
+        {
+          "text": "Good teamwork depends on clear ____. | *communication | customs | recovery",
+          "feedback": "Communication is key at work."
+        }
+      ]
+    }
+  ]
+}

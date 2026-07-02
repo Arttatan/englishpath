@@ -1,0 +1,86 @@
+{
+  "title": "Inversion with negative adverbials",
+  "level": "b2",
+  "section": "grammar",
+  "sort_order": 1,
+  "explanation": "<h2>Inversion with negative adverbials</h2><p>After negative or restrictive adverbials at the start of a sentence, we use inversion (auxiliary before subject), like in questions.</p><ul><li><em>Never have I seen such a crowd.</em></li><li><em>Not only did she apologise, but she also offered compensation.</em></li><li><em>Hardly had we arrived when the meeting started.</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Never have I|I have never] felt so embarrassed in a meeting.",
+          "feedback": "Inversion after Never at the start."
+        },
+        {
+          "text": "[*Not only did|Not only] he win the prize, but he also broke the record.",
+          "feedback": "Not only + auxiliary + subject."
+        },
+        {
+          "text": "[*Hardly had|Hardly] the train left when it began to rain.",
+          "feedback": "Hardly had + subject + past participle."
+        },
+        {
+          "text": "[*Rarely do|Rarely] people admit their mistakes so openly.",
+          "feedback": "Rarely do + subject + base verb."
+        },
+        {
+          "text": "[*Only then did|Only then] she realise how serious the problem was.",
+          "feedback": "Only then did + subject."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Not until the report was published ____ the public understand the scale of the crisis. | *did | do | had",
+          "feedback": "Not until triggers inversion in the main clause."
+        },
+        {
+          "text": "Seldom ____ such a talented group of musicians perform together. | *do | does | did",
+          "feedback": "Seldom do + plural subject."
+        },
+        {
+          "text": "Little ____ that their decision would change everything. | *did they know | they knew | they did know",
+          "feedback": "Little did they know."
+        },
+        {
+          "text": "No sooner ____ the door than the phone rang. | *had he closed | he had closed | did he close",
+          "feedback": "No sooner had + subject + past participle."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Under no circumstances should|Under no circumstances should not] employees share passwords.",
+          "feedback": "Under no circumstances should + subject."
+        },
+        {
+          "text": "[*Not once did|Not once] the speaker mention the budget.",
+          "feedback": "Not once did + subject."
+        },
+        {
+          "text": "[*Only by working together can|Only by working together we can] we solve this problem.",
+          "feedback": "Only by + phrase + can + subject."
+        },
+        {
+          "text": "[*Never before has|Never before have] the company received so many complaints.",
+          "feedback": "Never before has + subject."
+        },
+        {
+          "text": "[*Hardly ever do|Hardly ever] politicians answer the question directly.",
+          "feedback": "Hardly ever do + subject."
+        }
+      ]
+    }
+  ]
+}

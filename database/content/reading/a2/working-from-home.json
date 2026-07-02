@@ -1,0 +1,27 @@
+{
+  "title": "Working from home",
+  "level": "a2",
+  "section": "reading",
+  "sort_order": 2,
+  "explanation": "<h2>Working from home</h2><p>More people work from home today than ten years ago. You need a quiet room, a good internet connection and a comfortable chair. Many workers start at nine and finish at five, but they save time because they don't travel to an office. Some people miss talking to colleagues face to face. Experts say it is important to take breaks and go outside during the day.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "More people work from home than [*ten years ago|last month|never].", "feedback": "Than ten years ago."},
+      {"text": "You need a good internet [*connection|password|game].", "feedback": "Internet connection."},
+      {"text": "Working from home saves [*travel|food|sleep] time.", "feedback": "Don't travel to office."},
+      {"text": "Experts say you should take [*breaks|tests|buses].", "feedback": "Take breaks."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Read and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "You need a ____ room to work. | *quiet | noisy | empty", "feedback": "Quiet room."},
+      {"text": "Some people miss colleagues ____ to face. | *face | back | hand", "feedback": "Face to face."},
+      {"text": "Workers should go ____ during the day. | *outside | inside | away", "feedback": "Go outside."},
+      {"text": "You need a comfortable ____. | *chair | bus | museum", "feedback": "Comfortable chair."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "Many home workers keep [*normal|night|no] office hours.", "feedback": "Start at nine, finish at five."},
+      {"text": "The text mentions one [*disadvantage|law|country].", "feedback": "Miss face-to-face contact."},
+      {"text": "The topic is [*modern work|sport|weather].", "feedback": "Working from home."},
+      {"text": "The tone is [*informative|funny|angry].", "feedback": "Factual information."}
+    ]}
+  ]
+}

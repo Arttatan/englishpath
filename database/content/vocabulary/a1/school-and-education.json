@@ -1,0 +1,45 @@
+{
+  "title": "School and education",
+  "level": "a1",
+  "section": "vocabulary",
+  "sort_order": 10,
+  "explanation": "<h2>School and education</h2><ul><li><strong>people:</strong> teacher, student, classmate</li><li><strong>places:</strong> classroom, library, playground</li><li><strong>things:</strong> book, pen, pencil, notebook, desk, board</li><li><strong>subjects:</strong> English, maths, science, history</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The ____ writes on the board. | *teacher | desk | library", "feedback": "Teachers teach."},
+        {"text": "I borrow books from the ____. | *library | playground | pen", "feedback": "Library for books."},
+        {"text": "We sit at a ____ in the classroom. | *desk | subject | student", "feedback": "Desk."},
+        {"text": "My favourite ____ is English. | *subject | notebook | board", "feedback": "English is a subject."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": ["pencil", "classroom", "student", "science", "book", "playground", "maths", "teacher", "pen", "history"],
+      "questions": [
+        {"text": "Open your ____ on page ten. | book", "feedback": ""},
+        {"text": "We have ____ in the lab on Tuesdays. | science", "feedback": ""},
+        {"text": "The children play in the ____. | playground", "feedback": ""},
+        {"text": "Every ____ needs a pen and paper. | student", "feedback": ""},
+        {"text": "Can I borrow a ____? | pencil", "feedback": ""}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "My ____ sits next to me. | *classmate | library | maths", "feedback": "Classmate."},
+        {"text": "I write notes in my ____. | *notebook | teacher | playground", "feedback": "Notebook."},
+        {"text": "We study ____ — numbers and sums. | *maths | desk | pen", "feedback": "Maths."},
+        {"text": "The lesson is in the ____. | *classroom | history | pencil", "feedback": "Classroom."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 1",
+  "level": "b1plus",
+  "section": "use-of-english",
+  "sort_order": 1,
+  "explanation": "<h2>Use of English - B1+ Test 1</h2><p>Mixed grammar and vocabulary review.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "If I had studied harder, I [*would be|would have been|am] more confident in my job now.",
+          "feedback": "Mixed conditional with present result."
+        },
+        {
+          "text": "The report [*is believed to contain|believes to contain|is believing contain] several errors.",
+          "feedback": "Passive reporting structure."
+        },
+        {
+          "text": "She wishes her brother [*would stop|stopped to|had stopped now] borrowing her clothes.",
+          "feedback": "Wish + would for annoying behaviour."
+        },
+        {
+          "text": "By next summer, we [*will have saved|save|will be save] enough to move house.",
+          "feedback": "Future perfect."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The employee asked ____ more time to finish the task. | *for | to | that",
+          "feedback": "Ask for time."
+        },
+        {
+          "text": "This is the university ____ my sister studied law. | *where | which | whose",
+          "feedback": "Where for place."
+        },
+        {
+          "text": "He is very reliable and always keeps his ____.  | *word | weather | charge",
+          "feedback": "Keep your word."
+        },
+        {
+          "text": "The company launched a new advertising ____.  | *campaign | platform | conclusion",
+          "feedback": "Campaign fits the context."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "I regret [*not checking|to not check|did not check] the details more carefully.",
+          "feedback": "Regret can be followed by a gerund here."
+        },
+        {
+          "text": "The meeting was postponed; [*however|therefore|for instance], nobody had prepared for that change.",
+          "feedback": "However shows contrast."
+        },
+        {
+          "text": "He must [*have forgotten|forgeting|forgot] about the appointment.",
+          "feedback": "Modal deduction in the past."
+        },
+        {
+          "text": "The lecture, [*which was delayed|that delayed|where delayed], eventually started at noon.",
+          "feedback": "Non-defining clause."
+        }
+      ]
+    }
+  ]
+}

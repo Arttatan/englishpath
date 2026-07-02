@@ -1,0 +1,30 @@
+{
+  "title": "Hobbies and free time",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 5,
+  "explanation": "<h2>Hobbies and free time</h2><ul><li><strong>activities:</strong> photography, gardening, cooking, hiking, knitting</li><li><strong>places:</strong> gym, cinema, theatre, museum</li><li><strong>verbs:</strong> collect, join, practise, relax</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "She enjoys ____ in the countryside. | *hiking | gardening | collect", "feedback": "Enjoy + -ing; hiking."},
+      {"text": "He ____ stamps from different countries. | *collects | joins | relaxes", "feedback": "Collect stamps."},
+      {"text": "We went to the ____ to see a new film. | *cinema | gym | museum", "feedback": "Cinema."},
+      {"text": "I ____ the guitar twice a week. | *practise | collect | hiking", "feedback": "Practise an instrument."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["photography", "theatre", "relax", "cooking", "museum", "gym", "join", "gardening", "collect", "cinema"],
+      "questions": [
+        {"text": "Her hobby is ____. She takes pictures of nature. | photography", "feedback": ""},
+        {"text": "I like to ____ with a good book. | relax", "feedback": ""},
+        {"text": "We visited the art ____. | museum", "feedback": ""},
+        {"text": "He wants to ____ a chess club. | join", "feedback": ""},
+        {"text": "She spends Sundays ____. | gardening", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "They went to the ____ to watch a play. | *theatre | gym | hiking", "feedback": "Theatre."},
+      {"text": "I go to the ____ three times a week. | *gym | museum | theatre", "feedback": "Gym."},
+      {"text": "____ is my favourite hobby — I love making pasta. | *Cooking | Joining | Collecting", "feedback": "Cooking."},
+      {"text": "In my free time I like to ____. | *draw | join | gym", "feedback": "Draw."}
+    ]}
+  ]
+}

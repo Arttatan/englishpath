@@ -1,0 +1,86 @@
+{
+  "title": "Future perfect and future continuous",
+  "level": "b1plus",
+  "section": "grammar",
+  "sort_order": 7,
+  "explanation": "<h2>Future perfect and future continuous</h2><p><strong>Future perfect:</strong> will have + past participle. Use it to say something will be completed before a future time.</p><p><strong>Future continuous:</strong> will be + verb-ing. Use it for actions in progress at a future moment.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "By next June, I [*will have finished|will finish|finish] my degree.",
+          "feedback": "Future perfect for completion before a point in the future."
+        },
+        {
+          "text": "This time tomorrow, we [*will be flying|will fly|are flying] over the Atlantic.",
+          "feedback": "Future continuous for an action in progress."
+        },
+        {
+          "text": "By the end of the week, they [*will have moved|will move|move] into the new office.",
+          "feedback": "Completed before a future deadline."
+        },
+        {
+          "text": "At 9 p.m., she [*will be giving|will give|gives] her presentation.",
+          "feedback": "Action in progress at a future time."
+        },
+        {
+          "text": "I [*will have read|will be reading|read] the report by the time you arrive.",
+          "feedback": "Completion before another future event."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "In two years, he ____ in the company for a decade. | *will have worked | will work | will be worked",
+          "feedback": "Future perfect with duration up to a future point."
+        },
+        {
+          "text": "Do not call at eight - we ____ dinner then. | *will be having | will have | have",
+          "feedback": "Future continuous."
+        },
+        {
+          "text": "By tomorrow morning, the technicians ____ the problem. | *will have solved | solve | will be solving",
+          "feedback": "Completed before tomorrow morning."
+        },
+        {
+          "text": "At this time next week, I ____ on a beach. | *will be lying | lie | will have lain",
+          "feedback": "Action in progress in the future."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "By 2030, scientists [*will have developed|develop|will be developed] new solutions to this problem.",
+          "feedback": "Future perfect."
+        },
+        {
+          "text": "When you get home, I [*will be sleeping|sleep|will have slept] probably .",
+          "feedback": "Likely in progress at that moment."
+        },
+        {
+          "text": "They [*will have known|know|will be knowing] each other for twenty years next month.",
+          "feedback": "Future perfect with duration."
+        },
+        {
+          "text": "At noon tomorrow, the students [*will be taking|take|will have taken] their exam.",
+          "feedback": "Action in progress at a future moment."
+        },
+        {
+          "text": "By the time the guests arrive, we [*will have prepared|prepare|will be preparing] everything.",
+          "feedback": "Completed before arrival."
+        }
+      ]
+    }
+  ]
+}

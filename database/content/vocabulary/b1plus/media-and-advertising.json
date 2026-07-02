@@ -1,0 +1,95 @@
+{
+  "title": "Media and advertising",
+  "level": "b1plus",
+  "section": "vocabulary",
+  "sort_order": 3,
+  "explanation": "<h2>Media and advertising</h2><ul><li>brand, slogan, campaign, target audience, review</li><li>influence, promote, recommend, advertise</li><li>phrases: go viral, catch attention</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The company launched a new advertising ____ last month. | *campaign | receipt | qualification",
+          "feedback": "Advertising campaign."
+        },
+        {
+          "text": "That short video went ____ on social media overnight. | *viral | formal | balanced",
+          "feedback": "Go viral = spread very quickly."
+        },
+        {
+          "text": "A good advert needs to ____ the audience's attention. | *catch | refund | arrest",
+          "feedback": "Catch attention."
+        },
+        {
+          "text": "Teenagers are the main target ____ for this product. | *audience | platform | symptom",
+          "feedback": "Target audience."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "review",
+        "influence",
+        "promote",
+        "slogan",
+        "brand",
+        "advertise",
+        "campaign",
+        "audience",
+        "viral",
+        "headline"
+      ],
+      "questions": [
+        {
+          "text": "I read an online ____ before buying the headphones. | review",
+          "feedback": ""
+        },
+        {
+          "text": "Celebrities can strongly ____ what people buy. | influence",
+          "feedback": ""
+        },
+        {
+          "text": "The poster is meant to ____ the new app. | promote",
+          "feedback": ""
+        },
+        {
+          "text": "A memorable ____ helps customers remember the brand. | slogan",
+          "feedback": ""
+        },
+        {
+          "text": "That sports company has become a global ____. | brand",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Many businesses use social media to ____ their services. | *advertise | memorise | replace",
+          "feedback": "Advertise services."
+        },
+        {
+          "text": "I would definitely ____ this podcast to language learners. | *recommend | clarify | delay",
+          "feedback": "Recommend = suggest positively."
+        },
+        {
+          "text": "The headline was designed to create instant ____. | *interest | compensation | habit",
+          "feedback": "Media headline aims to attract interest."
+        },
+        {
+          "text": "The message was simple but highly ____. | *effective | judicial | renewable",
+          "feedback": "Effective advertising works well."
+        }
+      ]
+    }
+  ]
+}

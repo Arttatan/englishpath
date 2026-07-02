@@ -1,0 +1,95 @@
+{
+  "title": "Law and justice",
+  "level": "b2",
+  "section": "vocabulary",
+  "sort_order": 3,
+  "explanation": "<h2>Law and justice</h2><ul><li>verdict, evidence, defendant, prosecution, sentence</li><li>witness, jury, appeal, bail, conviction</li><li>verbs: sue, acquit, testify, convict</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The jury reached a guilty ____ after two days. | *verdict | platform | recipe",
+          "feedback": "Verdict = decision."
+        },
+        {
+          "text": "The ____ presented strong proof in court. | *prosecution | subscription | headline",
+          "feedback": "Prosecution brings the case."
+        },
+        {
+          "text": "The judge gave him a five-year ____. | *sentence | agenda | campaign",
+          "feedback": "Prison sentence."
+        },
+        {
+          "text": "The ____ claimed he was at home when the crime happened. | *defendant | candidate | consumer",
+          "feedback": "Defendant in a trial."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "witness",
+        "appeal",
+        "acquit",
+        "testify",
+        "sue",
+        "conviction",
+        "evidence",
+        "jury",
+        "bail",
+        "convict"
+      ],
+      "questions": [
+        {
+          "text": "The ____ described exactly what she had seen. | witness",
+          "feedback": ""
+        },
+        {
+          "text": "His lawyer filed an ____ against the decision. | appeal",
+          "feedback": ""
+        },
+        {
+          "text": "The court decided to ____ him of all charges. | acquit",
+          "feedback": ""
+        },
+        {
+          "text": "She was asked to ____ in front of the jury. | testify",
+          "feedback": ""
+        },
+        {
+          "text": "The company threatened to ____ the newspaper for libel. | sue",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Without clear ____, the case may fail. | *evidence | publicity | furniture",
+          "feedback": "Evidence in court."
+        },
+        {
+          "text": "The ____ must decide whether the accused is guilty. | *jury | audience | crowd",
+          "feedback": "Jury of citizens."
+        },
+        {
+          "text": "He was released on ____ until the next hearing. | *bail | debt | salary",
+          "feedback": "Released on bail."
+        },
+        {
+          "text": "A criminal ____ can affect future employment. | *conviction | vacation | discount",
+          "feedback": "Conviction = guilty verdict."
+        }
+      ]
+    }
+  ]
+}

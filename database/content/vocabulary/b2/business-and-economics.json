@@ -1,0 +1,95 @@
+{
+  "title": "Business and economics",
+  "level": "b2",
+  "section": "vocabulary",
+  "sort_order": 5,
+  "explanation": "<h2>Business and economics</h2><ul><li>revenue, profit, merger, recession, inflation</li><li>shareholder, investment, startup, bankruptcy, turnover</li><li>verbs: invest, expand, compete, forecast</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Rising ____ has increased the cost of everyday goods. | *inflation | pollution | humidity",
+          "feedback": "Inflation."
+        },
+        {
+          "text": "The two companies announced a ____ worth billions. | *merger | holiday | recipe",
+          "feedback": "Merger = joining companies."
+        },
+        {
+          "text": "During a ____, many businesses close or cut jobs. | *recession | celebration | vacation",
+          "feedback": "Economic recession."
+        },
+        {
+          "text": "Annual ____ rose after the successful product launch. | *revenue | luggage | weather",
+          "feedback": "Revenue = income."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "invest",
+        "startups",
+        "bankruptcy",
+        "Shareholders",
+        "forecast",
+        "profit",
+        "turnover",
+        "compete",
+        "expand",
+        "investment"
+      ],
+      "questions": [
+        {
+          "text": "They decided to ____ in renewable technology. | invest",
+          "feedback": ""
+        },
+        {
+          "text": "Small ____ often struggle to access bank loans. | startups",
+          "feedback": ""
+        },
+        {
+          "text": "The firm warned it might face ____ without new funding. | bankruptcy",
+          "feedback": ""
+        },
+        {
+          "text": "____ want higher returns on their shares. | Shareholders",
+          "feedback": ""
+        },
+        {
+          "text": "Analysts ____ slower growth next year. | forecast",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Net ____ increased despite higher production costs. | *profit | debt | traffic",
+          "feedback": "Profit after costs."
+        },
+        {
+          "text": "The shop's annual ____ exceeded expectations. | *turnover | sentence | verdict",
+          "feedback": "Turnover = total sales."
+        },
+        {
+          "text": "Local firms must ____ with cheaper imports. | *compete | apologise | testify",
+          "feedback": "Compete in the market."
+        },
+        {
+          "text": "They plan to ____ into three new European markets. | *expand | recycle | interrupt",
+          "feedback": "Expand business."
+        }
+      ]
+    }
+  ]
+}

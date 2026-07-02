@@ -1,0 +1,79 @@
+{
+  "title": "Legal commentary podcast",
+  "level": "c1",
+  "section": "listening",
+  "sort_order": 2,
+  "explanation": "<h2>Legal commentary podcast</h2><p>Listen to a lawyer discussing a court ruling.</p><h3>Transcript</h3><p><strong>Host:</strong> Did the ruling surprise you?<br><strong>Guest:</strong> Not entirely. The judges emphasised that freedom of expression is not absolute and must be balanced against privacy rights. They did not create new law; they applied existing principles to digital platforms. However, the dissenting opinion warned that the decision could chill legitimate journalism.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The guest was [*not entirely|completely|never] surprised.",
+          "feedback": "Not entirely surprised."
+        },
+        {
+          "text": "Freedom of expression must be balanced with [*privacy rights|traffic laws|tax rules].",
+          "feedback": "Privacy rights."
+        },
+        {
+          "text": "The court [*applied existing principles|created entirely new law|ignored all precedent].",
+          "feedback": "Applied existing principles."
+        },
+        {
+          "text": "The dissenting opinion feared the ruling could [*chill journalism|increase profits|end the internet].",
+          "feedback": "Chill legitimate journalism."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The case concerns digital ____.  | *platforms | plants | planes",
+          "feedback": "Digital platforms."
+        },
+        {
+          "text": "The judges said free speech is not ____.  | *absolute | available | ancient",
+          "feedback": "Not absolute."
+        },
+        {
+          "text": "A dissenting ____ was mentioned. | *opinion | option | opera",
+          "feedback": "Dissenting opinion."
+        },
+        {
+          "text": "The guest speaks as a ____.  | *lawyer | chef | driver",
+          "feedback": "Legal expert."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The tone is [*analytical|humorous|angry throughout].",
+          "feedback": "Legal commentary."
+        },
+        {
+          "text": "The ruling relates to [*balancing rights|sports funding|cooking recipes].",
+          "feedback": "Expression vs privacy."
+        },
+        {
+          "text": "The guest suggests the decision was [*moderate in scope|revolutionary|irrelevant].",
+          "feedback": "Did not create new law."
+        },
+        {
+          "text": "Journalists might self-censor if they fear [*legal consequences|bad weather|high prices].",
+          "feedback": "Chill journalism."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=4jpdlG8EJhE"
+}

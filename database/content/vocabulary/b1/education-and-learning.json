@@ -1,0 +1,95 @@
+{
+  "title": "Education and learning",
+  "level": "b1",
+  "section": "vocabulary",
+  "sort_order": 6,
+  "explanation": "<h2>Education and learning</h2><ul><li>study words: assignment, revision, scholarship, attendance, qualification</li><li>verbs: revise, memorise, concentrate, submit</li><li>phrases: take notes, hand in work</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "I need to finish this history ____ by tomorrow. | *assignment | recovery | documentary",
+          "feedback": "Assignment = piece of work."
+        },
+        {
+          "text": "She won a ____ to study abroad. | *scholarship | promotion | symptom",
+          "feedback": "Scholarship = financial support."
+        },
+        {
+          "text": "Good ____ is important if you want to understand lectures. | *concentration | evidence | crime",
+          "feedback": "Concentration means focused attention."
+        },
+        {
+          "text": "Please ____ your essay before midnight. | *submit | stream | sentence",
+          "feedback": "Submit = formally hand in."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "revise",
+        "attendance",
+        "review",
+        "qualification",
+        "engage",
+        "memorise",
+        "lecture",
+        "assignment",
+        "scholarship",
+        "deadline"
+      ],
+      "questions": [
+        {
+          "text": "I usually ____ my notes before an exam. | revise",
+          "feedback": ""
+        },
+        {
+          "text": "The university checks student ____ every week. | attendance",
+          "feedback": ""
+        },
+        {
+          "text": "He wrote down key ideas so he could ____ notes later. | review",
+          "feedback": ""
+        },
+        {
+          "text": "This course gives you a recognised ____. | qualification",
+          "feedback": ""
+        },
+        {
+          "text": "It is easier to learn when you actively ____ with the material. | engage",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Some students try to ____ whole paragraphs word for word. | *memorise | delay | resign",
+          "feedback": "Memorise = learn by heart."
+        },
+        {
+          "text": "The professor gave an interesting ____ on climate policy. | *lecture | attendance | signal",
+          "feedback": "Lecture = formal talk."
+        },
+        {
+          "text": "You should ____ your homework on time. | *hand in | set off | grow up",
+          "feedback": "Hand in = give to the teacher."
+        },
+        {
+          "text": "I cannot ____ when the room is noisy. | *concentrate | broadcast | decorate",
+          "feedback": "Concentrate = focus."
+        }
+      ]
+    }
+  ]
+}

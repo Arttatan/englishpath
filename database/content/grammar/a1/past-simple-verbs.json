@@ -1,0 +1,45 @@
+{
+  "title": "Past simple: regular and irregular verbs",
+  "level": "a1",
+  "section": "grammar",
+  "sort_order": 6,
+  "explanation": "<h2>Past simple verbs</h2><p><strong>Regular verbs:</strong> add <strong>-ed</strong> (work → worked, play → played).</p><p><strong>Irregular verbs:</strong> special forms (go → went, see → saw, have → had).</p><p>Questions and negatives use <strong>did / didn't</strong> + base verb: <em>Did you go?</em> <em>I didn't see him.</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct past form.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*visited|visit|visiting] my grandparents last weekend.", "feedback": "Last weekend → past: visited."},
+        {"text": "She [*went|goed|go] to Paris in July.", "feedback": "Go → went (irregular)."},
+        {"text": "They [*didn't enjoy|not enjoy|doesn't enjoy] the film.", "feedback": "Past negative: didn't + base verb."},
+        {"text": "[*Did|Do|Were] you finish your homework?", "feedback": "Past question: Did + subject + base verb."},
+        {"text": "We [*saw|see|seen] a good movie yesterday.", "feedback": "See → saw."},
+        {"text": "He [*played|play|playing] football on Saturday.", "feedback": "Regular verb: played."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "I ____ my keys at home. | *left | leave | leaved", "feedback": "Leave → left."},
+        {"text": "She ____ a new dress. | *bought | buyed | buy", "feedback": "Buy → bought."},
+        {"text": "They ____ to music all evening. | *listened | listen | listening", "feedback": "Regular: listened."},
+        {"text": "We ____ very tired. | *were | was | are", "feedback": "We → were."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*had|have|has] a sandwich for lunch.", "feedback": "Have → had."},
+        {"text": "He [*didn't come|came not|doesn't come] to the meeting.", "feedback": "Didn't + base verb."},
+        {"text": "They [*arrived|arrive|arriving] at six o'clock.", "feedback": "Regular past: arrived."},
+        {"text": "[*Did|Do|Were] she call you?", "feedback": "Past question with Did."},
+        {"text": "We [*ate|eat|eated] at a nice restaurant.", "feedback": "Eat → ate."}
+      ]
+    }
+  ]
+}

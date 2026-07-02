@@ -1,0 +1,95 @@
+{
+  "title": "Travel issues and airports",
+  "level": "b1plus",
+  "section": "vocabulary",
+  "sort_order": 1,
+  "explanation": "<h2>Travel issues and airports</h2><ul><li>disruption, cancellation, delay, connection, terminal</li><li>customs, security check, boarding gate, compensation</li><li>verbs: queue, rebook, complain, depart</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Our flight was cancelled, so the airline offered us ____. | *compensation | permission | promotion",
+          "feedback": "Compensation may be offered after disruption."
+        },
+        {
+          "text": "We missed our ____ in Frankfurt and had to stay overnight. | *connection | terminal | campsite",
+          "feedback": "Connection = onward flight or train."
+        },
+        {
+          "text": "Passengers must go through a ____ before entering the gate area. | *security check | headline | refund desk",
+          "feedback": "Security check at the airport."
+        },
+        {
+          "text": "They told us to wait at boarding ____ 12. | *gate | delay | suitcase",
+          "feedback": "Boarding gate."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "rebook",
+        "check-in",
+        "terminal",
+        "complain",
+        "depart",
+        "runway",
+        "boarding pass",
+        "customs",
+        "announcement",
+        "compensation"
+      ],
+      "questions": [
+        {
+          "text": "The airline agreed to ____ our tickets for the next morning. | rebook",
+          "feedback": ""
+        },
+        {
+          "text": "After the long queue at ____, we finally reached passport control. | check-in",
+          "feedback": ""
+        },
+        {
+          "text": "The bags arrived at a different ____ from expected. | terminal",
+          "feedback": ""
+        },
+        {
+          "text": "He wrote a formal letter to ____ about the service. | complain",
+          "feedback": ""
+        },
+        {
+          "text": "The plane did not ____ until midnight. | depart",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "We had nothing to declare at ____. | *customs | security check | boarding",
+          "feedback": "Customs after landing."
+        },
+        {
+          "text": "The loudspeaker made an unexpected ____ about our flight. | *announcement | platform | documentary",
+          "feedback": "Airports make announcements."
+        },
+        {
+          "text": "The aircraft was still on the ____ when we arrived at the gate. | *runway | receipt | queue",
+          "feedback": "Runway is for planes."
+        },
+        {
+          "text": "Keep your ____ ready when you reach the gate. | *boarding pass | salary | forecast",
+          "feedback": "Needed for boarding."
+        }
+      ]
+    }
+  ]
+}

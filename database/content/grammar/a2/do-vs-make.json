@@ -1,0 +1,45 @@
+{
+  "title": "Do vs Make",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 14,
+  "explanation": "<h2>Do vs Make</h2><p><strong>Do</strong> — activities, jobs, tasks: do homework, do the shopping, do your best, do exercise</p><p><strong>Make</strong> — create/produce: make a cake, make a decision, make money, make a mistake, make friends</p><p>Learn common collocations — they don't always follow a rule!</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose do or make.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I need to [*do|make|doing] my homework.", "feedback": "Do homework."},
+        {"text": "She [*made|did|make] a delicious cake.", "feedback": "Make a cake."},
+        {"text": "Did you [*make|do|made] a decision yet?", "feedback": "Make a decision."},
+        {"text": "He [*does|makes|do] the housework on Saturdays.", "feedback": "Do the housework."},
+        {"text": "They [*made|did|make] a lot of friends at university.", "feedback": "Make friends."},
+        {"text": "I always [*make|do|made] the same mistakes!", "feedback": "Make mistakes."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Can you ____ me a favour? | *do | make | did", "feedback": "Do someone a favour."},
+        {"text": "She ____ a lot of money in her job. | *makes | does | make", "feedback": "Make money."},
+        {"text": "I ____ yoga twice a week. | *do | make | did", "feedback": "Do yoga / exercise."},
+        {"text": "He ____ a phone call to his boss. | *made | did | make", "feedback": "Make a phone call."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose do or make.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "We [*did|made|do] our best to finish on time.", "feedback": "Do your best."},
+        {"text": "She [*made|did|make] a promise she couldn't keep.", "feedback": "Make a promise."},
+        {"text": "I need to [*do|make|doing] the shopping.", "feedback": "Do the shopping."},
+        {"text": "They [*made|did|make] progress very quickly.", "feedback": "Make progress."},
+        {"text": "He doesn't [*do|make|did] any sport.", "feedback": "Do sport."}
+      ]
+    }
+  ]
+}

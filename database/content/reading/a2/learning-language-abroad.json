@@ -1,0 +1,27 @@
+{
+  "title": "Learning a language abroad",
+  "level": "a2",
+  "section": "reading",
+  "sort_order": 4,
+  "explanation": "<h2>Learning a language abroad</h2><p>When Marco moved to Dublin to study English, he lived with an Irish family. At first he was shy and afraid of making mistakes. After three months he could order food, make friends and understand most conversations. He watched TV with subtitles and joined a football club. Marco says the best way to learn is to use the language every day, not only in the classroom.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "Marco studied English in [*Dublin|Rome|Madrid].", "feedback": "Moved to Dublin."},
+      {"text": "He lived with an [*Irish|Italian|French] family.", "feedback": "Irish family."},
+      {"text": "After three months he could [*make friends|drive|cook] easily.", "feedback": "Make friends."},
+      {"text": "He joined a [*football|chess|music] club.", "feedback": "Football club."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Read and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "At first Marco was ____ of making mistakes. | *afraid | happy | tired", "feedback": "Afraid of mistakes."},
+      {"text": "He watched TV with ____. | *subtitles | friends | teachers", "feedback": "With subtitles."},
+      {"text": "The best way is to use English every ____. | *day | month | year", "feedback": "Every day."},
+      {"text": "Not only in the ____. | *classroom | kitchen | street", "feedback": "Not only classroom."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "Marco's English [*improved|got worse|stayed the same].", "feedback": "After three months progress."},
+      {"text": "At the start Marco was [*shy|confident|angry].", "feedback": "Shy at first."},
+      {"text": "The text gives [*advice|prices|directions].", "feedback": "How to learn a language."},
+      {"text": "Marco learned by [*using English daily|only reading|avoiding people].", "feedback": "Use every day."}
+    ]}
+  ]
+}

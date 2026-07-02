@@ -1,0 +1,30 @@
+{
+  "title": "Technology",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 1,
+  "explanation": "<h2>Technology</h2><ul><li><strong>devices:</strong> laptop, smartphone, tablet, charger, keyboard, screen</li><li><strong>verbs:</strong> download, upload, connect, click, save, delete</li><li><strong>internet:</strong> website, password, Wi-Fi, email, app</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "I forgot my ____, so I can't log in. | *password | screen | keyboard", "feedback": "Password for login."},
+      {"text": "She bought a new ____. | *laptop | charger | click", "feedback": "Laptop is a device."},
+      {"text": "Please ____ the file to the cloud. | *upload | connect | screen", "feedback": "Upload to cloud."},
+      {"text": "My phone battery is dead — I need a ____. | *charger | website | app", "feedback": "Charger."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["Wi-Fi", "download", "smartphone", "email", "screen", "app", "keyboard", "click", "tablet", "save"],
+      "questions": [
+        {"text": "Can I use your ____? I need to check my messages. | smartphone", "feedback": ""},
+        {"text": "____ on the link to open the page. | click", "feedback": ""},
+        {"text": "I ____ the document as a PDF. | save", "feedback": ""},
+        {"text": "There is no ____ in this café. | Wi-Fi", "feedback": ""},
+        {"text": "I use a ____ for reading and videos. | tablet", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "I ____ music from the internet. | *download | upload | connect", "feedback": "Download music."},
+      {"text": "Don't forget to ____ your work before you close the program. | *save | delete | click", "feedback": "Save your work."},
+      {"text": "The ____ on my phone is cracked. | *screen | password | email", "feedback": "Screen."},
+      {"text": "I sent him an ____. | *email | app | charger", "feedback": "Email."}
+    ]}
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "Writing a critical review",
+  "level": "c1",
+  "section": "writing",
+  "sort_order": 2,
+  "explanation": "<h2>Writing a critical review</h2><p>A critical review evaluates a book, film or article with balanced judgement and precise language.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Although the plot is predictable, the performances are compelling.|Plot predictable although performances compelling.|Although performances plot predictable.]",
+          "feedback": "Balanced evaluation."
+        },
+        {
+          "text": "[*The director juxtaposes wealth and poverty to expose social tension.|Director juxtaposes wealth poverty social tension.|Juxtaposes director wealth poverty.]",
+          "feedback": "Precise critical vocabulary."
+        },
+        {
+          "text": "[*On balance, the novel succeeds as a character study rather than as thriller.|Balance novel succeeds character study thriller.|Novel balance succeeds study.]",
+          "feedback": "On balance."
+        },
+        {
+          "text": "[*Readers seeking subtle moral ambiguity will not be disappointed.|Readers seeking moral ambiguity disappointed not.|Seeking readers ambiguity moral.]",
+          "feedback": "Audience-focused recommendation."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A critical review should combine summary and ____.  | *evaluation | recipe | ticket",
+          "feedback": "Evaluation."
+        },
+        {
+          "text": "Use precise adjectives such as compelling, uneven and ____.  | *thought-provoking | tasty | noisy",
+          "feedback": "Thought-provoking."
+        },
+        {
+          "text": "Avoid vague praise like 'very nice' or 'pretty ____. ' | *good | loud | fast",
+          "feedback": "Pretty good is vague."
+        },
+        {
+          "text": "Support judgements with brief ____.  | *examples | jokes | titles only",
+          "feedback": "Brief examples."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*The pacing falters in the second half.|Pacing falters second half the.|Second half pacing falters.]",
+          "feedback": "Specific criticism."
+        },
+        {
+          "text": "[*The author's prose is economical yet evocative.|Author prose economical evocative yet.|Prose author economical.]",
+          "feedback": "Stylistic praise."
+        },
+        {
+          "text": "[*Ultimately, the film raises more questions than it answers.|Ultimately film raises questions answers than.|Film ultimately questions raises.]",
+          "feedback": "Final judgement."
+        },
+        {
+          "text": "[*I would recommend it to viewers who enjoy slow, reflective drama.|Recommend viewers enjoy slow reflective drama.|Viewers recommend enjoy drama.]",
+          "feedback": "Targeted recommendation."
+        }
+      ]
+    }
+  ]
+}

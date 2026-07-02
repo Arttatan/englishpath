@@ -1,0 +1,95 @@
+{
+  "title": "Crime and law",
+  "level": "b1",
+  "section": "vocabulary",
+  "sort_order": 5,
+  "explanation": "<h2>Crime and law</h2><ul><li>crime words: theft, robbery, suspect, witness, evidence</li><li>legal words: judge, lawyer, court, prison, fine</li><li>verbs: steal, arrest, accuse, sentence</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The police found enough ____ to continue the investigation. | *evidence | headline | vacancy",
+          "feedback": "Evidence supports a case."
+        },
+        {
+          "text": "A ____ saw the accident and called emergency services. | *witness | judge | suspect",
+          "feedback": "A witness sees an event."
+        },
+        {
+          "text": "The shop was closed after a violent ____. | *robbery | promotion | documentary",
+          "feedback": "Robbery involves stealing with force."
+        },
+        {
+          "text": "The officer decided to ____ the man at the scene. | *arrest | broadcast | resign",
+          "feedback": "Arrest = take into police custody."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "judge",
+        "fine",
+        "lawyer",
+        "suspect",
+        "court",
+        "prison",
+        "theft",
+        "crime",
+        "sentence",
+        "evidence"
+      ],
+      "questions": [
+        {
+          "text": "The ____ listened to both sides before making a decision. | judge",
+          "feedback": ""
+        },
+        {
+          "text": "He had to pay a large ____ for parking illegally. | fine",
+          "feedback": ""
+        },
+        {
+          "text": "A defence ____ represented the accused man. | lawyer",
+          "feedback": ""
+        },
+        {
+          "text": "The police questioned the main ____ all afternoon. | suspect",
+          "feedback": ""
+        },
+        {
+          "text": "She was found guilty in ____. | court",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "He went to ____ for six months. | *prison | court | evidence",
+          "feedback": "Prison is where criminals are kept."
+        },
+        {
+          "text": "Bike ____ has increased in the area recently. | *theft | witness | sentence",
+          "feedback": "Theft = stealing."
+        },
+        {
+          "text": "The judge will ____ the defendant tomorrow. | *sentence | steal | delay",
+          "feedback": "Sentence = give punishment."
+        },
+        {
+          "text": "She was accused of a serious ____.  | *crime | contract | routine",
+          "feedback": "Crime = illegal act."
+        }
+      ]
+    }
+  ]
+}

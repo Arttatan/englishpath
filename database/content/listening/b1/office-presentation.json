@@ -1,0 +1,79 @@
+{
+  "title": "Office presentation",
+  "level": "b1",
+  "section": "listening",
+  "sort_order": 3,
+  "explanation": "<h2>Office presentation</h2><p>Listen to a manager speaking before a team presentation.</p><h3>Transcript</h3><p><strong>Manager:</strong> Thanks for coming. Our client wants a short presentation on Friday. Anna, can you prepare the sales figures? Mark, please update the slides. We only have two days, so we need to work efficiently. If we finish by Thursday afternoon, we can practise once before the meeting.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The presentation is for [*a client|new employees|investors only].",
+          "feedback": "The manager says our client wants it."
+        },
+        {
+          "text": "The presentation is on [*Friday|Thursday|Monday].",
+          "feedback": "It is on Friday."
+        },
+        {
+          "text": "Anna must prepare the [*sales figures|slides|room].",
+          "feedback": "She is asked to prepare the sales figures."
+        },
+        {
+          "text": "The team has [*two days|one week|one day] to work on it.",
+          "feedback": "We only have two days."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Mark is asked to update the ____.  | *slides | client | figures",
+          "feedback": "He has to update the slides."
+        },
+        {
+          "text": "The team should work ____.  | *efficiently | quietly | late",
+          "feedback": "The manager uses the word efficiently."
+        },
+        {
+          "text": "If they finish by Thursday afternoon, they can ____.  | *practise once | go home early | meet the client",
+          "feedback": "The manager mentions one practice run."
+        },
+        {
+          "text": "The manager begins by saying ____.  | *thanks for coming | please sit down quietly | who is absent",
+          "feedback": "Those are the opening words."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The tone of the manager is [*organised and practical|angry and impatient|confused].",
+          "feedback": "The instructions are clear and structured."
+        },
+        {
+          "text": "The team wants time to [*practise|travel|eat lunch] before the meeting.",
+          "feedback": "They can practise once."
+        },
+        {
+          "text": "The presentation is described as [*short|informal|optional].",
+          "feedback": "The client wants a short presentation."
+        },
+        {
+          "text": "The meeting will happen after they have [*prepared the material|met the client already|changed departments].",
+          "feedback": "They need to prepare first."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=7y_hbz6lM9E"
+}

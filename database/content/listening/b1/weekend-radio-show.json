@@ -1,0 +1,79 @@
+{
+  "title": "Weekend radio show",
+  "level": "b1",
+  "section": "listening",
+  "sort_order": 5,
+  "explanation": "<h2>Weekend radio show</h2><p>Listen to a short radio introduction.</p><h3>Transcript</h3><p><strong>Presenter:</strong> Good morning and welcome back to City Weekend. In today's programme, we will speak to a local chef about affordable meals, review a new exhibition at the art gallery, and hear listeners' tips for saving money while travelling. Stay with us after the break for a live interview with a young musician from Manchester.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The programme will speak to [*a local chef|a doctor|a football coach].",
+          "feedback": "The presenter mentions a local chef."
+        },
+        {
+          "text": "There will be a review of [*an exhibition|a film|a train station].",
+          "feedback": "A new exhibition at the art gallery."
+        },
+        {
+          "text": "Listeners will share tips about [*saving money while travelling|buying houses|studying abroad].",
+          "feedback": "Travel money-saving tips."
+        },
+        {
+          "text": "The final live interview is with [*a young musician|a teacher|an actor].",
+          "feedback": "A young musician from Manchester."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The show is called City ____.  | *Weekend | Morning | Travel",
+          "feedback": "City Weekend is the programme title."
+        },
+        {
+          "text": "The chef talks about ____ meals. | *affordable | healthy only | luxury",
+          "feedback": "Affordable meals."
+        },
+        {
+          "text": "The interview with the musician is after the ____.  | *break | gallery | news",
+          "feedback": "After the break."
+        },
+        {
+          "text": "The gallery exhibition is described as ____.  | *new | closing | international",
+          "feedback": "It is a new exhibition."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The programme is probably on [*radio|television only|a podcast with no host].",
+          "feedback": "The style is a radio introduction."
+        },
+        {
+          "text": "The presenter uses the word [*welcome|goodbye|sorry] near the start.",
+          "feedback": "Good morning and welcome back."
+        },
+        {
+          "text": "The topics are [*varied|all about sport|all political].",
+          "feedback": "Food, art, travel, music."
+        },
+        {
+          "text": "The tone is [*friendly and informative|formal and legal|negative].",
+          "feedback": "Friendly radio tone."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=HwMkN_2BTqs"
+}

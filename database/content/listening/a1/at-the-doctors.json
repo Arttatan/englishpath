@@ -1,0 +1,43 @@
+{
+  "title": "At the doctor's",
+  "level": "a1",
+  "section": "listening",
+  "sort_order": 5,
+  "audio_url": "https://www.youtube.com/watch?v=fSrLeyfk9SM",
+  "explanation": "<h2>At the doctor's</h2><p>Listen to a patient talking to a doctor.</p><h3>Transcript</h3><p><strong>Doctor:</strong> What's the problem?<br><strong>Patient:</strong> I have a headache and a sore throat.<br><strong>Doctor:</strong> Do you have a fever?<br><strong>Patient:</strong> Yes, a little.<br><strong>Doctor:</strong> You should rest and drink lots of water. Take this medicine twice a day.<br><strong>Patient:</strong> OK. Thank you, doctor.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The patient has a headache and a [*sore throat|broken leg|stomach ache].", "feedback": "Headache and sore throat."},
+        {"text": "The patient has a [*fever|holiday|headache only].", "feedback": "Yes, a little (fever)."},
+        {"text": "The doctor says to [*rest|run|work] a lot.", "feedback": "You should rest."},
+        {"text": "The medicine is taken [*twice a day|once a week|never].", "feedback": "Twice a day."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Listen again and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The doctor asks: 'What's the ____?' | *problem | time | name", "feedback": "What's the problem?" },
+        {"text": "The patient should drink lots of ____. | *water | coffee | food", "feedback": "Drink lots of water."},
+        {"text": "The patient has a sore ____. | *throat | hand | foot", "feedback": "Sore throat."},
+        {"text": "The patient says thank you, ____. | *doctor | nurse | teacher", "feedback": "Thank you, doctor."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The conversation is at the [*doctor's|school|shop].", "feedback": "Doctor and patient."},
+        {"text": "The doctor gives [*advice|directions|food].", "feedback": "Rest, water, medicine."},
+        {"text": "The patient feels [*unwell|happy|hungry].", "feedback": "Headache, sore throat, fever."},
+        {"text": "The doctor asks about fever [*after|before|never] hearing the symptoms.", "feedback": "After headache and throat."}
+      ]
+    }
+  ]
+}

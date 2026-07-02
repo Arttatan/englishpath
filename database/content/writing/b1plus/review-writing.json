@@ -1,0 +1,78 @@
+{
+  "title": "Writing a review",
+  "level": "b1plus",
+  "section": "writing",
+  "sort_order": 2,
+  "explanation": "<h2>Writing a review</h2><p>A good review describes something, evaluates it and gives a recommendation.</p><ul><li>Include basic facts.</li><li>Mention positive and negative points.</li><li>Use adjectives and clear opinion language.</li><li>End with a recommendation.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*The film is set in the future and has an unusual storyline.|The film future unusual storyline.|Film in future unusual.]",
+          "feedback": "A review should describe the content clearly."
+        },
+        {
+          "text": "[*Although the acting is strong, the plot feels slow in the middle.|Although acting strong plot slow middle.|Acting strong although plot.]",
+          "feedback": "Balanced evaluation sentence."
+        },
+        {
+          "text": "[*I would recommend it to anyone who enjoys science fiction.|I recommend anyone enjoys science fiction.|Recommend to anyone science fiction.]",
+          "feedback": "Clear recommendation."
+        },
+        {
+          "text": "[*Overall, it is entertaining but slightly too long.|Overall entertaining but too long little.|Overall too long entertaining.]",
+          "feedback": "Suitable summary judgement."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A review should include both positive and ____ comments. | *negative | casual | secret",
+          "feedback": "Balanced review."
+        },
+        {
+          "text": "Useful review adjectives include gripping, disappointing and ____. | *moving | receipt | arrival",
+          "feedback": "Appropriate descriptive adjective."
+        },
+        {
+          "text": "At the end, say whether you would ____ it. | *recommend | interrupt | replace",
+          "feedback": "Reviews often include recommendation."
+        },
+        {
+          "text": "A strong opening sentence often gives the basic ____ about the film or book. | *facts | complaints | customs",
+          "feedback": "Facts such as title or type."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*The soundtrack was excellent, which made several scenes more powerful.|Soundtrack excellent scenes more powerful.|The soundtrack more powerful excellent.]",
+          "feedback": "Strong evaluative sentence."
+        },
+        {
+          "text": "[*One weakness is that some characters are underdeveloped.|One weakness some characters underdeveloped.|Weakness is characters underdeveloping.]",
+          "feedback": "Useful critical point."
+        },
+        {
+          "text": "[*If you enjoy thoughtful dramas, this is worth watching.|If enjoy thoughtful dramas worth watching.|Enjoy dramas this worth.]",
+          "feedback": "Natural recommendation."
+        },
+        {
+          "text": "[*Despite a slow start, the series becomes more engaging later on.|Despite slow start series more engaging later.|Despite start slow later engaging.]",
+          "feedback": "Good contrast sentence."
+        }
+      ]
+    }
+  ]
+}

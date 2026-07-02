@@ -1,0 +1,30 @@
+{
+  "title": "Clothes and fashion",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 6,
+  "explanation": "<h2>Clothes and fashion</h2><ul><li><strong>items:</strong> suit, tie, boots, scarf, gloves, belt</li><li><strong>adjectives:</strong> trendy, casual, formal, tight, loose</li><li><strong>verbs:</strong> match, suit, try on, wear out</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "He wore a ____ and tie to the interview. | *suit | scarf | boots", "feedback": "Suit for formal."},
+      {"text": "These shoes don't ____ me — they're too small. | *fit | match | wear", "feedback": "Don't fit."},
+      {"text": "Can I ____ these jeans in the changing room? | *try on | wear out | suit", "feedback": "Try on clothes."},
+      {"text": "She always dresses ____. Jeans and a T-shirt. | *casually | formally | tightly", "feedback": "Casually."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["scarf", "trendy", "gloves", "formal", "boots", "belt", "match", "loose", "fashion", "tight"],
+      "questions": [
+        {"text": "Wear ____ — it's freezing outside. | gloves", "feedback": ""},
+        {"text": "That red bag ____ your shoes. | match", "feedback": ""},
+        {"text": "The dress is too ____. I need a bigger size. | tight", "feedback": ""},
+        {"text": "It's a ____ party — wear a smart dress. | formal", "feedback": ""},
+        {"text": "Those trainers are very ____ this year. | trendy", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "I need a new ____ for my trousers. | *belt | scarf | fashion", "feedback": "Belt."},
+      {"text": "These ____ are perfect for winter. | *boots | suit | trendy", "feedback": "Boots."},
+      {"text": "Blue ____ you — you look great in it. | *suits | matches | tries", "feedback": "Suits you = looks good on you."},
+      {"text": "I've ____ out these shoes — I need new ones. | *worn | tried | matched", "feedback": "Worn out = damaged from use."}
+    ]}
+  ]
+}

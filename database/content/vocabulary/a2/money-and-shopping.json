@@ -1,0 +1,30 @@
+{
+  "title": "Money and shopping",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 4,
+  "explanation": "<h2>Money and shopping</h2><ul><li><strong>money:</strong> cash, card, receipt, discount, refund, afford</li><li><strong>shopping:</strong> bargain, customer, queue, fit, size, exchange</li><li><strong>verbs:</strong> spend, save, borrow, lend, pay</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "Can I pay by credit ____? | *card | cash | receipt", "feedback": "Credit card."},
+      {"text": "This jacket is too big — it doesn't ____. | *fit | afford | lend", "feedback": "Doesn't fit."},
+      {"text": "I can't ____ a new car right now. | *afford | borrow | refund", "feedback": "Afford."},
+      {"text": "There was a 20% ____ on shoes. | *discount | queue | receipt", "feedback": "Discount."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["receipt", "borrow", "bargain", "refund", "customer", "save", "cash", "spend", "exchange", "queue"],
+      "questions": [
+        {"text": "Keep your ____ in case you want to return it. | receipt", "feedback": ""},
+        {"text": "Can I ____ money from the bank? | borrow", "feedback": ""},
+        {"text": "That was a real ____ — only five pounds! | bargain", "feedback": ""},
+        {"text": "The shop gave me a full ____. | refund", "feedback": ""},
+        {"text": "We waited in a long ____. | queue", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "I ____ too much money on clothes. | *spent | saved | lent", "feedback": "Spend money on."},
+      {"text": "Can you ____ me ten pounds until Friday? | *lend | afford | refund", "feedback": "Lend money."},
+      {"text": "The ____ was very helpful. | *assistant | discount | cash", "feedback": "Shop assistant."},
+      {"text": "I'd like to ____ this — it's the wrong size. | *exchange | afford | save", "feedback": "Exchange an item."}
+    ]}
+  ]
+}

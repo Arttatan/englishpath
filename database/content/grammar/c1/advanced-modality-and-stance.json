@@ -1,0 +1,86 @@
+{
+  "title": "Advanced modality and stance",
+  "level": "c1",
+  "section": "grammar",
+  "sort_order": 8,
+  "explanation": "<h2>Advanced modality and stance</h2><p>C1 speakers express stance with nuanced modals and semi-modals: <em>be bound to, be likely to, be supposed to, would rather, had better</em>.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Given the evidence, the jury [*is bound to|is never going to|is forbidden to] reach a verdict soon.",
+          "feedback": "Be bound to = almost certain."
+        },
+        {
+          "text": "You [*would rather|would better|would sooner not] discuss this in public, wouldn't you?",
+          "feedback": "Would rather + bare infinitive."
+        },
+        {
+          "text": "We [*had better|would rather|must better] leave before the storm arrives.",
+          "feedback": "Had better for urgent advice."
+        },
+        {
+          "text": "The package [*is supposed to|is bound to|is likely not to] arrive today, but tracking says otherwise.",
+          "feedback": "Supposed to = expected."
+        },
+        {
+          "text": "She [*would sooner resign|would better resign|had rather resign] than compromise her principles.",
+          "feedback": "Would sooner = would rather."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The policy is likely ____ face legal challenges. | *to | for | that",
+          "feedback": "Likely to face."
+        },
+        {
+          "text": "He is ____ to know the answer; he wrote the report. | *bound | afraid | slow",
+          "feedback": "Bound to know."
+        },
+        {
+          "text": "You ____ not have interrupted the speaker. | *should | would | might",
+          "feedback": "Should not have interrupted."
+        },
+        {
+          "text": "I ____ rather you didn't share that document. | *would | had | must",
+          "feedback": "Would rather + subject + past."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "They [*are unlikely to|are likely to|are bound to] abandon the project entirely.",
+          "feedback": "Unlikely to hedge."
+        },
+        {
+          "text": "You [*had better not|would rather not|are supposed not] forget the deadline.",
+          "feedback": "Had better not."
+        },
+        {
+          "text": "He [*is meant to|is meaning to|is minded to] chair the meeting tomorrow.",
+          "feedback": "Is meant to = supposed to."
+        },
+        {
+          "text": "The outcome [*could hardly have been|could easily have been|must always be] worse.",
+          "feedback": "Could hardly have been worse."
+        },
+        {
+          "text": "I [*would just as soon|would rather just|had better just] stay at home tonight.",
+          "feedback": "Would just as soon = would rather."
+        }
+      ]
+    }
+  ]
+}

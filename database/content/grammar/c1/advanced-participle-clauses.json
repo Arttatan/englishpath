@@ -1,0 +1,86 @@
+{
+  "title": "Advanced participle clauses",
+  "level": "c1",
+  "section": "grammar",
+  "sort_order": 4,
+  "explanation": "<h2>Advanced participle clauses</h2><p>C1 users combine perfect, passive and negative participle clauses for concise formal style.</p><ul><li><em>Having been warned repeatedly, he ignored the advice.</em></li><li><em>Seen from above, the city looks surprisingly green.</em></li><li><em>Not having been consulted, staff opposed the plan.</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Having been warned repeatedly|Warned repeatedly having|To warn repeatedly], he still ignored the advice.",
+          "feedback": "Perfect passive participle clause."
+        },
+        {
+          "text": "[*Seen from above|Seeing from above|To see from above], the city looks surprisingly green.",
+          "feedback": "Past participle with different subject."
+        },
+        {
+          "text": "[*Not having been consulted|Not consulting|Not to consult], staff opposed the plan.",
+          "feedback": "Negative perfect passive participle."
+        },
+        {
+          "text": "[*Assuming the data are accurate|Assumed the data accurate|To assume accurate data], the trend is worrying.",
+          "feedback": "Assuming clause."
+        },
+        {
+          "text": "[*Compared with last year|Comparing with last year|To compare last year], profits have risen.",
+          "feedback": "Compared with."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "____ by the evidence, the committee changed its recommendation. | *Convinced | Convincing | To convince",
+          "feedback": "Convinced by the evidence."
+        },
+        {
+          "text": "____ completed the survey, researchers analysed the responses. | *Having | Have | Had",
+          "feedback": "Having completed."
+        },
+        {
+          "text": "____ into account inflation, wages have barely grown. | *Taken | Taking | Take",
+          "feedback": "Taken into account."
+        },
+        {
+          "text": "____ what she had said, he revised his conclusion. | *Remembering | Remembered | Remember",
+          "feedback": "Remembering what..."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Given the limited budget|Giving the limited budget|To give limited budget], the project was delayed.",
+          "feedback": "Given = considering."
+        },
+        {
+          "text": "[*Having signed the contract|Signing the contract|Signed the contract], they began work immediately.",
+          "feedback": "Having signed before beginning."
+        },
+        {
+          "text": "[*Viewed in context|Viewing in context|To view context], the remark seems less offensive.",
+          "feedback": "Viewed in context."
+        },
+        {
+          "text": "[*Unless told otherwise|Unless telling otherwise|Unless to tell otherwise], assume the meeting is on.",
+          "feedback": "Unless told otherwise."
+        },
+        {
+          "text": "[*Broadly speaking|Broad speaking|To speak broadly], the policy has succeeded.",
+          "feedback": "Broadly speaking as discourse marker."
+        }
+      ]
+    }
+  ]
+}

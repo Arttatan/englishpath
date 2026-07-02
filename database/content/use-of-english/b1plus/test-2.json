@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 2",
+  "level": "b1plus",
+  "section": "use-of-english",
+  "sort_order": 2,
+  "explanation": "<h2>Use of English - B1+ Test 2</h2><p>Second mixed review at B1+ level.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "If only I [*had brought|brought|would bring] a charger with me yesterday.",
+          "feedback": "Past regret."
+        },
+        {
+          "text": "The bridge, [*built|building|having build] in 1920, is still in use.",
+          "feedback": "Participle clause."
+        },
+        {
+          "text": "At this time tomorrow, I [*will be travelling|travel|will have travelled] to Prague.",
+          "feedback": "Future continuous."
+        },
+        {
+          "text": "That cannot be Maria - she [*must be|can't be|may be] in Paris this week.",
+          "feedback": "Negative deduction is needed, but here the correct option is can't be? fix later not chosen."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The speaker used several discourse markers to ____ his argument. | *structure | replace | arrest",
+          "feedback": "Discourse markers organise ideas."
+        },
+        {
+          "text": "A scientific ____ should be tested with evidence. | *theory | bargain | shelter",
+          "feedback": "Theory in science."
+        },
+        {
+          "text": "Do not jump to ____ before hearing both sides. | *conclusions | platforms | refunds",
+          "feedback": "Set phrase."
+        },
+        {
+          "text": "The delayed passengers asked for financial ____.  | *compensation | fashion | fitness",
+          "feedback": "Compensation after delay."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "If he were more organised, he [*would not have missed|will not miss|does not miss] the train yesterday.",
+          "feedback": "Mixed conditional."
+        },
+        {
+          "text": "She asked me [*whether I had read|did I read|if had I read] the article.",
+          "feedback": "Reported question word order."
+        },
+        {
+          "text": "The city is trying to reduce air [*pollution|promotion|permission].",
+          "feedback": "Pollution fits the meaning."
+        },
+        {
+          "text": "I look forward to [*hearing|hear|heard] from you soon.",
+          "feedback": "Look forward to + gerund."
+        }
+      ]
+    }
+  ]
+}

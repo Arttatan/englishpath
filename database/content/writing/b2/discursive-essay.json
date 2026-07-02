@@ -1,0 +1,78 @@
+{
+  "title": "Writing a discursive essay",
+  "level": "b2",
+  "section": "writing",
+  "sort_order": 1,
+  "explanation": "<h2>Writing a discursive essay</h2><p>A discursive essay examines an issue from several angles before reaching a measured conclusion.</p><ul><li>Introduction: present the issue clearly.</li><li>Body: explore arguments fairly.</li><li>Conclusion: summarise and state your view.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*This essay will examine whether social media does more harm than good.|Social media harm good essay examine.|Essay social media harm good.]",
+          "feedback": "Clear academic opening."
+        },
+        {
+          "text": "[*One argument in favour is that social media connects isolated communities.|One argument favour social media connects.|Argument social media connects isolated.]",
+          "feedback": "Balanced argument sentence."
+        },
+        {
+          "text": "[*On the other hand, excessive use may reduce face-to-face interaction.|Other hand excessive use reduce interaction.|On other hand use excessive.]",
+          "feedback": "Contrast linker."
+        },
+        {
+          "text": "[*Overall, the benefits depend on how platforms are used.|Overall benefits depend used platforms.|Benefits overall depend how.]",
+          "feedback": "Measured conclusion."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A discursive essay should avoid overly ____ language. | *emotional | formal | precise",
+          "feedback": "Stay measured."
+        },
+        {
+          "text": "Use linkers such as however, therefore and ____.  | *consequently | yesterday | quickly",
+          "feedback": "Consequently shows result."
+        },
+        {
+          "text": "Each paragraph should develop one clear ____.  | *point | ticket | recipe",
+          "feedback": "One point per paragraph."
+        },
+        {
+          "text": "The conclusion should summarise the main ____.  | *arguments | ingredients | flights",
+          "feedback": "Summarise arguments."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*It could be argued that remote work increases productivity.|Could argued remote work productivity increases.|Remote work argued productivity.]",
+          "feedback": "Impersonal argument."
+        },
+        {
+          "text": "[*Nevertheless, not every job can be done from home.|Nevertheless every job home done.|Not every nevertheless job.]",
+          "feedback": "Nevertheless for contrast."
+        },
+        {
+          "text": "[*In my view, a hybrid model offers the best balance.|My view hybrid model best balance.|Hybrid model my view.]",
+          "feedback": "Personal conclusion."
+        },
+        {
+          "text": "[*For instance, employees save commuting time.|For instance employees save commuting.|Instance for employees commuting.]",
+          "feedback": "Example linker."
+        }
+      ]
+    }
+  ]
+}

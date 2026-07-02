@@ -1,0 +1,43 @@
+{
+  "title": "Introducing yourself",
+  "level": "a1",
+  "section": "listening",
+  "sort_order": 1,
+  "audio_url": "https://www.youtube.com/watch?v=HwMkN_2BTqs",
+  "explanation": "<h2>Introducing yourself</h2><p>Listen to the audio. You will hear people meeting for the first time.</p><h3>Transcript</h3><p><strong>Anna:</strong> Hi! My name is Anna. What's your name?<br><strong>Tom:</strong> Hello. I'm Tom. Nice to meet you.<br><strong>Anna:</strong> Nice to meet you too. Where are you from?<br><strong>Tom:</strong> I'm from London. And you?<br><strong>Anna:</strong> I'm from Madrid.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The woman's name is [*Anna|Tom|Maria].", "feedback": "Anna introduces herself first."},
+        {"text": "The man's name is [*Tom|Anna|London].", "feedback": "Tom says 'I'm Tom'."},
+        {"text": "Tom is from [*London|Madrid|Paris].", "feedback": "Tom says he is from London."},
+        {"text": "Anna is from [*Madrid|London|Rome].", "feedback": "Anna says she is from Madrid."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Listen again and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Tom says: '____ to meet you.' | *Nice | Good | Fine", "feedback": "Nice to meet you."},
+        {"text": "Anna asks: 'Where are you ____?' | *from | live | go", "feedback": "Where are you from?" },
+        {"text": "Anna's first question is: 'What's your ____?' | *name | from | meet", "feedback": "What's your name?" },
+        {"text": "They say ____ to each other at the start. | *Hello | Goodbye | Thanks", "feedback": "Hello / Hi."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Anna asks about Tom's [*name|age|job] first.", "feedback": "What's your name?" },
+        {"text": "Tom asks Anna where she is from [*after|before|never] she asks him.", "feedback": "Anna asks first, then Tom."},
+        {"text": "Both speakers are [*polite|rude|quiet].", "feedback": "They say nice to meet you."},
+        {"text": "The conversation is between [*two|three|four] people.", "feedback": "Anna and Tom."}
+      ]
+    }
+  ]
+}

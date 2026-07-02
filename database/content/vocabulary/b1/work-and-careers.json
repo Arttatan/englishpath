@@ -1,0 +1,95 @@
+{
+  "title": "Work and careers",
+  "level": "b1",
+  "section": "vocabulary",
+  "sort_order": 2,
+  "explanation": "<h2>Work and careers</h2><ul><li>workplace: deadline, shift, promotion, contract, training</li><li>people: applicant, employer, colleague, manager</li><li>verbs: apply, resign, negotiate, supervise</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "She got a ____, so now she manages a bigger team. | *promotion | deadline | contract",
+          "feedback": "A promotion is a move to a higher position."
+        },
+        {
+          "text": "I work the night ____, from 10 p.m. to 6 a.m. | *shift | training | salary",
+          "feedback": "A shift is a set working period."
+        },
+        {
+          "text": "He missed the project ____, and the client was unhappy. | *deadline | promotion | office",
+          "feedback": "A deadline is the latest time to finish something."
+        },
+        {
+          "text": "You should ____ for the role before Friday. | *apply | retire | supervise",
+          "feedback": "Apply for a job."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "contract",
+        "manager",
+        "training",
+        "resign",
+        "applicant",
+        "salary",
+        "employer",
+        "bonus",
+        "colleague",
+        "vacancy"
+      ],
+      "questions": [
+        {
+          "text": "She signed a two-year ____ with the company. | contract",
+          "feedback": ""
+        },
+        {
+          "text": "Our ____ wants the report by noon. | manager",
+          "feedback": ""
+        },
+        {
+          "text": "The company offers safety ____ for new staff. | training",
+          "feedback": ""
+        },
+        {
+          "text": "He decided to ____ because he had found a better job. | resign",
+          "feedback": ""
+        },
+        {
+          "text": "The best ____ had relevant experience and strong references. | applicant",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The ____ offered her a flexible schedule. | *employer | employee | applicant",
+          "feedback": "Employer = company or boss."
+        },
+        {
+          "text": "He earns a good ____, but he works long hours. | *salary | shift | vacancy",
+          "feedback": "Salary = regular pay."
+        },
+        {
+          "text": "A job ____ appeared on the company website this morning. | *vacancy | deadline | supervisor",
+          "feedback": "Vacancy = open position."
+        },
+        {
+          "text": "My closest ____ helped me learn the new system. | *colleague | employer | contract",
+          "feedback": "Colleague = coworker."
+        }
+      ]
+    }
+  ]
+}

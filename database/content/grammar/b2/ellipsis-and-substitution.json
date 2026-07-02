@@ -1,0 +1,86 @@
+{
+  "title": "Ellipsis and substitution",
+  "level": "b2",
+  "section": "grammar",
+  "sort_order": 5,
+  "explanation": "<h2>Ellipsis and substitution</h2><p>We avoid repetition with auxiliary verbs, so/neither, and pronouns like <em>one/ones</em>, <em>do so</em>, <em>such</em>.</p><ul><li><em>I enjoy hiking, and so does my sister.</em></li><li><em>He didn't call, nor did she.</em></li><li><em>I'd like the blue one, not the red one.</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "She speaks French fluently, and so [*does|is|has] her brother.",
+          "feedback": "So + auxiliary + subject."
+        },
+        {
+          "text": "I haven't finished the report, and neither [*have|has|do] my colleagues.",
+          "feedback": "Neither + auxiliary for negative agreement."
+        },
+        {
+          "text": "This laptop is faster than the old [*one|ones|it].",
+          "feedback": "One substitutes a singular countable noun."
+        },
+        {
+          "text": "If you need help, please [*do so|do it so|do] immediately.",
+          "feedback": "Do so = do that action."
+        },
+        {
+          "text": "They promised to attend, but they didn't [*do|did|done].",
+          "feedback": "Auxiliary verb replaces the main verb phrase."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "He loves jazz, and so ____ his wife. | *does | is | has",
+          "feedback": "So does for present simple."
+        },
+        {
+          "text": "I won't accept the offer, and neither ____ she. | *will | do | did",
+          "feedback": "Neither will she."
+        },
+        {
+          "text": "These shoes are more comfortable than the previous ____.  | *ones | one | pair one",
+          "feedback": "Plural ones."
+        },
+        {
+          "text": "She said she would call, but she never ____.  | *did | was | had",
+          "feedback": "Did replaces called."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "A: 'I'm exhausted.' B: 'So [*am|do|have] I.'",
+          "feedback": "So am I for be."
+        },
+        {
+          "text": "He didn't enjoy the film, and nor [*did|do|was] I.",
+          "feedback": "Nor did I."
+        },
+        {
+          "text": "I'll take the green scarf rather than the grey [*one|ones|it].",
+          "feedback": "One for singular scarf."
+        },
+        {
+          "text": "They asked us to leave early, and we [*did so|did it|were so].",
+          "feedback": "Did so = left early."
+        },
+        {
+          "text": "She can swim well, but her brother [*can't|doesn't|isn't].",
+          "feedback": "Can't replaces can swim well."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Academic conference panel",
+  "level": "c1",
+  "section": "listening",
+  "sort_order": 1,
+  "explanation": "<h2>Academic conference panel</h2><p>Listen to part of a panel on education policy.</p><h3>Transcript</h3><p><strong>Moderator:</strong> Our final question: can standardised testing improve equity?<br><strong>Speaker A:</strong> Only if results are used to support schools, not punish them.<br><strong>Speaker B:</strong> I would argue that excessive testing narrows the curriculum and increases anxiety.<br><strong>Speaker A:</strong> Agreed, but abandoning measurement altogether is not realistic either.<br><strong>Moderator:</strong> So the challenge is designing assessment that informs teaching without distorting it.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Speaker A says results should [*support schools|punish schools|replace teachers].",
+          "feedback": "Support schools, not punish them."
+        },
+        {
+          "text": "Speaker B believes too much testing [*narrows the curriculum|improves creativity|reduces anxiety].",
+          "feedback": "Narrows the curriculum."
+        },
+        {
+          "text": "Speaker A thinks abandoning measurement is [*not realistic|essential|already happening].",
+          "feedback": "Not realistic."
+        },
+        {
+          "text": "The moderator concludes the challenge is assessment that [*informs teaching|eliminates homework|reduces funding].",
+          "feedback": "Informs teaching without distorting it."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The panel discusses standardised ____. | *testing | cooking | driving",
+          "feedback": "Standardised testing."
+        },
+        {
+          "text": "Speaker B mentions increased student ____.  | *anxiety | salary | traffic",
+          "feedback": "Increases anxiety."
+        },
+        {
+          "text": "The tone is largely ____ despite disagreement. | *constructive | hostile | comic",
+          "feedback": "They agree on key points."
+        },
+        {
+          "text": "The issue is how to design better ____.  | *assessment | furniture | weather",
+          "feedback": "Assessment design."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The discussion is [*balanced|one-sided|unrelated to education].",
+          "feedback": "Both speakers nuance their views."
+        },
+        {
+          "text": "Speaker B uses hedging with [*I would argue|I definitely prove|Everyone knows].",
+          "feedback": "I would argue."
+        },
+        {
+          "text": "The panel would interest [*policymakers and educators|only athletes|only tourists].",
+          "feedback": "Education policy audience."
+        },
+        {
+          "text": "The final message rejects both extremes: punishment and [*no measurement|more punishment|less teaching].",
+          "feedback": "Abandoning measurement."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=8O6272q0Awo"
+}

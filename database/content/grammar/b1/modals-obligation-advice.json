@@ -1,0 +1,86 @@
+{
+  "title": "Modals of obligation and advice",
+  "level": "b1",
+  "section": "grammar",
+  "sort_order": 5,
+  "explanation": "<h2>Modals of obligation and advice</h2><p><strong>must / have to</strong> express obligation, <strong>mustn't</strong> expresses prohibition, <strong>don't have to</strong> means no necessity, and <strong>should / ought to</strong> express advice.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "You [*mustn't|don't have to|shouldn't to] park here. It is illegal.",
+          "feedback": "Mustn't means prohibition."
+        },
+        {
+          "text": "I [*have to|mustn't|should] wear a uniform at work.",
+          "feedback": "External rule or necessity."
+        },
+        {
+          "text": "You [*don't have to|mustn't|ought] come if you are busy.",
+          "feedback": "No necessity."
+        },
+        {
+          "text": "He [*should|must|has to] see a dentist about that tooth.",
+          "feedback": "Advice, not a rule."
+        },
+        {
+          "text": "We [*had to|must|should] cancel the trip because of the storm.",
+          "feedback": "Past obligation uses had to."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Students ____ hand in the project by Friday. | *have to | should | don't have to",
+          "feedback": "It is a requirement."
+        },
+        {
+          "text": "You ____ tell anyone. It is a secret. | *mustn't | don't have to | ought",
+          "feedback": "You are not allowed to tell anyone."
+        },
+        {
+          "text": "We ____ hurry; there is plenty of time. | *don't have to | mustn't | had to",
+          "feedback": "No necessity."
+        },
+        {
+          "text": "She ____ eat less sugar if she wants to feel better. | *should | mustn't | has to not",
+          "feedback": "Advice."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Passengers [*must show|must showing|show must] their tickets.",
+          "feedback": "Must + base verb."
+        },
+        {
+          "text": "You [*ought to apologise|ought apologise|ought apologising] for what you said.",
+          "feedback": "Ought to + base verb."
+        },
+        {
+          "text": "I [*didn't have to|mustn't|shouldn't] work yesterday because it was a public holiday.",
+          "feedback": "No necessity in the past."
+        },
+        {
+          "text": "They [*have to get|must getting|should to get] up early on weekdays.",
+          "feedback": "Have to + base verb."
+        },
+        {
+          "text": "You [*should not ignore|must not to ignore|ought ignore] his advice.",
+          "feedback": "Should not + base verb."
+        }
+      ]
+    }
+  ]
+}

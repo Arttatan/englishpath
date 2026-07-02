@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 3",
+  "level": "b1",
+  "section": "use-of-english",
+  "sort_order": 3,
+  "explanation": "<h2>Use of English - B1 Test 3</h2><p>Final B1 mixed review.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The museum [*was opened|opened by|was opening] in 1890.",
+          "feedback": "Passive form."
+        },
+        {
+          "text": "If you [*had listened|listened|would listen], you would have understood.",
+          "feedback": "Third conditional if-clause."
+        },
+        {
+          "text": "She avoids [*eating|to eat|eat] dairy products.",
+          "feedback": "Avoid takes a gerund."
+        },
+        {
+          "text": "I think they [*will probably arrive|probably arrive will|arrive probably] late.",
+          "feedback": "Natural future order."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "We have lived here ____ more than ten years. | *for | since | from",
+          "feedback": "For + period."
+        },
+        {
+          "text": "The woman ____ spoke to you is our new manager. | *who | whose | where",
+          "feedback": "Who for person."
+        },
+        {
+          "text": "You do not need a ticket, but you ____ reserve a seat online. | *can | mustn't | had to",
+          "feedback": "Can for possibility/option."
+        },
+        {
+          "text": "My phone battery had run ____ before I got home. | *out | off | away",
+          "feedback": "Run out = finish."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "He said he [*would help|will help|helps] us the next day.",
+          "feedback": "Reported speech."
+        },
+        {
+          "text": "This route is [*less crowded|more fewer crowded|the less crowded] than the motorway.",
+          "feedback": "Correct comparative structure."
+        },
+        {
+          "text": "The suitcase did not arrive, so the airline promised to [*track|book|resign] it.",
+          "feedback": "Track luggage."
+        },
+        {
+          "text": "I [*had been waiting|waited|was waited] for over an hour when she finally called.",
+          "feedback": "Past perfect continuous context."
+        }
+      ]
+    }
+  ]
+}

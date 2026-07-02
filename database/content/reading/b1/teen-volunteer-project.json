@@ -1,0 +1,78 @@
+{
+  "title": "A teenage volunteer project",
+  "level": "b1",
+  "section": "reading",
+  "sort_order": 4,
+  "explanation": "<h2>A teenage volunteer project</h2><p>Last summer, a group of teenagers in Bristol decided to spend their school holiday helping older people in their neighbourhood. They did small jobs such as carrying shopping, tidying gardens and teaching basic smartphone skills. At the end of the programme, both the volunteers and the residents said they had learned a lot from each other. Several teenagers even decided to continue volunteering during the school year because the experience had made them more confident.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The volunteers helped [*older people|tourists|their teachers].",
+          "feedback": "They helped older people in the neighbourhood."
+        },
+        {
+          "text": "One of the tasks was teaching [*smartphone skills|driving|cooking].",
+          "feedback": "Basic smartphone skills."
+        },
+        {
+          "text": "The project took place during the [*summer holiday|winter term|weekend only].",
+          "feedback": "Last summer during the school holiday."
+        },
+        {
+          "text": "Some teenagers continued because they felt more [*confident|famous|wealthy].",
+          "feedback": "The experience made them more confident."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The teenagers carried shopping and tidied ____.  | *gardens | platforms | resorts",
+          "feedback": "They tidied gardens."
+        },
+        {
+          "text": "At the end, both groups said they had learned from ____ other. | *each | one | all",
+          "feedback": "Each other is the phrase used."
+        },
+        {
+          "text": "Several students chose to continue ____ during the school year. | *volunteering | travelling | teaching maths",
+          "feedback": "They continued volunteering."
+        },
+        {
+          "text": "The project happened in ____.  | *Bristol | London | Leeds",
+          "feedback": "The city is Bristol."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The text focuses on the [*benefits of volunteering|problems with smartphones|cost of holidays].",
+          "feedback": "It is about a volunteer project."
+        },
+        {
+          "text": "The relationship between volunteers and residents is shown as [*mutually helpful|tense|formal and distant].",
+          "feedback": "They learned from each other."
+        },
+        {
+          "text": "The passage is [*mainly positive|mainly negative|unclear].",
+          "feedback": "The outcome is positive."
+        },
+        {
+          "text": "The volunteers worked with people from their own [*neighbourhood|country only|workplace].",
+          "feedback": "Their neighbourhood."
+        }
+      ]
+    }
+  ]
+}

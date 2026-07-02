@@ -1,0 +1,78 @@
+{
+  "title": "Writing an academic essay",
+  "level": "c1",
+  "section": "writing",
+  "sort_order": 1,
+  "explanation": "<h2>Writing an academic essay</h2><p>Academic essays at C1 level require a clear thesis, hedged claims and coherent argumentation.</p><ul><li>Thesis statement in the introduction</li><li>Topic sentences in each paragraph</li><li>Evidence and cautious interpretation</li><li>Formal conclusion</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*This essay contends that remote work reshapes urban economies in complex ways.|Essay contends remote work reshapes urban economies complex.|Remote work essay contends urban.]",
+          "feedback": "Clear thesis."
+        },
+        {
+          "text": "[*It could be argued that flexibility benefits employees, but it may also blur work-life boundaries.|Could argued flexibility benefits employees blur boundaries.|Flexibility argued employees benefits.]",
+          "feedback": "Hedged argument."
+        },
+        {
+          "text": "[*The evidence suggests, rather than proves, a link between commuting time and wellbeing.|Evidence proves definitely link commuting wellbeing.|Link evidence commuting proves.]",
+          "feedback": "Cautious interpretation."
+        },
+        {
+          "text": "[*In conclusion, policymakers should treat remote work as a structural shift, not a temporary trend.|Conclusion policymakers remote work temporary trend.|Policymakers conclusion remote work.]",
+          "feedback": "Strong conclusion."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Academic essays should avoid overly ____ claims. | *absolute | formal | precise",
+          "feedback": "Avoid absolute claims."
+        },
+        {
+          "text": "Each paragraph needs a clear topic ____.  | *sentence | picture | ticket",
+          "feedback": "Topic sentence."
+        },
+        {
+          "text": "Use reporting verbs such as argue, suggest and ____.  | *maintain | shout | run",
+          "feedback": "Maintain."
+        },
+        {
+          "text": "Reference sources ____ to avoid plagiarism. | *accurately | rarely | secretly",
+          "feedback": "Reference accurately."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*One limitation of the study is its short time frame.|Limitation study short time frame one.|Study limitation short frame.]",
+          "feedback": "Academic limitation."
+        },
+        {
+          "text": "[*Furthermore, the data were collected in a single region.|Furthermore data collected single region.|Data furthermore single region.]",
+          "feedback": "Furthermore linker."
+        },
+        {
+          "text": "[*Nevertheless, the findings remain relevant to broader debates.|Nevertheless findings remain relevant broader.|Findings nevertheless relevant.]",
+          "feedback": "Nevertheless."
+        },
+        {
+          "text": "[*To summarise, the benefits depend on how policies are designed.|Summarise benefits depend policies designed.|Benefits summarise depend designed.]",
+          "feedback": "To summarise."
+        }
+      ]
+    }
+  ]
+}

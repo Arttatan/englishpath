@@ -1,0 +1,78 @@
+{
+  "title": "What makes a city 'smart'?",
+  "level": "b1plus",
+  "section": "reading",
+  "sort_order": 1,
+  "explanation": "<h2>What makes a city 'smart'?</h2><p>A smart city uses technology to improve daily life for residents. This can include traffic systems that change automatically when roads are busy, bins that send a message when they need to be emptied, and apps that show exactly when the next bus will arrive. Supporters believe these systems save time, reduce energy use and make public services more efficient. Critics, however, worry about data privacy and the cost of maintaining complex technology. As with many innovations, the success of smart cities depends not only on the software itself but also on how carefully it is managed.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Smart cities use technology to [*improve daily life|replace all workers|entertain tourists only].",
+          "feedback": "This is the main definition in the text."
+        },
+        {
+          "text": "Some bins can send a message when they need to be [*emptied|moved|washed].",
+          "feedback": "The text gives this example."
+        },
+        {
+          "text": "Supporters say the systems can reduce [*energy use|housing prices|school holidays].",
+          "feedback": "Energy use is mentioned."
+        },
+        {
+          "text": "Critics are concerned about [*privacy and cost|weather and traffic|language learning].",
+          "feedback": "These are the main concerns."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Bus apps can show exactly when the next bus will ____.  | *arrive | break | retire",
+          "feedback": "The arrival time is shown."
+        },
+        {
+          "text": "Smart systems can make public services more ____.  | *efficient | expensive | traditional",
+          "feedback": "Efficiency is a key benefit."
+        },
+        {
+          "text": "The success of these systems depends on how carefully they are ____.  | *managed | advertised | recycled",
+          "feedback": "Management matters."
+        },
+        {
+          "text": "The writer presents both advantages and ____.  | *concerns | tickets | symptoms",
+          "feedback": "The text is balanced."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The overall tone of the passage is [*balanced|enthusiastic only|completely negative].",
+          "feedback": "The writer gives both sides."
+        },
+        {
+          "text": "The article suggests technology alone is [*not enough|all that matters|too simple to use].",
+          "feedback": "Management matters too."
+        },
+        {
+          "text": "The passage is mainly about [*urban innovation|museum design|airport security].",
+          "feedback": "It focuses on smart cities."
+        },
+        {
+          "text": "A smart traffic system might react to [*busy roads|cheap tickets|bad teaching].",
+          "feedback": "It changes automatically when roads are busy."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Present simple vs present continuous",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 1,
+  "explanation": "<h2>Present simple vs present continuous (A2)</h2><p><strong>Present simple</strong> — routines, facts, permanent situations.</p><p><strong>Present continuous</strong> — now, temporary situations, trends.</p><p>Signal words: <em>every day, usually, always</em> vs <em>now, at the moment, today, this week</em>.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*usually walk|am usually walking|walk usually] to work.", "feedback": "Usually → present simple."},
+        {"text": "She [*is studying|studies|study] for her exams this month.", "feedback": "Temporary period → continuous."},
+        {"text": "Water [*boils|is boiling|boil] at 100 degrees.", "feedback": "Scientific fact → simple."},
+        {"text": "They [*are staying|stay|stays] with friends this week.", "feedback": "This week → continuous."},
+        {"text": "He [*doesn't usually eat|isn't usually eating|not usually eats] breakfast.", "feedback": "Habit → doesn't usually eat."},
+        {"text": "Listen! Someone [*is knocking|knocks|knock] at the door.", "feedback": "Now → is knocking."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Where's Anna? She ____ a shower. | *is having | has | have", "feedback": "Now → is having."},
+        {"text": "My parents ____ in a small village. | *live | are living | lives", "feedback": "Permanent → live."},
+        {"text": "I ____ to learn Spanish this year. | *am trying | try | tries", "feedback": "This year → am trying."},
+        {"text": "The sun ____ in the east. | *rises | is rising | rise", "feedback": "Fact → rises."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "She [*works|is working|work] from home today.", "feedback": "Today (temporary) → is working."},
+        {"text": "I [*know|am knowing|knows] the answer.", "feedback": "Stative verb → know (not continuous)." },
+        {"text": "They [*are getting|get|gets] married next June.", "feedback": "Fixed plan → present continuous for future."},
+        {"text": "He [*plays|is playing|play] the guitar every evening.", "feedback": "Every evening → plays."},
+        {"text": "Prices [*are rising|rise|rising] at the moment.", "feedback": "Trend now → are rising."}
+      ]
+    }
+  ]
+}

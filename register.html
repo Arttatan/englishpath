@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign up — EnglishPath</title>
+  <meta name="description" content="Create a free EnglishPath account to save your progress." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: { DEFAULT: "#d63384", dark: "#b82a6f" } } } } };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="min-h-screen bg-gray-50 text-gray-900">
+
+  <!-- Simple header -->
+  <header class="border-b border-gray-100 bg-white">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="grid h-9 w-9 place-items-center rounded-lg bg-brand text-white font-extrabold">E</span>
+        <span class="text-lg font-extrabold tracking-tight" data-brand>EnglishPath</span>
+      </a>
+      <a href="login.html" class="text-sm font-medium text-gray-600 hover:text-brand">Already have an account? Log in</a>
+    </div>
+  </header>
+
+  <!-- Sign up card -->
+  <main class="mx-auto flex max-w-md flex-col px-4 py-12">
+    <div class="rounded-2xl border border-gray-100 bg-white p-8 shadow-sm">
+      <h1 class="text-2xl font-extrabold tracking-tight">Create your free account</h1>
+      <p class="mt-1 text-sm text-gray-500">It only takes a minute — no card required.</p>
+
+      <!-- Message box (errors / success) -->
+      <div id="message" class="mt-5 hidden rounded-lg px-4 py-3 text-sm"></div>
+
+      <form id="register-form" class="mt-5 space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700" for="email">Email</label>
+          <input id="email" type="email" required autocomplete="email"
+                 class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                 placeholder="you@example.com" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700" for="password">Password</label>
+          <input id="password" type="password" required minlength="6" autocomplete="new-password"
+                 class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                 placeholder="At least 6 characters" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700" for="password2">Confirm password</label>
+          <input id="password2" type="password" required minlength="6" autocomplete="new-password"
+                 class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand focus:outline-none focus:ring-2 focus:ring-indigo-100"
+                 placeholder="Repeat your password" />
+        </div>
+        <button id="submit-btn" type="submit"
+                class="w-full rounded-lg bg-brand px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-dark disabled:opacity-60">
+          Create account
+        </button>
+      </form>
+
+      <p class="mt-4 text-center text-xs text-gray-400">
+        By signing up you agree to our
+        <a href="terms.html" class="underline hover:text-brand">Terms</a> and
+        <a href="privacy.html" class="underline hover:text-brand">Privacy Policy</a>.
+      </p>
+    </div>
+  </main>
+
+  <!-- Supabase library, then our config, then page logic -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script>
+    document.querySelectorAll("[data-brand]").forEach((el) => (el.textContent = window.SITE ? window.SITE.brand : "EnglishPath"));
+
+    const form = document.getElementById("register-form");
+    const msg = document.getElementById("message");
+    const btn = document.getElementById("submit-btn");
+
+    function showMessage(text, type) {
+      msg.textContent = text;
+      msg.className =
+        "mt-5 rounded-lg px-4 py-3 text-sm " +
+        (type === "error"
+          ? "bg-red-50 text-red-700"
+          : "bg-green-50 text-green-700");
+      msg.classList.remove("hidden");
+    }
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      if (!window.SUPABASE_READY) {
+        showMessage("Setup needed: open js/config.js and paste your Supabase Project URL and anon key.", "error");
+        return;
+      }
+
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value;
+      const password2 = document.getElementById("password2").value;
+
+      if (password !== password2) {
+        showMessage("Passwords do not match. Please try again.", "error");
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = "Creating account...";
+
+      // After the user confirms their email, send them to the login page.
+      const redirectTo = window.location.href.replace(/register\.html.*$/, "login.html");
+
+      const { data, error } = await window.sb.auth.signUp({
+        email,
+        password,
+        options: { emailRedirectTo: redirectTo },
+      });
+
+      btn.disabled = false;
+      btn.textContent = "Create account";
+
+      if (error) {
+        showMessage(error.message, "error");
+        return;
+      }
+
+      // With email confirmation ON, the user must click the link in their inbox.
+      showMessage(
+        "Almost there! We sent a confirmation link to " + email + ". Open your inbox and click it to activate your account.",
+        "success"
+      );
+      form.reset();
+    });
+  </script>
+</body>
+</html>

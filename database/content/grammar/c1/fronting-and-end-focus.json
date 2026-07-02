@@ -1,0 +1,86 @@
+{
+  "title": "Fronting and end-focus",
+  "level": "c1",
+  "section": "grammar",
+  "sort_order": 7,
+  "explanation": "<h2>Fronting and end-focus</h2><p>Speakers front information for emphasis and place new or important information at the end (end-focus).</p><ul><li><em>What we need is more time.</em> (fronted)</li><li><em>It was in 2019 that the law changed.</em> (cleft for focus)</li><li><em>She bought a house in Lisbon.</em> (new place at end)</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*What concerns me most|Concerns me most what] is the lack of transparency.",
+          "feedback": "What-clause fronted for focus."
+        },
+        {
+          "text": "It [*was in 2019 that|in 2019 was that|was that in 2019] the law finally changed.",
+          "feedback": "Cleft for time focus."
+        },
+        {
+          "text": "[*A solution we urgently need|We urgently need a solution] is better training.",
+          "feedback": "Fronted noun phrase."
+        },
+        {
+          "text": "She met [*a renowned architect from Barcelona|from Barcelona a renowned architect met she] at the conference.",
+          "feedback": "End-focus: Barcelona as new info."
+        },
+        {
+          "text": "[*Particularly worrying|Worrying particularly] is the speed of change.",
+          "feedback": "Fronted adjective phrase."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "____ I cannot accept is deliberate misinformation. | *What | That | Which",
+          "feedback": "What I cannot accept."
+        },
+        {
+          "text": "It was the director ____ approved the budget. | *who | which | where",
+          "feedback": "Person: who."
+        },
+        {
+          "text": "____ remarkable was their ability to adapt. | *Particularly | Rarely | Seldom",
+          "feedback": "Particularly remarkable fronted."
+        },
+        {
+          "text": "He gave the files to Maria, not to ____.  | *James | file | desk",
+          "feedback": "End-focus contrast."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*The question we must ask|The question must we ask] is who benefits.",
+          "feedback": "Fronted question."
+        },
+        {
+          "text": "It [*is transparency that|transparency is that|is that transparency] builds trust.",
+          "feedback": "Cleft emphasis."
+        },
+        {
+          "text": "[*Especially significant|Significant especially] was the role of local media.",
+          "feedback": "Especially significant fronted."
+        },
+        {
+          "text": "They announced [*a major investment in renewable energy|in renewable energy a major investment announced they].",
+          "feedback": "Natural end-focus."
+        },
+        {
+          "text": "[*More pressing than ever|Pressing more than ever] is the need for reform.",
+          "feedback": "Comparative fronting."
+        }
+      ]
+    }
+  ]
+}

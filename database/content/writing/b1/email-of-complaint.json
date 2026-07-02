@@ -1,0 +1,78 @@
+{
+  "title": "Writing an email of complaint",
+  "level": "b1",
+  "section": "writing",
+  "sort_order": 2,
+  "explanation": "<h2>Writing an email of complaint</h2><p>A good complaint email is polite, clear and specific.</p><ul><li>State what happened.</li><li>Explain the problem.</li><li>Say what you would like the company to do.</li><li>Use polite but firm language.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*I am writing to complain about a laptop I bought from your website.|I write complain your laptop website.|Complain laptop from website.]",
+          "feedback": "Clear formal opening."
+        },
+        {
+          "text": "[*When I switched it on, the screen went black after two minutes.|When switched on screen black two minutes.|It black after two minute.]",
+          "feedback": "Specific explanation of the problem."
+        },
+        {
+          "text": "[*I would like a full refund or a replacement.|I want refund now immediately.|Give replacement refund.]",
+          "feedback": "Polite but firm request."
+        },
+        {
+          "text": "[*I have attached a copy of the receipt for reference.|Attached receipt reference copy I have.|Receipt copy attach.]",
+          "feedback": "Useful supporting detail."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A complaint email should remain ____.  | *polite | angry | vague",
+          "feedback": "Being polite is important."
+        },
+        {
+          "text": "You should explain the problem as clearly as ____.  | *possible | angry | formal",
+          "feedback": "Common phrase."
+        },
+        {
+          "text": "It helps to include proof, such as a ____.  | *receipt | headline | lecture",
+          "feedback": "Receipts show what you bought."
+        },
+        {
+          "text": "At the end, ask the company to take ____.  | *action | holiday | travel",
+          "feedback": "Action is the expected response."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*I look forward to hearing from you soon.|I wait hear you soon.|Hear from you I look.]",
+          "feedback": "Correct closing line."
+        },
+        {
+          "text": "[*Unfortunately, the product stopped working after one day.|Unfortunate product stop one day.|Stopped after day product.]",
+          "feedback": "Natural formal complaint sentence."
+        },
+        {
+          "text": "[*Could you please let me know how you intend to resolve this matter?|Please tell me now resolve matter.|Resolve matter how now?]",
+          "feedback": "Polite request for action."
+        },
+        {
+          "text": "[*I hope this issue can be resolved quickly.|Hope issue resolved quickly.|This issue quickly resolved hope.]",
+          "feedback": "Good final sentence."
+        }
+      ]
+    }
+  ]
+}

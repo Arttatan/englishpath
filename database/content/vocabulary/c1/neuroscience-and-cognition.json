@@ -1,0 +1,95 @@
+{
+  "title": "Neuroscience and cognition",
+  "level": "c1",
+  "section": "vocabulary",
+  "sort_order": 4,
+  "explanation": "<h2>Neuroscience and cognition</h2><ul><li>neuron, cortex, cognition, perception, stimulus</li><li>memory, neural, synapse, consciousness, impairment</li><li>verbs: process, retain, stimulate, perceive</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Information is ____ in different regions of the brain. | *processed | printed | promoted",
+          "feedback": "Processed in the brain."
+        },
+        {
+          "text": "Damage to the frontal ____ can affect decision-making. | *cortex | context | contract",
+          "feedback": "Frontal cortex."
+        },
+        {
+          "text": "Repeated ____ strengthens certain neural pathways. | *stimulation | station | stipulation",
+          "feedback": "Neural stimulation."
+        },
+        {
+          "text": "Mild cognitive ____ may affect short-term recall. | *impairment | improvement | implement",
+          "feedback": "Cognitive impairment."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "synapse",
+        "stimulus",
+        "retain",
+        "perception",
+        "consciousness",
+        "neuron",
+        "neural",
+        "cognition",
+        "memory",
+        "process"
+      ],
+      "questions": [
+        {
+          "text": "A ____ transmits signals between nerve cells. | synapse",
+          "feedback": ""
+        },
+        {
+          "text": "The experiment measured reaction to a visual ____.  | stimulus",
+          "feedback": ""
+        },
+        {
+          "text": "Sleep helps the brain ____ important memories. | retain",
+          "feedback": ""
+        },
+        {
+          "text": "Patients reported altered ____ after the injury. | perception",
+          "feedback": ""
+        },
+        {
+          "text": "Scientists study how ____ emerges from brain activity. | consciousness",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Each ____ connects to thousands of others. | *neuron | notion | nation",
+          "feedback": "Neuron."
+        },
+        {
+          "text": "____ decline is common in advanced age. | *Memory | Memorial | Memorise",
+          "feedback": "Memory decline."
+        },
+        {
+          "text": "The study focuses on higher-order ____.  | *cognition | cognitive | cognise",
+          "feedback": "Cognition."
+        },
+        {
+          "text": "Brain scans reveal ____ activity during tasks. | *neural | neutral | natural",
+          "feedback": "Neural activity."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Health policy briefing",
+  "level": "c1",
+  "section": "listening",
+  "sort_order": 5,
+  "explanation": "<h2>Health policy briefing</h2><p>Listen to a briefing on public health strategy.</p><h3>Transcript</h3><p><strong>Official:</strong> Prevention must remain our priority. That means expanding screening programmes, reducing smoking rates and improving access to mental health services. Hospital capacity matters, but treating illness alone will not solve rising long-term costs. We are allocating additional funding to community care so that fewer patients require emergency admission.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The priority is [*prevention|advertising|tourism].",
+          "feedback": "Prevention must remain priority."
+        },
+        {
+          "text": "Plans include expanding [*screening programmes|football stadiums|film festivals].",
+          "feedback": "Screening programmes."
+        },
+        {
+          "text": "Treating illness alone will not solve rising [*long-term costs|ticket prices|hotel bills].",
+          "feedback": "Long-term costs."
+        },
+        {
+          "text": "Extra funding targets [*community care|luxury hotels|car parks].",
+          "feedback": "Community care."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "They aim to reduce smoking ____.  | *rates | music | colours",
+          "feedback": "Smoking rates."
+        },
+        {
+          "text": "Mental health services need better ____.  | *access | accession | accent",
+          "feedback": "Access to services."
+        },
+        {
+          "text": "Fewer patients should need emergency ____.  | *admission | adoption | addition",
+          "feedback": "Emergency admission."
+        },
+        {
+          "text": "Hospital ____ still matters. | *capacity | captain | caption",
+          "feedback": "Hospital capacity."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The strategy is [*long-term and holistic|short-term only|unrelated to health].",
+          "feedback": "Prevention + community care."
+        },
+        {
+          "text": "The speaker's tone is [*policy-focused|comic|nostalgic].",
+          "feedback": "Official briefing."
+        },
+        {
+          "text": "Emergency admissions should become [*less common|mandatory|more expensive only].",
+          "feedback": "Fewer emergency admissions."
+        },
+        {
+          "text": "The briefing addresses [*physical and mental health|only sports|only transport].",
+          "feedback": "Mental health included."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=fSrLeyfk9SM"
+}

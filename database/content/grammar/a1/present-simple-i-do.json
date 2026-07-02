@@ -1,0 +1,45 @@
+{
+  "title": "Present simple: I do, I don't, Do I?",
+  "level": "a1",
+  "section": "grammar",
+  "sort_order": 2,
+  "explanation": "<h2>Present simple — I / you / we / they</h2><p>Use the <strong>present simple</strong> for habits, facts and routines.</p><ul><li><strong>Affirmative:</strong> I <em>work</em>, you <em>work</em>, we <em>work</em>, they <em>work</em></li><li><strong>Negative:</strong> I <em>don't work</em> (do not)</li><li><strong>Question:</strong> <em>Do</em> you <em>work</em>?</li></ul><p>Remember: after <strong>do / don't / does / doesn't</strong> use the <strong>base verb</strong> (work, not works).</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*don't like|not like|like not] coffee.", "feedback": "Negative present simple: don't + base verb."},
+        {"text": "They [*live|lives|living] in London.", "feedback": "With they we use the base form live."},
+        {"text": "[*Do|Does|Are] you speak English?", "feedback": "Questions with I/you/we/they start with Do."},
+        {"text": "We [*don't watch|doesn't watch|not watch] TV in the morning.", "feedback": "We → don't."},
+        {"text": "My friends [*play|plays|playing] football on Sundays.", "feedback": "Plural subject → base verb play."},
+        {"text": "[*Do|Does|Did] they work on Saturdays?", "feedback": "They → Do at the start of the question."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "She ____ tennis every week. | *plays | play | playing", "feedback": "She → plays."},
+        {"text": "I ____ coffee. | *don't like | doesn't like | not like", "feedback": "I → don't like."},
+        {"text": "____ you speak English? | *Do | Does | Are", "feedback": "You → Do."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*get up|gets up|getting up] at seven o'clock.", "feedback": "I → get up."},
+        {"text": "He doesn't [*eat|eats|eating] meat.", "feedback": "After doesn't use base verb eat."},
+        {"text": "— Do you eat meat? — Yes, I [*do|does|am].", "feedback": "Short answer with do."},
+        {"text": "[*Does|Do|Is] your sister live here?", "feedback": "Your sister = she → Does."},
+        {"text": "We [*study|studies|studying] English on Mondays.", "feedback": "We → study."},
+        {"text": "They don't [*know|knows|knowing] the answer.", "feedback": "After don't use the base verb know."}
+      ]
+    }
+  ]
+}

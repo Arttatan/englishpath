@@ -1,0 +1,78 @@
+{
+  "title": "Writing an article for a magazine",
+  "level": "b2",
+  "section": "writing",
+  "sort_order": 3,
+  "explanation": "<h2>Writing an article for a magazine</h2><p>A magazine article should engage the reader with a strong opening, clear sections and a memorable ending.</p><ul><li>Hook the reader in the first sentence.</li><li>Use examples and direct address where appropriate.</li><li>Keep paragraphs short.</li><li>End with a thought-provoking line.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Have you ever wondered why some cities feel easier to live in than others?|Ever wondered cities easier live others?|Cities wondered easier live.]",
+          "feedback": "Engaging opening question."
+        },
+        {
+          "text": "[*In this article, I will explore three features of liveable cities.|Article explore three features liveable cities.|Explore article three features.]",
+          "feedback": "Clear purpose."
+        },
+        {
+          "text": "[*First, reliable public transport saves time and reduces stress.|First reliable public transport saves stress.|Public transport first reliable.]",
+          "feedback": "Structured body."
+        },
+        {
+          "text": "[*Next time you visit a new city, notice how these details shape daily life.|Next time visit city details shape life.|Visit city next time details.]",
+          "feedback": "Memorable ending."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A magazine article often uses a conversational but ____ tone. | *informed | legal | aggressive",
+          "feedback": "Informed conversational tone."
+        },
+        {
+          "text": "Short ____ make articles easier to read online. | *paragraphs | sentences only | footnotes",
+          "feedback": "Short paragraphs."
+        },
+        {
+          "text": "Examples help the reader relate to the ____.  | *topic | ticket | recipe",
+          "feedback": "Relate to topic."
+        },
+        {
+          "text": "A strong title should catch the reader's ____.  | *attention | luggage | salary",
+          "feedback": "Catch attention."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Another key factor is access to parks and green spaces.|Another key factor parks green spaces.|Factor another parks green.]",
+          "feedback": "Clear supporting point."
+        },
+        {
+          "text": "[*You might be surprised by how much design affects wellbeing.|Might surprised design affects wellbeing.|Surprised design wellbeing.]",
+          "feedback": "Direct reader address."
+        },
+        {
+          "text": "[*However, liveability is not only about infrastructure.|However liveability only infrastructure.|Liveability however infrastructure.]",
+          "feedback": "Balanced contrast."
+        },
+        {
+          "text": "[*Ultimately, the best cities balance efficiency with humanity.|Ultimately best cities balance efficiency humanity.|Cities ultimately balance.]",
+          "feedback": "Strong final line."
+        }
+      ]
+    }
+  ]
+}

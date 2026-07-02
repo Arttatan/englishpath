@@ -1,0 +1,79 @@
+{
+  "title": "Customer service call",
+  "level": "b1plus",
+  "section": "listening",
+  "sort_order": 2,
+  "explanation": "<h2>Customer service call</h2><p>Listen to a customer calling about a delayed order.</p><h3>Transcript</h3><p><strong>Agent:</strong> Good morning, BrightHome customer service. How can I help?<br><strong>Customer:</strong> Hello. I ordered a desk last week, and it was supposed to arrive yesterday.<br><strong>Agent:</strong> Let me check that for you. I can see there was a delivery problem at the warehouse.<br><strong>Customer:</strong> I understand, but I need the desk urgently because I work from home.<br><strong>Agent:</strong> I am sorry. We can deliver it tomorrow and refund the delivery charge.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The customer ordered a [*desk|chair|lamp].",
+          "feedback": "The order was for a desk."
+        },
+        {
+          "text": "It was supposed to arrive [*yesterday|last week|tomorrow].",
+          "feedback": "The customer says yesterday."
+        },
+        {
+          "text": "The problem happened at the [*warehouse|office|shop].",
+          "feedback": "The agent mentions the warehouse."
+        },
+        {
+          "text": "The company offers to refund the [*delivery charge|whole order|tax].",
+          "feedback": "Refund the delivery charge."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The customer needs the desk because they work from ____.  | *home | school | abroad",
+          "feedback": "They say they work from home."
+        },
+        {
+          "text": "The agent says: Let me ____ that for you. | *check | buy | cancel",
+          "feedback": "Common customer service phrase."
+        },
+        {
+          "text": "There was a delivery ____.  | *problem | discount | presentation",
+          "feedback": "Delivery problem."
+        },
+        {
+          "text": "The desk can be delivered ____.  | *tomorrow | next month | today",
+          "feedback": "The revised delivery date."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The customer sounds [*firm but polite|rude|completely relaxed].",
+          "feedback": "The complaint is polite but clear."
+        },
+        {
+          "text": "The agent responds by [*offering a solution|ending the call|denying the order].",
+          "feedback": "A new delivery time and refund are offered."
+        },
+        {
+          "text": "The main topic is [*an online order delay|a job interview|a train ticket].",
+          "feedback": "It is a customer service problem."
+        },
+        {
+          "text": "The company accepts [*some responsibility|no responsibility|full blame for damage].",
+          "feedback": "They apologise and refund the delivery charge."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=4jpdlG8EJhE"
+}

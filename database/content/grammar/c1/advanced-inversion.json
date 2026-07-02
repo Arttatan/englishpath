@@ -1,0 +1,86 @@
+{
+  "title": "Advanced inversion",
+  "level": "c1",
+  "section": "grammar",
+  "sort_order": 1,
+  "explanation": "<h2>Advanced inversion</h2><p>At C1 level, inversion appears after more complex triggers: <em>So + adjective ... that</em>, <em>Such ... that</em>, and conditional <em>Should/Were/Had</em> without <em>if</em>.</p><ul><li><em>So complex was the problem that experts were called in.</em></li><li><em>Such was the demand that the website crashed.</em></li><li><em>Should you require assistance, please contact us.</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*So intense was|Was so intense] the debate that no agreement was reached.",
+          "feedback": "So + adjective + inversion."
+        },
+        {
+          "text": "[*Such was|Was such] the public reaction that the minister resigned.",
+          "feedback": "Such was + noun phrase."
+        },
+        {
+          "text": "[*Should|If should] you change your mind, let us know immediately.",
+          "feedback": "Should + subject + verb (formal conditional)."
+        },
+        {
+          "text": "[*Were|If were] the proposal accepted, funding would be released.",
+          "feedback": "Were + subject (formal unreal condition)."
+        },
+        {
+          "text": "[*Had|If had] we known about the delay, we would have rebooked.",
+          "feedback": "Had + subject + past participle."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "So convincing ____ the evidence that the jury decided quickly. | *was | is | were",
+          "feedback": "So convincing was the evidence."
+        },
+        {
+          "text": "____ you need further clarification, do not hesitate to ask. | *Should | If | When",
+          "feedback": "Formal Should you..."
+        },
+        {
+          "text": "Such ____ the scale of the disaster that aid arrived from abroad. | *was | were | is",
+          "feedback": "Such was the scale."
+        },
+        {
+          "text": "____ I in your position, I would seek independent advice. | *Were | Was | Am",
+          "feedback": "Were I in your position."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*So rapidly did|Did so rapidly] prices rise that many tenants protested.",
+          "feedback": "So rapidly did + subject."
+        },
+        {
+          "text": "[*Had they not intervened|If they had not intervened] earlier, losses would have been greater.",
+          "feedback": "Had they not intervened."
+        },
+        {
+          "text": "[*Little did|Did little] anyone suspect the quiet colleague was the author.",
+          "feedback": "Little did anyone suspect."
+        },
+        {
+          "text": "[*Such is|Is such] the influence of social media on public opinion today.",
+          "feedback": "Such is the influence."
+        },
+        {
+          "text": "[*Were it not for|If it was not for] her research, the project would have failed.",
+          "feedback": "Were it not for."
+        }
+      ]
+    }
+  ]
+}

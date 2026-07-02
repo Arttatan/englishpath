@@ -1,0 +1,45 @@
+{
+  "title": "Phrasal verbs 1",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 12,
+  "explanation": "<h2>Phrasal verbs</h2><p>A phrasal verb = verb + particle (up, out, off, on…). The meaning is often different from the main verb alone.</p><ul><li><strong>get up</strong> — leave your bed</li><li><strong>turn on / off</strong> — start / stop a machine</li><li><strong>look after</strong> — take care of</li><li><strong>find out</strong> — discover information</li><li><strong>pick up</strong> — collect someone/something</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct phrasal verb.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Please [*turn off|turn on|turn up] the lights when you leave.", "feedback": "Turn off = stop the lights."},
+        {"text": "I [*get up|get on|get off] at seven every morning.", "feedback": "Get up = leave bed."},
+        {"text": "Can you [*look after|look for|look at] my cat this weekend?", "feedback": "Look after = take care of."},
+        {"text": "I need to [*find out|find up|find off] what time the train leaves.", "feedback": "Find out = discover."},
+        {"text": "She [*picked up|picked off|picked on] her children from school.", "feedback": "Pick up = collect."},
+        {"text": "[*Put on|Put off|Put up] your coat — it's cold outside.", "feedback": "Put on = wear."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Don't ____ — keep trying! | *give up | give in | give on", "feedback": "Give up = stop trying."},
+        {"text": "I'm ____ my keys. Have you seen them? | *looking for | looking after | looking up", "feedback": "Look for = search."},
+        {"text": "We need to ____ early tomorrow. | *set off | set up | set on", "feedback": "Set off = start a journey."},
+        {"text": "He ____ smoking last year. | *gave up | gave in | gave off", "feedback": "Give up = quit a habit."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct phrasal verb.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The meeting was [*put off|put on|put up] until Friday.", "feedback": "Put off = postpone."},
+        {"text": "I [*looked up|looked after|looked for] the word in a dictionary.", "feedback": "Look up = search in reference."},
+        {"text": "She [*took off|took on|took up] her jacket because it was warm.", "feedback": "Take off = remove clothes."},
+        {"text": "We [*ran out of|ran off|ran up] milk, so I went to the shop.", "feedback": "Run out of = have none left."},
+        {"text": "He [*grew up|grew on|grew off] in a small village.", "feedback": "Grow up = spend childhood."}
+      ]
+    }
+  ]
+}

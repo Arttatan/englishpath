@@ -1,0 +1,79 @@
+{
+  "title": "Travel podcast episode",
+  "level": "b1plus",
+  "section": "listening",
+  "sort_order": 4,
+  "explanation": "<h2>Travel podcast episode</h2><p>Listen to part of a travel podcast.</p><h3>Transcript</h3><p><strong>Presenter:</strong> This week we are talking about city breaks on a budget. Our guest, Martin Shaw, has visited more than thirty European cities without spending much money. He recommends travelling in the off-season, staying in hostels and booking local transport in advance. He also says that eating where local people eat is often cheaper and better than going to tourist restaurants.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Martin has visited more than [*thirty|thirteen|forty-five] European cities.",
+          "feedback": "The presenter says more than thirty."
+        },
+        {
+          "text": "He recommends travelling in the [*off-season|high season|winter only].",
+          "feedback": "Off-season is recommended."
+        },
+        {
+          "text": "He suggests staying in [*hostels|luxury hotels|airports].",
+          "feedback": "Hostels are mentioned."
+        },
+        {
+          "text": "Local restaurants are often [*cheaper and better|more dangerous|closed early].",
+          "feedback": "That is his opinion."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The episode is about city breaks on a ____.  | *budget | platform | runway",
+          "feedback": "Budget travel."
+        },
+        {
+          "text": "Martin suggests booking local transport in ____.  | *advance | secret | winter",
+          "feedback": "In advance."
+        },
+        {
+          "text": "Tourist restaurants are often more ____.  | *expensive | friendly | empty",
+          "feedback": "Compared with local places."
+        },
+        {
+          "text": "The speaker is a travel ____.  | *presenter | judge | customer",
+          "feedback": "He hosts the podcast."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The podcast gives [*practical advice|medical warnings|legal information].",
+          "feedback": "It offers budget travel advice."
+        },
+        {
+          "text": "Martin seems [*experienced|uncertain|uninterested].",
+          "feedback": "He has visited many cities."
+        },
+        {
+          "text": "The focus is on travelling [*cheaply|luxuriously|for business only].",
+          "feedback": "On a budget."
+        },
+        {
+          "text": "The recommendations are [*specific|confusing|unrelated].",
+          "feedback": "Off-season, hostels, local transport, local restaurants."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=HwMkN_2BTqs"
+}

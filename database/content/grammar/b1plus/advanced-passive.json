@@ -1,0 +1,86 @@
+{
+  "title": "Passive structures",
+  "level": "b1plus",
+  "section": "grammar",
+  "sort_order": 3,
+  "explanation": "<h2>Passive structures</h2><p>At B1+ level, you should control passive forms in different tenses and with reporting verbs: <em>It is believed that...</em>, <em>He was asked to...</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The building [*is being renovated|renovates|has renovating] at the moment.",
+          "feedback": "Present continuous passive."
+        },
+        {
+          "text": "He [*was asked to present|asked to present|was asking present] the results.",
+          "feedback": "Passive with infinitive."
+        },
+        {
+          "text": "It [*is believed|believes|is believing] that the painting is genuine.",
+          "feedback": "Impersonal passive reporting structure."
+        },
+        {
+          "text": "By the time we arrived, the guests [*had been served|had served|were serving].",
+          "feedback": "Past perfect passive."
+        },
+        {
+          "text": "The winners [*will be announced|announce|will announce] tomorrow morning.",
+          "feedback": "Future passive."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The documents ____ before the meeting started. | *had been prepared | had prepared | were preparing",
+          "feedback": "Past perfect passive."
+        },
+        {
+          "text": "English ____ in many international workplaces. | *is used | uses | is using",
+          "feedback": "Present passive."
+        },
+        {
+          "text": "She ____ to explain the delay. | *was expected | expected | was expecting",
+          "feedback": "Passive with infinitive idea."
+        },
+        {
+          "text": "The proposal ____ by the board next week. | *will be reviewed | reviews | will review",
+          "feedback": "Future passive."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The road [*has been closed|has closed|is closed now by] since the storm.",
+          "feedback": "Present perfect passive."
+        },
+        {
+          "text": "Passengers were told [*to remain|remain|remaining] seated.",
+          "feedback": "Passive reporting structure."
+        },
+        {
+          "text": "The film [*is said to be|says to be|is saying to be] based on a true story.",
+          "feedback": "Be said to be."
+        },
+        {
+          "text": "Several trees [*were blown down|blew down|were blowing down] during the night.",
+          "feedback": "Past passive."
+        },
+        {
+          "text": "New safety rules [*are likely to be introduced|likely introduce|are introducing likely] soon.",
+          "feedback": "Passive infinitive structure."
+        }
+      ]
+    }
+  ]
+}

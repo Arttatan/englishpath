@@ -1,0 +1,28 @@
+{
+  "title": "Making plans with friends",
+  "level": "a2",
+  "section": "listening",
+  "sort_order": 3,
+  "audio_url": "https://www.youtube.com/watch?v=7y_hbz6lM9E",
+  "explanation": "<h2>Making plans</h2><h3>Transcript</h3><p><strong>Lucy:</strong> Are you free on Saturday?<br><strong>Ben:</strong> I think so. Why?<br><strong>Lucy:</strong> A few of us are going to the cinema. Do you want to come?<br><strong>Ben:</strong> Sure! What time?<br><strong>Lucy:</strong> The film starts at seven. Let's meet at half past six outside.<br><strong>Ben:</strong> OK. See you then!</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "They are planning something for [*Saturday|Sunday|Friday].", "feedback": "Free on Saturday."},
+      {"text": "They are going to the [*cinema|restaurant|park].", "feedback": "Going to the cinema."},
+      {"text": "The film starts at [*seven|six|eight] o'clock.", "feedback": "Starts at seven."},
+      {"text": "They will meet at [*half past six|seven|five].", "feedback": "Half past six."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Listen again and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "Lucy asks: 'Are you ____ on Saturday?' | *free | late | sure", "feedback": "Are you free?" },
+      {"text": "Ben says: '____! What time?' | *Sure | Sorry | Never", "feedback": "Sure!" },
+      {"text": "They meet ____ the cinema. | *outside | inside | behind", "feedback": "Outside the cinema."},
+      {"text": "Ben says: 'See you ____!' | *then | now | later", "feedback": "See you then."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "Lucy invites Ben by asking if he wants to [*come|leave|pay].", "feedback": "Do you want to come?" },
+      {"text": "Ben is [*available|busy|unsure] on Saturday.", "feedback": "I think so = available."},
+      {"text": "[*Lucy|Ben|A stranger] organises the plan.", "feedback": "Lucy suggests cinema."},
+      {"text": "They agree to meet [*before|after|during] the film.", "feedback": "Half past six, film at seven."}
+    ]}
+  ]
+}

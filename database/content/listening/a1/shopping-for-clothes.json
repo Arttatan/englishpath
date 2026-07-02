@@ -1,0 +1,43 @@
+{
+  "title": "Shopping for clothes",
+  "level": "a1",
+  "section": "listening",
+  "sort_order": 4,
+  "audio_url": "https://www.youtube.com/watch?v=4jpdlG8EJhE",
+  "explanation": "<h2>Shopping for clothes</h2><p>Listen to a customer in a clothes shop.</p><h3>Transcript</h3><p><strong>Assistant:</strong> Can I help you?<br><strong>Customer:</strong> Yes, I'm looking for a blue shirt.<br><strong>Assistant:</strong> What size are you?<br><strong>Customer:</strong> Medium, please.<br><strong>Assistant:</strong> Here you are. The changing rooms are over there.<br><strong>Customer:</strong> Thanks. How much is it?<br><strong>Assistant:</strong> It's twenty-five pounds.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The customer wants a [*shirt|dress|coat].", "feedback": "Looking for a blue shirt."},
+        {"text": "The shirt is [*blue|red|black].", "feedback": "Blue shirt."},
+        {"text": "The customer's size is [*medium|small|large].", "feedback": "Medium, please."},
+        {"text": "The shirt costs [*£25|£15|£35].", "feedback": "Twenty-five pounds."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Listen again and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The assistant asks: 'Can I ____ you?' | *help | take | go", "feedback": "Can I help you?" },
+        {"text": "The customer is ____ for a shirt. | *looking | going | turning", "feedback": "I'm looking for..."},
+        {"text": "The ____ rooms are over there. | *changing | waiting | meeting", "feedback": "Changing rooms."},
+        {"text": "The customer asks: 'How ____ is it?' | *much | many | long", "feedback": "How much is it?" }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The conversation is in a [*clothes shop|restaurant|bank].", "feedback": "Shirt and changing rooms."},
+        {"text": "The assistant asks about [*size|colour|price] first after the item.", "feedback": "What size are you?" },
+        {"text": "The customer can try the shirt in the [*changing room|kitchen|office].", "feedback": "Changing rooms."},
+        {"text": "The customer asks the price [*at the end|at the start|never].", "feedback": "How much is it? — at the end."}
+      ]
+    }
+  ]
+}

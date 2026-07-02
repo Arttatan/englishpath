@@ -1,0 +1,86 @@
+{
+  "title": "Subjunctive and formal structures",
+  "level": "b2",
+  "section": "grammar",
+  "sort_order": 8,
+  "explanation": "<h2>Subjunctive and formal structures</h2><p>After certain adjectives and verbs (essential, vital, recommend, suggest, insist), we use the base form of the verb, especially in formal English.</p><ul><li><em>It is essential that he be present.</em></li><li><em>I recommend that she apply early.</em></li><li><em>They insisted that he leave immediately.</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "It is vital that every employee [*be|is|was] informed.",
+          "feedback": "Subjunctive: be, not is."
+        },
+        {
+          "text": "The doctor recommended that she [*rest|rests|rested] for a week.",
+          "feedback": "Recommend that + base form."
+        },
+        {
+          "text": "They insisted that he [*leave|leaves|left] the building.",
+          "feedback": "Insist that + base form."
+        },
+        {
+          "text": "It is important that the report [*remain|remains|remained] confidential.",
+          "feedback": "Remain, not remains."
+        },
+        {
+          "text": "I suggest that he [*apply|applies|applied] for the grant.",
+          "feedback": "Suggest that + base form."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "It is essential that she ____ on time. | *arrive | arrives | arrived",
+          "feedback": "Base form after essential that."
+        },
+        {
+          "text": "The committee demanded that the minister ____ an explanation. | *give | gives | gave",
+          "feedback": "Demand that + base form."
+        },
+        {
+          "text": "It is crucial that the data ____ accurate. | *be | is | was",
+          "feedback": "Subjunctive be."
+        },
+        {
+          "text": "They proposed that the meeting ____ postponed. | *be | is | was",
+          "feedback": "Propose that + be + past participle."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "It is necessary that he [*submit|submits|submitted] the form today.",
+          "feedback": "Base form after necessary that."
+        },
+        {
+          "text": "The rules require that every visitor [*sign|signs|signed] in.",
+          "feedback": "Require that + base form."
+        },
+        {
+          "text": "It is imperative that the issue [*be|is|was] resolved quickly.",
+          "feedback": "Imperative that + be."
+        },
+        {
+          "text": "She requested that I [*not share|do not share|did not share] the file.",
+          "feedback": "Negative subjunctive."
+        },
+        {
+          "text": "The judge ordered that the witness [*remain|remains|remained] silent.",
+          "feedback": "Order that + base form."
+        }
+      ]
+    }
+  ]
+}

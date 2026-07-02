@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 3",
+  "level": "c1",
+  "section": "use-of-english",
+  "sort_order": 3,
+  "explanation": "<h2>Use of English - C1 Test 3</h2><p>Final mixed review.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Were|Was|Am] I in your position, I would seek advice.",
+          "feedback": "Were I in your position."
+        },
+        {
+          "text": "The results [*may well|must certainly|will never] indicate a trend.",
+          "feedback": "May well hedge."
+        },
+        {
+          "text": "[*Not having been consulted|Not consulting|Not to consult], staff objected.",
+          "feedback": "Negative perfect passive participle."
+        },
+        {
+          "text": "You [*had better|would rather|must better] leave now.",
+          "feedback": "Had better."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The novel's central ____ recurs throughout. | *motif | motive | motion",
+          "feedback": "Motif."
+        },
+        {
+          "text": "Gene ____ raises ethical concerns. | *editing | editor | edited",
+          "feedback": "Gene editing."
+        },
+        {
+          "text": "The city changed its ____.  | *skyline | skylight | sky",
+          "feedback": "Skyline."
+        },
+        {
+          "text": "Critics fear the ruling could ____ journalism. | *chill | heat | warm",
+          "feedback": "Chill journalism."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*The extent to which|The extent which|The extent in which] rules are enforced is unclear.",
+          "feedback": "The extent to which."
+        },
+        {
+          "text": "He is [*meant to|meaning to|minded to] chair the meeting.",
+          "feedback": "Meant to = supposed to."
+        },
+        {
+          "text": "Costs rose; [*hence|however|for instance] profits fell.",
+          "feedback": "Hence."
+        },
+        {
+          "text": "The author [*attributes the decline to|attributes the decline with|attributes to decline] several factors.",
+          "feedback": "Attribute X to Y."
+        }
+      ]
+    }
+  ]
+}

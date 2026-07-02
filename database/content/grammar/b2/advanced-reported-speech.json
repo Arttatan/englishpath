@@ -1,0 +1,86 @@
+{
+  "title": "Advanced reported speech",
+  "level": "b2",
+  "section": "grammar",
+  "sort_order": 4,
+  "explanation": "<h2>Advanced reported speech</h2><p>At B2 level, use a wide range of reporting verbs and structures: <em>advise + gerund</em>, <em>warn + not to</em>, <em>deny + gerund</em>, <em>accuse + of</em>, passive reporting (<em>He was said to be ...</em>).</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "She advised me [*to apply|applying|apply] for the scholarship.",
+          "feedback": "Advise + to-infinitive."
+        },
+        {
+          "text": "The guide warned us [*not to touch|to not touch|not touching] the exhibits.",
+          "feedback": "Warn + not to."
+        },
+        {
+          "text": "He denied [*taking|to take|take] the money from the till.",
+          "feedback": "Deny + gerund."
+        },
+        {
+          "text": "They accused her [*of lying|to lie|lie] in the interview.",
+          "feedback": "Accuse + of + gerund/noun."
+        },
+        {
+          "text": "The journalist was reported [*to have resigned|resigning|resigned] the previous day.",
+          "feedback": "Passive reporting with perfect infinitive."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The teacher encouraged the students ____ questions. | *to ask | asking | ask",
+          "feedback": "Encourage + to-infinitive."
+        },
+        {
+          "text": "He apologised ____ late. | *for arriving | to arrive | arriving to",
+          "feedback": "Apologise for + gerund."
+        },
+        {
+          "text": "She reminded me ____ the documents. | *to bring | bring | bringing",
+          "feedback": "Remind + to-infinitive."
+        },
+        {
+          "text": "The company is believed ____ planning major job cuts. | *to be | being | be",
+          "feedback": "Believed to be + -ing."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The witness claimed [*to have seen|seeing|seen] the suspect near the station.",
+          "feedback": "Claim + perfect infinitive."
+        },
+        {
+          "text": "They insisted on [*paying|to pay|pay] for dinner themselves.",
+          "feedback": "Insist on + gerund."
+        },
+        {
+          "text": "He threatened [*to report|reporting|report] them to the police.",
+          "feedback": "Threaten + to-infinitive."
+        },
+        {
+          "text": "She was said [*to be|being|be] one of the best surgeons in the country.",
+          "feedback": "Passive reporting structure."
+        },
+        {
+          "text": "The manager refused [*to discuss|discussing|discuss] salaries in public.",
+          "feedback": "Refuse + to-infinitive."
+        }
+      ]
+    }
+  ]
+}

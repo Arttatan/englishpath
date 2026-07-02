@@ -1,0 +1,79 @@
+{
+  "title": "Museum audio guide",
+  "level": "b2",
+  "section": "listening",
+  "sort_order": 5,
+  "explanation": "<h2>Museum audio guide</h2><p>Listen to part of a museum audio guide.</p><h3>Transcript</h3><p><strong>Guide:</strong> You are now standing in front of the museum's most visited painting. Created in 1889, it captures the artist's view from his room during a difficult period of his life. Notice the thick brushstrokes and intense colours, which were highly unusual at the time. Many visitors are surprised to learn that the work was barely recognised during the artist's lifetime and only became famous after his death.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The painting was created in [*1889|1789|1989].",
+          "feedback": "Created in 1889."
+        },
+        {
+          "text": "It shows the artist's view from his [*room|garden|boat].",
+          "feedback": "View from his room."
+        },
+        {
+          "text": "The style includes thick brushstrokes and intense [*colours|sounds|smells].",
+          "feedback": "Thick brushstrokes and intense colours."
+        },
+        {
+          "text": "The work became famous mainly [*after the artist's death|during his childhood|last year only].",
+          "feedback": "Famous after his death."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "This is the museum's most ____ painting. | *visited | hidden | broken",
+          "feedback": "Most visited."
+        },
+        {
+          "text": "The artist painted during a difficult ____ of his life. | *period | ticket | recipe",
+          "feedback": "Difficult period."
+        },
+        {
+          "text": "The technique was highly ____ at the time. | *unusual | boring | cheap",
+          "feedback": "Highly unusual."
+        },
+        {
+          "text": "Many visitors are ____ by the story. | *surprised | charged | delayed",
+          "feedback": "Surprised to learn."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The guide's purpose is to [*inform visitors about the artwork|sell tickets|discuss sports].",
+          "feedback": "Museum audio guide."
+        },
+        {
+          "text": "The tone is [*educational|angry|sarcastic].",
+          "feedback": "Educational guide."
+        },
+        {
+          "text": "The painting was [*not widely recognised|immediately famous|recently discovered] in the artist's lifetime.",
+          "feedback": "Barely recognised then."
+        },
+        {
+          "text": "Visual features mentioned include brushstrokes and [*colours|music|food].",
+          "feedback": "Colours."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=fSrLeyfk9SM"
+}

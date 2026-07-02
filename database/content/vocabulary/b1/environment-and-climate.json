@@ -1,0 +1,95 @@
+{
+  "title": "Environment and climate",
+  "level": "b1",
+  "section": "vocabulary",
+  "sort_order": 7,
+  "explanation": "<h2>Environment and climate</h2><ul><li>climate words: drought, flood, emissions, renewable energy, habitat</li><li>verbs: reduce, protect, recycle, conserve</li><li>phrases: carbon footprint, global warming</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "This region often suffers from summer ____ because it hardly rains. | *drought | flood | breeze",
+          "feedback": "Drought = long period without rain."
+        },
+        {
+          "text": "Factories are trying to reduce carbon ____. | *emissions | habitats | witnesses",
+          "feedback": "Emissions are gases released into the air."
+        },
+        {
+          "text": "Solar and wind are forms of ____ energy. | *renewable | delayed | furnished",
+          "feedback": "Renewable energy can be replaced naturally."
+        },
+        {
+          "text": "We should ____ natural habitats for wild animals. | *protect | broadcast | promote",
+          "feedback": "Protect habitats."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "flood",
+        "footprint",
+        "conserve",
+        "warming",
+        "habitat",
+        "recycle",
+        "pollution",
+        "renewable",
+        "plastic",
+        "drought"
+      ],
+      "questions": [
+        {
+          "text": "Heavy rain caused a serious ____ in the village. | flood",
+          "feedback": ""
+        },
+        {
+          "text": "Riding a bike can lower your carbon ____. | footprint",
+          "feedback": ""
+        },
+        {
+          "text": "National parks help ____ rare species. | conserve",
+          "feedback": ""
+        },
+        {
+          "text": "Global ____ is changing weather patterns worldwide. | warming",
+          "feedback": ""
+        },
+        {
+          "text": "Many birds lose their ____ when forests disappear. | habitat",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Try to ____ glass, paper and metal whenever possible. | *recycle | delay | resign",
+          "feedback": "Recycle materials."
+        },
+        {
+          "text": "Air ____ can damage human health. | *pollution | promotion | qualification",
+          "feedback": "Pollution affects air quality."
+        },
+        {
+          "text": "We need to cut down on single-use ____. | *plastic | lecture | receipt",
+          "feedback": "Plastic waste is a major issue."
+        },
+        {
+          "text": "A long ____ damaged farmers' crops this year. | *drought | storm | bargain",
+          "feedback": "Drought affects crops."
+        }
+      ]
+    }
+  ]
+}

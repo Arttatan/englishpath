@@ -1,0 +1,43 @@
+{
+  "title": "At the café",
+  "level": "a1",
+  "section": "listening",
+  "sort_order": 2,
+  "audio_url": "https://www.youtube.com/watch?v=8O6272q0Awo",
+  "explanation": "<h2>At the café</h2><p>Listen to a customer ordering at a café.</p><h3>Transcript</h3><p><strong>Waiter:</strong> Good morning. What would you like?<br><strong>Customer:</strong> Can I have a coffee, please?<br><strong>Waiter:</strong> Of course. Anything else?<br><strong>Customer:</strong> Yes, a cheese sandwich, please.<br><strong>Waiter:</strong> OK. That's three pounds fifty.<br><strong>Customer:</strong> Here you are. Thank you.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The customer orders [*coffee|tea|water].", "feedback": "Can I have a coffee, please?" },
+        {"text": "The customer also orders a [*sandwich|salad|cake].", "feedback": "A cheese sandwich."},
+        {"text": "The total is [*£3.50|£2.50|£5.00].", "feedback": "Three pounds fifty."},
+        {"text": "The waiter says [*Good morning|Good night|Goodbye] first.", "feedback": "Good morning."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Listen again and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The customer says: 'Can I ____ a coffee?' | *have | make | go", "feedback": "Can I have..."},
+        {"text": "The sandwich is ____ sandwich. | *cheese | coffee | morning", "feedback": "Cheese sandwich."},
+        {"text": "The customer says ____ you are when paying. | *Here | There | How", "feedback": "Here you are."},
+        {"text": "The customer says ____ at the end. | *Thank you | Please | Sorry", "feedback": "Thank you."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The conversation takes place in a [*café|shop|school].", "feedback": "Ordering coffee and sandwich."},
+        {"text": "The waiter asks if the customer wants [*anything else|to leave|help].", "feedback": "Anything else?" },
+        {"text": "The customer is [*polite|angry|silent].", "feedback": "Uses please and thank you."},
+        {"text": "The customer orders [*two|one|three] drinks.", "feedback": "One coffee."}
+      ]
+    }
+  ]
+}

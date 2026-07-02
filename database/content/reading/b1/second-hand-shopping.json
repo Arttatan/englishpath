@@ -1,0 +1,78 @@
+{
+  "title": "Why second-hand shopping is growing",
+  "level": "b1",
+  "section": "reading",
+  "sort_order": 3,
+  "explanation": "<h2>Why second-hand shopping is growing</h2><p>Buying second-hand clothes and furniture used to be seen by some people as a last resort. Today, it has become much more popular, especially among younger consumers. Some shoppers want to save money, while others are trying to reduce waste and avoid fast fashion. Online marketplaces have also made it easier to find unusual items in good condition. For many people, second-hand shopping now feels both practical and environmentally responsible.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Second-hand shopping is especially popular among [*younger consumers|retired doctors|small children].",
+          "feedback": "The text says younger consumers."
+        },
+        {
+          "text": "People buy second-hand items partly to [*save money|travel faster|learn history].",
+          "feedback": "Saving money is one reason."
+        },
+        {
+          "text": "Online marketplaces make it easier to find [*unusual items|new food|jobs].",
+          "feedback": "Unusual items in good condition."
+        },
+        {
+          "text": "The text links second-hand shopping with [*reducing waste|more pollution|higher salaries].",
+          "feedback": "Environmental responsibility is highlighted."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Second-hand shopping used to be seen as a last ____.  | *resort | minute | chance sale",
+          "feedback": "That phrase appears in the text."
+        },
+        {
+          "text": "Some people want to avoid fast ____.  | *fashion | service | shopping bag",
+          "feedback": "Fast fashion is mentioned."
+        },
+        {
+          "text": "Items can often be found in good ____.  | *condition | salary | attendance",
+          "feedback": "Good condition."
+        },
+        {
+          "text": "For many people, second-hand shopping is practical and environmentally ____.  | *responsible | delayed | formal",
+          "feedback": "Environmentally responsible."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The passage mainly explains [*reasons for a trend|how to open a shop|why furniture is expensive].",
+          "feedback": "It explains why second-hand shopping is growing."
+        },
+        {
+          "text": "The writer's attitude seems [*supportive|mocking|confused].",
+          "feedback": "The final sentence is positive."
+        },
+        {
+          "text": "The text mentions both [*financial and environmental motives|only fashion advice|only charity work].",
+          "feedback": "Both motives appear."
+        },
+        {
+          "text": "The trend is described as [*more common than before|almost finished|limited to one city].",
+          "feedback": "It has become much more popular."
+        }
+      ]
+    }
+  ]
+}

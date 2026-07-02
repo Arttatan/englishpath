@@ -1,0 +1,95 @@
+{
+  "title": "Biotechnology and genetics",
+  "level": "c1",
+  "section": "vocabulary",
+  "sort_order": 8,
+  "explanation": "<h2>Biotechnology and genetics</h2><ul><li>genome, mutation, hereditary, embryo, sequencing</li><li>CRISPR, ethics, therapy, clone, modification</li><li>verbs: engineer, inherit, diagnose, manipulate</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Scientists mapped the entire human ____.  | *genome | genre | gym",
+          "feedback": "Human genome."
+        },
+        {
+          "text": "The rare ____ increases cancer risk. | *mutation | mansion | motion",
+          "feedback": "Genetic mutation."
+        },
+        {
+          "text": "Some conditions are ____ and pass through families. | *hereditary | heroic | harmful only",
+          "feedback": "Hereditary conditions."
+        },
+        {
+          "text": "Gene ____ raises profound ethical questions. | *editing | eating | ending",
+          "feedback": "Gene editing."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "CRISPR",
+        "therapy",
+        "manipulate",
+        "diagnose",
+        "inherit",
+        "embryo",
+        "sequencing",
+        "modification",
+        "clone",
+        "engineer"
+      ],
+      "questions": [
+        {
+          "text": "The lab uses ____ to alter specific DNA sequences. | CRISPR",
+          "feedback": ""
+        },
+        {
+          "text": "Doctors hope gene ____ can treat inherited diseases. | therapy",
+          "feedback": ""
+        },
+        {
+          "text": "Researchers must not ____ data to support a theory. | manipulate",
+          "feedback": ""
+        },
+        {
+          "text": "Tests can ____ disorders before symptoms appear. | diagnose",
+          "feedback": ""
+        },
+        {
+          "text": "Children ____ traits from both parents. | inherit",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "DNA ____ has become faster and cheaper. | *sequencing | seasoning | seating",
+          "feedback": "DNA sequencing."
+        },
+        {
+          "text": "Research on human ____ is tightly regulated. | *embryos | embargo | emblems",
+          "feedback": "Human embryos."
+        },
+        {
+          "text": "Critics fear unsafe genetic ____.  | *modification | motivation | migration",
+          "feedback": "Genetic modification."
+        },
+        {
+          "text": "Scientists can ____ cells to resist certain viruses. | *engineer | enjoy | enroll",
+          "feedback": "Engineer cells."
+        }
+      ]
+    }
+  ]
+}

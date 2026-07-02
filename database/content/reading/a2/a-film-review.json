@@ -1,0 +1,27 @@
+{
+  "title": "A film review",
+  "level": "a2",
+  "section": "reading",
+  "sort_order": 5,
+  "explanation": "<h2>A film review</h2><p><strong>Star Journey</strong> — ★★★★☆</p><p>This new science-fiction film tells the story of a pilot who discovers a new planet. The special effects are amazing and the music is beautiful. Some people think the story is too slow in the middle, but the ending is exciting. I recommend it to anyone who loves space films. Running time: two hours and ten minutes. Certificate: 12A.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "The film is called [*Star Journey|Star Wars|Space Pilot].", "feedback": "Star Journey."},
+      {"text": "The main character is a [*pilot|teacher|doctor].", "feedback": "Story of a pilot."},
+      {"text": "The reviewer gives [*four|five|two] stars out of five.", "feedback": "★★★★☆ = four stars."},
+      {"text": "The film lasts [*2 hours 10 minutes|90 minutes|3 hours].", "feedback": "Two hours and ten minutes."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Read and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "The special effects are ____. | *amazing | slow | boring", "feedback": "Amazing effects."},
+      {"text": "Some people think the story is too ____ in the middle. | *slow | short | loud", "feedback": "Too slow."},
+      {"text": "The ending is ____. | *exciting | sad | quiet", "feedback": "Exciting ending."},
+      {"text": "The reviewer ____ the film. | *recommends | hates | ignores", "feedback": "I recommend it."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "The film genre is [*science fiction|romance|comedy].", "feedback": "Science-fiction."},
+      {"text": "The certificate is [*12A|18|U].", "feedback": "Certificate: 12A."},
+      {"text": "The music is described as [*beautiful|terrible|silent].", "feedback": "Music is beautiful."},
+      {"text": "This text is a [*review|recipe|letter].", "feedback": "Film review."}
+    ]}
+  ]
+}

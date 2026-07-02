@@ -1,0 +1,86 @@
+{
+  "title": "Mixed conditionals",
+  "level": "b1plus",
+  "section": "grammar",
+  "sort_order": 1,
+  "explanation": "<h2>Mixed conditionals</h2><p>Mixed conditionals combine different times in the if-clause and result clause.</p><ul><li><strong>Past condition + present result:</strong> If I had studied medicine, I would be a doctor now.</li><li><strong>Present condition + past result:</strong> If he were more organised, he would not have missed the deadline.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "If I [*had taken|took|would take] that job, I would live abroad now.",
+          "feedback": "Past unreal condition with present result."
+        },
+        {
+          "text": "If she [*were|was|had been] more confident, she would have applied for the role.",
+          "feedback": "Present unreal condition with past result."
+        },
+        {
+          "text": "If we [*had booked|booked|would book] earlier, we would not be paying so much now.",
+          "feedback": "Past decision affects present situation."
+        },
+        {
+          "text": "He would not have failed if he [*were|had been|was] more careful in general.",
+          "feedback": "General present characteristic affects a past result."
+        },
+        {
+          "text": "If they [*had listened|listened|would listen] to the forecast, they would be at home now.",
+          "feedback": "Past action affects present situation."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "If I had not moved to Madrid, I ____ Spanish now. | *would not speak | did not speak | would not have spoken",
+          "feedback": "Past decision affects present ability."
+        },
+        {
+          "text": "If he were less impatient, he ____ so many mistakes yesterday. | *would not have made | would not make | did not make",
+          "feedback": "Present character affects past action."
+        },
+        {
+          "text": "If she had accepted the offer, she ____ in Berlin now. | *would be living | will live | lived",
+          "feedback": "Past choice with present result."
+        },
+        {
+          "text": "If we were better prepared, we ____ the presentation last week. | *would have enjoyed | enjoyed | would enjoy",
+          "feedback": "Present condition affecting a past result."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "If I [*had saved|saved|would save] more money, I could afford that course now.",
+          "feedback": "Past action with present result."
+        },
+        {
+          "text": "She would not have said that if she [*were|had been|is] more diplomatic.",
+          "feedback": "General character affecting past speech."
+        },
+        {
+          "text": "If they [*had not missed|missed|would miss] the train, they would be here by now.",
+          "feedback": "Past missed train causes current absence."
+        },
+        {
+          "text": "If he [*were|had been|was] more ambitious, he would have gone for the promotion.",
+          "feedback": "Present quality with past consequence."
+        },
+        {
+          "text": "We would be less stressed now if we [*had started|started|would start] earlier.",
+          "feedback": "Past choice affects current stress."
+        }
+      ]
+    }
+  ]
+}

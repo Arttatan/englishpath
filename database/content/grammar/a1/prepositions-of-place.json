@@ -1,0 +1,45 @@
+{
+  "title": "Prepositions of place",
+  "level": "a1",
+  "section": "grammar",
+  "sort_order": 9,
+  "explanation": "<h2>Prepositions of place</h2><ul><li><strong>in</strong> — inside (in the room, in London)</li><li><strong>on</strong> — on a surface (on the table, on the wall)</li><li><strong>at</strong> — at a point (at the door, at home, at work)</li><li><strong>under</strong> — below (under the bed)</li><li><strong>next to / beside</strong> — near (next to the bank)</li><li><strong>between</strong> — in the middle of two things</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct preposition.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The cat is [*under|on|at] the table.", "feedback": "Below the table → under."},
+        {"text": "She lives [*in|at|on] Madrid.", "feedback": "Cities → in."},
+        {"text": "There's a picture [*on|in|at] the wall.", "feedback": "Surface → on the wall."},
+        {"text": "I'll meet you [*at|in|on] the station.", "feedback": "Specific point → at the station."},
+        {"text": "The bank is [*next to|between|under] the supermarket.", "feedback": "Beside → next to."},
+        {"text": "He is [*at|in|on] home today.", "feedback": "Fixed phrase: at home."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The keys are ____ my bag. | *in | on | at", "feedback": "Inside → in."},
+        {"text": "She works ____ a hospital. | *at | in | on", "feedback": "At work / at a hospital."},
+        {"text": "The café is ____ the cinema and the library. | *between | next | under", "feedback": "Two things → between."},
+        {"text": "The garden is ____ the house. | *behind | under | between", "feedback": "Behind the house."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct preposition.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "We stayed [*in|at|on] a small hotel.", "feedback": "Inside a building → in."},
+        {"text": "The children are playing [*in|on|at] the garden.", "feedback": "Enclosed area → in the garden."},
+        {"text": "He waited [*at|in|on] the bus stop.", "feedback": "Point → at the bus stop."},
+        {"text": "The TV is [*on|in|at] the shelf.", "feedback": "Surface → on the shelf."},
+        {"text": "They sat [*between|next|under] two friends.", "feedback": "In the middle → between."}
+      ]
+    }
+  ]
+}

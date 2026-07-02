@@ -1,0 +1,30 @@
+{
+  "title": "Sports and fitness",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 10,
+  "explanation": "<h2>Sports and fitness</h2><ul><li><strong>sports:</strong> tennis, volleyball, athletics, martial arts, yoga</li><li><strong>places:</strong> court, pitch, track, pool</li><li><strong>words:</strong> coach, referee, score, draw, beat, train</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "The football match ended in a 2-2 ____. | *draw | score | coach", "feedback": "Draw = equal score."},
+      {"text": "Our team ____ the champions 3-1. | *beat | drew | trained", "feedback": "Beat = win against."},
+      {"text": "The ____ blew the whistle. | *referee | coach | track", "feedback": "Referee."},
+      {"text": "She ____ three times a week for the marathon. | *trains | scores | draws", "feedback": "Train for sport."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["court", "pitch", "pool", "athletics", "coach", "volleyball", "yoga", "score", "track", "tennis"],
+      "questions": [
+        {"text": "They play ____ on the beach. | volleyball", "feedback": ""},
+        {"text": "We swim in the ____. | pool", "feedback": ""},
+        {"text": "The final ____ was 4-0. | score", "feedback": ""},
+        {"text": "She does ____ to relax. | yoga", "feedback": ""},
+        {"text": "He runs on the ____ at the stadium. | track", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "We play football on a ____. | *pitch | court | pool", "feedback": "Football pitch."},
+      {"text": "Basketball is played on a ____. | *court | pitch | track", "feedback": "Court."},
+      {"text": "Our ____ gives us exercises every session. | *coach | referee | score", "feedback": "Coach."},
+      {"text": "She competes in ____ — running and jumping. | *athletics | yoga | volleyball", "feedback": "Athletics."}
+    ]}
+  ]
+}

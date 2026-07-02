@@ -1,0 +1,95 @@
+{
+  "title": "Science and innovation",
+  "level": "b1plus",
+  "section": "vocabulary",
+  "sort_order": 5,
+  "explanation": "<h2>Science and innovation</h2><ul><li>experiment, discovery, evidence, theory, invention</li><li>research, analyse, observe, develop</li><li>phrases: come to a conclusion, carry out research</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The team carried out an ____ to test the new material. | *experiment | agreement | refund",
+          "feedback": "An experiment tests an idea."
+        },
+        {
+          "text": "Scientists need strong ____ before making claims. | *evidence | campaign | agenda",
+          "feedback": "Evidence supports conclusions."
+        },
+        {
+          "text": "Researchers continue to ____ how the disease spreads. | *investigate | broadcast | persuade",
+          "feedback": "Investigate = examine carefully."
+        },
+        {
+          "text": "That medical ____ could save millions of lives. | *discovery | argument | customs",
+          "feedback": "A discovery is a new finding."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "develop",
+        "analyse",
+        "observe",
+        "theory",
+        "conduct",
+        "invention",
+        "laboratory",
+        "research",
+        "conclusion",
+        "evidence"
+      ],
+      "questions": [
+        {
+          "text": "The company wants to ____ a cheaper battery. | develop",
+          "feedback": ""
+        },
+        {
+          "text": "Please ____ the data before writing the report. | analyse",
+          "feedback": ""
+        },
+        {
+          "text": "Astronomers ____ the sky through powerful telescopes. | observe",
+          "feedback": ""
+        },
+        {
+          "text": "The article explains a scientific ____ about climate systems. | theory",
+          "feedback": ""
+        },
+        {
+          "text": "He plans to ____ further research next year. | conduct",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The telephone was once a revolutionary ____. | *invention | promotion | device update",
+          "feedback": "An invention is a new thing created."
+        },
+        {
+          "text": "They work in a modern ____ at the university. | *laboratory | headline | terminal",
+          "feedback": "Laboratory = science workplace."
+        },
+        {
+          "text": "After studying the results, they came to a clear ____. | *conclusion | summary | deadline",
+          "feedback": "Conclusion after analysis."
+        },
+        {
+          "text": "Good science depends on careful ____. | *research | journey | opinion",
+          "feedback": "Research is central to science."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Panel discussion on education",
+  "level": "b2",
+  "section": "listening",
+  "sort_order": 3,
+  "explanation": "<h2>Panel discussion on education</h2><p>Listen to part of a panel discussion.</p><h3>Transcript</h3><p><strong>Speaker 1:</strong> Digital tools can personalise learning, but they cannot replace good teaching.<br><strong>Speaker 2:</strong> I agree, yet many schools still lack reliable internet and trained staff.<br><strong>Speaker 1:</strong> That is why investment in teachers matters as much as investment in software.<br><strong>Speaker 2:</strong> Exactly. Technology should support learning, not become an excuse to cut resources.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Speaker 1 believes digital tools cannot replace [*good teaching|exams|school buildings].",
+          "feedback": "Cannot replace good teaching."
+        },
+        {
+          "text": "Speaker 2 mentions unreliable [*internet|transport|weather].",
+          "feedback": "Lack reliable internet."
+        },
+        {
+          "text": "Both speakers emphasise investment in [*teachers|stadiums|advertising].",
+          "feedback": "Investment in teachers."
+        },
+        {
+          "text": "Technology should not be an excuse to cut [*resources|holidays|sports].",
+          "feedback": "Cut resources."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Digital tools can ____ learning. | *personalise | replace | cancel",
+          "feedback": "Personalise learning."
+        },
+        {
+          "text": "Many schools lack trained ____.  | *staff | buses | menus",
+          "feedback": "Trained staff."
+        },
+        {
+          "text": "Speaker 2 thinks technology should ____ learning. | *support | interrupt | replace",
+          "feedback": "Support learning."
+        },
+        {
+          "text": "The discussion is about education and ____.  | *technology | fashion | cooking",
+          "feedback": "Ed-tech topic."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The speakers largely [*agree|disagree completely|avoid the topic].",
+          "feedback": "They agree on key points."
+        },
+        {
+          "text": "The discussion highlights a gap between ideal tools and real [*infrastructure|tourism|entertainment].",
+          "feedback": "Lack of internet and staff."
+        },
+        {
+          "text": "The tone is [*balanced|aggressive|comic].",
+          "feedback": "Balanced panel discussion."
+        },
+        {
+          "text": "The main warning is against using tech to justify [*fewer resources|more homework|longer holidays].",
+          "feedback": "Excuse to cut resources."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=7y_hbz6lM9E"
+}

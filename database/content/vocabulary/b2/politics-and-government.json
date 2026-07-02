@@ -1,0 +1,95 @@
+{
+  "title": "Politics and government",
+  "level": "b2",
+  "section": "vocabulary",
+  "sort_order": 1,
+  "explanation": "<h2>Politics and government</h2><ul><li>election, parliament, policy, candidate, coalition</li><li>legislation, referendum, opposition, campaign, mandate</li><li>verbs: vote, govern, debate, legislate</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Citizens will vote in the general ____ next month. | *election | platform | receipt",
+          "feedback": "General election."
+        },
+        {
+          "text": "The new ____ aims to reduce carbon emissions by 2030. | *policy | slogan | habit",
+          "feedback": "Government policy."
+        },
+        {
+          "text": "Several parties formed a ____ to stay in power. | *coalition | subscription | runway",
+          "feedback": "Coalition government."
+        },
+        {
+          "text": "The ____ debated the proposed law for hours. | *parliament | laboratory | terminal",
+          "feedback": "Parliament debates legislation."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "candidate",
+        "legislation",
+        "opposition",
+        "campaign",
+        "mandate",
+        "referendum",
+        "debate",
+        "govern",
+        "vote",
+        "policy"
+      ],
+      "questions": [
+        {
+          "text": "Each ____ presented their programme to voters. | candidate",
+          "feedback": ""
+        },
+        {
+          "text": "The government introduced new ____ on data protection. | legislation",
+          "feedback": ""
+        },
+        {
+          "text": "The ____ called for an investigation into the scandal. | opposition",
+          "feedback": ""
+        },
+        {
+          "text": "Activists organised a ____ to raise public support. | campaign",
+          "feedback": ""
+        },
+        {
+          "text": "The president claimed a strong ____ after winning decisively. | mandate",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The country held a ____ on whether to leave the trade bloc. | *referendum | deadline | discount",
+          "feedback": "Referendum = public vote."
+        },
+        {
+          "text": "Politicians often ____ complex issues in televised discussions. | *debate | repair | depart",
+          "feedback": "Debate issues."
+        },
+        {
+          "text": "Elected officials are expected to ____ responsibly. | *govern | commute | subscribe",
+          "feedback": "Govern a country."
+        },
+        {
+          "text": "Every citizen over eighteen has the right to ____. | *vote | charge | queue",
+          "feedback": "Vote in elections."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Passive voice: be + past participle",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 9,
+  "explanation": "<h2>Passive voice (A2)</h2><p><strong>Subject + am/is/are + past participle</strong> (present passive)</p><p><strong>Subject + was/were + past participle</strong> (past passive)</p><ul><li><em>English is spoken all over the world.</em></li><li><em>The window was broken yesterday.</em></li></ul><p>We use passive when the action is more important than who does it.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct passive form.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "English [*is spoken|is speaking|speaks] in many countries.", "feedback": "Present passive: is + past participle."},
+        {"text": "The letters [*were delivered|delivered|were delivering] this morning.", "feedback": "Past passive: were delivered."},
+        {"text": "This song [*was written|wrote|was writing] in 1990.", "feedback": "Was written."},
+        {"text": "The museum [*is visited|visits|is visiting] by thousands of tourists.", "feedback": "Is visited."},
+        {"text": "My phone [*was stolen|stole|was stealing] on the bus.", "feedback": "Was stolen."},
+        {"text": "Rice [*is grown|is growing|grows] in many parts of Asia.", "feedback": "Is grown."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The homework ____ by every student. | *was done | did | was doing", "feedback": "Was done."},
+        {"text": "Spanish ____ in Argentina. | *is spoken | speaks | is speaking", "feedback": "Is spoken."},
+        {"text": "The bridge ____ last year. | *was built | built | was building", "feedback": "Was built."},
+        {"text": "These cars ____ in Germany. | *are made | make | are making", "feedback": "Are made."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct passive form.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The film [*was directed|directed|was directing] by a famous director.", "feedback": "Was directed."},
+        {"text": "Coffee [*is produced|produces|is producing] in Brazil.", "feedback": "Is produced."},
+        {"text": "The windows [*were cleaned|cleaned|were cleaning] yesterday.", "feedback": "Were cleaned."},
+        {"text": "This room [*isn't used|doesn't use|isn't using] very often.", "feedback": "Negative passive."},
+        {"text": "[*Was|Did|Is] the email sent yesterday?", "feedback": "Passive question: Was + subject + past participle."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Academic reporting structures",
+  "level": "c1",
+  "section": "grammar",
+  "sort_order": 5,
+  "explanation": "<h2>Academic reporting structures</h2><p>Report research and views formally without overusing <em>said</em>.</p><ul><li><em>Smith (2020) argues that...</em></li><li><em>It has been widely acknowledged that...</em></li><li><em>The findings are consistent with the hypothesis that...</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Smith (2020) [*argues|tells|speaks] that urban design affects wellbeing.",
+          "feedback": "Argues in academic context."
+        },
+        {
+          "text": "It has been widely [*acknowledged|shouted|guessed] that inequality is rising.",
+          "feedback": "Acknowledged = formally accepted."
+        },
+        {
+          "text": "The findings are [*consistent with|angry with|bored with] earlier studies.",
+          "feedback": "Consistent with."
+        },
+        {
+          "text": "The author [*contends|whispers|runs] that the law should be revised.",
+          "feedback": "Contends = argues strongly."
+        },
+        {
+          "text": "These results [*lend support to|borrow money from|run away from] the original hypothesis.",
+          "feedback": "Lend support to."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Previous research ____ that sleep deprivation impairs judgement. | *suggests | yells | dances",
+          "feedback": "Research suggests."
+        },
+        {
+          "text": "The data do not necessarily ____ a causal link. | *establish | celebrate | paint",
+          "feedback": "Establish a link."
+        },
+        {
+          "text": "Critics have ____ the methodology used in the study. | *questioned | sung | cooked",
+          "feedback": "Questioned methodology."
+        },
+        {
+          "text": "The paper ____ several limitations of the current model. | *identifies | hides | forgets",
+          "feedback": "Identifies limitations."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "According [*to the latest review|with the latest review|on the latest review], the trend is accelerating.",
+          "feedback": "According to."
+        },
+        {
+          "text": "The study [*draws attention to|draws pictures of|draws water from] gaps in existing policy.",
+          "feedback": "Draws attention to."
+        },
+        {
+          "text": "It is [*widely held|narrowly held|never held] that education reduces poverty.",
+          "feedback": "Widely held view."
+        },
+        {
+          "text": "The evidence [*points to|points at the sky|points away from] structural causes.",
+          "feedback": "Points to."
+        },
+        {
+          "text": "The researchers [*attribute the decline to|attribute the decline with|attribute to decline] several factors.",
+          "feedback": "Attribute X to Y."
+        }
+      ]
+    }
+  ]
+}

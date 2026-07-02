@@ -1,0 +1,45 @@
+{
+  "title": "Future: will vs going to",
+  "level": "a1",
+  "section": "grammar",
+  "sort_order": 7,
+  "explanation": "<h2>Talking about the future</h2><p><strong>Going to</strong> — plans and intentions: <em>I'm going to study medicine.</em></p><p><strong>Will</strong> — spontaneous decisions and predictions: <em>I'll help you.</em> <em>It will rain.</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*am going to visit|'ll visit|visit] my aunt next month.", "feedback": "Plan → going to."},
+        {"text": "It's cold. I [*'ll close|am going to close|close] the window.", "feedback": "Spontaneous decision → will."},
+        {"text": "She [*is going to start|'ll starting|starts] a new job in September.", "feedback": "Plan → is going to start."},
+        {"text": "Don't worry — I [*'ll help|am helping|help] you.", "feedback": "Offer → will."},
+        {"text": "Look at those clouds! It [*is going to rain|'ll rain|rains].", "feedback": "Evidence now → going to."},
+        {"text": "We [*aren't going to buy|won't buying|don't buy] a car this year.", "feedback": "Negative plan → aren't going to."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "A: The phone is ringing. B: I ____ it. | *will answer | am going to answer | answer", "feedback": "Spontaneous → will answer."},
+        {"text": "They ____ married in June. | *are going to get | will getting | get", "feedback": "Plan → are going to get."},
+        {"text": "I think Real Madrid ____ the match. | *will win | is winning | wins", "feedback": "Prediction → will win."},
+        {"text": "She ____ study abroad next year. | *is going to | will to | goes to", "feedback": "Plan → is going to."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "We [*are going to move|'ll move|move] house soon.", "feedback": "Plan → going to."},
+        {"text": "I [*won't be|am not|don't] late, I promise.", "feedback": "Promise → won't."},
+        {"text": "He [*is going to learn|'ll learn|learns] to drive.", "feedback": "Intention → going to learn."},
+        {"text": "This bag looks heavy. I [*'ll carry|carry|am carrying] it for you.", "feedback": "Spontaneous offer → I'll carry."},
+        {"text": "They [*are going to have|'ll have|have] a party on Saturday.", "feedback": "Arranged plan → going to."}
+      ]
+    }
+  ]
+}

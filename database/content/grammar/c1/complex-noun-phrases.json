@@ -1,0 +1,86 @@
+{
+  "title": "Complex noun phrases",
+  "level": "c1",
+  "section": "grammar",
+  "sort_order": 3,
+  "explanation": "<h2>Complex noun phrases</h2><p>C1 writers pack information into noun phrases using pre-modifiers and post-modifiers.</p><ul><li><em>the recently published government report on climate policy</em></li><li><em>a highly controversial decision taken by the board</em></li><li><em>the extent to which regulations are enforced</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Choose the most natural phrase: [*the government's recently published climate report|the climate report government published recent|recent climate government report published].",
+          "feedback": "Natural pre- and post-modification."
+        },
+        {
+          "text": "[*The extent to which|The extent which|The extent in which] regulations are enforced remains unclear.",
+          "feedback": "The extent to which."
+        },
+        {
+          "text": "A [*widely accepted|accepted widely|accepting wide] theory explains the phenomenon.",
+          "feedback": "Adverb before participle as pre-modifier."
+        },
+        {
+          "text": "[*A decision taken by the board|A taken decision by board|Decision by board taken] surprised investors.",
+          "feedback": "Post-modifier with past participle."
+        },
+        {
+          "text": "The [*analysis of long-term economic trends|analysis long-term of trends economic|long-term trends analysis economic of] informed the policy.",
+          "feedback": "Natural noun phrase."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "We need a more detailed ____ of the risks involved. | *assessment | assess | assessing",
+          "feedback": "Assessment as head noun."
+        },
+        {
+          "text": "The committee discussed the ____ to which funding should increase. | *extent | extend | extensive",
+          "feedback": "Extent to which."
+        },
+        {
+          "text": "This is a highly ____ proposal with serious implications. | *contentious | content | contently",
+          "feedback": "Contentious pre-modifies proposal."
+        },
+        {
+          "text": "The report contains an ____ of recent migration patterns. | *overview | oversee | overseen",
+          "feedback": "Overview of patterns."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*The factors influencing public trust|The factors public trust influencing|Influencing factors public trust] are complex.",
+          "feedback": "Factors + post-modifying -ing clause."
+        },
+        {
+          "text": "[*A strategy designed to reduce waste|A designed strategy to waste reduce|Strategy reduce designed waste] was adopted.",
+          "feedback": "Designed to reduce as post-modifier."
+        },
+        {
+          "text": "[*The degree of public support|The degree public support of|The public degree support of] surprised analysts.",
+          "feedback": "Degree of public support."
+        },
+        {
+          "text": "[*An approach favoured by many experts|An favoured approach by experts many|Approach by favoured experts] gained attention.",
+          "feedback": "Favoured by experts."
+        },
+        {
+          "text": "[*The implications of the ruling|The implications the ruling of|Of implications the ruling] are still debated.",
+          "feedback": "Implications of the ruling."
+        }
+      ]
+    }
+  ]
+}

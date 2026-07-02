@@ -1,0 +1,78 @@
+{
+  "title": "The rise of remote work",
+  "level": "b1",
+  "section": "reading",
+  "sort_order": 1,
+  "explanation": "<h2>The rise of remote work</h2><p>In the past, most office workers had to travel to work every day. Today, many companies allow at least part of the week to be spent working from home. Supporters say remote work saves time, reduces commuting stress and helps people balance family life with work. However, critics argue that it can make teamwork harder and may leave some people feeling isolated. Experts suggest that the most successful companies combine flexible working with regular face-to-face meetings.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Remote work can reduce [*commuting stress|holiday costs|crime].",
+          "feedback": "The text mentions commuting stress."
+        },
+        {
+          "text": "Some critics believe remote work makes [*teamwork harder|pay higher|cities quieter].",
+          "feedback": "That is one criticism."
+        },
+        {
+          "text": "Workers may feel [*isolated|more athletic|richer] when working remotely.",
+          "feedback": "Isolation is mentioned."
+        },
+        {
+          "text": "Experts recommend combining flexibility with [*face-to-face meetings|shorter holidays|more travel].",
+          "feedback": "That is the suggested solution."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "In the past, most office workers had to ____ to work every day. | *travel | apply | retire",
+          "feedback": "They had to travel in daily."
+        },
+        {
+          "text": "Remote work can help people ____ family life with work. | *balance | replace | cancel",
+          "feedback": "Balance family life with work."
+        },
+        {
+          "text": "The most successful companies often use a ____ approach. | *mixed | silent | strictly remote only",
+          "feedback": "The text supports a combination."
+        },
+        {
+          "text": "The article presents both ____ and disadvantages. | *benefits | broadcasts | platforms",
+          "feedback": "It gives both sides."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The main purpose of the text is to [*discuss a trend|sell software|describe one employee].",
+          "feedback": "It discusses remote work in general."
+        },
+        {
+          "text": "The writer sounds [*balanced|angry|completely negative].",
+          "feedback": "Both benefits and drawbacks are shown."
+        },
+        {
+          "text": "Remote work is presented as [*popular but not perfect|impossible for most jobs|only useful for managers].",
+          "feedback": "That summarises the passage."
+        },
+        {
+          "text": "The passage is mainly about [*working life|sport|medicine].",
+          "feedback": "It focuses on work."
+        }
+      ]
+    }
+  ]
+}

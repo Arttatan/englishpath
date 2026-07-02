@@ -1,0 +1,79 @@
+{
+  "title": "School careers event",
+  "level": "b1plus",
+  "section": "listening",
+  "sort_order": 5,
+  "explanation": "<h2>School careers event</h2><p>Listen to an announcement at a school careers event.</p><h3>Transcript</h3><p><strong>Speaker:</strong> Welcome to our annual careers afternoon. Today you can attend talks on engineering, nursing, journalism and software development. Please check the timetable on the noticeboard. The first sessions start at 1:30 in rooms 12, 14, 18 and 20. If you would like one-to-one advice, career advisers will be available in the library after 3 p.m.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The event offers talks on [*four|two|six] career areas.",
+          "feedback": "Engineering, nursing, journalism and software development."
+        },
+        {
+          "text": "The first sessions start at [*1:30|3:00|12:30].",
+          "feedback": "The first sessions start at 1:30."
+        },
+        {
+          "text": "One-to-one advice will be in the [*library|hall|canteen].",
+          "feedback": "Advice in the library."
+        },
+        {
+          "text": "The event happens in a [*school|hospital|company office].",
+          "feedback": "A school careers afternoon."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Students should check the ____ on the noticeboard. | *timetable | budget | recipe",
+          "feedback": "Timetable tells them where and when."
+        },
+        {
+          "text": "Career advisers will be available after ____ p.m. | *3 | 2 | 4",
+          "feedback": "After 3 p.m."
+        },
+        {
+          "text": "One of the sessions is about ____ development. | *software | budget | social",
+          "feedback": "Software development."
+        },
+        {
+          "text": "The event is held every year, so it is ____. | *annual | casual | private",
+          "feedback": "Annual means yearly."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The purpose of the message is to [*give practical event information|advertise a film|discuss exam results].",
+          "feedback": "It gives time and location details."
+        },
+        {
+          "text": "The speaker expects students to [*move between sessions|stay in one room all day|go home early].",
+          "feedback": "They can attend talks in different rooms."
+        },
+        {
+          "text": "The tone is [*informative|emotional|critical].",
+          "feedback": "It is a clear announcement."
+        },
+        {
+          "text": "Students who want personal advice should wait until [*after three|half past one|lunchtime].",
+          "feedback": "After 3 p.m."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=fSrLeyfk9SM"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Writing a story",
+  "level": "a2",
+  "section": "writing",
+  "sort_order": 2,
+  "explanation": "<h2>Writing a short story (A2)</h2><p>Use past tenses to tell a sequence of events:</p><ul><li>Set the scene: <em>Last summer, …</em></li><li>Use <strong>past simple</strong> for main events</li><li>Use <strong>past continuous</strong> for background: <em>I was walking when …</em></li><li>End with a comment or feeling</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the best sentence for a story.", "type": "inline_choice", "questions": [
+      {"text": "Opening: [*Last year, I went on holiday to Spain.|Last year, I go holiday Spain.|Holiday Spain last year I go.]", "feedback": "Past simple opening."},
+      {"text": "Background: [*It was raining when we arrived.|It rained when we arriving.|Rain when arrive.]", "feedback": "Past continuous + past simple."},
+      {"text": "Sequence: [*First we checked in. Then we explored the city.|First check in. Explore city. Then.]", "feedback": "First… Then…"},
+      {"text": "Ending: [*It was the best holiday ever.|Best holiday. The end. Finish.]", "feedback": "Personal comment."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct form.", "type": "lettered_gap", "questions": [
+      {"text": "While I ____, I met an old friend. | *was shopping | shopped | shop", "feedback": "Was shopping."},
+      {"text": "Suddenly, the lights ____ out. | *went | were going | go", "feedback": "Past simple event."},
+      {"text": "We ____ very tired but happy. | *were | was | are", "feedback": "We were."},
+      {"text": "In the end, everything ____ fine. | *was | were | is", "feedback": "Everything was."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Choose the best option.", "type": "inline_choice", "questions": [
+      {"text": "[*After that, we decided to go home.|After home go we.|That after home.]", "feedback": "After that…"},
+      {"text": "[*We didn't expect the ending.|We not expect ending.|Expect not ending we.]", "feedback": "Past negative."},
+      {"text": "[*Luckily, nobody was hurt.|Luckily hurt nobody was not.|Hurt nobody.]", "feedback": "Luckily + past."},
+      {"text": "Linking word for contrast: [*However,|And but|So because]", "feedback": "However for contrast."}
+    ]}
+  ]
+}

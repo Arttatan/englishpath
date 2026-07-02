@@ -1,0 +1,95 @@
+{
+  "title": "Architecture and urban design",
+  "level": "c1",
+  "section": "vocabulary",
+  "sort_order": 6,
+  "explanation": "<h2>Architecture and urban design</h2><ul><li>facade, blueprint, sustainability, zoning, renovation</li><li>pedestrianisation, skyline, heritage, infrastructure, density</li><li>verbs: refurbish, integrate, preserve, construct</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The building's glass ____ reflects the historic square. | *facade | factor | failure",
+          "feedback": "Facade."
+        },
+        {
+          "text": "City planners debated new ____ rules for high-rise blocks. | *zoning | zooming | zoning only",
+          "feedback": "Zoning regulations."
+        },
+        {
+          "text": "The project prioritised environmental ____.  | *sustainability | suitability | supervision",
+          "feedback": "Sustainability."
+        },
+        {
+          "text": "Population ____ affects transport and housing demand. | *density | destiny | dignity",
+          "feedback": "Urban density."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "blueprint",
+        "pedestrianisation",
+        "refurbish",
+        "integrate",
+        "heritage",
+        "skyline",
+        "infrastructure",
+        "renovation",
+        "construct",
+        "preserve"
+      ],
+      "questions": [
+        {
+          "text": "Architects worked from an original ____.  | blueprint",
+          "feedback": ""
+        },
+        {
+          "text": "The council approved ____ of the riverfront. | pedestrianisation",
+          "feedback": ""
+        },
+        {
+          "text": "Engineers will ____ the nineteenth-century theatre. | refurbish",
+          "feedback": ""
+        },
+        {
+          "text": "The design seeks to ____ green space into the district. | integrate",
+          "feedback": ""
+        },
+        {
+          "text": "Laws protect buildings of cultural ____.  | heritage",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The city's ____ changed dramatically after the tower opened. | *skyline | skylight | skill line",
+          "feedback": "Skyline."
+        },
+        {
+          "text": "Reliable ____ supports economic growth. | *infrastructure | instruction | insurance",
+          "feedback": "Infrastructure."
+        },
+        {
+          "text": "They plan to ____ the landmark rather than demolish it. | *preserve | prevent | predict",
+          "feedback": "Preserve a landmark."
+        },
+        {
+          "text": "The firm will ____ a new cultural centre by 2028. | *construct | conduct | contact",
+          "feedback": "Construct a building."
+        }
+      ]
+    }
+  ]
+}

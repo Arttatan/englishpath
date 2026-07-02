@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson — EnglishPath</title>
+  <meta name="description" content="English lesson with exercises, explanation and practice." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: { DEFAULT: "#d63384", dark: "#b82a6f" } } } } };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <header class="sticky top-0 z-50 border-b border-gray-100 bg-white/90 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="grid h-9 w-9 place-items-center rounded-lg bg-brand text-white font-extrabold">E</span>
+        <span class="text-lg font-extrabold tracking-tight" data-brand>EnglishPath</span>
+      </a>
+      <nav class="hidden items-center gap-1 md:flex">
+        <a href="index.html#levels" class="rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100">Levels</a>
+        <div id="auth-desktop" class="flex items-center gap-1"></div>
+      </nav>
+      <button id="burger" class="rounded-md p-2 text-gray-700 hover:bg-gray-100 md:hidden" aria-label="Menu">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-gray-100 bg-white px-4 py-3 md:hidden">
+      <div id="auth-mobile"></div>
+    </div>
+  </header>
+
+  <!-- Title bar (test-english style) -->
+  <div class="bg-brand py-4 text-white">
+    <div class="mx-auto max-w-3xl px-4">
+      <p id="lesson-banner" class="text-center text-sm font-bold uppercase tracking-widest">A1 English Grammar</p>
+    </div>
+  </div>
+
+  <article class="mx-auto max-w-3xl px-4 py-8">
+    <nav class="mb-4 text-sm text-gray-500">
+      <a href="index.html" class="hover:text-brand">Home</a>
+      <span class="mx-1">/</span>
+      <a id="breadcrumb-level" href="#" class="hover:text-brand">A1</a>
+      <span class="mx-1">/</span>
+      <a id="breadcrumb-section" href="#" class="hover:text-brand">Grammar</a>
+    </nav>
+
+    <h1 id="lesson-title" class="text-2xl font-extrabold text-brand md:text-3xl">Loading…</h1>
+    <p id="status" class="mt-2 text-sm text-gray-400"></p>
+
+    <!-- Main tabs: Exercises | Explanation | Downloads -->
+    <div class="te-tabs mt-8 flex border-b border-gray-200">
+      <button type="button" data-tab="exercises" class="te-tab te-tab-active">Exercises</button>
+      <button type="button" data-tab="explanation" class="te-tab">Explanation</button>
+      <button type="button" data-tab="downloads" class="te-tab">Downloads</button>
+    </div>
+
+    <!-- Exercises panel -->
+    <div id="panel-exercises" class="mt-6">
+      <div id="exercise-nav" class="mb-4 flex flex-wrap items-center gap-2 text-sm">
+        <span class="font-semibold text-gray-700">Exercises:</span>
+      </div>
+
+      <div id="exercise-card" class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
+        <h2 id="exercise-title" class="text-xl font-bold text-brand">Exercise 1</h2>
+        <div id="exercise-instructions" class="te-instruction-box mt-4"></div>
+        <ol id="questions-list" class="mt-8 space-y-10"></ol>
+
+        <div class="mt-10 flex flex-col items-center gap-4 border-t border-gray-100 pt-8">
+          <button id="check-btn" type="button" class="te-check-btn">Check</button>
+          <div id="score-box" class="hidden w-full max-w-lg"></div>
+          <button id="next-btn" type="button" class="te-next-btn hidden">Continue to next exercise →</button>
+        </div>
+      </div>
+
+      <div id="exercise-nav-bottom" class="te-ex-nav-bottom mt-6 flex flex-wrap items-center justify-center gap-2 text-sm"></div>
+    </div>
+
+    <!-- Explanation panel -->
+    <div id="panel-explanation" class="mt-6 hidden">
+      <div class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
+        <div id="lesson-explanation" class="lesson-content"></div>
+        <div id="lesson-media" class="mt-6 hidden"></div>
+      </div>
+    </div>
+
+    <!-- Downloads panel -->
+    <div id="panel-downloads" class="mt-6 hidden">
+      <div class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm text-center">
+        <p class="text-gray-600">Download a PDF version of this lesson for offline practice.</p>
+        <a id="pdf-link" href="#" target="_blank" rel="noopener"
+           class="mt-4 inline-block hidden rounded-lg bg-brand px-6 py-3 text-sm font-semibold text-white hover:bg-brand-dark">
+          Download PDF
+        </a>
+        <p id="pdf-placeholder" class="mt-4 text-sm text-gray-400">PDF not available for this lesson yet.</p>
+      </div>
+    </div>
+  </article>
+
+  <footer class="border-t border-gray-100 bg-white">
+    <div class="mx-auto max-w-6xl px-4 py-8 text-center text-xs text-gray-400">
+      © <span id="year">2026</span> <span data-brand>EnglishPath</span>. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/exercise-engine.js"></script>
+  <script src="js/lesson.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "title": "Comparatives and superlatives",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 6,
+  "explanation": "<h2>Comparatives and superlatives (A2)</h2><p><strong>Short adjectives:</strong> cheap → cheaper → the cheapest; big → bigger → the biggest</p><p><strong>Long adjectives:</strong> expensive → more expensive → the most expensive</p><p><strong>Irregular:</strong> good → better → the best; bad → worse → the worst</p><p>Use <em>than</em> with comparatives: <em>She is taller than me.</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct form.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "This hotel is [*more expensive|expensiver|most expensive] than that one.", "feedback": "Long adjective → more expensive."},
+        {"text": "It was [*the worst|worse|bad] film I've ever seen.", "feedback": "Superlative of bad → the worst."},
+        {"text": "My room is [*bigger|biggest|more big] than yours.", "feedback": "Short adjective → bigger."},
+        {"text": "She is [*the best|better|good] student in the class.", "feedback": "Superlative of good → the best."},
+        {"text": "Today is [*hotter|hottest|more hot] than yesterday.", "feedback": "Hot → hotter."},
+        {"text": "English is [*easier|easiest|more easy] than Chinese for me.", "feedback": "Easy → easier."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "London is ____ than my town. | *busier | busiest | more busy", "feedback": "Comparing two → busier."},
+        {"text": "That was ____ meal of the holiday. | *the nicest | nicer | nice", "feedback": "Superlative → the nicest."},
+        {"text": "He runs ____ than his brother. | *faster | fastest | more fast", "feedback": "Fast → faster."},
+        {"text": "This exercise is ____ than the last one. | *more difficult | difficulter | most difficult", "feedback": "Long adjective → more difficult."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct form.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Mount Everest is [*the highest|higher|high] mountain in the world.", "feedback": "Superlative with the."},
+        {"text": "I feel [*better|good|best] today, thanks.", "feedback": "Comparative of well/good → better."},
+        {"text": "Her car is [*older|oldest|more old] than mine.", "feedback": "Old → older."},
+        {"text": "This is [*the most interesting|more interesting|interestinger] book here.", "feedback": "Superlative long adj."},
+        {"text": "My flat is [*smaller|smallest|more small] but it's cheaper.", "feedback": "Comparative → smaller."}
+      ]
+    }
+  ]
+}

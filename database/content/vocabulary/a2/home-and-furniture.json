@@ -1,0 +1,30 @@
+{
+  "title": "Home and furniture",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 8,
+  "explanation": "<h2>Home and furniture</h2><ul><li><strong>rooms:</strong> attic, basement, utility room, landing</li><li><strong>furniture:</strong> wardrobe, chest of drawers, armchair, cushion, rug</li><li><strong>verbs:</strong> furnish, decorate, renovate, tidy up</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "I keep my clothes in the ____. | *wardrobe | rug | landing", "feedback": "Wardrobe."},
+      {"text": "We sat on the comfortable ____. | *armchair | attic | renovate", "feedback": "Armchair."},
+      {"text": "The ____ is upstairs between the bedrooms. | *landing | basement | cushion", "feedback": "Landing."},
+      {"text": "We want to ____ the kitchen next year. | *renovate | furnish | tidy", "feedback": "Renovate."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["attic", "rug", "chest of drawers", "decorate", "basement", "cushion", "shelf", "curtain", "furnish", "utility room"],
+      "questions": [
+        {"text": "We store old boxes in the ____. | attic", "feedback": ""},
+        {"text": "There's a nice ____ on the floor. | rug", "feedback": ""},
+        {"text": "We need to ____ the living room — new paint and pictures. | decorate", "feedback": ""},
+        {"text": "The washing machine is in the ____. | utility room", "feedback": ""},
+        {"text": "Put the books on the ____. | shelf", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "Please ____ up your room before guests arrive. | *tidy | furnish | renovate", "feedback": "Tidy up."},
+      {"text": "The ____ keeps the light out. | *curtain | cushion | attic", "feedback": "Curtain."},
+      {"text": "Our flat is fully ____. | *furnished | decorated | tidied", "feedback": "Furnished."},
+      {"text": "Socks are in the ____ in the bedroom. | *chest of drawers | basement | rug", "feedback": "Chest of drawers."}
+    ]}
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 3",
+  "level": "b2",
+  "section": "use-of-english",
+  "sort_order": 3,
+  "explanation": "<h2>Use of English - B2 Test 3</h2><p>Final mixed review.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "She got her passport [*renewed|renew|renewing] in one day.",
+          "feedback": "Get + object + past participle."
+        },
+        {
+          "text": "The politician was reported [*to have resigned|resigning|resign] last week.",
+          "feedback": "Reported to have resigned."
+        },
+        {
+          "text": "It is vital that the data [*remain|remains|remained] confidential.",
+          "feedback": "Subjunctive remain."
+        },
+        {
+          "text": "I haven't read the report, and neither [*has|have|do] my assistant.",
+          "feedback": "Neither has."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The artist's latest work is considered a ____.  | *masterpiece | master | mastering",
+          "feedback": "Masterpiece."
+        },
+        {
+          "text": "Governments must reduce carbon ____.  | *emissions | emit | emitted",
+          "feedback": "Carbon emissions."
+        },
+        {
+          "text": "The lecture focused on urban ____.  | *planning | plan | planned",
+          "feedback": "Urban planning."
+        },
+        {
+          "text": "Good leaders know how to ____ teams under pressure. | *motivate | motivation | motivated",
+          "feedback": "Motivate teams."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Only by working together [*can|we can|could] we solve the problem.",
+          "feedback": "Only by ... can we."
+        },
+        {
+          "text": "He [*must have misunderstood|can't have misunderstood|should misunderstand] the instructions.",
+          "feedback": "Strong past deduction."
+        },
+        {
+          "text": "I'd prefer the blue jacket rather than the black [*one|ones|it].",
+          "feedback": "One substitutes jacket."
+        },
+        {
+          "text": "The doctor recommended that she [*rest|rests|rested] for several days.",
+          "feedback": "Recommend that + base form."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Cleft sentences",
+  "level": "b2",
+  "section": "grammar",
+  "sort_order": 3,
+  "explanation": "<h2>Cleft sentences</h2><p>Cleft sentences emphasise one part of a sentence.</p><ul><li><strong>It is/was ... that/who:</strong> It was Maria who solved the problem.</li><li><strong>What ... is/was:</strong> What I need is a short break.</li><li><strong>All ... is/was:</strong> All I want is an honest answer.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "It [*was|is|were] the manager who made the final decision.",
+          "feedback": "Past emphasis with It was ... who."
+        },
+        {
+          "text": "[*What|That|Which] surprised me most was her confidence.",
+          "feedback": "What-clause for emphasis."
+        },
+        {
+          "text": "It [*is|was|are] honesty that matters most in this job.",
+          "feedback": "It is ... that emphasises honesty."
+        },
+        {
+          "text": "[*All|Every|Each] I asked for was five more minutes.",
+          "feedback": "All I asked for."
+        },
+        {
+          "text": "It [*was|is|were] in 2019 that the company expanded abroad.",
+          "feedback": "Emphasis on time."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "It was the poor lighting ____ made photography difficult. | *that | who | where",
+          "feedback": "Thing, not person."
+        },
+        {
+          "text": "What we need now ____ a clear plan. | *is | are | was",
+          "feedback": "What we need is ..."
+        },
+        {
+          "text": "It was Julia ____ recommended the software. | *who | which | where",
+          "feedback": "Person: who."
+        },
+        {
+          "text": "All he wanted ____ to be left alone. | *was | were | is",
+          "feedback": "All he wanted was ..."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "It [*was|is|were] because of the storm that the flight was cancelled.",
+          "feedback": "Reason emphasised with It was because ..."
+        },
+        {
+          "text": "[*What|That|Which] I cannot understand is their silence.",
+          "feedback": "What-clause as subject."
+        },
+        {
+          "text": "It [*is|was|are] your attitude that worries me.",
+          "feedback": "Emphasis on attitude."
+        },
+        {
+          "text": "[*All|Every|Both] she did was smile and walk away.",
+          "feedback": "All she did was ..."
+        },
+        {
+          "text": "It [*was|is|were] the first edition that collectors value most.",
+          "feedback": "Emphasis on object."
+        }
+      ]
+    }
+  ]
+}

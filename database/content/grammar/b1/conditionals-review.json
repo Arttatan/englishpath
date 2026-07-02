@@ -1,0 +1,86 @@
+{
+  "title": "Conditionals review",
+  "level": "b1",
+  "section": "grammar",
+  "sort_order": 8,
+  "explanation": "<h2>Conditionals review</h2><p>Use the zero conditional for facts, the first conditional for real future possibilities, the second conditional for imaginary present or future situations, and the third conditional for unreal past situations.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "If you heat water to 100C, it [*boils|will boil|would boil].",
+          "feedback": "Zero conditional for scientific facts."
+        },
+        {
+          "text": "If she studies hard, she [*will pass|would pass|passes] the exam.",
+          "feedback": "First conditional."
+        },
+        {
+          "text": "If I were taller, I [*would play|will play|played] basketball.",
+          "feedback": "Second conditional."
+        },
+        {
+          "text": "If they had left earlier, they [*would have caught|would catch|caught] the train.",
+          "feedback": "Third conditional."
+        },
+        {
+          "text": "If you [*press|will press|pressed] this button, the machine starts.",
+          "feedback": "Zero conditional."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "If I ____ more time, I would travel more. | *had | have | will have",
+          "feedback": "Second conditional if-clause."
+        },
+        {
+          "text": "If he had listened, he ____ that mistake. | *would not have made | will not make | did not make",
+          "feedback": "Third conditional result."
+        },
+        {
+          "text": "If the weather is nice, we ____ to the beach. | *will go | would go | go",
+          "feedback": "First conditional result."
+        },
+        {
+          "text": "If babies are hungry, they ____ . | *cry | will cry | would cry",
+          "feedback": "General truth."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "If I [*had known|knew|would know] about the meeting, I would have come.",
+          "feedback": "Third conditional."
+        },
+        {
+          "text": "We [*will stay|would stay|stayed] inside if the storm gets worse.",
+          "feedback": "First conditional."
+        },
+        {
+          "text": "If she [*were|was|is] more confident, she would speak in public.",
+          "feedback": "Second conditional form."
+        },
+        {
+          "text": "If you mix yellow and blue, you [*get|will get|would get] green.",
+          "feedback": "Zero conditional result."
+        },
+        {
+          "text": "They would be happier if they [*lived|live|had lived] closer to their family.",
+          "feedback": "Second conditional."
+        }
+      ]
+    }
+  ]
+}

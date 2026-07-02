@@ -1,0 +1,95 @@
+{
+  "title": "Corporate governance",
+  "level": "c1",
+  "section": "vocabulary",
+  "sort_order": 5,
+  "explanation": "<h2>Corporate governance</h2><ul><li>shareholder, accountability, compliance, audit, fiduciary</li><li>board, transparency, misconduct, stakeholder, oversight</li><li>verbs: delegate, disclose, regulate, scrutinise</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The scandal raised questions about executive ____.  | *accountability | ability | availability",
+          "feedback": "Accountability."
+        },
+        {
+          "text": "____ require accurate financial reporting. | *Shareholders | Shareholds | Sharing",
+          "feedback": "Shareholders."
+        },
+        {
+          "text": "The firm failed ____ with safety regulations. | *compliance | complaint | compliment",
+          "feedback": "Compliance."
+        },
+        {
+          "text": "Independent ____ reviewed the company's accounts. | *auditors | authors | actors",
+          "feedback": "Auditors."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "fiduciary",
+        "transparency",
+        "scrutinise",
+        "disclose",
+        "delegate",
+        "oversight",
+        "stakeholder",
+        "misconduct",
+        "board",
+        "regulate"
+      ],
+      "questions": [
+        {
+          "text": "Directors have a ____ duty to act in the firm's interest. | fiduciary",
+          "feedback": ""
+        },
+        {
+          "text": "The report calls for greater ____ in public spending. | transparency",
+          "feedback": ""
+        },
+        {
+          "text": "Regulators will ____ the merger closely. | scrutinise",
+          "feedback": ""
+        },
+        {
+          "text": "Managers must ____ conflicts of interest. | disclose",
+          "feedback": ""
+        },
+        {
+          "text": "The board decided to ____ more authority to regional heads. | delegate",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Strong ____ helps prevent fraud. | *oversight | overview | overtime",
+          "feedback": "Oversight."
+        },
+        {
+          "text": "Employees are important ____ in any reform. | *stakeholders | stockholders only | strangers",
+          "feedback": "Stakeholders."
+        },
+        {
+          "text": "Alleged financial ____ is under investigation. | *misconduct | misconnect | misplace",
+          "feedback": "Misconduct."
+        },
+        {
+          "text": "Governments ____ industries to protect consumers. | *regulate | recycle | resign",
+          "feedback": "Regulate industries."
+        }
+      ]
+    }
+  ]
+}

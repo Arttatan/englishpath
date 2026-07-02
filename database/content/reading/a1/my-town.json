@@ -1,0 +1,42 @@
+{
+  "title": "My town",
+  "level": "a1",
+  "section": "reading",
+  "sort_order": 4,
+  "explanation": "<h2>My town</h2><p>Read the text.</p><p>I live in a small town near the sea. There is a library, a supermarket and two cafés. There isn't a cinema, but there is a beautiful park. Many tourists visit in summer. The people are friendly and life is quiet. I like living here.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The town is near the [*sea|mountains|desert].", "feedback": "Near the sea."},
+        {"text": "There [*isn't|is|are] a cinema.", "feedback": "There isn't a cinema."},
+        {"text": "There are [*two|one|three] cafés.", "feedback": "Two cafés."},
+        {"text": "Many tourists visit in [*summer|winter|spring].", "feedback": "Visit in summer."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Read the text and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "There is a beautiful ____. | *park | cinema | sea", "feedback": "Beautiful park."},
+        {"text": "The people are ____. | *friendly | noisy | angry", "feedback": "People are friendly."},
+        {"text": "Life is ____. | *quiet | loud | bad", "feedback": "Life is quiet."},
+        {"text": "There is a ____ and a supermarket. | *library | park | tourist", "feedback": "A library."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The writer likes [*living|leaving|working] there.", "feedback": "I like living here."},
+        {"text": "The town is [*small|huge|empty].", "feedback": "Small town."},
+        {"text": "The text describes a [*place|person|job].", "feedback": "My town."},
+        {"text": "You can buy food at the [*supermarket|library|park].", "feedback": "Supermarket."}
+      ]
+    }
+  ]
+}

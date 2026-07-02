@@ -1,0 +1,45 @@
+{
+  "title": "Present perfect: form and use",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 4,
+  "explanation": "<h2>Present perfect (A2)</h2><p><strong>have / has + past participle</strong></p><ul><li>Life experience: <em>I have visited Paris.</em></li><li>Unfinished time: <em>She has worked here since 2020.</em></li><li>Recent past with <em>just</em>: <em>They have just arrived.</em></li></ul><p>Regular past participle: <strong>-ed</strong>. Irregular: third column (go → gone).</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*have never been|never was|am never] to Japan.", "feedback": "Life experience → present perfect."},
+        {"text": "She [*has lived|lived|lives] here for five years.", "feedback": "For + period → has lived."},
+        {"text": "They [*have just finished|just finished|just finish] their homework.", "feedback": "Just → have just finished."},
+        {"text": "[*Have you ever tried|Did you ever try|Do you ever try] Indian food?", "feedback": "Ever → Have you ever."},
+        {"text": "He [*hasn't seen|didn't see|doesn't see] the film yet.", "feedback": "Yet → present perfect negative."},
+        {"text": "We [*have known|knew|know] each other since school.", "feedback": "Since → have known."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "I ____ my keys. I can't find them. | *have lost | lost | lose", "feedback": "Past action with present result → have lost."},
+        {"text": "She ____ three emails this morning. | *has sent | sent | sends", "feedback": "Unfinished today → has sent."},
+        {"text": "They ____ to London many times. | *have been | were | are", "feedback": "Experience → have been."},
+        {"text": "He ____ his room. It looks tidy. | *has cleaned | cleaned | cleans", "feedback": "Result now → has cleaned."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*haven't finished|didn't finish|don't finish] the report yet.", "feedback": "Yet → haven't finished."},
+        {"text": "[*Has she ever met|Did she ever meet|Does she ever meet] a famous person?", "feedback": "Has she ever."},
+        {"text": "We [*have already eaten|already ate|already eat] — we're not hungry.", "feedback": "Already → present perfect."},
+        {"text": "He [*has broken|broke|breaks] his phone.", "feedback": "Present result → has broken."},
+        {"text": "They [*have worked|worked|work] here since April.", "feedback": "Since → have worked."}
+      ]
+    }
+  ]
+}

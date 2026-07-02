@@ -1,0 +1,95 @@
+{
+  "title": "Social issues and society",
+  "level": "b1plus",
+  "section": "vocabulary",
+  "sort_order": 4,
+  "explanation": "<h2>Social issues and society</h2><ul><li>poverty, homelessness, inequality, unemployment, charity</li><li>donate, volunteer, support, struggle</li><li>phrases: make a difference, raise awareness</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Many families are struggling because of rising ____. | *unemployment | luggage | humidity",
+          "feedback": "Unemployment means lack of jobs."
+        },
+        {
+          "text": "The charity hopes to ____ awareness of the problem. | *raise | take | deliver",
+          "feedback": "Raise awareness = increase public attention."
+        },
+        {
+          "text": "Volunteers collected food for people facing ____. | *homelessness | promotion | forecast",
+          "feedback": "Homelessness is a social issue."
+        },
+        {
+          "text": "Even small actions can ____ a difference. | *make | do | take",
+          "feedback": "Make a difference is the fixed phrase."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "donate",
+        "volunteer",
+        "support",
+        "inequality",
+        "struggle",
+        "charity",
+        "poverty",
+        "awareness",
+        "community",
+        "shelter"
+      ],
+      "questions": [
+        {
+          "text": "He decided to ____ money to the local shelter. | donate",
+          "feedback": ""
+        },
+        {
+          "text": "More young people want to ____ in their communities. | volunteer",
+          "feedback": ""
+        },
+        {
+          "text": "The campaign offers practical ____ to low-income families. | support",
+          "feedback": ""
+        },
+        {
+          "text": "Some people still face serious social ____. | inequality",
+          "feedback": ""
+        },
+        {
+          "text": "Many older people ____ to pay heating bills in winter. | struggle",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The event raised money for a children's ____. | *charity | platform | campaigner",
+          "feedback": "Charity receives donations."
+        },
+        {
+          "text": "The government promised to reduce child ____. | *poverty | virus | network",
+          "feedback": "Poverty is the issue."
+        },
+        {
+          "text": "Neighbours created a stronger sense of ____ through the project. | *community | court | schedule",
+          "feedback": "Community spirit."
+        },
+        {
+          "text": "The new ____ provides emergency beds for rough sleepers. | *shelter | promotion | review",
+          "feedback": "Shelter for homeless people."
+        }
+      ]
+    }
+  ]
+}

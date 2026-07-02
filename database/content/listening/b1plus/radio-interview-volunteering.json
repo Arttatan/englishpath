@@ -1,0 +1,79 @@
+{
+  "title": "Radio interview about volunteering",
+  "level": "b1plus",
+  "section": "listening",
+  "sort_order": 3,
+  "explanation": "<h2>Radio interview about volunteering</h2><p>Listen to a short interview.</p><h3>Transcript</h3><p><strong>Host:</strong> Why did you start volunteering at the food bank?<br><strong>Guest:</strong> At first, I wanted to gain experience for my CV, but I soon realised how important the work was. We sort donations, prepare food parcels and talk to families who need support.<br><strong>Host:</strong> Has the experience changed you?<br><strong>Guest:</strong> Definitely. I have become more patient and much more aware of problems in my community.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The guest volunteers at [*a food bank|a hospital|an art gallery].",
+          "feedback": "The place is a food bank."
+        },
+        {
+          "text": "At first, the guest wanted [*experience for a CV|free meals|a part-time job].",
+          "feedback": "That is the initial reason."
+        },
+        {
+          "text": "They sort donations and prepare [*food parcels|radio equipment|school lessons].",
+          "feedback": "Food parcels."
+        },
+        {
+          "text": "The experience made the guest more [*patient|ambitious|suspicious].",
+          "feedback": "The guest says more patient."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The guest also became more aware of problems in the local ____.  | *community | airport | industry",
+          "feedback": "Community problems."
+        },
+        {
+          "text": "Families who need ____ receive help from the food bank. | *support | publicity | transport",
+          "feedback": "Support fits the context."
+        },
+        {
+          "text": "The guest says the work is very ____.  | *important | formal | easy",
+          "feedback": "They realised how important it was."
+        },
+        {
+          "text": "The host asks whether the experience has ____ the guest. | *changed | hired | judged",
+          "feedback": "Changed is the key verb."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The interview shows that volunteering can be [*personally valuable|a waste of time|financially rewarding only].",
+          "feedback": "The guest describes positive personal change."
+        },
+        {
+          "text": "The food bank helps [*local families|international tourists|shop owners].",
+          "feedback": "Families who need support."
+        },
+        {
+          "text": "The guest's motivation [*developed over time|never changed|was unclear].",
+          "feedback": "It began as CV experience and became more meaningful."
+        },
+        {
+          "text": "The tone is [*positive and reflective|angry|formal and distant].",
+          "feedback": "The guest reflects positively."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=7y_hbz6lM9E"
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Advanced relative clauses",
+  "level": "b1plus",
+  "section": "grammar",
+  "sort_order": 6,
+  "explanation": "<h2>Advanced relative clauses</h2><p>At this level, you should distinguish defining and non-defining clauses, use prepositions with relatives, and avoid repetition.</p><ul><li>The book, <em>which</em> I borrowed from Ana, was excellent.</li><li>The person <em>to whom</em> I spoke was very helpful.</li><li>This is the hotel <em>where</em> we stayed.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "My laptop, [*which|that|where] I bought last year, is already broken.",
+          "feedback": "Non-defining clauses use which, not that."
+        },
+        {
+          "text": "The colleague [*who|which|whose] sits opposite me speaks four languages.",
+          "feedback": "Who for a person."
+        },
+        {
+          "text": "That is the company [*for which|for that|for where] she works.",
+          "feedback": "Preposition + which in a formal structure."
+        },
+        {
+          "text": "The writer [*whose|which|where] latest novel won a prize is giving a talk tonight.",
+          "feedback": "Whose shows possession."
+        },
+        {
+          "text": "This is the village [*where|which|whose] my grandparents were born.",
+          "feedback": "Where for place."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The people, ____ were all volunteers, worked through the night. | *who | that | where",
+          "feedback": "Non-defining clause with people."
+        },
+        {
+          "text": "The programme ____ I was listening has just finished. | *which | who | where",
+          "feedback": "Which for thing."
+        },
+        {
+          "text": "The teacher to ____ I sent the email replied immediately. | *whom | which | where",
+          "feedback": "Formal object relative."
+        },
+        {
+          "text": "The office, ____ is in the city centre, is easy to reach. | *which | where | whose",
+          "feedback": "Non-defining relative clause."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The candidate [*who I interviewed|which I interviewed|where I interviewed] seemed confident.",
+          "feedback": "Who as object is acceptable here."
+        },
+        {
+          "text": "The website, [*which was redesigned|that was redesigned|where was redesigned] last month, looks better now.",
+          "feedback": "Non-defining clause."
+        },
+        {
+          "text": "The woman [*whose car was stolen|which car was stolen|where car was stolen] called the police.",
+          "feedback": "Whose for possession."
+        },
+        {
+          "text": "That was the moment [*when|which|whose] everything changed.",
+          "feedback": "When for time."
+        },
+        {
+          "text": "The neighbourhood [*in which|where that|which in] they live is very quiet.",
+          "feedback": "Formal preposition + which."
+        }
+      ]
+    }
+  ]
+}

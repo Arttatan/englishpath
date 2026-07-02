@@ -1,0 +1,30 @@
+{
+  "title": "Phone and communication",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 9,
+  "explanation": "<h2>Phone and communication</h2><ul><li><strong>verbs:</strong> text, call back, hang up, leave a message, reply</li><li><strong>nouns:</strong> voicemail, signal, contact, notification</li><li><strong>phrases:</strong> get through, speak up, hold on</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "I couldn't ____ — the line was busy. | *get through | hang up | text", "feedback": "Get through = connect a call."},
+      {"text": "Please ____ — I can't hear you. | *speak up | call back | reply", "feedback": "Speak up = talk louder."},
+      {"text": "She didn't answer, so I left a ____. | *voicemail | signal | notification", "feedback": "Voicemail message."},
+      {"text": "I'll ____ you later this evening. | *call back | hang up | hold", "feedback": "Call back."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["text", "reply", "signal", "hang up", "contact", "notification", "hold on", "message", "call back", "get through"],
+      "questions": [
+        {"text": "I'll ____ you the address. | text", "feedback": ""},
+        {"text": "Please ____ a minute — I'll find the file. | hold on", "feedback": ""},
+        {"text": "There's no ____ in the tunnel. | signal", "feedback": ""},
+        {"text": "Did you ____ to her email? | reply", "feedback": ""},
+        {"text": "I got a ____ on my phone about the delivery. | notification", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "Don't ____ — wait for the answer. | *hang up | get through | speak up", "feedback": "Hang up = end the call."},
+      {"text": "Save my number in your ____. | *contacts | voicemails | signals", "feedback": "Contacts list."},
+      {"text": "He sent me a voice ____. | *message | notification | reply", "feedback": "Voice message."},
+      {"text": "Sorry, wrong number — I'll ____. | *hang up | hold on | call back", "feedback": "Hang up."}
+    ]}
+  ]
+}

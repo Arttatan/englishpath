@@ -1,0 +1,42 @@
+{
+  "title": "A new student",
+  "level": "a1",
+  "section": "reading",
+  "sort_order": 5,
+  "explanation": "<h2>A new student</h2><p>Read the text.</p><p>Today a new student came to our class. Her name is Yuki and she is from Japan. She is sixteen years old. She speaks English very well. She likes music and basketball. After school she wants to visit the city centre with us. We are happy to meet her.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The new student's name is [*Yuki|Emma|Lucy].", "feedback": "Her name is Yuki."},
+        {"text": "She is from [*Japan|Greece|England].", "feedback": "From Japan."},
+        {"text": "She is [*sixteen|six|sixty] years old.", "feedback": "Sixteen years old."},
+        {"text": "She likes music and [*basketball|swimming|cooking].", "feedback": "Music and basketball."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Read the text and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Yuki speaks English very ____. | *well | bad | slow", "feedback": "Speaks very well."},
+        {"text": "She wants to visit the city ____. | *centre | school | Japan", "feedback": "City centre."},
+        {"text": "A new student came to our ____. | *class | shop | town", "feedback": "Our class."},
+        {"text": "We are happy to ____ her. | *meet | leave | forget", "feedback": "Happy to meet her."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Yuki arrived [*today|last week|last year].", "feedback": "Today a new student came."},
+        {"text": "After school she wants to go out with [*classmates|teachers|doctors].", "feedback": "Visit with us."},
+        {"text": "The class feels [*happy|sad|angry] about Yuki.", "feedback": "We are happy."},
+        {"text": "The text is about a [*new student|holiday|supermarket].", "feedback": "New student."}
+      ]
+    }
+  ]
+}

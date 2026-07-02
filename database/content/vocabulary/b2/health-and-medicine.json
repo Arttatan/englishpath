@@ -1,0 +1,95 @@
+{
+  "title": "Health and medicine",
+  "level": "b2",
+  "section": "vocabulary",
+  "sort_order": 8,
+  "explanation": "<h2>Health and medicine</h2><ul><li>diagnosis, symptom, chronic, immune, vaccine</li><li>treatment, prescription, surgery, rehabilitation, epidemic</li><li>verbs: diagnose, prescribe, recover, prevent</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The doctor made an accurate ____ after several tests. | *diagnosis | campaign | platform",
+          "feedback": "Medical diagnosis."
+        },
+        {
+          "text": "A persistent cough can be a common ____ of infection. | *symptom | verdict | mandate",
+          "feedback": "Symptom."
+        },
+        {
+          "text": "Patients with ____ conditions need long-term care. | *chronic | temporary | optional",
+          "feedback": "Chronic illness."
+        },
+        {
+          "text": "The ____ programme helped reduce cases dramatically. | *vaccine | screenplay | receipt",
+          "feedback": "Vaccine programme."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "prescribe",
+        "rehabilitation",
+        "prevent",
+        "recover",
+        "surgery",
+        "treatment",
+        "immune",
+        "epidemic",
+        "diagnose",
+        "prescription"
+      ],
+      "questions": [
+        {
+          "text": "The nurse will ____ antibiotics for the infection. | prescribe",
+          "feedback": ""
+        },
+        {
+          "text": "He needed months of ____ after the knee injury. | rehabilitation",
+          "feedback": ""
+        },
+        {
+          "text": "Good hygiene can ____ many illnesses. | prevent",
+          "feedback": ""
+        },
+        {
+          "text": "She began to ____ quickly after the operation. | recover",
+          "feedback": ""
+        },
+        {
+          "text": "The hospital specialises in heart ____. | surgery",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The new ____ proved effective in clinical trials. | *treatment | genre | coalition",
+          "feedback": "Medical treatment."
+        },
+        {
+          "text": "A strong ____ system helps the body fight disease. | *immune | trade | supply",
+          "feedback": "Immune system."
+        },
+        {
+          "text": "The region faced a flu ____ last winter. | *epidemic | premiere | merger",
+          "feedback": "Epidemic."
+        },
+        {
+          "text": "You need a ____ to collect the medication. | *prescription | referendum | screenplay",
+          "feedback": "Doctor's prescription."
+        }
+      ]
+    }
+  ]
+}

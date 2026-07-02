@@ -1,0 +1,43 @@
+{
+  "title": "Asking for directions",
+  "level": "a1",
+  "section": "listening",
+  "sort_order": 3,
+  "audio_url": "https://www.youtube.com/watch?v=7y_hbz6lM9E",
+  "explanation": "<h2>Asking for directions</h2><p>Listen to someone asking how to get to the station.</p><h3>Transcript</h3><p><strong>Tourist:</strong> Excuse me, where is the train station?<br><strong>Local:</strong> Go straight ahead and turn left at the traffic lights.<br><strong>Tourist:</strong> Straight ahead and left at the lights?<br><strong>Local:</strong> Yes. The station is on your right.<br><strong>Tourist:</strong> Thank you very much!</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The tourist wants to find the [*train station|airport|hotel].", "feedback": "Where is the train station?" },
+        {"text": "They should turn left at the [*traffic lights|shop|bank].", "feedback": "Turn left at the traffic lights."},
+        {"text": "The station is on the [*right|left|straight].", "feedback": "On your right."},
+        {"text": "First, they should go [*straight ahead|back|right].", "feedback": "Go straight ahead."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Listen again and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The tourist says: '____ me...' | *Excuse | Help | Listen", "feedback": "Excuse me."},
+        {"text": "Turn ____ at the traffic lights. | *left | straight | station", "feedback": "Turn left."},
+        {"text": "The station is on your ____. | *right | ahead | excuse", "feedback": "On your right."},
+        {"text": "The tourist says ____ very much. | *Thank you | Please | Sorry", "feedback": "Thank you very much."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Listen and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "The tourist repeats the directions to [*check|forget|ignore] them.", "feedback": "Straight ahead and left at the lights?" },
+        {"text": "The local person is [*helpful|unfriendly|silent].", "feedback": "Gives clear directions."},
+        {"text": "There are [*two|one|three] main steps in the directions.", "feedback": "Straight, left, station on right."},
+        {"text": "The conversation is in the [*street|station|café].", "feedback": "Asking directions in the street."}
+      ]
+    }
+  ]
+}

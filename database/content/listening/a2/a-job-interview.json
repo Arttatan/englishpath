@@ -1,0 +1,28 @@
+{
+  "title": "A job interview",
+  "level": "a2",
+  "section": "listening",
+  "sort_order": 2,
+  "audio_url": "https://www.youtube.com/watch?v=4jpdlG8EJhE",
+  "explanation": "<h2>A job interview</h2><h3>Transcript</h3><p><strong>Interviewer:</strong> Tell me about your experience.<br><strong>Candidate:</strong> I worked in a shop for two years. I was responsible for customer service.<br><strong>Interviewer:</strong> Why do you want this job?<br><strong>Candidate:</strong> I enjoy working with people and I want to learn new skills.<br><strong>Interviewer:</strong> When can you start?<br><strong>Candidate:</strong> I can start next month.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "The candidate worked in a [*shop|school|hospital].", "feedback": "Worked in a shop."},
+      {"text": "They worked there for [*two|five|ten] years.", "feedback": "Two years."},
+      {"text": "They were responsible for [*customer service|cleaning|cooking].", "feedback": "Customer service."},
+      {"text": "They can start [*next month|tomorrow|next week].", "feedback": "Next month."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Listen again and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "The candidate enjoys working with ____. | *people | machines | animals", "feedback": "Working with people."},
+      {"text": "They want to learn new ____. | *skills | languages | rules", "feedback": "New skills."},
+      {"text": "The interviewer asks about their ____. | *experience | holiday | family", "feedback": "Tell me about your experience."},
+      {"text": "The interviewer asks: 'When can you ____?' | *start | finish | leave", "feedback": "When can you start?"}
+    ]},
+    {"title": "Exercise 3", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "This is a [*job interview|doctor's appointment|hotel booking].", "feedback": "Job interview."},
+      {"text": "The candidate gives [*positive|negative|no] reasons for wanting the job.", "feedback": "Enjoys people, wants skills."},
+      {"text": "The candidate has [*some|no|twenty years of] shop experience.", "feedback": "Two years."},
+      {"text": "The interviewer asks [*three|one|five] main questions.", "feedback": "Experience, why job, when start."}
+    ]}
+  ]
+}

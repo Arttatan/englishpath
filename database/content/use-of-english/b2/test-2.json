@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 2",
+  "level": "b2",
+  "section": "use-of-english",
+  "sort_order": 2,
+  "explanation": "<h2>Use of English - B2 Test 2</h2><p>Second mixed review at B2 level.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Not only [*did|does|do] the team win, but they also broke the record.",
+          "feedback": "Not only did + subject."
+        },
+        {
+          "text": "He [*needn't have printed|mustn't print|should print] the whole document; it was online.",
+          "feedback": "Unnecessary past action."
+        },
+        {
+          "text": "She denied [*leaking|to leak|leak] the confidential email.",
+          "feedback": "Deny + gerund."
+        },
+        {
+          "text": "All I wanted [*was|were|is] a straight answer.",
+          "feedback": "All I wanted was ..."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The jury reached a unanimous ____.  | *verdict | verdicts | sentence",
+          "feedback": "Verdict in court."
+        },
+        {
+          "text": "The company plans to ____ into Asian markets. | *expand | expansion | expanded",
+          "feedback": "Expand into markets."
+        },
+        {
+          "text": "There is growing public ____ about climate policy. | *debate | debating | debated",
+          "feedback": "Public debate."
+        },
+        {
+          "text": "The patient made a full ____ after surgery. | *recovery | recover | recovered",
+          "feedback": "Full recovery."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Hardly [*had|have|did] we sat down when the fire alarm rang.",
+          "feedback": "Hardly had + subject."
+        },
+        {
+          "text": "They accused him [*of fraud|for fraud|to fraud].",
+          "feedback": "Accuse of."
+        },
+        {
+          "text": "The development of renewable energy is a key [*priority|prior|prioritise].",
+          "feedback": "Priority as noun."
+        },
+        {
+          "text": "Nor [*did|do|was] the minister answer the question directly.",
+          "feedback": "Nor did."
+        }
+      ]
+    }
+  ]
+}

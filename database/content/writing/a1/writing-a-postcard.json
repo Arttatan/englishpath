@@ -1,0 +1,42 @@
+{
+  "title": "Writing a postcard",
+  "level": "a1",
+  "section": "writing",
+  "sort_order": 3,
+  "explanation": "<h2>Writing a postcard</h2><p>A postcard is short and informal. Include:</p><ul><li>Where you are</li><li>What the weather is like</li><li>What you do every day</li><li>A closing: <em>See you soon!</em> / <em>Love,</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the best sentence for a postcard.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "[*I'm in Spain on holiday.|I am Spain in holiday.|Holiday I in Spain.]", "feedback": "I'm in + place + on holiday."},
+        {"text": "[*The weather is lovely.|The weather lovely is.|Is lovely the weather.]", "feedback": "The weather is + adjective."},
+        {"text": "[*We go to the beach every day.|We going beach every day.|Every day beach we.]", "feedback": "Present simple for routine on holiday."},
+        {"text": "[*See you soon!|You see soon!|Soon see you!]", "feedback": "See you soon!"}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct phrase for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Wish you were ____. | *here | there | where", "feedback": "Wish you were here."},
+        {"text": "The food is ____. | *delicious | hungry | thirsty", "feedback": "Food is delicious."},
+        {"text": "I'm having a ____ time. | *great | greatly | greatness", "feedback": "A great time."},
+        {"text": "Love, ____. | *Sam | To Sam | Sam love", "feedback": "Love, + name."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the best option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "[*It's very hot here.|It very hot.|Hot is very here.]", "feedback": "It's very hot here."},
+        {"text": "[*I'm sending you this postcard.|I send you this postcard now.|Postcard I send.]", "feedback": "Present continuous for now."},
+        {"text": "[*The hotel is near the sea.|The hotel is near to the sea in.|Hotel near sea.]", "feedback": "Near the sea."},
+        {"text": "[*Miss you!|You miss!|Missing you are!]", "feedback": "Miss you!"}
+      ]
+    }
+  ]
+}

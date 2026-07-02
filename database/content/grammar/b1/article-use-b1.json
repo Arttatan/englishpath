@@ -1,0 +1,86 @@
+{
+  "title": "Articles: a, an, the, zero article",
+  "level": "b1",
+  "section": "grammar",
+  "sort_order": 10,
+  "explanation": "<h2>Articles review</h2><p>Use <strong>a / an</strong> for one non-specific thing, <strong>the</strong> for something specific or already known, and no article for many plural or uncountable nouns in a general sense.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "She bought [*a|the|zero] new laptop yesterday.",
+          "feedback": "A introduces one non-specific singular noun."
+        },
+        {
+          "text": "Can you close [*the|a|zero] window? It is cold.",
+          "feedback": "The because both speakers know which window."
+        },
+        {
+          "text": "[*Music|The music|A music] helps me relax.",
+          "feedback": "No article for music in general."
+        },
+        {
+          "text": "He is [*an|a|the] honest man.",
+          "feedback": "An before a vowel sound."
+        },
+        {
+          "text": "We visited [*the|a|zero] British Museum while we were in London.",
+          "feedback": "The with names like the British Museum."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "I need ____ advice about my CV. | *some | an | the",
+          "feedback": "Advice is uncountable and often takes no article or some."
+        },
+        {
+          "text": "They went to ____ school by bus. | *zero | the | a",
+          "feedback": "No article in the general expression go to school."
+        },
+        {
+          "text": "Could you pass me ____ salt, please? | *the | a | zero",
+          "feedback": "Specific object on the table."
+        },
+        {
+          "text": "She wants to become ____ engineer. | *an | a | the",
+          "feedback": "An before engineer."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "I saw [*a|the|zero] man outside your house, but I did not recognise him.",
+          "feedback": "First mention of man."
+        },
+        {
+          "text": "The man was carrying [*a|the|zero] umbrella.",
+          "feedback": "First mention of umbrella."
+        },
+        {
+          "text": "[*The|A|Zero] sun was setting when we arrived.",
+          "feedback": "The sun is unique."
+        },
+        {
+          "text": "Children should not spend all day on [*zero|the|a] social media.",
+          "feedback": "No article for social media in general."
+        },
+        {
+          "text": "She works in [*a|the|zero] hospital near the station.",
+          "feedback": "A hospital, one of many."
+        }
+      ]
+    }
+  ]
+}

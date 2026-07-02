@@ -1,0 +1,78 @@
+{
+  "title": "The ethics of space tourism",
+  "level": "b2",
+  "section": "reading",
+  "sort_order": 5,
+  "explanation": "<h2>The ethics of space tourism</h2><p>Commercial space flights for wealthy tourists have moved from science fiction to reality. Supporters claim the industry will inspire innovation and fund research that benefits everyone. Critics respond that the enormous cost of a single ticket could finance thousands of clean water projects on Earth. They also question the environmental impact of rocket launches. As space tourism expands, society will need clear rules about safety, access and the responsible use of resources both on Earth and beyond.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Space tourism is now a [*commercial reality|impossible dream|school subject only].",
+          "feedback": "Moved from fiction to reality."
+        },
+        {
+          "text": "Supporters say the industry may fund research that benefits [*everyone|only pilots|only artists].",
+          "feedback": "Benefits everyone."
+        },
+        {
+          "text": "Critics compare ticket prices with funding for clean [*water projects|football stadiums|bookshops].",
+          "feedback": "Clean water projects."
+        },
+        {
+          "text": "Society may need rules about safety, access and responsible use of [*resources|jokes|music].",
+          "feedback": "Responsible use of resources."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Critics also question the environmental impact of rocket ____.  | *launches | books | meals",
+          "feedback": "Rocket launches."
+        },
+        {
+          "text": "Early tourists are mostly very ____.  | *wealthy | young | silent",
+          "feedback": "Wealthy tourists."
+        },
+        {
+          "text": "Supporters believe the industry can inspire ____.  | *innovation | silence | hunger",
+          "feedback": "Inspire innovation."
+        },
+        {
+          "text": "The debate is partly ____.  | *ethical | musical | culinary",
+          "feedback": "Ethics of space tourism."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The article presents [*arguments on both sides|no viewpoints|only jokes].",
+          "feedback": "Supporters and critics."
+        },
+        {
+          "text": "The writer suggests future regulation will be [*necessary|impossible|irrelevant].",
+          "feedback": "Society will need clear rules."
+        },
+        {
+          "text": "The tone is [*thoughtful|comic|nostalgic only].",
+          "feedback": "Thoughtful ethics piece."
+        },
+        {
+          "text": "The issue connects technology with questions of [*justice and environment|fashion and sport|food and travel only].",
+          "feedback": "Justice and environment."
+        }
+      ]
+    }
+  ]
+}

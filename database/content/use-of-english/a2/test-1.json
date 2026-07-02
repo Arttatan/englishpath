@@ -1,0 +1,27 @@
+{
+  "title": "Use of English — Test 1",
+  "level": "a2",
+  "section": "use-of-english",
+  "sort_order": 1,
+  "explanation": "<h2>Use of English — A2 Test 1</h2><p>Mixed grammar and vocabulary at A2 level.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option.", "type": "inline_choice", "questions": [
+      {"text": "If it rains, we [*will stay|stay|stayed] at home.", "feedback": "First conditional."},
+      {"text": "The letter [*was sent|sent|was sending] yesterday.", "feedback": "Past passive."},
+      {"text": "I [*used to play|use to play|am used to play] tennis every week.", "feedback": "Used to."},
+      {"text": "There isn't [*much|many|few] milk left.", "feedback": "Much + uncountable."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "She said she ____ tired. | *was | is | am", "feedback": "Reported speech."},
+      {"text": "Turn ____ the TV, please. | *on | up | off", "feedback": "Turn on."},
+      {"text": "This is ____ than my old phone. | *better | good | best", "feedback": "Comparative."},
+      {"text": "I ____ my homework yet. | *haven't finished | didn't finish | don't finish", "feedback": "Present perfect + yet."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option.", "type": "inline_choice", "questions": [
+      {"text": "I [*know|am knowing|knowing] the answer.", "feedback": "Stative verb."},
+      {"text": "She [*made|did|make] a mistake.", "feedback": "Make a mistake."},
+      {"text": "If I [*were|was|am] rich, I would travel more.", "feedback": "Second conditional."},
+      {"text": "They were ____ when the phone rang. | [*watching|watched|watch] TV.", "feedback": "Past continuous."}
+    ]}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "A weekend in the countryside",
+  "level": "a2",
+  "section": "reading",
+  "sort_order": 1,
+  "explanation": "<h2>A weekend in the countryside</h2><p>Last weekend, Emma and her husband drove to the Lake District. They stayed in a small bed and breakfast near a lake. On Saturday they walked for hours and took photos of the mountains. It rained on Sunday morning, so they visited a local museum instead. The food at the B&amp;B was excellent and the owners were very friendly. Emma said it was the most relaxing weekend of the year.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "Emma went to the [*Lake District|London|coast].", "feedback": "Lake District."},
+      {"text": "They stayed in a [*B&B|hotel|tent].", "feedback": "Bed and breakfast."},
+      {"text": "On Sunday morning it [*rained|snowed|was sunny].", "feedback": "Rained on Sunday morning."},
+      {"text": "Emma thought the weekend was very [*relaxing|stressful|boring].", "feedback": "Most relaxing weekend."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Read and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "They ____ to the Lake District. | *drove | flew | walked", "feedback": "Drove."},
+      {"text": "On Saturday they took ____ of the mountains. | *photos | food | buses", "feedback": "Took photos."},
+      {"text": "Because of rain they visited a ____. | *museum | mountain | lake", "feedback": "Visited a museum."},
+      {"text": "The ____ at the B&B were friendly. | *owners | mountains | photos", "feedback": "The owners."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "Emma went with her [*husband|brother|friend].", "feedback": "Emma and her husband."},
+      {"text": "They walked on [*Saturday|Sunday|both days].", "feedback": "Saturday they walked."},
+      {"text": "The food was [*excellent|terrible|missing].", "feedback": "Food was excellent."},
+      {"text": "The text is about a [*short trip|job interview|shopping trip].", "feedback": "Weekend away."}
+    ]}
+  ]
+}

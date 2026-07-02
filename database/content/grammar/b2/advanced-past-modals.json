@@ -1,0 +1,86 @@
+{
+  "title": "Advanced past modals",
+  "level": "b2",
+  "section": "grammar",
+  "sort_order": 2,
+  "explanation": "<h2>Advanced past modals</h2><p>Past modals express criticism, regret, deduction or unnecessary action about the past.</p><ul><li><strong>should have done</strong> = criticism / regret</li><li><strong>needn't have done</strong> = unnecessary action</li><li><strong>might/could have done</strong> = past possibility</li><li><strong>must have done</strong> = strong past deduction</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "You [*should have told|should tell|must tell] me earlier - I missed the deadline.",
+          "feedback": "Regret about a past action."
+        },
+        {
+          "text": "She [*needn't have bought|mustn't have bought|shouldn't buy] so much food; we had plenty already.",
+          "feedback": "The action was unnecessary."
+        },
+        {
+          "text": "He [*must have forgotten|can't have forgotten|might forget] about the meeting - he never came.",
+          "feedback": "Strong deduction about the past."
+        },
+        {
+          "text": "They [*could have taken|could take|must take] the earlier train and avoided the delay.",
+          "feedback": "Missed opportunity in the past."
+        },
+        {
+          "text": "I [*shouldn't have said|needn't have said|mustn't say] that in front of everyone.",
+          "feedback": "Regret about something said."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The lights were on, so someone ____ home. | *must have been | can't have been | needn't have been",
+          "feedback": "Logical deduction."
+        },
+        {
+          "text": "You ____ so much money on a jacket you never wear. | *needn't have spent | must have spent | should spend",
+          "feedback": "Unnecessary past spending."
+        },
+        {
+          "text": "She looks upset. She ____ the results already. | *might have heard | must hear | should hear",
+          "feedback": "Possible explanation."
+        },
+        {
+          "text": "He ____ more carefully before signing the contract. | *should have read | needn't have read | can't have read",
+          "feedback": "Criticism of a past failure."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The document is missing. Someone [*must have removed|should remove|needn't remove] it.",
+          "feedback": "Strong deduction about a past action."
+        },
+        {
+          "text": "We [*needn't have worried|shouldn't worry|mustn't worry] - the exam was easier than expected.",
+          "feedback": "Worry was unnecessary."
+        },
+        {
+          "text": "She [*could have become|could become|must become] a lawyer, but she chose teaching instead.",
+          "feedback": "Past possibility that did not happen."
+        },
+        {
+          "text": "You [*should have checked|need have checked|must check] the address before sending the parcel.",
+          "feedback": "Advice about a past mistake."
+        },
+        {
+          "text": "He [*can't have seen|must have seen|should see] the warning sign - it was huge.",
+          "feedback": "Impossible deduction."
+        }
+      ]
+    }
+  ]
+}

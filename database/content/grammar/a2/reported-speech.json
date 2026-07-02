@@ -1,0 +1,45 @@
+{
+  "title": "Reported speech",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 11,
+  "explanation": "<h2>Reported speech (statements)</h2><p>When we report what someone said, we often change the tense back:</p><ul><li>Present → past: <em>\"I am tired\"</em> → <em>She said (that) she was tired.</em></li><li>Past → past perfect: <em>\"I saw him\"</em> → <em>He said he had seen him.</em></li><li>Will → would: <em>\"I will help\"</em> → <em>She said she would help.</em></li></ul><p>Time words change too: today → that day, tomorrow → the next day.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct reported sentence.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "\"I am busy.\" → She said she [*was|is|am] busy.", "feedback": "Am → was."},
+        {"text": "\"I like chocolate.\" → He said he [*liked|likes|like] chocolate.", "feedback": "Like → liked."},
+        {"text": "\"I will call you.\" → She said she [*would call|will call|calls] me.", "feedback": "Will → would."},
+        {"text": "\"We live in Bristol.\" → They said they [*lived|live|living] in Bristol.", "feedback": "Live → lived."},
+        {"text": "\"I can't swim.\" → He said he [*couldn't|can't|could not to] swim.", "feedback": "Can't → couldn't."},
+        {"text": "\"I saw the film.\" → She said she [*had seen|saw|sees] the film.", "feedback": "Saw → had seen."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "\"I'm tired,\" he said. → He said he ____ tired. | *was | is | am", "feedback": "Am → was."},
+        {"text": "\"We are leaving,\" they said. → They said they ____. | *were leaving | are leaving | leave", "feedback": "Are leaving → were leaving."},
+        {"text": "\"I don't know,\" she said. → She said she ____. | *didn't know | doesn't know | not know", "feedback": "Don't → didn't."},
+        {"text": "\"I have finished,\" he said. → He said he ____ finished. | *had | has | have", "feedback": "Have → had."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct reported sentence.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "\"I went home early.\" → She said she [*had gone|went|goes] home early.", "feedback": "Went → had gone."},
+        {"text": "\"I'll help you.\" → He said he [*would help|will help|helps] me.", "feedback": "Will → would."},
+        {"text": "\"She is at work.\" → He said she [*was|is|be] at work.", "feedback": "Is → was."},
+        {"text": "\"We don't want to go.\" → They said they [*didn't want|don't want|not want] to go.", "feedback": "Don't → didn't."},
+        {"text": "\"I can speak three languages.\" → She said she [*could speak|can speak|speaks] three languages.", "feedback": "Can → could."}
+      ]
+    }
+  ]
+}

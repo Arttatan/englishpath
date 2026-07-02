@@ -1,0 +1,95 @@
+{
+  "title": "Health and lifestyle",
+  "level": "b1",
+  "section": "vocabulary",
+  "sort_order": 4,
+  "explanation": "<h2>Health and lifestyle</h2><ul><li>health words: symptoms, treatment, recovery, balanced diet, stress</li><li>verbs: recover, improve, avoid, stretch</li><li>phrases: get enough sleep, stay hydrated</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A doctor looked at my ____ and said it was probably flu. | *symptoms | contract | headline",
+          "feedback": "Symptoms are signs of illness."
+        },
+        {
+          "text": "Walking every day can ____ your mood. | *improve | delay | broadcast",
+          "feedback": "Improve means make better."
+        },
+        {
+          "text": "She needs more time for ____ after the operation. | *recovery | privacy | training",
+          "feedback": "Recovery = time to get better."
+        },
+        {
+          "text": "A ____ includes fruit, vegetables and protein. | *balanced diet | screen time | deadline",
+          "feedback": "Balanced diet = healthy eating."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "stress",
+        "treatment",
+        "stretch",
+        "avoid",
+        "stay hydrated",
+        "recover",
+        "sleep",
+        "habit",
+        "vitamin",
+        "routine"
+      ],
+      "questions": [
+        {
+          "text": "Too much ____ at work can make you tired and irritable. | stress",
+          "feedback": ""
+        },
+        {
+          "text": "The doctor recommended a new ____ for his back pain. | treatment",
+          "feedback": ""
+        },
+        {
+          "text": "You should ____ before running to protect your muscles. | stretch",
+          "feedback": ""
+        },
+        {
+          "text": "Try to ____ sugary drinks if you want more energy. | avoid",
+          "feedback": ""
+        },
+        {
+          "text": "Athletes need to ____ during hot weather. | stay hydrated",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "It took her a month to fully ____ from the virus. | *recover | improve | avoid",
+          "feedback": "Recover from an illness."
+        },
+        {
+          "text": "You should try to get ____ sleep every night. | *enough | balanced | hydrated",
+          "feedback": "Common phrase: get enough sleep."
+        },
+        {
+          "text": "This exercise has become a healthy ____. | *habit | symptom | treatment",
+          "feedback": "Habit = repeated behaviour."
+        },
+        {
+          "text": "Citrus fruit contains a lot of vitamin ____.  | *C | D | B12",
+          "feedback": "Vitamin C is common in citrus fruit."
+        }
+      ]
+    }
+  ]
+}

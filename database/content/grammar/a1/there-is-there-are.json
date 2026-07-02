@@ -1,0 +1,45 @@
+{
+  "title": "There is / There are",
+  "level": "a1",
+  "section": "grammar",
+  "sort_order": 10,
+  "explanation": "<h2>There is / There are</h2><p>Use <strong>there is</strong> (there's) + singular and <strong>there are</strong> + plural to say something exists.</p><ul><li>There's a book on the table.</li><li>There are two cats in the garden.</li></ul><p>Questions: <em>Is there…?</em> <em>Are there…?</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "[*There is|There are|It is] a supermarket near my house.", "feedback": "Singular → There is."},
+        {"text": "[*There are|There is|They are] three bedrooms in the flat.", "feedback": "Plural → There are."},
+        {"text": "[*Is there|Are there|Does there] a bank in this street?", "feedback": "Singular question → Is there."},
+        {"text": "[*There aren't|There isn't|They aren't] any eggs in the fridge.", "feedback": "Plural negative → There aren't."},
+        {"text": "[*There's|There are|It has] a problem with my computer.", "feedback": "Singular → There's."},
+        {"text": "[*Are there|Is there|Do there] many students in your class?", "feedback": "Plural → Are there."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "____ a lot of traffic today. | *There's | There are | It is", "feedback": "Traffic is uncountable singular → There's."},
+        {"text": "____ some apples on the table. | *There are | There is | They are", "feedback": "Apples = plural → There are."},
+        {"text": "____ any milk left? | *Is there | Are there | Does", "feedback": "Milk = uncountable → Is there."},
+        {"text": "____ not many people here. | *There are | There is | They are", "feedback": "People = plural → There are."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "[*There was|There were|It was] a good film on TV last night.", "feedback": "Singular past → There was."},
+        {"text": "[*There were|There was|They were] lots of people at the concert.", "feedback": "Plural past → There were."},
+        {"text": "[*There isn't|There aren't|It isn't] time to finish.", "feedback": "Time uncountable → There isn't."},
+        {"text": "[*Are there|Is there|Have there] any questions?", "feedback": "Questions = plural → Are there."},
+        {"text": "[*There's|There are|It is] nothing in the box.", "feedback": "Nothing = singular → There's."}
+      ]
+    }
+  ]
+}

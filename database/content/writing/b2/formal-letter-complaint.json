@@ -1,0 +1,78 @@
+{
+  "title": "Writing a formal letter of complaint",
+  "level": "b2",
+  "section": "writing",
+  "sort_order": 2,
+  "explanation": "<h2>Writing a formal letter of complaint</h2><p>A formal complaint letter should be polite, precise and solution-focused.</p><ul><li>State the reason for writing.</li><li>Give dates and facts.</li><li>Explain the impact.</li><li>Request a specific remedy.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*I am writing to complain about the poor service I received on 12 March.|I write complain poor service 12 March.|Complaint poor service March 12.]",
+          "feedback": "Formal opening."
+        },
+        {
+          "text": "[*Despite several reminders, the issue has not been resolved.|Despite reminders issue not resolved.|Issue despite reminders.]",
+          "feedback": "Polite but firm."
+        },
+        {
+          "text": "[*As a result, I have been unable to use the product I paid for.|As result unable use product paid.|Result unable product.]",
+          "feedback": "Explain impact."
+        },
+        {
+          "text": "[*I would be grateful if you could offer a full refund.|Grateful full refund offer could.|Refund full grateful.]",
+          "feedback": "Specific request."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A formal letter should use polite but ____ language. | *firm | casual | humorous",
+          "feedback": "Firm and polite."
+        },
+        {
+          "text": "Include exact dates and useful ____.  | *details | jokes | opinions",
+          "feedback": "Factual details."
+        },
+        {
+          "text": "Avoid vague complaints; state the problem ____.  | *clearly | secretly | slowly",
+          "feedback": "Clearly."
+        },
+        {
+          "text": "End with a professional ____. | *closing | recipe | headline",
+          "feedback": "Professional closing."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*I look forward to hearing from you within fourteen days.|Look forward hearing fourteen days.|Forward look hearing days.]",
+          "feedback": "Polite deadline."
+        },
+        {
+          "text": "[*I have enclosed copies of the receipt and correspondence.|Enclosed copies receipt correspondence.|Receipt copies enclosed.]",
+          "feedback": "Supporting evidence."
+        },
+        {
+          "text": "[*Yours faithfully,|Yours friend,|Bye,]",
+          "feedback": "Formal ending when name unknown."
+        },
+        {
+          "text": "[*I trust this matter will be dealt with promptly.|Trust matter dealt promptly.|Matter trust promptly.]",
+          "feedback": "Polite expectation."
+        }
+      ]
+    }
+  ]
+}

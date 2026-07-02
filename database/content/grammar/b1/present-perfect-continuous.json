@@ -1,0 +1,86 @@
+{
+  "title": "Present perfect continuous",
+  "level": "b1",
+  "section": "grammar",
+  "sort_order": 2,
+  "explanation": "<h2>Present perfect continuous</h2><p><strong>have / has been + verb-ing</strong></p><p>We use it for actions that started in the past and continue now, or actions that have recently stopped and have a visible result.</p><ul><li>I have been working here for six years.</li><li>She is tired because she has been studying all day.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "I [*have been waiting|have waited|am waiting] for the bus for half an hour.",
+          "feedback": "For half an hour suggests an activity continuing until now."
+        },
+        {
+          "text": "She is wet because it [*has been raining|has rained|rained] all afternoon.",
+          "feedback": "Visible result plus duration."
+        },
+        {
+          "text": "How long [*have you been learning|have you learnt|are you learning] English?",
+          "feedback": "We ask about duration with the present perfect continuous."
+        },
+        {
+          "text": "They [*have been living|live|are living] in Dublin since January.",
+          "feedback": "Since January shows an unfinished period."
+        },
+        {
+          "text": "He is exhausted because he [*has been running|has run|ran] for an hour.",
+          "feedback": "Current result after an activity."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "We ____ on this project all week. | *have been working | worked | are working",
+          "feedback": "All week points to an unfinished activity."
+        },
+        {
+          "text": "Why are your hands dirty? I ____ in the garden. | *have been digging | dug | am digging",
+          "feedback": "Recent activity with present result."
+        },
+        {
+          "text": "She ____ too much coffee recently. | *has been drinking | drank | has drunk",
+          "feedback": "Recently plus repeated activity."
+        },
+        {
+          "text": "It ____ since early morning. | *has been snowing | snowed | is snowing",
+          "feedback": "Since early morning shows duration."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "We [*have been trying|tried|are trying] to call you all day.",
+          "feedback": "All day suggests duration up to now."
+        },
+        {
+          "text": "He [*has been teaching|taught|teaches] at this school for ten years.",
+          "feedback": "For ten years shows continuity."
+        },
+        {
+          "text": "My eyes hurt because I [*have been looking|looked|have looked] at the screen too long.",
+          "feedback": "Current effect after an activity."
+        },
+        {
+          "text": "They [*have been travelling|travelled|are travelling] around South America since May.",
+          "feedback": "Since May suggests a continuing journey."
+        },
+        {
+          "text": "I [*have not been sleeping|did not sleep|am not sleeping] well recently.",
+          "feedback": "Recently plus repeated ongoing problem."
+        }
+      ]
+    }
+  ]
+}

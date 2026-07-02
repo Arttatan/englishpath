@@ -1,0 +1,78 @@
+{
+  "title": "The case for and against universal basic income",
+  "level": "c1",
+  "section": "reading",
+  "sort_order": 3,
+  "explanation": "<h2>The case for and against universal basic income</h2><p>Universal basic income (UBI) proposes regular unconditional payments to all citizens. Supporters claim it would simplify welfare systems, reduce poverty and give workers flexibility in a changing labour market. Opponents warn of enormous fiscal cost and reduced incentive to work. Pilot programmes have produced mixed results, partly because short trials cannot capture long-term behavioural effects. The debate ultimately hinges on whether security or conditionality better promotes social trust.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "UBI means payments that are [*unconditional|secret|temporary only for students].",
+          "feedback": "Unconditional payments."
+        },
+        {
+          "text": "Supporters say UBI could [*simplify welfare|ban all jobs|end education].",
+          "feedback": "Simplify welfare systems."
+        },
+        {
+          "text": "Opponents fear high fiscal cost and less incentive to [*work|travel|sleep].",
+          "feedback": "Incentive to work."
+        },
+        {
+          "text": "Pilot programmes have produced [*mixed results|no data|uniform success everywhere].",
+          "feedback": "Mixed results."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Short trials cannot capture long-term ____ effects. | *behavioural | musical | weather",
+          "feedback": "Behavioural effects."
+        },
+        {
+          "text": "Supporters believe UBI could reduce ____.  | *poverty | poetry | parking",
+          "feedback": "Reduce poverty."
+        },
+        {
+          "text": "The debate concerns security versus ____.  | *conditionality | celebrity | certainty only",
+          "feedback": "Security vs conditionality."
+        },
+        {
+          "text": "UBI could give workers greater ____.  | *flexibility | furniture | fluency only",
+          "feedback": "Flexibility in labour market."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The article is [*balanced|one-sided propaganda|unrelated to economics].",
+          "feedback": "For and against."
+        },
+        {
+          "text": "The central question involves [*social trust|recipe design|film reviews].",
+          "feedback": "Security vs conditionality."
+        },
+        {
+          "text": "Fiscal cost is a concern for [*opponents|supporters only|no one].",
+          "feedback": "Opponents warn of cost."
+        },
+        {
+          "text": "The tone is [*policy-oriented|poetic|sarcastic only].",
+          "feedback": "Policy debate."
+        }
+      ]
+    }
+  ]
+}

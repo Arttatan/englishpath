@@ -1,0 +1,78 @@
+{
+  "title": "The city bike scheme",
+  "level": "b1",
+  "section": "reading",
+  "sort_order": 5,
+  "explanation": "<h2>The city bike scheme</h2><p>Three years ago, the city council introduced a bike-sharing scheme to reduce traffic and improve air quality. At first, residents were uncertain whether people would use it, but the number of journeys has increased every year. Users unlock bikes with a mobile app and can leave them at stations across the city. Although some people still prefer cars, the scheme has helped many commuters travel more cheaply and quickly, especially during rush hour.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The bike scheme was introduced to reduce [*traffic|crime|noise from concerts].",
+          "feedback": "Traffic reduction is one aim."
+        },
+        {
+          "text": "Users unlock bikes with [*a mobile app|a paper ticket|cash].",
+          "feedback": "They use a mobile app."
+        },
+        {
+          "text": "The number of journeys has [*increased|fallen|stayed the same].",
+          "feedback": "It has increased every year."
+        },
+        {
+          "text": "The scheme is especially useful during [*rush hour|holidays|the night].",
+          "feedback": "Rush hour is mentioned."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The city council introduced the scheme ____ years ago. | *three | two | five",
+          "feedback": "The text says three years ago."
+        },
+        {
+          "text": "People can leave bikes at stations across the ____.  | *city | country | road",
+          "feedback": "The stations are across the city."
+        },
+        {
+          "text": "At first, some residents were ____.  | *uncertain | enthusiastic | angry",
+          "feedback": "They were uncertain whether it would work."
+        },
+        {
+          "text": "The scheme helps people travel more cheaply and ____.  | *quickly | carefully | politely",
+          "feedback": "More cheaply and quickly."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The text is about [*public transport innovation|a sports competition|road safety laws only].",
+          "feedback": "It describes a bike-sharing scheme."
+        },
+        {
+          "text": "The writer presents the scheme as [*largely successful|a complete failure|too expensive to continue].",
+          "feedback": "Use has increased every year."
+        },
+        {
+          "text": "The scheme affects both [*transport and air quality|education and housing|law and crime].",
+          "feedback": "Both aims are mentioned."
+        },
+        {
+          "text": "Some people still [*prefer cars|do not own phones|avoid commuting].",
+          "feedback": "The passage notes that some still prefer cars."
+        }
+      ]
+    }
+  ]
+}

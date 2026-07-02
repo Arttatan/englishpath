@@ -1,0 +1,42 @@
+{
+  "title": "At the supermarket",
+  "level": "a1",
+  "section": "reading",
+  "sort_order": 3,
+  "explanation": "<h2>At the supermarket</h2><p>Read the notice and text.</p><p><strong>SuperSave — Special offers this week!</strong></p><p>Apples — £1.20 per kilo<br>Milk — £1.00 for two litres<br>Bread — 80p<br>Chicken — £4.50 per kilo</p><p>Tom needs milk and bread. He also buys one kilo of apples. He pays with a £10 note.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Apples cost [*£1.20|£1.00|80p] per kilo.", "feedback": "Apples — £1.20 per kilo."},
+        {"text": "Tom buys milk, bread and [*apples|chicken|cheese].", "feedback": "Milk, bread, one kilo of apples."},
+        {"text": "Two litres of milk cost [*£1.00|£1.20|£4.50].", "feedback": "Milk — £1.00 for two litres."},
+        {"text": "Tom pays with a [*£10|£5|£20] note.", "feedback": "Pays with a £10 note."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Read the text and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Bread costs ____. | *80p | £4.50 | £10", "feedback": "Bread — 80p."},
+        {"text": "Chicken is ____ per kilo. | *£4.50 | £1.20 | 80p", "feedback": "Chicken — £4.50."},
+        {"text": "The shop name is ____. | *SuperSave | Supermarket | Tom", "feedback": "SuperSave."},
+        {"text": "Tom buys one kilo of ____. | *apples | milk | bread", "feedback": "One kilo of apples."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Tom does NOT buy [*chicken|milk|bread].", "feedback": "No chicken mentioned."},
+        {"text": "The text shows [*prices|phone numbers|addresses].", "feedback": "Special offers with prices."},
+        {"text": "Tom's shopping includes [*three|two|four] types of items.", "feedback": "Milk, bread, apples."},
+        {"text": "The offers are for [*this week|next year|every day].", "feedback": "Special offers this week."}
+      ]
+    }
+  ]
+}

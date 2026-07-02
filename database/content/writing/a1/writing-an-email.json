@@ -1,0 +1,42 @@
+{
+  "title": "Writing an email",
+  "level": "a1",
+  "section": "writing",
+  "sort_order": 1,
+  "explanation": "<h2>Writing an email</h2><p>When you write a short email in English:</p><ul><li>Start with <strong>Hi [name],</strong> or <strong>Dear [name],</strong></li><li>Use simple sentences about you</li><li>End with <strong>Thanks,</strong> or <strong>Best wishes,</strong> + your name</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the best phrase to complete each sentence in an email.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Email opening: [*Hi Tom,|Goodbye Tom,|Tom thanks,]", "feedback": "Hi Tom, is a friendly opening."},
+        {"text": "Asking about someone: [*How are you?|How old are you?|Where are you?]", "feedback": "Standard greeting."},
+        {"text": "Giving news: [*I'm on holiday.|I'm on the holiday.|I'm in holiday.]", "feedback": "On holiday."},
+        {"text": "Email closing: [*Best wishes,|Best wish,|Best wishing,]", "feedback": "Best wishes,"}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct phrase for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Thanks for your ____. | *email | letterly | speak", "feedback": "Thanks for your email."},
+        {"text": "I hope you are ____. | *well | good | fine well", "feedback": "Hope you are well."},
+        {"text": "See you ____. | *soon | early | fast", "feedback": "See you soon."},
+        {"text": "Please write ____. | *back | again | return", "feedback": "Write back."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the best option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "A formal opening for a teacher: [*Dear Mr Smith,|Hi Mr Smith hey,|Yo Smith,]", "feedback": "Dear Mr Smith,"},
+        {"text": "To say you reply later: [*I'll write again soon.|I write again soon.|Writing again soon.]", "feedback": "I'll write again soon."},
+        {"text": "Correct sign-off: [*Thanks, Anna|Thanks Anna to|Anna thanks]", "feedback": "Thanks, + name on next line."},
+        {"text": "Inviting a friend: [*Do you want to come?|You want come?|Come you want?]", "feedback": "Do you want to come?"}
+      ]
+    }
+  ]
+}

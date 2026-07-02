@@ -1,0 +1,78 @@
+{
+  "title": "Can neighbourhood apps build real communities?",
+  "level": "b1plus",
+  "section": "reading",
+  "sort_order": 3,
+  "explanation": "<h2>Can neighbourhood apps build real communities?</h2><p>In many towns and cities, local residents now use neighbourhood apps to share information, ask for help and organise events. A message about a lost pet can spread within minutes, and someone who needs a ladder or a babysitter may find support nearby. Supporters say these apps help strangers trust each other and make communities more practical. Critics argue that online communication can never fully replace real conversations and may even increase suspicion when people share too many complaints. Whether these apps strengthen a neighbourhood seems to depend on how respectfully people use them.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Neighbourhood apps allow residents to [*share information quickly|book flights|watch documentaries].",
+          "feedback": "That is one of their main uses."
+        },
+        {
+          "text": "Someone who needs a ladder may find [*local support|legal advice|a new job].",
+          "feedback": "The text gives this example."
+        },
+        {
+          "text": "Critics think online communication cannot fully replace [*real conversations|public transport|formal education].",
+          "feedback": "That is their concern."
+        },
+        {
+          "text": "The effect of the apps depends on how [*respectfully|expensively|secretly] people use them.",
+          "feedback": "That is the final point."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A message about a lost ____ can spread very quickly. | *pet | receipt | deadline",
+          "feedback": "Lost pet is the example."
+        },
+        {
+          "text": "Supporters say the apps make communities more ____.  | *practical | private | formal",
+          "feedback": "The word practical is used."
+        },
+        {
+          "text": "Too many complaints may increase ____.  | *suspicion | income | fitness",
+          "feedback": "That is one criticism."
+        },
+        {
+          "text": "The apps can also help people organise local ____.  | *events | laws | storms",
+          "feedback": "Residents can organise events."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The writer does not claim the apps are [*completely good or bad|useless|dangerous in all cases].",
+          "feedback": "The article is balanced."
+        },
+        {
+          "text": "The passage is mainly about [*technology and community|airport delays|medical treatment].",
+          "feedback": "It discusses apps and neighbourhoods."
+        },
+        {
+          "text": "The text suggests behaviour matters as much as the [*technology|weather|budget].",
+          "feedback": "Respectful use is important."
+        },
+        {
+          "text": "One positive effect mentioned is increased [*trust|competition|advertising].",
+          "feedback": "Supporters say strangers trust each other more."
+        }
+      ]
+    }
+  ]
+}

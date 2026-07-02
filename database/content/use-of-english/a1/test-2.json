@@ -1,0 +1,42 @@
+{
+  "title": "Use of English — Test 2",
+  "level": "a1",
+  "section": "use-of-english",
+  "sort_order": 2,
+  "explanation": "<h2>Use of English — Test 2</h2><p>More mixed A1 practice: tenses, prepositions and question forms.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "He [*works|work|working] in a bank.", "feedback": "He → works."},
+        {"text": "I was at home. They [*were|was|are] at school.", "feedback": "They → were."},
+        {"text": "We [*are going|go|goes] to the beach today.", "feedback": "Today → going to."},
+        {"text": "[*Do|Does|Did] they live here?", "feedback": "They → Do."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "She lives ____ London. | *in | at | on", "feedback": "Cities → in."},
+        {"text": "This is the ____ day of the week. | *best | good | better", "feedback": "Superlative."},
+        {"text": "I need ____ water, please. | *some | any | many", "feedback": "Some water."},
+        {"text": "He ____ TV every evening. | *watches | watch | watching", "feedback": "He watches."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "There [*wasn't|weren't|isn't] any milk.", "feedback": "Milk uncountable → wasn't."},
+        {"text": "I'm [*older|old|oldest] than my sister.", "feedback": "Comparative → older."},
+        {"text": "She [*is reading|reads|read] a book now.", "feedback": "Now → is reading."},
+        {"text": "The correct question is: [*Where do you live?|What do you live?|Who do you live?]", "feedback": "Where do you live?"}
+      ]
+    }
+  ]
+}

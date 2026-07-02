@@ -1,0 +1,42 @@
+{
+  "title": "Describing yourself",
+  "level": "a1",
+  "section": "writing",
+  "sort_order": 2,
+  "explanation": "<h2>Describing yourself</h2><p>Useful patterns for A1 writing:</p><ul><li>My name is… / I'm…</li><li>I'm [age] years old.</li><li>I'm from…</li><li>I live in…</li><li>I like… / I don't like…</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the best sentence.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "[*My name is Maria.|My name Maria.|Name my is Maria.]", "feedback": "My name is + name."},
+        {"text": "[*I'm twenty years old.|I have twenty years.|I'm twenty years.]", "feedback": "I'm + age + years old."},
+        {"text": "[*I'm from Brazil.|I'm from in Brazil.|I from Brazil.]", "feedback": "I'm from + country."},
+        {"text": "[*I live in a flat.|I live on a flat.|I live at flat.]", "feedback": "Live in a flat."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct phrase for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "I ____ music. | *like | likes | liking", "feedback": "I like."},
+        {"text": "I don't ____ vegetables. | *eat | eats | eating", "feedback": "Don't + base verb."},
+        {"text": "I have ____ brothers. | *two | second | too", "feedback": "Two brothers."},
+        {"text": "My favourite colour is ____. | *blue | colour blue | the blue colour", "feedback": "Blue."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the best option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "[*I am a student.|I am student.|I a student.]", "feedback": "Need article: a student."},
+        {"text": "[*I speak a little English.|I speak little English little.|Speak I English.]", "feedback": "A little English."},
+        {"text": "[*I have got brown eyes.|I have brown eyes got.|Got I brown eyes.]", "feedback": "I have got / I have brown eyes."},
+        {"text": "[*Nice to meet you.|Nice meet you.|To nice you meet.]", "feedback": "Fixed phrase."}
+      ]
+    }
+  ]
+}

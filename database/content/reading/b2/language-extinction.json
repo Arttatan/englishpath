@@ -1,0 +1,78 @@
+{
+  "title": "Why languages disappear",
+  "level": "b2",
+  "section": "reading",
+  "sort_order": 4,
+  "explanation": "<h2>Why languages disappear</h2><p>Linguists estimate that nearly half of the world's languages could disappear within a century. Many small communities switch to dominant languages for education, work and digital communication. When fewer children learn a language at home, its vocabulary, stories and cultural knowledge may be lost forever. Preservation projects record oral histories, publish dictionaries and support bilingual schools. Although these efforts cannot save every language, they can maintain cultural diversity and respect for minority communities.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Nearly half of the world's languages could vanish within [*a century|a week|a day].",
+          "feedback": "Within a century."
+        },
+        {
+          "text": "Communities may switch to dominant languages for education and [*work|sport only|cooking only].",
+          "feedback": "Education, work and digital communication."
+        },
+        {
+          "text": "Loss of language can mean loss of stories and [*cultural knowledge|building materials|car engines].",
+          "feedback": "Cultural knowledge."
+        },
+        {
+          "text": "Preservation projects include recording oral histories and publishing [*dictionaries|novels only|menus only].",
+          "feedback": "Publish dictionaries."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "When fewer children learn a language at home, it may ____.  | *disappear | expand | translate",
+          "feedback": "Languages disappear."
+        },
+        {
+          "text": "Digital communication is one factor pushing communities to switch ____.  | *languages | jobs | cities",
+          "feedback": "Switch languages."
+        },
+        {
+          "text": "Bilingual schools are one form of ____.  | *support | punishment | competition",
+          "feedback": "Support for preservation."
+        },
+        {
+          "text": "Minority communities deserve ____.  | *respect | isolation | silence",
+          "feedback": "Respect for minorities."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The writer views preservation efforts as [*valuable but limited|useless|harmful].",
+          "feedback": "Cannot save every language but still valuable."
+        },
+        {
+          "text": "The passage is mainly about [*language loss|airport design|computer games].",
+          "feedback": "Language extinction."
+        },
+        {
+          "text": "The tone is [*informative and concerned|angry|sarcastic].",
+          "feedback": "Informative."
+        },
+        {
+          "text": "Cultural [*diversity|pollution|inflation] is one benefit of preservation.",
+          "feedback": "Cultural diversity."
+        }
+      ]
+    }
+  ]
+}

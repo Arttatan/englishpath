@@ -1,0 +1,78 @@
+{
+  "title": "Politics in a 'post-truth' era",
+  "level": "c1",
+  "section": "reading",
+  "sort_order": 2,
+  "explanation": "<h2>Politics in a 'post-truth' era</h2><p>Some commentators argue that emotional appeal now rivals factual evidence in public debate. Social media amplifies sensational claims and allows false stories to spread before they can be corrected. Defenders of the term 'post-truth' say it describes a structural shift, not mere lying. Others reject the label as elitist, claiming voters still care about evidence but distrust institutions that present it. Either way, democratic debate depends on media literacy and transparent verification.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Emotional appeal may now rival [*factual evidence|sports results|weather forecasts only].",
+          "feedback": "Rivals factual evidence."
+        },
+        {
+          "text": "Social media helps false stories spread [*before correction|after everyone forgets|only in print].",
+          "feedback": "Before they can be corrected."
+        },
+        {
+          "text": "'Post-truth' describes a [*structural shift|grammar rule|musical trend].",
+          "feedback": "Structural shift."
+        },
+        {
+          "text": "Democratic debate depends on media literacy and [*transparent verification|secret voting only|luxury travel].",
+          "feedback": "Transparent verification."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Sensational claims spread quickly on social ____.  | *media | menus | museums",
+          "feedback": "Social media."
+        },
+        {
+          "text": "Some critics call the label ____.  | *elitist | tiny | tasty",
+          "feedback": "Reject as elitist."
+        },
+        {
+          "text": "Voters may distrust the ____ that present evidence. | *institutions | instruments | ingredients",
+          "feedback": "Distrust institutions."
+        },
+        {
+          "text": "False stories can spread with little immediate ____.  | *correction | collection | connection",
+          "feedback": "Before correction."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The writer presents [*multiple perspectives|no argument|only jokes].",
+          "feedback": "Commentators and critics."
+        },
+        {
+          "text": "The passage concerns [*public discourse|garden design|train schedules].",
+          "feedback": "Post-truth politics."
+        },
+        {
+          "text": "The tone is [*concerned but measured|angry throughout|purely comic].",
+          "feedback": "Measured analysis."
+        },
+        {
+          "text": "Media literacy is presented as [*essential|irrelevant|dangerous].",
+          "feedback": "Democratic debate depends on it."
+        }
+      ]
+    }
+  ]
+}

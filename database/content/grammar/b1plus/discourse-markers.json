@@ -1,0 +1,86 @@
+{
+  "title": "Discourse markers",
+  "level": "b1plus",
+  "section": "grammar",
+  "sort_order": 8,
+  "explanation": "<h2>Discourse markers</h2><p>Discourse markers help organise ideas and show relationships between them: addition, contrast, result, example and sequencing.</p><ul><li>addition: furthermore, in addition</li><li>contrast: however, although, nevertheless</li><li>result: therefore, as a result</li><li>example: for instance</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The train was delayed; [*however|therefore|for example], we still arrived on time.",
+          "feedback": "However introduces contrast."
+        },
+        {
+          "text": "She speaks several languages. [*In addition|Although|As a result], she has excellent communication skills.",
+          "feedback": "In addition adds another point."
+        },
+        {
+          "text": "The roads were icy. [*As a result|For instance|Nevertheless], many schools closed.",
+          "feedback": "As a result shows consequence."
+        },
+        {
+          "text": "Some jobs are flexible. [*For example|However|Therefore], remote teaching and freelance design.",
+          "feedback": "For example introduces examples."
+        },
+        {
+          "text": "He was tired; [*nevertheless|for instance|because of], he finished the report.",
+          "feedback": "Nevertheless contrasts with the first clause."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "I enjoy outdoor sports. ____, I go hiking whenever I can. | *For instance | However | Therefore",
+          "feedback": "For instance introduces an example."
+        },
+        {
+          "text": "The phone is expensive. ____, it has excellent reviews. | *However | As a result | For example",
+          "feedback": "Contrast."
+        },
+        {
+          "text": "Traffic was terrible. ____, we missed the start of the film. | *As a result | In addition | Nevertheless",
+          "feedback": "Result."
+        },
+        {
+          "text": "The company offers good pay. ____, it provides flexible hours. | *In addition | However | Therefore",
+          "feedback": "Addition."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The city is expensive. [*On the other hand|As a result|For example], salaries are usually higher.",
+          "feedback": "Contrast with a balancing point."
+        },
+        {
+          "text": "He had prepared carefully; [*therefore|however|for instance], the interview went well.",
+          "feedback": "Therefore shows consequence."
+        },
+        {
+          "text": "[*Although|For example|In addition] she was tired, she stayed until the end.",
+          "feedback": "Although introduces concession."
+        },
+        {
+          "text": "Many people enjoy podcasts; [*for instance|however|therefore], language learners often use them for extra practice.",
+          "feedback": "For instance fits before an example."
+        },
+        {
+          "text": "The flat is small. [*Nevertheless|For example|As a result], it feels bright and comfortable.",
+          "feedback": "Nevertheless gives unexpected contrast."
+        }
+      ]
+    }
+  ]
+}

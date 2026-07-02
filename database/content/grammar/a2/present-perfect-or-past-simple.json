@@ -1,0 +1,45 @@
+{
+  "title": "Present perfect or past simple?",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 5,
+  "explanation": "<h2>Present perfect or past simple?</h2><p><strong>Past simple</strong> — finished time (yesterday, last year, in 2010, ago).</p><p><strong>Present perfect</strong> — unfinished time (today, this week), no specific time, or connection with now (since, for, yet, already, ever).</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*saw|have seen|see] her at the party last night.", "feedback": "Last night → past simple."},
+        {"text": "She [*has worked|worked|works] here since 2019.", "feedback": "Since → present perfect."},
+        {"text": "We [*visited|have visited|visit] Italy three years ago.", "feedback": "Ago → visited."},
+        {"text": "They [*have already done|already did|already do] their homework.", "feedback": "Already → present perfect."},
+        {"text": "He [*didn't go|hasn't gone|doesn't go] to work yesterday.", "feedback": "Yesterday → didn't go."},
+        {"text": "[*Have you ever eaten|Did you ever eat|Do you ever eat] sushi?", "feedback": "Ever → present perfect."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "I ____ him this morning. | *have seen | saw | see", "feedback": "This morning (unfinished day) → have seen."},
+        {"text": "She ____ to Paris in 2018. | *went | has gone | goes", "feedback": "Specific year → went."},
+        {"text": "We ____ each other for ten years. | *have known | knew | know", "feedback": "For ten years → have known."},
+        {"text": "They ____ the film yet. | *haven't watched | didn't watch | don't watch", "feedback": "Yet → haven't watched."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*have lost|lost|lose] my passport. I can't find it anywhere.", "feedback": "Present result → have lost."},
+        {"text": "She [*graduated|has graduated|graduates] from university last June.", "feedback": "Last June → graduated."},
+        {"text": "We [*have lived|lived|live] in this flat for two months.", "feedback": "For → have lived."},
+        {"text": "[*Did|Have|Do] they finish the project on Friday?", "feedback": "On Friday → Did."},
+        {"text": "He [*has never tried|never tried|never tries] skiing.", "feedback": "Never (experience) → has never tried."}
+      ]
+    }
+  ]
+}

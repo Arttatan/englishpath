@@ -1,0 +1,95 @@
+{
+  "title": "Arts and media",
+  "level": "b2",
+  "section": "vocabulary",
+  "sort_order": 6,
+  "explanation": "<h2>Arts and media</h2><ul><li>exhibition, critic, masterpiece, censorship, premiere</li><li>documentary, screenplay, genre, curator, broadcast</li><li>verbs: perform, publish, review, adapt</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The museum's new ____ features contemporary photography. | *exhibition | election | recession",
+          "feedback": "Art exhibition."
+        },
+        {
+          "text": "The film received praise from every major ____. | *critic | witness | defendant",
+          "feedback": "Film critic."
+        },
+        {
+          "text": "Many consider the novel a literary ____. | *masterpiece | receipt | platform",
+          "feedback": "Masterpiece."
+        },
+        {
+          "text": "The ____ of the play attracted celebrities from across Europe. | *premiere | verdict | deadline",
+          "feedback": "Premiere = first performance."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "adapt",
+        "perform",
+        "review",
+        "broadcast",
+        "publish",
+        "documentary",
+        "screenplay",
+        "genre",
+        "censorship",
+        "curator"
+      ],
+      "questions": [
+        {
+          "text": "The director decided to ____ the novel for television. | adapt",
+          "feedback": ""
+        },
+        {
+          "text": "The orchestra will ____ live at the festival. | perform",
+          "feedback": ""
+        },
+        {
+          "text": "The journalist wrote a detailed ____ of the concert. | review",
+          "feedback": ""
+        },
+        {
+          "text": "The channel will ____ the debate tonight. | broadcast",
+          "feedback": ""
+        },
+        {
+          "text": "She hopes to ____ her first collection of poems next year. | publish",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The ____ explored the history of protest movements. | *documentary | sentence | bail",
+          "feedback": "Documentary film."
+        },
+        {
+          "text": "He spent months writing the ____. | *screenplay | verdict | mandate",
+          "feedback": "Screenplay for a film."
+        },
+        {
+          "text": "Horror is a popular film ____ worldwide. | *genre | policy | debt",
+          "feedback": "Genre = type."
+        },
+        {
+          "text": "The ____ selected works from emerging artists. | *curator | jury | witness",
+          "feedback": "Museum curator."
+        }
+      ]
+    }
+  ]
+}

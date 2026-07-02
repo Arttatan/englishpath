@@ -1,0 +1,27 @@
+{
+  "title": "Plastic pollution",
+  "level": "a2",
+  "section": "reading",
+  "sort_order": 3,
+  "explanation": "<h2>Plastic pollution</h2><p>Every year, millions of tonnes of plastic waste enter the oceans. Fish and birds can eat small pieces of plastic and become ill. Supermarkets now charge for plastic bags in many countries to reduce waste. People can help by using reusable bottles, recycling at home and buying products with less packaging. Small changes by many people can make a big difference.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "Plastic waste often ends up in the [*oceans|mountains|shops].", "feedback": "Enter the oceans."},
+      {"text": "Animals can become [*ill|rich|fast] from eating plastic.", "feedback": "Become ill."},
+      {"text": "Supermarkets charge for plastic [*bags|bottles|chairs].", "feedback": "Plastic bags."},
+      {"text": "The text suggests using [*reusable|single-use|broken] bottles.", "feedback": "Reusable bottles."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Read and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "People should recycle at ____. | *home | sea | work only", "feedback": "Recycling at home."},
+      {"text": "Buy products with less ____. | *packaging | plastic only | water", "feedback": "Less packaging."},
+      {"text": "Small changes can make a big ____. | *difference | problem | ocean", "feedback": "Big difference."},
+      {"text": "Birds and fish eat small ____ of plastic. | *pieces | bags | bottles", "feedback": "Small pieces."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Read the text and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "The main topic is [*environment|sport|technology].", "feedback": "Plastic pollution."},
+      {"text": "The text is [*encouraging|discouraging|neutral] about helping.", "feedback": "People can help..."},
+      {"text": "Charging for bags is meant to [*reduce|increase|ignore] waste.", "feedback": "To reduce waste."},
+      {"text": "The problem affects [*wildlife|only humans|only shops].", "feedback": "Fish and birds."}
+    ]}
+  ]
+}

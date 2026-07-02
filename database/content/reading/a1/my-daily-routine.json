@@ -1,0 +1,42 @@
+{
+  "title": "My daily routine",
+  "level": "a1",
+  "section": "reading",
+  "sort_order": 1,
+  "explanation": "<h2>My daily routine</h2><p>Read the text and do the exercises.</p><p>Hi! I'm Sofia. I get up at seven o'clock every day. I have a shower and eat breakfast. I leave home at half past eight and take the bus to work. I work in a bookshop from nine to five. In the evening I cook dinner and watch TV. I go to bed at eleven.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Sofia gets up at [*seven|eight|nine] o'clock.", "feedback": "I get up at seven."},
+        {"text": "She goes to work by [*bus|car|bike].", "feedback": "Take the bus to work."},
+        {"text": "She works in a [*bookshop|school|hospital].", "feedback": "Work in a bookshop."},
+        {"text": "She goes to bed at [*eleven|nine|midnight].", "feedback": "Go to bed at eleven."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Read the text and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Sofia has a ____ in the morning. | *shower | bus | book", "feedback": "Have a shower."},
+        {"text": "She leaves home at half past ____. | *eight | five | eleven", "feedback": "Half past eight."},
+        {"text": "She works from nine to ____. | *five | seven | eight", "feedback": "Nine to five."},
+        {"text": "In the evening she ____ dinner. | *cooks | sleeps | works", "feedback": "Cook dinner."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Sofia eats breakfast [*before|after|during] work.", "feedback": "Breakfast in the morning before work."},
+        {"text": "She watches TV in the [*evening|morning|afternoon].", "feedback": "In the evening."},
+        {"text": "The text is about Sofia's [*daily routine|holiday|family].", "feedback": "Daily routine."},
+        {"text": "Sofia works for [*eight|seven|nine] hours.", "feedback": "Nine to five = 8 hours."}
+      ]
+    }
+  ]
+}

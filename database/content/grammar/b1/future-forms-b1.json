@@ -1,0 +1,86 @@
+{
+  "title": "Future forms review",
+  "level": "b1",
+  "section": "grammar",
+  "sort_order": 4,
+  "explanation": "<h2>Future forms review</h2><p>Use <strong>will</strong> for predictions and spontaneous decisions, <strong>going to</strong> for plans and evidence, <strong>present continuous</strong> for arranged future events, and <strong>present simple</strong> for timetables.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Look at those clouds! It [*is going to rain|will rain|rains] soon.",
+          "feedback": "Evidence now suggests going to."
+        },
+        {
+          "text": "I think people [*will work|are working|work] fewer hours in the future.",
+          "feedback": "Prediction with will."
+        },
+        {
+          "text": "We [*are meeting|meet|will meet] the clients at 10 tomorrow.",
+          "feedback": "Arrangement with present continuous."
+        },
+        {
+          "text": "The train [*leaves|is leaving|will leave] at 6:45.",
+          "feedback": "Timetable with present simple."
+        },
+        {
+          "text": "I forgot my wallet. I [*will go|am going to go|go] back for it.",
+          "feedback": "Spontaneous decision with will."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "She ____ to Berlin next Friday. Everything is booked. | *is flying | flies | will fly",
+          "feedback": "Arrangement already made."
+        },
+        {
+          "text": "I am sure you ____ the exam. | *will pass | are passing | pass",
+          "feedback": "Prediction."
+        },
+        {
+          "text": "We ____ a new flat this summer. | *are going to buy | buy | will buying",
+          "feedback": "Plan or intention."
+        },
+        {
+          "text": "The lesson ____ at half past nine. | *starts | is starting | will starts",
+          "feedback": "Schedule or timetable."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "They [*are going to open|will opening|open] a new branch next year.",
+          "feedback": "Planned future action."
+        },
+        {
+          "text": "I am thirsty. I [*will get|am getting|get] some water.",
+          "feedback": "Immediate decision."
+        },
+        {
+          "text": "The conference [*begins|is going to begin|will beginning] on Monday.",
+          "feedback": "Fixed programme."
+        },
+        {
+          "text": "What time [*are you leaving|do you leave|will you leaves] tomorrow?",
+          "feedback": "Personal arrangement."
+        },
+        {
+          "text": "He [*is not going to stay|will not staying|does not stay] in that job for long.",
+          "feedback": "Decision or intention about the future."
+        }
+      ]
+    }
+  ]
+}

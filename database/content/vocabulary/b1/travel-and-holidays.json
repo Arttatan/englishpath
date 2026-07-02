@@ -1,0 +1,95 @@
+{
+  "title": "Travel and holidays",
+  "level": "b1",
+  "section": "vocabulary",
+  "sort_order": 1,
+  "explanation": "<h2>Travel and holidays</h2><ul><li>accommodation: hostel, resort, campsite, guesthouse</li><li>travel words: delay, departure, luggage, boarding pass, platform</li><li>holiday verbs: explore, book, check in, set off</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "We stayed in a small ____. It was cheap but clean. | *guesthouse | platform | suitcase",
+          "feedback": "A guesthouse is a type of accommodation."
+        },
+        {
+          "text": "The flight was cancelled because of a long ____. | *delay | check-in | resort",
+          "feedback": "Delay means waiting longer than planned."
+        },
+        {
+          "text": "Please show your ____ before you enter the plane. | *boarding pass | platform | resort",
+          "feedback": "You need a boarding pass at the gate."
+        },
+        {
+          "text": "They want to ____ the old town on foot. | *explore | queue | delay",
+          "feedback": "Explore means discover a place."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "check",
+        "platform",
+        "luggage",
+        "resort",
+        "hire",
+        "hostel",
+        "departure",
+        "passport",
+        "excursion",
+        "campsite"
+      ],
+      "questions": [
+        {
+          "text": "We need to ____ in online before the flight. | check",
+          "feedback": ""
+        },
+        {
+          "text": "Our train leaves from ____ 6. | platform",
+          "feedback": ""
+        },
+        {
+          "text": "Do not leave your ____ unattended. | luggage",
+          "feedback": ""
+        },
+        {
+          "text": "They are staying at a beach ____ this summer. | resort",
+          "feedback": ""
+        },
+        {
+          "text": "We decided to ____ a car to see the island. | hire",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The backpackers slept in a youth ____. | *hostel | receipt | forecast",
+          "feedback": "A hostel is cheap shared accommodation."
+        },
+        {
+          "text": "We ____ at dawn to avoid the traffic. | *set off | took off | gave up",
+          "feedback": "Set off means start a journey."
+        },
+        {
+          "text": "I booked an ____ to visit the caves. | *excursion | arrival | signal",
+          "feedback": "An excursion is a short organised trip."
+        },
+        {
+          "text": "Our ____ time is 18:40. | *departure | arrival gate | boarding",
+          "feedback": "Departure is when you leave."
+        }
+      ]
+    }
+  ]
+}

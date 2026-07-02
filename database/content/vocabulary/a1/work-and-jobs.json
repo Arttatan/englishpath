@@ -1,0 +1,45 @@
+{
+  "title": "Work and jobs",
+  "level": "a1",
+  "section": "vocabulary",
+  "sort_order": 5,
+  "explanation": "<h2>Work and jobs</h2><ul><li><strong>teacher, doctor, engineer, nurse, chef</strong></li><li><strong>office, hospital, restaurant, factory</strong></li><li><strong>colleague, boss, salary, meeting</strong></li><li>Verbs: <strong>work, start, finish, earn</strong></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "A person who teaches students is a ____. | *teacher | doctor | chef", "feedback": "Teacher."},
+        {"text": "She works in a hospital. She's a ____. | *nurse | engineer | boss", "feedback": "Nurse works in a hospital."},
+        {"text": "My ____ is very friendly — we have lunch together. | *colleague | salary | meeting", "feedback": "Colleague = coworker."},
+        {"text": "He ____ at nine and finishes at five. | *starts | earns | salary", "feedback": "Starts work."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option to complete these sentences. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": ["doctor", "office", "meeting", "salary", "engineer", "restaurant", "boss", "work", "job", "chef"],
+      "questions": [
+        {"text": "My sister is a ____. She helps sick people. | doctor", "feedback": ""},
+        {"text": "I have a ____ at ten o'clock. | meeting", "feedback": ""},
+        {"text": "He works in an ____ in the city centre. | office", "feedback": ""},
+        {"text": "The ____ cooks delicious food. | chef", "feedback": ""},
+        {"text": "She got a new ____ last month. | job", "feedback": ""}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "An ____ builds bridges and machines. | *engineer | nurse | chef", "feedback": "Engineer."},
+        {"text": "The ____ pays employees every month. | *company | colleague | meeting", "feedback": "Company pays salary."},
+        {"text": "What do you ____ for a living? | *do | earn | boss", "feedback": "What do you do?" },
+        {"text": "He wants a better ____. | *job | work | meeting", "feedback": "A better job (position)." }
+      ]
+    }
+  ]
+}

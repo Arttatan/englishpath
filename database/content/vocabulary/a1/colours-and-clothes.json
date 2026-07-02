@@ -1,0 +1,45 @@
+{
+  "title": "Colours and clothes",
+  "level": "a1",
+  "section": "vocabulary",
+  "sort_order": 7,
+  "explanation": "<h2>Colours and clothes</h2><ul><li><strong>colours:</strong> red, blue, green, black, white, yellow, brown, grey</li><li><strong>clothes:</strong> shirt, T-shirt, trousers, jeans, dress, skirt, jacket, coat, shoes, socks, hat</li><li><strong>verbs:</strong> wear, put on, take off</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "She is wearing a red ____. | *dress | shoe | hat", "feedback": "A dress can be red."},
+        {"text": "I need new ____. My old ones have holes. | *socks | skirt | dress", "feedback": "Socks can have holes."},
+        {"text": "He always wears a ____ in winter. | *coat | T-shirt | skirt", "feedback": "Coat for winter."},
+        {"text": "My favourite colour is ____. | *blue | jacket | shoe", "feedback": "Blue is a colour."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": ["jeans", "shirt", "black", "hat", "shoes", "green", "jacket", "trousers", "white", "skirt"],
+      "questions": [
+        {"text": "He wears ____ to work every day. | shirt", "feedback": ""},
+        {"text": "She bought new ____ for the party. | shoes", "feedback": ""},
+        {"text": "The cat is ____. | black", "feedback": ""},
+        {"text": "It's cold — put on your ____. | jacket", "feedback": ""},
+        {"text": "The grass is ____. | green", "feedback": ""}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "I ____ my jacket when I go inside. | *take off | put on | wear", "feedback": "Take off = remove clothes."},
+        {"text": "She is wearing a white ____. | *T-shirt | blue | sock", "feedback": "T-shirt."},
+        {"text": "These ____ are too big for me. | *trousers | hat | red", "feedback": "Trousers can be too big."},
+        {"text": "He ____ a hat because it's sunny. | *wears | colour | skirt", "feedback": "Wear a hat."}
+      ]
+    }
+  ]
+}

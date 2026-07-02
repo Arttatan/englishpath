@@ -1,0 +1,79 @@
+{
+  "title": "Job interview feedback",
+  "level": "b2",
+  "section": "listening",
+  "sort_order": 2,
+  "explanation": "<h2>Job interview feedback</h2><p>Listen to a manager giving feedback after an interview.</p><h3>Transcript</h3><p><strong>Manager:</strong> Thank you for coming in today. You communicated clearly and gave strong examples from your previous role. However, we felt you did not show enough detail about how you handle conflict in a team. We are keeping your application on file and may contact you if another position opens. I would advise you to prepare more concrete stories about problem-solving before your next interview.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The candidate communicated [*clearly|unclearly|too formally].",
+          "feedback": "Communicated clearly."
+        },
+        {
+          "text": "The manager wanted more detail about handling [*conflict|salary|travel].",
+          "feedback": "Conflict in a team."
+        },
+        {
+          "text": "The application will be kept [*on file|rejected immediately|published online].",
+          "feedback": "Keeping application on file."
+        },
+        {
+          "text": "The manager advises preparing stories about [*problem-solving|holiday plans|office design].",
+          "feedback": "Concrete problem-solving stories."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The feedback mentions strong examples from a previous ____.  | *role | flight | recipe",
+          "feedback": "Previous role."
+        },
+        {
+          "text": "The company may contact the candidate if another ____ opens. | *position | platform | storm",
+          "feedback": "Another position."
+        },
+        {
+          "text": "The manager's advice is to prepare more ____ stories. | *concrete | musical | ancient",
+          "feedback": "Concrete stories."
+        },
+        {
+          "text": "The overall result is not an immediate job ____.  | *offer | ticket | vaccine",
+          "feedback": "No immediate offer."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The feedback is [*constructive|hostile|unclear].",
+          "feedback": "Advice for improvement."
+        },
+        {
+          "text": "The candidate's communication was seen as a [*strength|weakness|irrelevant detail].",
+          "feedback": "Communicated clearly."
+        },
+        {
+          "text": "Team conflict was treated as an area needing more [*evidence|money|equipment].",
+          "feedback": "More detail needed."
+        },
+        {
+          "text": "The manager sounds [*professional and direct|rude|uninterested].",
+          "feedback": "Professional feedback."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=4jpdlG8EJhE"
+}

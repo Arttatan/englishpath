@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 1",
+  "level": "b1",
+  "section": "use-of-english",
+  "sort_order": 1,
+  "explanation": "<h2>Use of English - B1 Test 1</h2><p>Mixed grammar and vocabulary review.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "I [*have been working|worked|am working] here since 2019.",
+          "feedback": "Present perfect continuous for duration."
+        },
+        {
+          "text": "If I had seen the message, I [*would have replied|would reply|replied] sooner.",
+          "feedback": "Third conditional."
+        },
+        {
+          "text": "The report [*was written|wrote|was writing] by our team leader.",
+          "feedback": "Passive form."
+        },
+        {
+          "text": "She suggested [*meeting|to meet|meet] after work.",
+          "feedback": "Suggest takes a gerund."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "He told me ____ be late. | *not to | to not | not",
+          "feedback": "Reported command."
+        },
+        {
+          "text": "This is the woman ____ brother works with me. | *whose | who | where",
+          "feedback": "Whose for possession."
+        },
+        {
+          "text": "You do not have to come, but you ____ let me know. | *should | mustn't | would",
+          "feedback": "Advice."
+        },
+        {
+          "text": "We ran ____ of coffee this morning. | *out | up | off",
+          "feedback": "Phrasal verb run out of."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "I do not mind [*waiting|to wait|wait] a few more minutes.",
+          "feedback": "Mind takes a gerund."
+        },
+        {
+          "text": "The shop gave me a full [*refund|broadcast|promotion] after the complaint.",
+          "feedback": "Refund fits the context."
+        },
+        {
+          "text": "By the time we arrived, the film [*had started|started|has started].",
+          "feedback": "Past perfect."
+        },
+        {
+          "text": "If he [*were|was|is] more organised, he would miss fewer deadlines.",
+          "feedback": "Second conditional."
+        }
+      ]
+    }
+  ]
+}

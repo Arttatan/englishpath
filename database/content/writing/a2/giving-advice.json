@@ -1,0 +1,27 @@
+{
+  "title": "Giving advice",
+  "level": "a2",
+  "section": "writing",
+  "sort_order": 3,
+  "explanation": "<h2>Giving advice (A2)</h2><p>Useful structures:</p><ul><li><strong>should / shouldn't:</strong> <em>You should see a doctor.</em></li><li><strong>If I were you, …:</strong> <em>If I were you, I would talk to him.</em></li><li><strong>Why don't you …?</strong> <em>Why don't you take a break?</em></li><li><strong>It's a good idea to …</strong></li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the best advice.", "type": "inline_choice", "questions": [
+      {"text": "[*You should get more sleep.|You should to get more sleep.|You should getting more sleep.]", "feedback": "Should + base verb."},
+      {"text": "[*If I were you, I would apologise.|If I am you, I apologise.|If I were you, I will apologise.]", "feedback": "Second conditional advice."},
+      {"text": "[*Why don't you join a club?|Why you don't join a club?|Why not you join club?]", "feedback": "Why don't you…?" },
+      {"text": "[*It's a good idea to backup your files.|It's good idea backup files.|Good idea to backuping files.]", "feedback": "It's a good idea to + verb."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct phrase.", "type": "lettered_gap", "questions": [
+      {"text": "You ____ eat so much sugar. | *shouldn't | don't should | not should", "feedback": "Shouldn't."},
+      {"text": "You ____ try speaking English every day. | *should | must to | should to", "feedback": "Should + base."},
+      {"text": "____ you ask your teacher for help? | *Why don't | Why not | What", "feedback": "Why don't you ask…?"},
+      {"text": "I ____ talk to your manager if I were you. | *would | will | am", "feedback": "I would talk."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Choose the best option.", "type": "inline_choice", "questions": [
+      {"text": "[*You ought to be polite.|You ought being polite.|You ought to being polite.]", "feedback": "Ought to + verb."},
+      {"text": "[*Have you thought about learning online?|Have you thought learn online?|Thought you learning online?]", "feedback": "Thought about + -ing."},
+      {"text": "[*I don't think you should worry.|I think you shouldn't worrying.|Don't think worry you.]", "feedback": "Don't think you should worry."},
+      {"text": "[*The best thing to do is rest.|Best thing do is rest.|The best is rest thing.]", "feedback": "The best thing to do is…"}
+    ]}
+  ]
+}

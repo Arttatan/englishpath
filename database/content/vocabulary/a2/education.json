@@ -1,0 +1,30 @@
+{
+  "title": "Education",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 2,
+  "explanation": "<h2>Education</h2><ul><li><strong>people:</strong> pupil, student, professor, lecturer</li><li><strong>places:</strong> university, college, laboratory, lecture hall</li><li><strong>words:</strong> degree, exam, coursework, graduate, fail, pass</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "She wants to get a ____ in medicine. | *degree | exam | pupil", "feedback": "University degree."},
+      {"text": "The ____ starts at nine o'clock. | *lecture | graduate | fail", "feedback": "Lecture."},
+      {"text": "He ____ from university last year. | *graduated | passed | studied", "feedback": "Graduate from."},
+      {"text": "All students must pass the final ____. | *exam | degree | lecturer", "feedback": "Final exam."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["university", "coursework", "professor", "laboratory", "student", "pass", "college", "subject", "fail", "lecture"],
+      "questions": [
+        {"text": "She is a ____ at Oxford. | student", "feedback": ""},
+        {"text": "The ____ explained the experiment. | professor", "feedback": ""},
+        {"text": "We did the experiment in the ____. | laboratory", "feedback": ""},
+        {"text": "I hope I ____ the test. | pass", "feedback": ""},
+        {"text": "Maths is my favourite ____. | subject", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "He failed the exam but he will ____ again. | *try | graduate | degree", "feedback": "Try again."},
+      {"text": "A ____ is a child at school. | *pupil | professor | university", "feedback": "Pupil."},
+      {"text": "She goes to ____ to study engineering. | *college | pupil | fail", "feedback": "College."},
+      {"text": "I have a lot of ____ to finish. | *coursework | lecture | graduate", "feedback": "Coursework."}
+    ]}
+  ]
+}

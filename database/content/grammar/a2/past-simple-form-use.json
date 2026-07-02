@@ -1,0 +1,45 @@
+{
+  "title": "Past simple: form and use",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 2,
+  "explanation": "<h2>Past simple (A2)</h2><p>Use the past simple for finished actions at a specific time in the past.</p><p>Regular: verb + <strong>-ed</strong>. Irregular: second column (go → went).</p><p>Time words: <em>yesterday, last week, in 2019, ago</em>.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct past form.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "We [*visited|visit|visiting] Rome two years ago.", "feedback": "Ago → past simple."},
+        {"text": "She [*didn't go|not go|doesn't go] to the party.", "feedback": "Past negative: didn't + base."},
+        {"text": "[*Did|Do|Were] they enjoy the concert?", "feedback": "Past question: Did."},
+        {"text": "I [*saw|see|seen] him at the supermarket.", "feedback": "See → saw."},
+        {"text": "He [*finished|finish|finishing] work at six.", "feedback": "Regular past: finished."},
+        {"text": "They [*were|was|are] at home all day.", "feedback": "They → were."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "I ____ my wallet on the bus. | *lost | lose | losing", "feedback": "Lose → lost."},
+        {"text": "She ____ a letter to her friend. | *wrote | write | written", "feedback": "Write → wrote."},
+        {"text": "We ____ late for the meeting. | *arrived | arrive | arriving", "feedback": "Regular past."},
+        {"text": "He ____ TV all evening. | *watched | watch | watches", "feedback": "Regular past."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*bought|buy|buyed] a new phone last month.", "feedback": "Buy → bought."},
+        {"text": "They [*didn't see|don't see|weren't see] the email.", "feedback": "Didn't + base verb."},
+        {"text": "[*When did|When do|When were] you start learning English?", "feedback": "Past question with did."},
+        {"text": "She [*left|leave|leaving] early because she was tired.", "feedback": "Leave → left."},
+        {"text": "We [*had|have|has] a great time on holiday.", "feedback": "Have → had."}
+      ]
+    }
+  ]
+}

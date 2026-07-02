@@ -1,0 +1,45 @@
+{
+  "title": "Used to",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 10,
+  "explanation": "<h2>Used to</h2><p><strong>Used to + verb</strong> — past habits or states that are no longer true.</p><ul><li><em>I used to live in Rome.</em> (I don't live there now.)</li><li><em>She didn't use to like coffee.</em></li><li><em>Did you use to play the piano?</em></li></ul><p>Don't confuse with <em>be used to + -ing</em> (= be accustomed to).</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*used to walk|use to walk|am used to walk] to school every day.", "feedback": "Past habit → used to."},
+        {"text": "She [*didn't use to|didn't used to|doesn't use to] eat meat.", "feedback": "Negative: didn't use to."},
+        {"text": "[*Did|Do|Were] you use to live here?", "feedback": "Question: Did you use to."},
+        {"text": "There [*used to be|use to be|was used to be] a cinema in this street.", "feedback": "Used to be."},
+        {"text": "He [*used to have|uses to have|is used to have] long hair.", "feedback": "Past state → used to have."},
+        {"text": "We [*didn't use to|not use to|don't use to] watch much TV.", "feedback": "Didn't use to."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "My grandfather ____ work in a factory. | *used to | uses to | is used to", "feedback": "Used to work."},
+        {"text": "I ____ play tennis, but I stopped. | *used to | use to | am used to", "feedback": "Used to play."},
+        {"text": "____ she use to speak French? | *Did | Does | Was", "feedback": "Did she use to."},
+        {"text": "There used to ____ a park here. | *be | have | being", "feedback": "Used to be."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*am used to getting|used to get|use to get] up early now — it's normal for me.", "feedback": "Be used to + -ing = accustomed."},
+        {"text": "They [*used to travel|use to travel|are used to travel] a lot before they had children.", "feedback": "Past habit → used to travel."},
+        {"text": "He [*didn't use to|wasn't use to|doesn't use to] enjoy cooking.", "feedback": "Didn't use to."},
+        {"text": "[*Did|Used|Was] there use to be more shops here?", "feedback": "Did there use to be."},
+        {"text": "She [*used to work|is used to work|uses to work] in London.", "feedback": "Used to work (past job)." }
+      ]
+    }
+  ]
+}

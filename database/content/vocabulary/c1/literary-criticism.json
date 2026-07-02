@@ -1,0 +1,95 @@
+{
+  "title": "Literary criticism",
+  "level": "c1",
+  "section": "vocabulary",
+  "sort_order": 7,
+  "explanation": "<h2>Literary criticism</h2><ul><li>narrative, motif, allegory, protagonist, subtext</li><li>irony, symbolism, canon, interpretation, ambiguity</li><li>verbs: evoke, critique, juxtapose, allude</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The novel's central ____ questions the nature of power. | *motif | motion | motor",
+          "feedback": "Literary motif."
+        },
+        {
+          "text": "Readers debated the political ____ beneath the romance plot. | *subtext | subtitle | subway",
+          "feedback": "Subtext."
+        },
+        {
+          "text": "The ____ undergoes a profound moral transformation. | *protagonist | protein | protester",
+          "feedback": "Protagonist."
+        },
+        {
+          "text": "Critics praised the author's use of ____. | *symbolism | sympathy | symphony",
+          "feedback": "Symbolism."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "allude",
+        "critique",
+        "juxtapose",
+        "evokes",
+        "ambiguity",
+        "allegory",
+        "irony",
+        "canon",
+        "narrative",
+        "interpretation"
+      ],
+      "questions": [
+        {
+          "text": "The poem seems to ____ classical mythology. | allude",
+          "feedback": ""
+        },
+        {
+          "text": "The essay offers a sharp ____ of colonial narratives. | critique",
+          "feedback": ""
+        },
+        {
+          "text": "The director chose to ____ past and present scenes. | juxtapose",
+          "feedback": ""
+        },
+        {
+          "text": "The opening image ____ a sense of isolation. | evokes",
+          "feedback": ""
+        },
+        {
+          "text": "Some readers enjoy deliberate ____ in modern fiction. | ambiguity",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The story works as an ____ of political corruption. | *allegory | allergy | algebra",
+          "feedback": "Allegory."
+        },
+        {
+          "text": "Dramatic ____ undercuts the hero's confident speech. | *irony | ivory | ideal",
+          "feedback": "Irony."
+        },
+        {
+          "text": "The novel entered the literary ____ within a decade. | *canon | cannon | canal",
+          "feedback": "Literary canon."
+        },
+        {
+          "text": "Every ____ depends partly on cultural context. | *interpretation | interruption | integration",
+          "feedback": "Interpretation."
+        }
+      ]
+    }
+  ]
+}

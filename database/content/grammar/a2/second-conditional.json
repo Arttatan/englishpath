@@ -1,0 +1,45 @@
+{
+  "title": "Second conditional",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 8,
+  "explanation": "<h2>Second conditional</h2><p><strong>If + past simple, would + verb</strong></p><p>We use the second conditional for unreal or imaginary situations now or in the future.</p><ul><li><em>If I had a million pounds, I would travel the world.</em> (I don't have a million pounds.)</li><li><em>If I were you, I would accept the offer.</em></li></ul><p>After <em>I/he/she</em> we often use <em>were</em> in formal English: <em>If I were rich…</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "If I [*won|win|would win] the lottery, I would buy a house.", "feedback": "Unreal → past simple in if-clause."},
+        {"text": "If she [*were|was|is] here, she would help us.", "feedback": "If I/she were (formal)." },
+        {"text": "I [*would travel|'d travelling|travel] more if I had more time.", "feedback": "Would + verb in main clause."},
+        {"text": "If they [*knew|know|would know] the truth, they would be shocked.", "feedback": "If + past simple."},
+        {"text": "What [*would|will|do] you do if you lost your job?", "feedback": "Would in question."},
+        {"text": "If I [*were|am|be] you, I would apologise.", "feedback": "If I were you."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "If he had a car, he ____ to work by car. | *would drive | will drive | drove", "feedback": "Would + base verb."},
+        {"text": "If I ____ more money, I would move to the coast. | *had | have | will have", "feedback": "If + past simple."},
+        {"text": "She would be happier if she ____ less. | *worked | works | will work", "feedback": "If + past."},
+        {"text": "If we ____ in Paris, we would visit the Louvre every week. | *lived | live | would live", "feedback": "If + lived."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "If I [*spoke|speak|will speak] perfect English, I would feel more confident.", "feedback": "Unreal present → past."},
+        {"text": "They [*wouldn't buy|won't buy|don't buy] that house if it were too expensive.", "feedback": "Wouldn't + verb."},
+        {"text": "If it [*rained|rain|would rain] tomorrow, the match would be cancelled.", "feedback": "Hypothetical future → past in if-clause."},
+        {"text": "I would help you if I [*could|can|will can].", "feedback": "If + could."},
+        {"text": "If she [*didn't live|doesn't live|won't live] so far away, we would meet more often.", "feedback": "If + past negative."}
+      ]
+    }
+  ]
+}

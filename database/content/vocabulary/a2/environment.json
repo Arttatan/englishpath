@@ -1,0 +1,30 @@
+{
+  "title": "Environment",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 3,
+  "explanation": "<h2>Environment</h2><ul><li><strong>nature:</strong> forest, river, ocean, pollution, climate</li><li><strong>problems:</strong> recycle, waste, plastic, energy, carbon</li><li><strong>actions:</strong> protect, save, reduce, reuse</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "We should ____ paper and glass. | *recycle | pollute | waste", "feedback": "Recycle."},
+      {"text": "____ is a big problem in big cities. | *Pollution | Forest | River", "feedback": "Pollution."},
+      {"text": "Please don't leave ____ in the park. | *rubbish | climate | energy", "feedback": "Rubbish/waste."},
+      {"text": "We need to ____ water and electricity. | *save | reduce | plastic", "feedback": "Save resources."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["climate", "plastic", "forest", "renewable", "ocean", "reduce", "protect", "energy", "recycle", "pollution"],
+      "questions": [
+        {"text": "____ change affects weather patterns. | climate", "feedback": ""},
+        {"text": "Many animals live in the ____. | forest", "feedback": ""},
+        {"text": "We should ____ the amount of plastic we use. | reduce", "feedback": ""},
+        {"text": "Solar power is ____ energy. | renewable", "feedback": ""},
+        {"text": "Fish live in the ____. | ocean", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "Don't use single-use ____. | *plastic | forest | river", "feedback": "Plastic."},
+      {"text": "We must ____ wildlife. | *protect | waste | pollute", "feedback": "Protect wildlife."},
+      {"text": "The ____ is getting warmer. | *planet | rubbish | recycle", "feedback": "The planet."},
+      {"text": "Turn off lights to save ____. | *energy | ocean | climate", "feedback": "Energy."}
+    ]}
+  ]
+}

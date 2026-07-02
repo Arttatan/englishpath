@@ -1,0 +1,95 @@
+{
+  "title": "Money and consumer habits",
+  "level": "b1plus",
+  "section": "vocabulary",
+  "sort_order": 6,
+  "explanation": "<h2>Money and consumer habits</h2><ul><li>budget, savings, debt, bargain, subscription</li><li>spend, waste, compare, charge</li><li>phrases: live within your means, cut back on</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "We need a monthly ____ so we know where our money goes. | *budget | receipt | platform",
+          "feedback": "Budget helps plan spending."
+        },
+        {
+          "text": "He is trying to ____ on eating out to save money. | *cut back | take off | set out",
+          "feedback": "Cut back on = reduce."
+        },
+        {
+          "text": "A free trial turns into a paid ____ after thirty days. | *subscription | vacancy | campaign",
+          "feedback": "Subscription = regular payment."
+        },
+        {
+          "text": "She found a real ____ in the sale. | *bargain | schedule | shelter",
+          "feedback": "Bargain = something good at a low price."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "debt",
+        "compare",
+        "savings",
+        "charge",
+        "waste",
+        "income",
+        "budget",
+        "bargain",
+        "subscription",
+        "means"
+      ],
+      "questions": [
+        {
+          "text": "If you borrow too much, you can end up in ____.  | debt",
+          "feedback": ""
+        },
+        {
+          "text": "I always ____ prices online before buying electronics. | compare",
+          "feedback": ""
+        },
+        {
+          "text": "They put some money into their ____ every month. | savings",
+          "feedback": ""
+        },
+        {
+          "text": "Some shops ____ extra for delivery. | charge",
+          "feedback": ""
+        },
+        {
+          "text": "Families often ____ money on things they do not need. | waste",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "It is important to live within your ____.  | *means | shift | evidence",
+          "feedback": "Means = financial limits."
+        },
+        {
+          "text": "Her main source of ____ is freelance design work. | *income | debt | budget",
+          "feedback": "Income = money earned."
+        },
+        {
+          "text": "They need to keep track of every regular monthly ____. | *payment | platform | habitat",
+          "feedback": "Payment fits the consumer context."
+        },
+        {
+          "text": "He is trying to become a more responsible ____. | *consumer | witness | editor",
+          "feedback": "Consumer = buyer."
+        }
+      ]
+    }
+  ]
+}

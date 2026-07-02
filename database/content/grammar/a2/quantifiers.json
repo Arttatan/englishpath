@@ -1,0 +1,45 @@
+{
+  "title": "Quantifiers: much, many, little, few",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 15,
+  "explanation": "<h2>Quantifiers</h2><ul><li><strong>many</strong> + countable plural: many books, many people</li><li><strong>much</strong> + uncountable: much time, much money</li><li><strong>a lot of / lots of</strong> — both: a lot of friends, a lot of water</li><li><strong>few / a few</strong> + countable: few = almost none; a few = some</li><li><strong>little / a little</strong> + uncountable: little = almost none; a little = some</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct quantifier.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "There aren't [*many|much|lot] seats left.", "feedback": "Seats = countable → many."},
+        {"text": "I don't have [*much|many|few] free time.", "feedback": "Time = uncountable → much."},
+        {"text": "She has [*a lot of|much|little] friends at school.", "feedback": "Friends = countable; a lot of works."},
+        {"text": "We have very [*little|few|many] milk left.", "feedback": "Milk uncountable; little = almost none."},
+        {"text": "There are [*a few|a little|much] apples in the fridge.", "feedback": "Apples countable → a few."},
+        {"text": "He doesn't earn [*much|many|few] money.", "feedback": "Money uncountable → much."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "How ____ people came to the party? | *many | much | little", "feedback": "People = countable → many."},
+        {"text": "There is ____ sugar in my coffee, thanks. | *a little | a few | many", "feedback": "Sugar uncountable → a little."},
+        {"text": "Very ____ students failed the exam. | *few | little | much", "feedback": "Students countable → few."},
+        {"text": "Did you buy ____ bread? | *any | many | few", "feedback": "Bread uncountable; any in questions."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct quantifier.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "There is too [*much|many|few] traffic today.", "feedback": "Traffic uncountable → much."},
+        {"text": "I have [*too many|too much|too few] things to do.", "feedback": "Things countable → too many."},
+        {"text": "She spoke very [*little|few|many] during the meeting.", "feedback": "Little = not much (uncountable idea)." },
+        {"text": "[*How much|How many|How few] does the ticket cost?", "feedback": "Price → How much."},
+        {"text": "We saw [*a lot of|much|little] interesting places.", "feedback": "Places countable → a lot of."}
+      ]
+    }
+  ]
+}

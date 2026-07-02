@@ -1,0 +1,79 @@
+{
+  "title": "Museum curator talk",
+  "level": "c1",
+  "section": "listening",
+  "sort_order": 4,
+  "explanation": "<h2>Museum curator talk</h2><p>Listen to a curator introducing an exhibition.</p><h3>Transcript</h3><p><strong>Curator:</strong> This exhibition does not present a single national story. Instead, it traces how trade, migration and conflict shaped the region over five centuries. Many objects on display have only recently been reinterpreted using new archival research. We invite visitors to question familiar narratives and notice what earlier exhibitions chose to omit.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The exhibition avoids a single [*national story|shopping guide|sports timeline].",
+          "feedback": "Does not present a single national story."
+        },
+        {
+          "text": "It traces trade, migration and [*conflict|weather|fashion].",
+          "feedback": "Trade, migration and conflict."
+        },
+        {
+          "text": "Some objects were reinterpreted using new [*archival research|social media|recipes].",
+          "feedback": "Archival research."
+        },
+        {
+          "text": "Visitors are invited to notice what earlier exhibitions [*omitted|invented|sold].",
+          "feedback": "Chose to omit."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The display covers five ____.  | *centuries | minutes | meters",
+          "feedback": "Five centuries."
+        },
+        {
+          "text": "The curator wants visitors to question familiar ____.  | *narratives | noodles | numbers",
+          "feedback": "Familiar narratives."
+        },
+        {
+          "text": "The approach is deliberately ____.  | *critical | careless | comic",
+          "feedback": "Critical historiography."
+        },
+        {
+          "text": "Many items have been recently ____.  | *reinterpreted | recycled | removed",
+          "feedback": "Reinterpreted."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The talk is [*academic and accessible|purely technical|unrelated to history].",
+          "feedback": "Museum curator style."
+        },
+        {
+          "text": "The exhibition emphasises [*complexity|simplicity only|fiction only].",
+          "feedback": "Multiple forces shaped the region."
+        },
+        {
+          "text": "The curator encourages active [*questioning|shopping|sleeping].",
+          "feedback": "Question familiar narratives."
+        },
+        {
+          "text": "The tone is [*thought-provoking|aggressive|indifferent].",
+          "feedback": "Thought-provoking."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=HwMkN_2BTqs"
+}

@@ -1,0 +1,78 @@
+{
+  "title": "Can machines be conscious?",
+  "level": "c1",
+  "section": "reading",
+  "sort_order": 4,
+  "explanation": "<h2>Can machines be conscious?</h2><p>Philosophers and neuroscientists still lack a single definition of consciousness, which makes the question of machine consciousness especially difficult. Some researchers argue that if a system behaves intelligently and reports inner states, we should treat it cautiously for ethical reasons. Others insist consciousness requires biological processes that silicon cannot replicate. The disagreement matters because rights, responsibility and regulation may one day depend on how societies answer it.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "There is still no single definition of [*consciousness|gravity|photosynthesis].",
+          "feedback": "Lack a single definition."
+        },
+        {
+          "text": "Some researchers cite behaviour and reported [*inner states|weather patterns|ticket prices].",
+          "feedback": "Reports inner states."
+        },
+        {
+          "text": "Others insist consciousness needs [*biological processes|only faster chips|better screens].",
+          "feedback": "Biological processes."
+        },
+        {
+          "text": "The answer may affect future [*rights and regulation|fashion trends|recipe books].",
+          "feedback": "Rights, responsibility, regulation."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Silicon systems may not replicate certain biological ____.  | *processes | profits | products",
+          "feedback": "Biological processes."
+        },
+        {
+          "text": "Ethical caution is advised by some ____.  | *researchers | recipes | rivers",
+          "feedback": "Some researchers."
+        },
+        {
+          "text": "The question is both philosophical and ____.  | *scientific | culinary | musical",
+          "feedback": "Philosophers and neuroscientists."
+        },
+        {
+          "text": "Societies may need new rules about ____.  | *responsibility | restaurants | rainfall",
+          "feedback": "Responsibility."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The passage presents [*competing views|one definitive answer|no arguments].",
+          "feedback": "Some vs others."
+        },
+        {
+          "text": "The topic sits at the intersection of ethics and [*technology|gardening|cooking].",
+          "feedback": "AI and consciousness."
+        },
+        {
+          "text": "The writer suggests the debate is [*practically important|trivial|already settled].",
+          "feedback": "May affect rights and regulation."
+        },
+        {
+          "text": "The tone is [*thoughtful|comic|nostalgic only].",
+          "feedback": "Thoughtful."
+        }
+      ]
+    }
+  ]
+}

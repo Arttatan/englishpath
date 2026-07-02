@@ -1,0 +1,95 @@
+{
+  "title": "Relationships and emotions",
+  "level": "b1",
+  "section": "vocabulary",
+  "sort_order": 8,
+  "explanation": "<h2>Relationships and emotions</h2><ul><li>relationship words: trust, argument, support, respect, misunderstanding</li><li>emotions: relieved, embarrassed, jealous, proud, anxious</li><li>verbs: upset, forgive, encourage, disappoint</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A good friendship is built on mutual ____. | *trust | evidence | schedule",
+          "feedback": "Trust is essential in relationships."
+        },
+        {
+          "text": "I felt really ____ after passing my driving test. | *relieved | guilty | delayed",
+          "feedback": "Relieved = less worried after something ends."
+        },
+        {
+          "text": "They had an ____ about money but solved it calmly. | *argument | update | promotion",
+          "feedback": "Argument = disagreement."
+        },
+        {
+          "text": "Her parents always ____ her to keep trying. | *encourage | sentence | arrest",
+          "feedback": "Encourage = give support."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "embarrassed",
+        "proud",
+        "misunderstanding",
+        "forgive",
+        "support",
+        "respect",
+        "anxious",
+        "jealous",
+        "trust",
+        "encourage"
+      ],
+      "questions": [
+        {
+          "text": "He felt ____ when he forgot his best friend's birthday. | embarrassed",
+          "feedback": ""
+        },
+        {
+          "text": "She was very ____ of her daughter after the performance. | proud",
+          "feedback": ""
+        },
+        {
+          "text": "A simple ____ caused the whole problem. | misunderstanding",
+          "feedback": ""
+        },
+        {
+          "text": "If someone hurts you, it can be hard to ____ them. | forgive",
+          "feedback": ""
+        },
+        {
+          "text": "My friends gave me a lot of ____ when I moved house. | support",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "You should show ____ for other people's opinions. | *respect | flood | device",
+          "feedback": "Respect matters in relationships."
+        },
+        {
+          "text": "He felt ____ before the interview and could not relax. | *anxious | proud | renewable",
+          "feedback": "Anxious = worried."
+        },
+        {
+          "text": "Some children get ____ when a new baby arrives. | *jealous | balanced | furnished",
+          "feedback": "Jealous about attention."
+        },
+        {
+          "text": "The bad news really ____ her. | *upset | updated | revised",
+          "feedback": "Upset = make sad or worried."
+        }
+      ]
+    }
+  ]
+}

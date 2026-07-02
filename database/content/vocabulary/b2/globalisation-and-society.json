@@ -1,0 +1,95 @@
+{
+  "title": "Globalisation and society",
+  "level": "b2",
+  "section": "vocabulary",
+  "sort_order": 7,
+  "explanation": "<h2>Globalisation and society</h2><ul><li>migration, integration, diversity, trade, outsourcing</li><li>multinational, supply chain, cultural exchange, inequality</li><li>verbs: relocate, integrate, outsource, connect</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Global ____ has changed labour markets in many countries. | *trade | weather | furniture",
+          "feedback": "International trade."
+        },
+        {
+          "text": "Cities with high ____ often have vibrant food and arts scenes. | *diversity | pollution | debt",
+          "feedback": "Cultural diversity."
+        },
+        {
+          "text": "Many firms ____ customer support to other countries. | *outsource | apologise | testify",
+          "feedback": "Outsource work."
+        },
+        {
+          "text": "Successful ____ requires language support and community programmes. | *integration | inflation | censorship",
+          "feedback": "Social integration."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "migration",
+        "multinational",
+        "supply",
+        "exchange",
+        "inequality",
+        "relocate",
+        "integrate",
+        "connect",
+        "outsourcing",
+        "globalisation"
+      ],
+      "questions": [
+        {
+          "text": "Economic ____ can create both opportunities and pressure on wages. | migration",
+          "feedback": ""
+        },
+        {
+          "text": "A ____ corporation operates in dozens of countries. | multinational",
+          "feedback": ""
+        },
+        {
+          "text": "The pandemic disrupted global ____ chains. | supply",
+          "feedback": ""
+        },
+        {
+          "text": "The festival promoted cultural ____ between nations. | exchange",
+          "feedback": ""
+        },
+        {
+          "text": "Some communities worry about rising social ____. | inequality",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The factory plans to ____ production to eastern Europe. | *relocate | recycle | perform",
+          "feedback": "Relocate production."
+        },
+        {
+          "text": "Schools help new arrivals ____ into local society. | *integrate | compete | forecast",
+          "feedback": "Integrate into society."
+        },
+        {
+          "text": "Technology helps people ____ across continents instantly. | *connect | convict | depart",
+          "feedback": "Connect globally."
+        },
+        {
+          "text": "____ has made products cheaper but jobs more mobile. | *Globalisation | Censorship | Bankruptcy",
+          "feedback": "Globalisation."
+        }
+      ]
+    }
+  ]
+}

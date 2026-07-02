@@ -1,0 +1,95 @@
+{
+  "title": "Environment and climate policy",
+  "level": "b2",
+  "section": "vocabulary",
+  "sort_order": 2,
+  "explanation": "<h2>Environment and climate policy</h2><ul><li>emissions, renewable, sustainability, biodiversity, drought</li><li>carbon footprint, ecosystem, conservation, mitigation</li><li>verbs: recycle, conserve, emit, adapt</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The city plans to cut carbon ____ by forty per cent. | *emissions | receipts | platforms",
+          "feedback": "Carbon emissions."
+        },
+        {
+          "text": "Solar and wind power are examples of ____ energy. | *renewable | disposable | temporary",
+          "feedback": "Renewable energy."
+        },
+        {
+          "text": "Long ____ can destroy crops and threaten water supplies. | *droughts | deadlines | discounts",
+          "feedback": "Drought = lack of rain."
+        },
+        {
+          "text": "Protecting ____ is essential for healthy ecosystems. | *biodiversity | publicity | furniture",
+          "feedback": "Biodiversity."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "footprint",
+        "mitigation",
+        "conservation",
+        "ecosystem",
+        "recycle",
+        "sustainability",
+        "emit",
+        "adapt",
+        "conserve",
+        "renewable"
+      ],
+      "questions": [
+        {
+          "text": "Companies are trying to reduce their carbon ____.  | footprint",
+          "feedback": ""
+        },
+        {
+          "text": "Governments must invest in climate ____ strategies. | mitigation",
+          "feedback": ""
+        },
+        {
+          "text": "The national park was created for wildlife ____.  | conservation",
+          "feedback": ""
+        },
+        {
+          "text": "An ____ can collapse if key species disappear. | ecosystem",
+          "feedback": ""
+        },
+        {
+          "text": "We should ____ more plastic instead of throwing it away. | recycle",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Long-term ____ requires changes in production and consumption. | *sustainability | competition | negotiation",
+          "feedback": "Sustainability."
+        },
+        {
+          "text": "Factories should ____ fewer harmful gases. | *emit | donate | interrupt",
+          "feedback": "Emit gases."
+        },
+        {
+          "text": "Coastal cities must ____ to rising sea levels. | *adapt | complain | depart",
+          "feedback": "Adapt to change."
+        },
+        {
+          "text": "We need stronger laws to ____ natural habitats. | *conserve | advertise | persuade",
+          "feedback": "Conserve habitats."
+        }
+      ]
+    }
+  ]
+}

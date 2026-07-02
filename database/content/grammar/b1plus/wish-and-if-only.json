@@ -1,0 +1,86 @@
+{
+  "title": "Wish and if only",
+  "level": "b1plus",
+  "section": "grammar",
+  "sort_order": 2,
+  "explanation": "<h2>Wish and if only</h2><p>Use <strong>wish / if only + past simple</strong> to talk about present regrets, <strong>wish / if only + past perfect</strong> for past regrets, and <strong>wish + would</strong> to complain about annoying behaviour.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "I wish I [*had|have|would have] more free time these days.",
+          "feedback": "Present regret uses past simple form."
+        },
+        {
+          "text": "If only we [*had booked|booked|would book] the tickets earlier.",
+          "feedback": "Past regret uses past perfect."
+        },
+        {
+          "text": "She wishes her neighbour [*would stop|stopped|had stopped] playing loud music at night.",
+          "feedback": "Wish + would for annoying behaviour."
+        },
+        {
+          "text": "I wish I [*knew|know|had known] the answer right now.",
+          "feedback": "Present regret."
+        },
+        {
+          "text": "If only they [*had not sold|did not sell|would not sell] the old house.",
+          "feedback": "Past regret."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "He wishes he ____ speak more confidently in meetings. | *could | can | had",
+          "feedback": "Present ability regret."
+        },
+        {
+          "text": "If only I ____ more carefully before sending the email. | *had checked | checked | would check",
+          "feedback": "Past regret."
+        },
+        {
+          "text": "I wish it ____ raining every weekend. | *would stop | stopped | had stopped",
+          "feedback": "Annoying repeated behaviour."
+        },
+        {
+          "text": "She wishes she ____ closer to her parents now. | *lived | had lived | would live",
+          "feedback": "Present unreal situation."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "If only I [*had remembered|remembered|would remember] his birthday.",
+          "feedback": "Past regret."
+        },
+        {
+          "text": "We wish the bus [*would arrive|arrived|had arrived] on time for once.",
+          "feedback": "Complaint about repeated annoying situation."
+        },
+        {
+          "text": "I wish I [*was/were|am|had been] taller.",
+          "feedback": "Present regret."
+        },
+        {
+          "text": "He wishes he [*had not said|did not say|would not say] that in the meeting.",
+          "feedback": "Past regret."
+        },
+        {
+          "text": "If only they [*were|had been|are] more reliable.",
+          "feedback": "Present regret about a current situation."
+        }
+      ]
+    }
+  ]
+}

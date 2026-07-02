@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 3",
+  "level": "b1plus",
+  "section": "use-of-english",
+  "sort_order": 3,
+  "explanation": "<h2>Use of English - B1+ Test 3</h2><p>Final mixed review.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "If they had left earlier, they [*would be|would have been|were] here by now.",
+          "feedback": "Past action with present result."
+        },
+        {
+          "text": "The final decision [*will be announced|announces|will announce] tomorrow.",
+          "feedback": "Future passive."
+        },
+        {
+          "text": "I wish you [*would listen|listened yesterday|had listened now] when I am trying to explain this.",
+          "feedback": "Wish + would."
+        },
+        {
+          "text": "She is said [*to be working|working|that working] on a new novel.",
+          "feedback": "Be said to be + -ing."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The app helps users ____ their monthly spending. | *track | sentence | launch",
+          "feedback": "Track spending."
+        },
+        {
+          "text": "We need a stronger sense of local ____.  | *community | receipt | charge",
+          "feedback": "Community fits the social context."
+        },
+        {
+          "text": "The experiment was carried ____ in a modern laboratory. | *out | away | off",
+          "feedback": "Carry out an experiment."
+        },
+        {
+          "text": "He felt embarrassed and quickly tried to ____ for the mistake. | *apologise | subscribe | conserve",
+          "feedback": "Apologise for a mistake."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The conference, [*which begins|where begins|whose begins] on Friday, will focus on climate policy.",
+          "feedback": "Which begins."
+        },
+        {
+          "text": "By the end of the month, she [*will have completed|completes|will completing] the training programme.",
+          "feedback": "Future perfect."
+        },
+        {
+          "text": "He might [*have misunderstood|misunderstood have|misunderstanded] the instructions.",
+          "feedback": "Past possibility with modal."
+        },
+        {
+          "text": "In my opinion, the proposal is useful; [*however|for instance|therefore], it needs a few changes.",
+          "feedback": "However for contrast."
+        }
+      ]
+    }
+  ]
+}

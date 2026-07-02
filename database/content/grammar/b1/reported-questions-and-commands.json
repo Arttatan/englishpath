@@ -1,0 +1,86 @@
+{
+  "title": "Reported questions and commands",
+  "level": "b1",
+  "section": "grammar",
+  "sort_order": 9,
+  "explanation": "<h2>Reported questions and commands</h2><p>In reported questions, we use statement word order and usually backshift the tense: <em>He asked where I lived.</em> For commands and requests, we use <strong>tell / ask + object + to + verb</strong>: <em>She told me to wait.</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "He asked me where I [*lived|live|did I live].",
+          "feedback": "Reported questions use statement word order."
+        },
+        {
+          "text": "She wanted to know if I [*had finished|finished|have finished] the report.",
+          "feedback": "Backshift after wanted to know."
+        },
+        {
+          "text": "The teacher told us [*to be|be|being] quiet.",
+          "feedback": "Tell + object + to + verb."
+        },
+        {
+          "text": "My mother asked me [*not to stay|to not stay|not stay] out late.",
+          "feedback": "Negative command: not to + verb."
+        },
+        {
+          "text": "They asked [*whether|that|to] we were ready.",
+          "feedback": "Whether or if introduces reported yes/no questions."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "He asked ____ I was late. | *why | that | to",
+          "feedback": "Why introduces an open question."
+        },
+        {
+          "text": "She told me ____ the door behind me. | *to lock | locking | lock",
+          "feedback": "Tell someone to do something."
+        },
+        {
+          "text": "The manager asked us ____ the customers. | *to call | calling | call",
+          "feedback": "Request or instruction."
+        },
+        {
+          "text": "I asked him ____ he needed any help. | *whether | that | what",
+          "feedback": "Whether for yes/no question."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "She asked me what time the train [*left|did leave|leaves].",
+          "feedback": "No question word order in reported speech."
+        },
+        {
+          "text": "He told the children [*not to run|to not run|not run] in the corridor.",
+          "feedback": "Negative command structure."
+        },
+        {
+          "text": "The doctor asked whether I [*was feeling|am feeling|felt to be] better.",
+          "feedback": "Backshifted form is natural."
+        },
+        {
+          "text": "We wanted to know where they [*had gone|did go|have gone].",
+          "feedback": "Backshift in reported question."
+        },
+        {
+          "text": "The note told visitors [*to switch off|switch off|switching off] their phones.",
+          "feedback": "To + infinitive after told."
+        }
+      ]
+    }
+  ]
+}

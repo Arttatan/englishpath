@@ -1,0 +1,78 @@
+{
+  "title": "Skills for the future",
+  "level": "b1plus",
+  "section": "reading",
+  "sort_order": 5,
+  "explanation": "<h2>Skills for the future</h2><p>As technology continues to change the workplace, employers are placing greater value on skills that are difficult to automate. These include communication, problem-solving, creativity and the ability to work well with others. Technical knowledge still matters, but experts say workers will increasingly need to keep learning throughout their careers. In a fast-changing economy, the most successful employees may not be those who know the most today, but those who can adapt most quickly tomorrow.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Employers value skills that are difficult to [*automate|advertise|measure].",
+          "feedback": "This is the central point."
+        },
+        {
+          "text": "The text mentions communication and [*problem-solving|driving|accounting only].",
+          "feedback": "Problem-solving is one of the skills listed."
+        },
+        {
+          "text": "Experts say workers will need to keep [*learning|travelling|changing companies] throughout their careers.",
+          "feedback": "Lifelong learning is emphasised."
+        },
+        {
+          "text": "The most successful employees may be those who can [*adapt quickly|work alone|avoid technology].",
+          "feedback": "Adaptability is highlighted."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Technical ____ still matters, according to the article. | *knowledge | weather | fitness",
+          "feedback": "Technical knowledge matters."
+        },
+        {
+          "text": "Creativity is hard to ____. | *automate | commute | refund",
+          "feedback": "Machines struggle to automate creativity."
+        },
+        {
+          "text": "Workers need to learn throughout their ____.  | *careers | holidays | complaints",
+          "feedback": "Throughout their careers."
+        },
+        {
+          "text": "The economy is described as fast-____. | *changing | sleeping | finishing",
+          "feedback": "Fast-changing economy."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The passage is mainly about [*future employability|city transport|travel safety].",
+          "feedback": "It is about work skills for the future."
+        },
+        {
+          "text": "The writer suggests knowledge alone is [*not enough|completely unnecessary|the only important thing].",
+          "feedback": "Adaptation also matters."
+        },
+        {
+          "text": "The tone is [*forward-looking|nostalgic|angry].",
+          "feedback": "It looks toward future work."
+        },
+        {
+          "text": "Teamwork is implied in the phrase [*work well with others|know the most today|keep learning].",
+          "feedback": "This phrase refers to collaboration."
+        }
+      ]
+    }
+  ]
+}

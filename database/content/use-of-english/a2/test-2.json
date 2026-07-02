@@ -1,0 +1,27 @@
+{
+  "title": "Use of English — Test 2",
+  "level": "a2",
+  "section": "use-of-english",
+  "sort_order": 2,
+  "explanation": "<h2>Use of English — A2 Test 2</h2><p>More mixed A2 practice.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option.", "type": "inline_choice", "questions": [
+      {"text": "English [*is spoken|speaks|is speaking] worldwide.", "feedback": "Present passive."},
+      {"text": "We [*have lived|lived|live] here since 2020.", "feedback": "Since → present perfect."},
+      {"text": "There are [*a few|a little|much] apples in the bowl.", "feedback": "A few + countable."},
+      {"text": "He [*grew up|grew on|grew off] in Scotland.", "feedback": "Phrasal verb grow up."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "I'll call you if I ____ time. | *have | will have | had", "feedback": "If + present."},
+      {"text": "She ____ to live in Paris. | *used | uses | is used", "feedback": "Used to live."},
+      {"text": "Can you ____ after my dog? | *look | make | do", "feedback": "Look after."},
+      {"text": "The exam was ____ than I expected. | *easier | easy | easiest", "feedback": "Comparative."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option.", "type": "inline_choice", "questions": [
+      {"text": "He told me he [*would come|will come|comes] later.", "feedback": "Reported speech."},
+      {"text": "I need to [*do|make|doing] the shopping.", "feedback": "Do the shopping."},
+      {"text": "While I was cooking, he [*was setting|set|sets] the table.", "feedback": "Past continuous background."},
+      {"text": "[*How many|How much|How long] students are there?", "feedback": "Countable → How many."}
+    ]}
+  ]
+}

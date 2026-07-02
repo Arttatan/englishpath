@@ -1,0 +1,42 @@
+{
+  "title": "Use of English — Test 3",
+  "level": "a1",
+  "section": "use-of-english",
+  "sort_order": 3,
+  "explanation": "<h2>Use of English — Test 3</h2><p>Final A1 mixed test. Review present tenses, past simple and basic vocabulary.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*get up|gets up|getting up] at six.", "feedback": "I get up."},
+        {"text": "They [*didn't|don't|doesn't] come to the party.", "feedback": "Past → didn't."},
+        {"text": "It [*is|are|am] cold today.", "feedback": "It is."},
+        {"text": "She [*has|have|having] two brothers.", "feedback": "She has."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "The book is ____ the bag. | *in | under | on", "feedback": "In the bag."},
+        {"text": "We ____ happy yesterday. | *were | was | are", "feedback": "We were."},
+        {"text": "I ____ like fish. | *don't | doesn't | not", "feedback": "I don't."},
+        {"text": "She is ____ student. | *a | an | the", "feedback": "A student."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Look! The bus [*is coming|comes|come].", "feedback": "Look! → continuous."},
+        {"text": "I [*bought|buy|buyed] new shoes last week.", "feedback": "Last week → bought."},
+        {"text": "[*How many|How much|How long] brothers do you have?", "feedback": "Countable → How many."},
+        {"text": "We [*are going|go|goes] to Paris next month.", "feedback": "Plan → going to."}
+      ]
+    }
+  ]
+}

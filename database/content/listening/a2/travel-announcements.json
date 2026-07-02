@@ -1,0 +1,28 @@
+{
+  "title": "Travel announcements",
+  "level": "a2",
+  "section": "listening",
+  "sort_order": 5,
+  "audio_url": "https://www.youtube.com/watch?v=HwMkN_2BTqs",
+  "explanation": "<h2>Travel announcements</h2><h3>Transcript</h3><p><strong>Announcement:</strong> Attention please. The ten fifteen train to Manchester is delayed by twenty minutes. It will now depart from platform four. Passengers for Leeds should change at York. We apologise for the delay.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "The train is going to [*Manchester|London|Leeds].", "feedback": "Train to Manchester."},
+      {"text": "The delay is [*twenty|ten|thirty] minutes.", "feedback": "Delayed by twenty minutes."},
+      {"text": "The train leaves from platform [*four|two|ten].", "feedback": "Platform four."},
+      {"text": "Passengers for Leeds should change at [*York| Manchester|London].", "feedback": "Change at York."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Listen again and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "The train was scheduled for ten ____. | *fifteen | twenty | thirty", "feedback": "Ten fifteen train."},
+      {"text": "The announcement says 'We ____ for the delay.' | *apologise | leave | change", "feedback": "We apologise."},
+      {"text": "Passengers should change at York for ____. | *Leeds | Manchester | London", "feedback": "Passengers for Leeds."},
+      {"text": "The train is ____, not cancelled. | *delayed | early | missing", "feedback": "Delayed."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "This is a [*station|airport|hotel] announcement.", "feedback": "Train platform."},
+      {"text": "The departure platform [*changed|stayed the same|is unknown].", "feedback": "Now platform four."},
+      {"text": "The tone of the announcement is [*formal|informal|angry].", "feedback": "Attention please..."},
+      {"text": "Leeds passengers need to [*change trains|miss the train|walk].", "feedback": "Change at York."}
+    ]}
+  ]
+}

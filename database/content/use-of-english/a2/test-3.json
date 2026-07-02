@@ -1,0 +1,27 @@
+{
+  "title": "Use of English — Test 3",
+  "level": "a2",
+  "section": "use-of-english",
+  "sort_order": 3,
+  "explanation": "<h2>Use of English — A2 Test 3</h2><p>Final mixed A2 review test.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option.", "type": "inline_choice", "questions": [
+      {"text": "She [*has never been|never was|never is] to Canada.", "feedback": "Present perfect experience."},
+      {"text": "The windows [*were broken|broke|were breaking] in the storm.", "feedback": "Past passive."},
+      {"text": "If you [*don't hurry|won't hurry|not hurry], you'll miss the bus.", "feedback": "First conditional."},
+      {"text": "I [*believe|am believing|believing] you.", "feedback": "Stative verb believe."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "There are very ____ people here. | *few | little | much", "feedback": "Few + countable."},
+      {"text": "He asked me to ____ him a favour. | *do | make | give", "feedback": "Do a favour."},
+      {"text": "I ____ out of milk this morning. | *ran | run | running", "feedback": "Ran out of."},
+      {"text": "This is the ____ expensive hotel in town. | *most | more | much", "feedback": "Superlative."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option.", "type": "inline_choice", "questions": [
+      {"text": "They said they [*were|are|am] busy.", "feedback": "Reported speech."},
+      {"text": "I [*was studying|studied|study] when you called.", "feedback": "Past continuous."},
+      {"text": "She would buy a house if she [*had|has|have] enough money.", "feedback": "Second conditional."},
+      {"text": "[*Did|Used|Were] you use to walk to school?", "feedback": "Did you use to."}
+    ]}
+  ]
+}

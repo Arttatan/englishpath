@@ -1,0 +1,79 @@
+{
+  "title": "Moving house",
+  "level": "b1",
+  "section": "listening",
+  "sort_order": 1,
+  "explanation": "<h2>Moving house</h2><p>Listen to two friends talking about a recent move.</p><h3>Transcript</h3><p><strong>Sam:</strong> How is the new flat?<br><strong>Nina:</strong> Much better than the old one. It is closer to work, but it is smaller.<br><strong>Sam:</strong> Was it difficult to move?<br><strong>Nina:</strong> Yes, especially carrying the boxes up three flights of stairs. But the neighbours were friendly and helped us.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Nina says the new flat is [*closer to work|bigger|more expensive].",
+          "feedback": "She says it is closer to work."
+        },
+        {
+          "text": "The new flat is [*smaller|larger|farther away].",
+          "feedback": "She says it is smaller."
+        },
+        {
+          "text": "Moving was difficult because of the [*stairs|weather|traffic].",
+          "feedback": "They had to carry boxes upstairs."
+        },
+        {
+          "text": "The neighbours were [*friendly|noisy|angry].",
+          "feedback": "They helped with the move."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Nina thinks the new flat is ____ than the old one. | *better | worse | older",
+          "feedback": "She says it is much better."
+        },
+        {
+          "text": "They carried the boxes up three flights of ____.  | *stairs | lifts | roads",
+          "feedback": "The boxes went up the stairs."
+        },
+        {
+          "text": "The neighbours ____ them with the move. | *helped | ignored | phoned",
+          "feedback": "They were helpful."
+        },
+        {
+          "text": "The move was difficult, ____. | *especially carrying boxes | especially finding work | especially buying furniture",
+          "feedback": "That was the hardest part."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The conversation is mainly about [*a recent move|a holiday|a job interview].",
+          "feedback": "They discuss a new flat."
+        },
+        {
+          "text": "Nina compares the new flat with the [*old one|next one|office].",
+          "feedback": "She compares it with the old flat."
+        },
+        {
+          "text": "Sam asks whether it was [*difficult|cheap|safe] to move.",
+          "feedback": "That is his second question."
+        },
+        {
+          "text": "The tone is [*positive overall|completely negative|formal].",
+          "feedback": "Despite the difficulties, Nina likes the new flat."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=8O6272q0Awo"
+}

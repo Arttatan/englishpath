@@ -1,0 +1,78 @@
+{
+  "title": "Writing an opinion paragraph",
+  "level": "b1",
+  "section": "writing",
+  "sort_order": 1,
+  "explanation": "<h2>Writing an opinion paragraph</h2><p>At B1 level, an opinion paragraph should include a clear point, one or two supporting reasons, and a short conclusion.</p><ul><li>Opening: <em>In my opinion, ...</em></li><li>Support: <em>Firstly, ... Secondly, ...</em></li><li>Conclusion: <em>For these reasons, ...</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*In my opinion, online learning can be very effective.|My opinion online learning very effective.|Online learning, I opinion effective.]",
+          "feedback": "Clear opinion opening."
+        },
+        {
+          "text": "[*Firstly, it is flexible and saves travel time.|First, flexible and save travel.|Firstly is flexible save travel.]",
+          "feedback": "A full supporting sentence."
+        },
+        {
+          "text": "[*For these reasons, I believe schools should offer both options.|These reasons schools both options.|Because these reasons schools.]",
+          "feedback": "Strong concluding sentence."
+        },
+        {
+          "text": "[*However, some students learn better in a classroom.|However some students better classroom.|However, classroom better some students.]",
+          "feedback": "Balanced linking sentence."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A paragraph should have one clear main ____.  | *idea | shift | refund",
+          "feedback": "Good paragraphs focus on one main idea."
+        },
+        {
+          "text": "Use linking words such as firstly, ____, and however. | *secondly | finally only | meanwhile not",
+          "feedback": "Secondly is a common linker."
+        },
+        {
+          "text": "Support your opinion with clear ____.  | *reasons | platforms | witnesses",
+          "feedback": "Reasons explain your point."
+        },
+        {
+          "text": "A short conclusion should ____ the main idea. | *summarise | ignore | copy",
+          "feedback": "Conclusions summarise."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*On the one hand, social media helps us stay in touch.|One hand social media stay touch.|Social media one hand touch.]",
+          "feedback": "Correct discussion phrase."
+        },
+        {
+          "text": "[*For example, students can revise using videos.|For example students can revising videos.|Example students revise using.]",
+          "feedback": "Good example sentence."
+        },
+        {
+          "text": "[*I agree to some extent, but there are disadvantages too.|I agree some extent but disadvantages too are.|Agree some extent disadvantages.]",
+          "feedback": "Balanced B1 expression."
+        },
+        {
+          "text": "[*As a result, many people prefer working from home.|As result many people prefering home work.|Result many home.]",
+          "feedback": "As a result introduces consequence."
+        }
+      ]
+    }
+  ]
+}

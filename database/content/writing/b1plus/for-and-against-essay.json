@@ -1,0 +1,78 @@
+{
+  "title": "Writing a for-and-against essay",
+  "level": "b1plus",
+  "section": "writing",
+  "sort_order": 1,
+  "explanation": "<h2>Writing a for-and-against essay</h2><p>A balanced essay should present arguments on both sides before giving a conclusion.</p><ul><li>Introduction: introduce the topic neutrally.</li><li>Main body: one paragraph for advantages, one for disadvantages.</li><li>Conclusion: summarise and give your opinion carefully.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*There are several advantages to studying online.|Studying online advantages many.|Online study there advantages.]",
+          "feedback": "Natural introduction to one side."
+        },
+        {
+          "text": "[*On the one hand, working from home saves commuting time.|One hand working home saves time.|Working home one hand.]",
+          "feedback": "Correct discourse marker."
+        },
+        {
+          "text": "[*On the other hand, some people feel isolated.|Other hand some people isolated.|On other hand isolated people.]",
+          "feedback": "Balanced contrast."
+        },
+        {
+          "text": "[*In conclusion, both options have benefits depending on the situation.|Conclusion both option good situation.|In conclusion both have depends.]",
+          "feedback": "Appropriate conclusion sentence."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A for-and-against essay should sound ____.  | *balanced | angry | casual",
+          "feedback": "It should present both sides."
+        },
+        {
+          "text": "Use clear linkers such as however, in addition and ____.  | *on the other hand | as result only | because that",
+          "feedback": "Useful contrasting linker."
+        },
+        {
+          "text": "Your introduction should present the topic ____.  | *neutrally | emotionally | aggressively",
+          "feedback": "Do not argue too early."
+        },
+        {
+          "text": "The final paragraph should ____ the main points. | *summarise | ignore | repeat word for word",
+          "feedback": "Summarise in the conclusion."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*One advantage is that public transport reduces traffic.|One advantage public transport reduce traffic.|Advantage is reduce traffic.]",
+          "feedback": "Clear body paragraph sentence."
+        },
+        {
+          "text": "[*A possible drawback is the high cost of maintenance.|Possible drawback high cost maintenance is.|Drawback possible maintenance high.]",
+          "feedback": "Natural disadvantage sentence."
+        },
+        {
+          "text": "[*Personally, I believe the benefits outweigh the disadvantages.|Personally I believe benefits outweigh disadvantages.|Personally benefits outweigh.]",
+          "feedback": "Good personal conclusion."
+        },
+        {
+          "text": "[*For example, students can learn at their own pace online.|For example students can learning own pace.|Students own pace example.]",
+          "feedback": "Correct example sentence."
+        }
+      ]
+    }
+  ]
+}

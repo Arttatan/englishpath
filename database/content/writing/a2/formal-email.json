@@ -1,0 +1,27 @@
+{
+  "title": "Writing a formal email",
+  "level": "a2",
+  "section": "writing",
+  "sort_order": 1,
+  "explanation": "<h2>Writing a formal email (A2)</h2><ul><li>Start: <strong>Dear Mr/Ms + surname,</strong></li><li>First line: reason for writing</li><li>Polite language: <em>I would like to…</em> / <em>Could you please…?</em></li><li>End: <strong>Yours sincerely,</strong> (if you know the name) or <strong>Yours faithfully,</strong></li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the best formal phrase.", "type": "inline_choice", "questions": [
+      {"text": "Formal opening: [*Dear Ms Brown,|Hi Brown,|Hey!]", "feedback": "Dear Ms Brown,"},
+      {"text": "Reason for writing: [*I am writing to enquire about…|I write because I want…|Tell me about…]", "feedback": "Formal phrase."},
+      {"text": "Polite request: [*Could you please send me…?|Send me…|You must send…]", "feedback": "Could you please."},
+      {"text": "Formal closing: [*Yours sincerely,|Love,|See ya,]", "feedback": "Yours sincerely,"}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct phrase.", "type": "lettered_gap", "questions": [
+      {"text": "Thank you for your ____. | *email | quick | hey", "feedback": "Thank you for your email."},
+      {"text": "I look forward to ____ from you. | *hearing | hear | heard", "feedback": "Look forward to hearing."},
+      {"text": "Please find the document ____. | *attached | attach | attaching", "feedback": "Please find attached."},
+      {"text": "I ____ grateful for your help. | *would be | am want | will to be", "feedback": "I would be grateful."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Choose the best option.", "type": "inline_choice", "questions": [
+      {"text": "[*I am writing in connection with…|I write stuff about…|About the thing…]", "feedback": "Formal connection phrase."},
+      {"text": "[*Please do not hesitate to contact me.|Call me now!!!|Phone fast.]", "feedback": "Polite formal offer."},
+      {"text": "If you don't know the person's name: [*Yours faithfully,|Yours sincerely,|Best wishes,]", "feedback": "Yours faithfully when name unknown."},
+      {"text": "[*I would appreciate a reply by Friday.|Answer me Friday.|Reply Friday now.]", "feedback": "Polite deadline."}
+    ]}
+  ]
+}

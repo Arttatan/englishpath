@@ -1,0 +1,45 @@
+{
+  "title": "Travel and transport",
+  "level": "a1",
+  "section": "vocabulary",
+  "sort_order": 4,
+  "explanation": "<h2>Travel and transport</h2><ul><li><strong>by bus / train / car / plane / bike</strong></li><li><strong>ticket, passport, luggage, platform</strong></li><li><strong>airport, station, hotel, map</strong></li><li>Verbs: <strong>travel, arrive, leave, book</strong></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "We took a ____ to the airport. | *taxi | passport | platform", "feedback": "Taxi is transport."},
+        {"text": "Don't forget your ____ when you fly abroad. | *passport | luggage | map", "feedback": "You need a passport."},
+        {"text": "The train leaves from ____ 3. | *platform | ticket | hotel", "feedback": "Trains leave from platforms."},
+        {"text": "I bought a ____ online. | *ticket | station | arrive", "feedback": "You buy a ticket."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option to complete these sentences. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": ["bus", "train", "plane", "car", "bike", "hotel", "map", "luggage", "station", "airport"],
+      "questions": [
+        {"text": "We went to the city by ____. | bus", "feedback": ""},
+        {"text": "The ____ was delayed by twenty minutes. | train", "feedback": ""},
+        {"text": "Our flight leaves from the ____. | airport", "feedback": ""},
+        {"text": "We stayed at a small ____. | hotel", "feedback": ""},
+        {"text": "I used a ____ to find the museum. | map", "feedback": ""}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "She travels to work by ____. | *bike | passport | platform", "feedback": "By bike."},
+        {"text": "We need to ____ our bags at the hotel. | *leave | arrive | ticket", "feedback": "Leave luggage at the hotel."},
+        {"text": "What time does the flight ____? | *arrive | luggage | map", "feedback": "Flights arrive."},
+        {"text": "He goes to London ____ train. | *by | on | in", "feedback": "By train (no article)." }
+      ]
+    }
+  ]
+}

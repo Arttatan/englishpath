@@ -1,0 +1,79 @@
+{
+  "title": "Doctor appointment",
+  "level": "b1",
+  "section": "listening",
+  "sort_order": 4,
+  "explanation": "<h2>Doctor appointment</h2><p>Listen to a patient talking to a doctor.</p><h3>Transcript</h3><p><strong>Doctor:</strong> How long have you had the pain?<br><strong>Patient:</strong> For about ten days. It started after I helped a friend move house.<br><strong>Doctor:</strong> Does it hurt all the time?<br><strong>Patient:</strong> Mostly in the morning. It gets better when I walk around.<br><strong>Doctor:</strong> I think you have strained a muscle. I will prescribe painkillers and some rest.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The patient has had the pain for [*about ten days|ten weeks|two days].",
+          "feedback": "The patient says about ten days."
+        },
+        {
+          "text": "The pain started after [*helping a friend move|playing football|driving to work].",
+          "feedback": "It started after moving house."
+        },
+        {
+          "text": "It hurts most in the [*morning|evening|night].",
+          "feedback": "Mostly in the morning."
+        },
+        {
+          "text": "The doctor thinks it is [*a strained muscle|a broken bone|the flu].",
+          "feedback": "That is the diagnosis."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The pain gets better when the patient ____.  | *walks around | sits down | goes to sleep",
+          "feedback": "Movement helps."
+        },
+        {
+          "text": "The doctor will prescribe ____.  | *painkillers | antibiotics | exercise equipment",
+          "feedback": "The doctor mentions painkillers."
+        },
+        {
+          "text": "The pain started after helping a friend move ____.  | *house | office | furniture shop",
+          "feedback": "Move house."
+        },
+        {
+          "text": "The doctor also recommends some ____.  | *rest | travel | surgery",
+          "feedback": "Rest is recommended."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The patient probably has [*a minor injury|a serious infection|food poisoning].",
+          "feedback": "A strained muscle is a minor injury."
+        },
+        {
+          "text": "The doctor asks about the [*duration|cost|address] of the pain first.",
+          "feedback": "How long have you had the pain?"
+        },
+        {
+          "text": "The patient says the pain is [*not constant|constant|gone].",
+          "feedback": "Mostly in the morning, so not constant."
+        },
+        {
+          "text": "The conversation is [*medical|legal|social].",
+          "feedback": "It is a doctor appointment."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=fSrLeyfk9SM"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Animals",
+  "level": "a1",
+  "section": "vocabulary",
+  "sort_order": 9,
+  "explanation": "<h2>Animals</h2><ul><li><strong>pets:</strong> dog, cat, fish, rabbit, hamster</li><li><strong>farm animals:</strong> cow, horse, sheep, chicken, pig</li><li><strong>wild animals:</strong> lion, elephant, tiger, bear, monkey</li><li><strong>verbs:</strong> bark, fly, swim, run</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "A ____ says moo. | *cow | cat | lion", "feedback": "Cows moo."},
+        {"text": "My ____ sleeps on my bed. | *cat | horse | elephant", "feedback": "Cats are common pets."},
+        {"text": "Birds can ____. | *fly | bark | moo", "feedback": "Birds fly."},
+        {"text": "A ____ is the king of the jungle. | *lion | fish | rabbit", "feedback": "Lion."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": ["dog", "horse", "fish", "elephant", "chicken", "monkey", "sheep", "tiger", "rabbit", "pig"],
+      "questions": [
+        {"text": "We have a small ____ in a cage. | rabbit", "feedback": ""},
+        {"text": "A ____ lives in water. | fish", "feedback": ""},
+        {"text": "People ride a ____. | horse", "feedback": ""},
+        {"text": "The ____ has a very long nose. | elephant", "feedback": ""},
+        {"text": "Farmers keep ____ for wool. | sheep", "feedback": ""}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Dogs ____ when someone comes to the door. | *bark | fly | swim", "feedback": "Dogs bark."},
+        {"text": "A ____ gives us eggs. | *chicken | lion | bear", "feedback": "Chickens lay eggs."},
+        {"text": "The ____ has orange and black stripes. | *tiger | cow | hamster", "feedback": "Tiger."},
+        {"text": "We saw a ____ at the zoo. | *monkey | pig | sheep", "feedback": "Monkeys in zoos."}
+      ]
+    }
+  ]
+}

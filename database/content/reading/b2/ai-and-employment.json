@@ -1,0 +1,78 @@
+{
+  "title": "AI and the future of employment",
+  "level": "b2",
+  "section": "reading",
+  "sort_order": 1,
+  "explanation": "<h2>AI and the future of employment</h2><p>Artificial intelligence is transforming workplaces faster than many governments expected. Routine administrative tasks, basic translation and some forms of data analysis can already be automated. However, experts argue that AI is more likely to change jobs than eliminate them entirely. Workers who combine technical skills with creativity, communication and ethical judgement may become more valuable. The real challenge, therefore, is not only technological development but also education systems that help people adapt throughout their careers.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "AI can already automate some [*administrative tasks|sports events|weather patterns only].",
+          "feedback": "Routine administrative tasks."
+        },
+        {
+          "text": "Experts think AI will probably [*change jobs rather than remove all of them|end all employment immediately|have no effect].",
+          "feedback": "Change jobs rather than eliminate entirely."
+        },
+        {
+          "text": "Valuable workers may combine technical skills with creativity and [*ethical judgement|physical strength only|holiday planning].",
+          "feedback": "Ethical judgement is mentioned."
+        },
+        {
+          "text": "The main challenge includes helping people adapt through [*education|tourism|fashion].",
+          "feedback": "Education systems."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Governments did not always expect such rapid ____.  | *transformation | vacation | recipe",
+          "feedback": "Transforming workplaces."
+        },
+        {
+          "text": "Basic translation is one task that can be ____.  | *automated | painted | cooked",
+          "feedback": "Automated."
+        },
+        {
+          "text": "Communication is one skill that may become more ____.  | *valuable | illegal | distant",
+          "feedback": "More valuable."
+        },
+        {
+          "text": "People may need to adapt throughout their ____.  | *careers | holidays | meals",
+          "feedback": "Throughout careers."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The writer's attitude is [*cautiously optimistic|completely negative|uninterested].",
+          "feedback": "Change is serious but manageable."
+        },
+        {
+          "text": "The passage focuses on [*work and skills|museum design|airport security].",
+          "feedback": "AI and employment."
+        },
+        {
+          "text": "The text suggests technology alone is [*not the only issue|the only solution|irrelevant].",
+          "feedback": "Education also matters."
+        },
+        {
+          "text": "The final sentence emphasises lifelong [*adaptation|competition|isolation].",
+          "feedback": "Adapt throughout careers."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Psychology and behaviour",
+  "level": "b2",
+  "section": "vocabulary",
+  "sort_order": 4,
+  "explanation": "<h2>Psychology and behaviour</h2><ul><li>anxiety, motivation, perception, resilience, instinct</li><li>stimulus, behaviour, trait, coping, bias</li><li>verbs: perceive, motivate, cope, influence</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "High levels of ____ can affect sleep and concentration. | *anxiety | luggage | traffic",
+          "feedback": "Anxiety."
+        },
+        {
+          "text": "Her ____ helped her recover quickly from failure. | *resilience | receipt | platform",
+          "feedback": "Resilience = ability to recover."
+        },
+        {
+          "text": "Some decisions are based on ____ rather than logic. | *instinct | agenda | deadline",
+          "feedback": "Instinct."
+        },
+        {
+          "text": "A positive environment can increase student ____. | *motivation | compensation | customs",
+          "feedback": "Motivation."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "perception",
+        "stimulus",
+        "coping",
+        "influence",
+        "bias",
+        "behaviour",
+        "trait",
+        "motivate",
+        "perceive",
+        "resilience"
+      ],
+      "questions": [
+        {
+          "text": "Our ____ of colour can be affected by lighting. | perception",
+          "feedback": ""
+        },
+        {
+          "text": "Loud noise acted as a powerful ____ in the experiment. | stimulus",
+          "feedback": ""
+        },
+        {
+          "text": "She developed better ____ strategies during therapy. | coping",
+          "feedback": ""
+        },
+        {
+          "text": "Advertisers try to ____ consumer choices. | influence",
+          "feedback": ""
+        },
+        {
+          "text": "Confirmation ____ makes people favour information they already believe. | bias",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Aggressive ____ is often linked to stress. | *behaviour | furniture | platform",
+          "feedback": "Behaviour."
+        },
+        {
+          "text": "Honesty is considered an important personality ____. | *trait | ticket | recipe",
+          "feedback": "Personality trait."
+        },
+        {
+          "text": "Good leaders know how to ____ their teams. | *motivate | recycle | depart",
+          "feedback": "Motivate teams."
+        },
+        {
+          "text": "Children ____ danger differently from adults. | *perceive | charge | queue",
+          "feedback": "Perceive danger."
+        }
+      ]
+    }
+  ]
+}

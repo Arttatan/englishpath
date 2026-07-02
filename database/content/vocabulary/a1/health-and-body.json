@@ -1,0 +1,45 @@
+{
+  "title": "Health and body",
+  "level": "a1",
+  "section": "vocabulary",
+  "sort_order": 6,
+  "explanation": "<h2>Health and the body</h2><ul><li><strong>head, arm, leg, back, stomach</strong></li><li><strong>headache, cold, fever, pain</strong></li><li><strong>doctor, pharmacy, medicine</strong></li><li>Verbs: <strong>feel, hurt, rest, exercise</strong></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "I have a ____. My head hurts. | *headache | stomach | arm", "feedback": "Head pain = headache."},
+        {"text": "She has a sore ____. She can't speak well. | *throat | leg | back", "feedback": "Sore throat."},
+        {"text": "You use your ____ to listen. | *ears | nose | knee", "feedback": "Ears for listening."},
+        {"text": "He broke his ____ playing football. | *leg | head | medicine", "feedback": "Break a leg (bone)." }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option to complete these sentences. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": ["doctor", "medicine", "pharmacy", "cold", "rest", "exercise", "hospital", "fever", "pain", "feel"],
+      "questions": [
+        {"text": "You should see a ____. | doctor", "feedback": ""},
+        {"text": "Take this ____ twice a day. | medicine", "feedback": ""},
+        {"text": "I bought it at the ____. | pharmacy", "feedback": ""},
+        {"text": "She has a high ____. | fever", "feedback": ""},
+        {"text": "You need to ____ and drink water. | rest", "feedback": ""}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "I don't ____ well today. | *feel | hurt | medicine", "feedback": "Feel well/unwell."},
+        {"text": "My back ____. I need to sit down. | *hurts | rests | exercises", "feedback": "Hurts = pain."},
+        {"text": "Regular ____ is good for your health. | *exercise | fever | pharmacy", "feedback": "Exercise."},
+        {"text": "He went to ____ after the accident. | *hospital | headache | throat", "feedback": "Hospital."}
+      ]
+    }
+  ]
+}

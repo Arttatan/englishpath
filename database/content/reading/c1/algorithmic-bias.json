@@ -1,0 +1,78 @@
+{
+  "title": "Algorithmic bias in decision-making",
+  "level": "c1",
+  "section": "reading",
+  "sort_order": 1,
+  "explanation": "<h2>Algorithmic bias in decision-making</h2><p>Automated systems now influence hiring, lending and policing, yet algorithms can reproduce historical inequalities if they are trained on biased data. Proponents argue that well-designed models may reduce subjective human prejudice. Critics respond that opacity makes discrimination harder to detect and challenge. Regulators increasingly demand audits, documentation and the right to explanation, though technical complexity may limit how meaningful such explanations are for ordinary citizens.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Algorithms can reproduce inequalities when trained on [*biased data|perfect data|random art].",
+          "feedback": "Trained on biased data."
+        },
+        {
+          "text": "Proponents believe good models might reduce [*human prejudice|internet speed|museum visits].",
+          "feedback": "Reduce subjective human prejudice."
+        },
+        {
+          "text": "Critics worry that opacity makes discrimination harder to [*detect|celebrate|ignore voluntarily].",
+          "feedback": "Harder to detect and challenge."
+        },
+        {
+          "text": "Regulators want audits and the right to [*explanation|entertainment|exercise].",
+          "feedback": "Right to explanation."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Automated systems affect hiring, lending and ____.  | *policing | gardening | cooking",
+          "feedback": "Policing mentioned."
+        },
+        {
+          "text": "Technical complexity may limit meaningful ____.  | *explanations | vacations | recipes",
+          "feedback": "Meaningful explanations."
+        },
+        {
+          "text": "Critics emphasise model ____.  | *opacity | opacity only wrong | openness only",
+          "feedback": "Opacity."
+        },
+        {
+          "text": "Documentation is increasingly ____.  | *demanded | forbidden | ignored",
+          "feedback": "Regulators demand it."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The article is [*balanced|entirely optimistic|completely dismissive of technology].",
+          "feedback": "Both sides presented."
+        },
+        {
+          "text": "The main issue is [*fairness and accountability|fashion design|recipe quality].",
+          "feedback": "Algorithmic bias."
+        },
+        {
+          "text": "Ordinary citizens may struggle to understand technical [*explanations|competition|isolation].",
+          "feedback": "Technical explanations."
+        },
+        {
+          "text": "The tone is [*analytical|comic|romantic].",
+          "feedback": "Analytical."
+        }
+      ]
+    }
+  ]
+}

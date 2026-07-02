@@ -1,0 +1,78 @@
+{
+  "title": "Decolonising museum collections",
+  "level": "c1",
+  "section": "reading",
+  "sort_order": 5,
+  "explanation": "<h2>Decolonising museum collections</h2><p>Museums in former colonial powers increasingly face demands to return artefacts acquired during empire. Institutions reply that they can preserve objects and educate global audiences. Critics argue that retention often reproduces historical injustice and that provenance records are sometimes incomplete because colonial administrators cared little about documenting consent. Recent agreements favour collaboration, long-term loans and shared digital access, suggesting a shift from ownership debates toward partnership models.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Demands focus on artefacts acquired during [*empire|recent holidays|local festivals only].",
+          "feedback": "During empire."
+        },
+        {
+          "text": "Museums claim they can preserve objects and [*educate audiences|sell tickets only|avoid all research].",
+          "feedback": "Educate global audiences."
+        },
+        {
+          "text": "Critics say retention may reproduce historical [*injustice|weather|music].",
+          "feedback": "Historical injustice."
+        },
+        {
+          "text": "Recent agreements favour collaboration and [*shared digital access|complete silence|random sales].",
+          "feedback": "Shared digital access."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Provenance records are sometimes ____.  | *incomplete | perfect | musical",
+          "feedback": "Incomplete records."
+        },
+        {
+          "text": "Colonial administrators often failed to document ____.  | *consent | concerts | coffee",
+          "feedback": "Document consent."
+        },
+        {
+          "text": "Some returns are replaced by long-term ____.  | *loans | lawsuits only | lunches",
+          "feedback": "Long-term loans."
+        },
+        {
+          "text": "The shift moves toward ____ models. | *partnership | partnership only wrong | isolation",
+          "feedback": "Partnership models."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The article presents arguments from [*institutions and critics|only tourists|only athletes].",
+          "feedback": "Both sides."
+        },
+        {
+          "text": "The issue concerns [*cultural justice|airport design|recipe quality].",
+          "feedback": "Decolonising museums."
+        },
+        {
+          "text": "Digital access is part of a [*compromise|ban|joke].",
+          "feedback": "Collaboration and access."
+        },
+        {
+          "text": "The tone is [*serious and analytical|purely comic|indifferent].",
+          "feedback": "Serious."
+        }
+      ]
+    }
+  ]
+}

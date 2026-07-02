@@ -1,0 +1,42 @@
+{
+  "title": "A letter to a friend",
+  "level": "a1",
+  "section": "reading",
+  "sort_order": 2,
+  "explanation": "<h2>A letter to a friend</h2><p>Read the email.</p><p>Dear Emma,<br><br>How are you? I'm fine. I'm on holiday in Greece with my family. The weather is beautiful and the food is delicious. We swim in the sea every day. I miss you! See you next month.<br><br>Love,<br>Lucy</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Lucy is on holiday in [*Greece|Italy|Spain].", "feedback": "Holiday in Greece."},
+        {"text": "She is with her [*family|teacher|boss].", "feedback": "With my family."},
+        {"text": "The weather is [*beautiful|bad|cold].", "feedback": "Weather is beautiful."},
+        {"text": "Lucy will see Emma [*next month|next week|tomorrow].", "feedback": "See you next month."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Read the text and choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Lucy says the food is ____. | *delicious | cold | fine", "feedback": "Food is delicious."},
+        {"text": "They swim in the ____ every day. | *sea | shop | school", "feedback": "Swim in the sea."},
+        {"text": "Lucy ____ Emma. | *misses | visits | calls", "feedback": "I miss you."},
+        {"text": "Lucy asks: 'How are ____?' | *you | they | we", "feedback": "How are you?" }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Read the text and choose the correct answer.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "Lucy writes to [*Emma|Lucy|Greece].", "feedback": "Dear Emma."},
+        {"text": "Lucy is [*fine|sick|sad].", "feedback": "I'm fine."},
+        {"text": "They swim [*every day|once|never].", "feedback": "Every day."},
+        {"text": "The email ends with [*Love|Thanks|Bye].", "feedback": "Love, Lucy."}
+      ]
+    }
+  ]
+}

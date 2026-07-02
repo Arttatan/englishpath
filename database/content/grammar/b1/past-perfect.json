@@ -1,0 +1,86 @@
+{
+  "title": "Past perfect",
+  "level": "b1",
+  "section": "grammar",
+  "sort_order": 3,
+  "explanation": "<h2>Past perfect</h2><p><strong>had + past participle</strong></p><p>We use the past perfect to show that one action happened before another past action.</p><ul><li>When I arrived, they had already left.</li><li>She was nervous because she had never flown before.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "When we got to the station, the train [*had left|left|has left].",
+          "feedback": "The train left before we got there."
+        },
+        {
+          "text": "She was upset because she [*had lost|lost|has lost] her keys.",
+          "feedback": "The loss happened before the feeling."
+        },
+        {
+          "text": "I [*had never seen|never saw|have never seen] snow before I moved to Norway.",
+          "feedback": "Before another past moment."
+        },
+        {
+          "text": "By the time he called, I [*had finished|finished|have finished] dinner.",
+          "feedback": "By the time signals earlier past action."
+        },
+        {
+          "text": "They [*had already booked|already booked|have already booked] the tickets when I asked.",
+          "feedback": "Already booked before the asking."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "After she ____ the report, she went home. | *had sent | sent | has sent",
+          "feedback": "Sending happened before going home."
+        },
+        {
+          "text": "We realised we ____ there before. | *had been | were | have been",
+          "feedback": "Past perfect for earlier experience."
+        },
+        {
+          "text": "He ____ dinner before the guests arrived. | *had prepared | prepared | has prepared",
+          "feedback": "Preparation happened first."
+        },
+        {
+          "text": "I was tired because I ____ very little the night before. | *had slept | slept | have slept",
+          "feedback": "Earlier past cause."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The film started after everyone [*had sat down|sat down|has sat down].",
+          "feedback": "The sitting happened before the start."
+        },
+        {
+          "text": "She did not want dessert because she [*had eaten|ate|has eaten] too much.",
+          "feedback": "Earlier action caused the later decision."
+        },
+        {
+          "text": "I knew the city because I [*had visited|visited|have visited] it before.",
+          "feedback": "Visit happened before the knowing."
+        },
+        {
+          "text": "By 2015, they [*had moved|moved|have moved] three times.",
+          "feedback": "By + past year often takes past perfect."
+        },
+        {
+          "text": "The teacher was angry because no one [*had done|did|has done] the homework.",
+          "feedback": "Homework should have been done earlier."
+        }
+      ]
+    }
+  ]
+}

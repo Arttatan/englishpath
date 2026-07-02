@@ -1,0 +1,79 @@
+{
+  "title": "Missing luggage",
+  "level": "b1",
+  "section": "listening",
+  "sort_order": 2,
+  "explanation": "<h2>Missing luggage</h2><p>Listen to a passenger reporting a problem at the airport.</p><h3>Transcript</h3><p><strong>Passenger:</strong> Excuse me, my suitcase did not arrive on the belt.<br><strong>Agent:</strong> I am sorry to hear that. Can I see your baggage tag?<br><strong>Passenger:</strong> Yes, here it is. It is a large black case with a red ribbon.<br><strong>Agent:</strong> We will track it and contact you as soon as possible.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The missing item is a [*suitcase|passport|laptop].",
+          "feedback": "The passenger mentions a suitcase."
+        },
+        {
+          "text": "The suitcase is [*black|blue|red].",
+          "feedback": "It is a large black case."
+        },
+        {
+          "text": "It has a [*red ribbon|yellow sticker|green strap].",
+          "feedback": "Red ribbon."
+        },
+        {
+          "text": "The agent says they will [*track it|replace it immediately|call the police].",
+          "feedback": "They will track the suitcase."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The suitcase did not arrive on the ____.  | *belt | platform | shelf",
+          "feedback": "Suitcases arrive on the baggage belt."
+        },
+        {
+          "text": "The agent asks to see the baggage ____.  | *tag | receipt | signal",
+          "feedback": "You use a baggage tag to identify luggage."
+        },
+        {
+          "text": "The case is described as large and ____.  | *black | heavy | silver",
+          "feedback": "The suitcase is black."
+        },
+        {
+          "text": "The airline will contact the passenger as soon as ____.  | *possible | tomorrow | check-in",
+          "feedback": "Common phrase: as soon as possible."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "This conversation happens at [*an airport|a hotel|a station].",
+          "feedback": "Baggage belt and baggage tag show the location."
+        },
+        {
+          "text": "The passenger sounds [*calm but worried|angry and rude|happy].",
+          "feedback": "They politely explain the issue."
+        },
+        {
+          "text": "The agent offers [*help|a free ticket|food].",
+          "feedback": "The agent will track the bag."
+        },
+        {
+          "text": "The problem was noticed after the flight had [*arrived|left|been cancelled].",
+          "feedback": "The bag did not come out after arrival."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=4jpdlG8EJhE"
+}

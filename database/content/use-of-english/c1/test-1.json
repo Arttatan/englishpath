@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 1",
+  "level": "c1",
+  "section": "use-of-english",
+  "sort_order": 1,
+  "explanation": "<h2>Use of English - C1 Test 1</h2><p>Mixed advanced grammar and vocabulary review.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "So complex [*was|is|were] the issue that experts were consulted.",
+          "feedback": "So complex was - inversion."
+        },
+        {
+          "text": "It [*would appear|must appear definitely|appears without doubt] that costs are rising.",
+          "feedback": "Hedging with would appear."
+        },
+        {
+          "text": "[*What|That|Which] the report challenges is the official narrative.",
+          "feedback": "What-clause fronting."
+        },
+        {
+          "text": "The findings are [*consistent with|angry with|bored with] previous studies.",
+          "feedback": "Consistent with."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The ambassador acted as a diplomatic ____.  | *envoy | envy | envoying",
+          "feedback": "Envoy."
+        },
+        {
+          "text": "Judges must remain ____.  | *impartial | impatient | impartially",
+          "feedback": "Impartial."
+        },
+        {
+          "text": "The study draws attention ____ gaps in the data. | *to | for | at",
+          "feedback": "Draw attention to."
+        },
+        {
+          "text": "DNA ____ has become much faster. | *sequencing | sequence | sequenced",
+          "feedback": "DNA sequencing."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Having been warned|Warning|To warn] repeatedly, he ignored the advice.",
+          "feedback": "Perfect passive participle."
+        },
+        {
+          "text": "The jury is [*bound to|never going to|forbidden to] reach a verdict soon.",
+          "feedback": "Bound to."
+        },
+        {
+          "text": "[*Had|If had] we known, we would have acted differently.",
+          "feedback": "Had we known."
+        },
+        {
+          "text": "The former policy focused on tax; [*the latter|the ladder|the weather] on spending.",
+          "feedback": "Former/latter."
+        }
+      ]
+    }
+  ]
+}

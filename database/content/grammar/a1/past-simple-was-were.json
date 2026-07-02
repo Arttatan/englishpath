@@ -1,0 +1,45 @@
+{
+  "title": "Past simple: was / were",
+  "level": "a1",
+  "section": "grammar",
+  "sort_order": 5,
+  "explanation": "<h2>Past simple of <em>be</em>: was / were</h2><ul><li>I / he / she / it → <strong>was</strong></li><li>You / we / they → <strong>were</strong></li></ul><p>Questions: <em>Was</em> she at home? <em>Were</em> they happy?</p><p>Negative: <em>wasn't</em>, <em>weren't</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*was|were|am] at school yesterday.", "feedback": "I → was."},
+        {"text": "They [*were|was|are] tired last night.", "feedback": "They → were."},
+        {"text": "She [*wasn't|weren't|isn't] happy with the result.", "feedback": "She → wasn't."},
+        {"text": "[*Were|Was|Are] you at the party?", "feedback": "You → Were."},
+        {"text": "It [*was|were|is] cold yesterday.", "feedback": "It → was."},
+        {"text": "We [*weren't|wasn't|aren't] at home — we were out.", "feedback": "We → weren't."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "Where ____ you last night? | *were | was | are", "feedback": "You → were."},
+        {"text": "He ____ at work on Monday. | *was | were | is", "feedback": "He → was."},
+        {"text": "The shops ____ closed. | *were | was | are", "feedback": "Shops = they → were."},
+        {"text": "It ____ a great holiday. | *was | were | is", "feedback": "It → was."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "[*Was|Were|Did] your brother at the match?", "feedback": "Your brother = he → Was."},
+        {"text": "The children [*were|was|are] in the park.", "feedback": "Children = they → were."},
+        {"text": "I [*wasn't|weren't|didn't] hungry.", "feedback": "I → wasn't."},
+        {"text": "[*Were|Was|Did] they late?", "feedback": "They → Were."},
+        {"text": "She [*was|were|did] my best friend at school.", "feedback": "She → was."}
+      ]
+    }
+  ]
+}

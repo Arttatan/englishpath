@@ -1,0 +1,45 @@
+{
+  "title": "Past continuous and past simple",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 3,
+  "explanation": "<h2>Past continuous and past simple</h2><p><strong>Past continuous</strong> (was/were + -ing) — longer action in progress in the past.</p><p><strong>Past simple</strong> — finished action that interrupts it.</p><p><em>I was watching TV when the phone rang.</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "I [*was sleeping|slept|sleep] when you called.", "feedback": "Longer action → past continuous."},
+        {"text": "They [*were playing|played|play] football at three o'clock.", "feedback": "Action in progress → were playing."},
+        {"text": "She [*wasn't listening|didn't listen|not listened] — she was on her phone.", "feedback": "Past continuous negative."},
+        {"text": "What [*were|was|did] you doing at eight?", "feedback": "You → were doing."},
+        {"text": "He [*broke|was breaking|break] his arm while he was skiing.", "feedback": "Short finished action → broke."},
+        {"text": "It [*was raining|rained|rain] so we stayed inside.", "feedback": "Background → was raining."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "They ____ TV when the lights went out. | *were watching | watched | watch", "feedback": "Background action → were watching."},
+        {"text": "She ____ home when she saw the accident. | *was walking | walked | walks", "feedback": "In progress → was walking."},
+        {"text": "I ____ him while I was waiting for the bus. | *met | was meeting | meet", "feedback": "Short action → met."},
+        {"text": "At eight o'clock, they ____ football. | *were playing | played | play", "feedback": "Action in progress → were playing."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option to complete the sentences.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "We [*were having|had|have] dinner when the news started.", "feedback": "Ongoing → were having."},
+        {"text": "I [*saw|was seeing|see] a friend while I was shopping.", "feedback": "Short action → saw."},
+        {"text": "He [*was driving|drove|drive] too fast and crashed.", "feedback": "Background → was driving."},
+        {"text": "[*Was|Did|Were] it snowing when you left?", "feedback": "It → Was it snowing."},
+        {"text": "They [*were talking|talked|talk] about the project all morning.", "feedback": "All morning → were talking."}
+      ]
+    }
+  ]
+}

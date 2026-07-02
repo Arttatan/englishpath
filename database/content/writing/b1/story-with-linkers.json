@@ -1,0 +1,78 @@
+{
+  "title": "Writing a story with linkers",
+  "level": "b1",
+  "section": "writing",
+  "sort_order": 3,
+  "explanation": "<h2>Writing a story with linkers</h2><p>At B1 level, stories are easier to follow when you use time linkers and sequence words such as <em>suddenly, while, afterwards, eventually, in the end</em>. Use past simple for main events and past continuous for background action.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*While I was waiting for the bus, I noticed a wallet on the ground.|While waiting bus I noticed wallet.|I noticed wallet while wait bus.]",
+          "feedback": "Good background plus event structure."
+        },
+        {
+          "text": "[*Suddenly, a man ran towards me and asked if I had seen his wallet.|Suddenly a man run to me ask wallet.|A man suddenly wallet ask.]",
+          "feedback": "Suddenly introduces an unexpected event."
+        },
+        {
+          "text": "[*In the end, I returned it and he thanked me warmly.|In the end I return it he thank me.|End I returned and thanked.]",
+          "feedback": "A clear ending sentence."
+        },
+        {
+          "text": "[*Afterwards, I felt proud that I had done the right thing.|Afterwards I proud I right thing done.|Proud afterwards right thing.]",
+          "feedback": "Natural reflective sentence."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Use the past ____ for the main actions in a story. | *simple | continuous only | perfect always",
+          "feedback": "Main events usually use past simple."
+        },
+        {
+          "text": "Words like suddenly and eventually help show the ____.  | *sequence | forecast | receipt",
+          "feedback": "They organise the story."
+        },
+        {
+          "text": "A story often becomes more interesting when something ____.  | *unexpected happens | formal appears | passive is used",
+          "feedback": "Unexpected events create interest."
+        },
+        {
+          "text": "The final sentence can express how the writer ____.  | *felt | resigned | broadcast",
+          "feedback": "A story can end with a feeling."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*At first, I thought someone had dropped it by mistake.|At first I think someone drop it.|First I thought someone mistake.]",
+          "feedback": "Good opening reflection."
+        },
+        {
+          "text": "[*A few minutes later, the owner arrived looking worried.|Few minutes later owner arrived worry.|Owner arrived worry few minutes.]",
+          "feedback": "Time linker used correctly."
+        },
+        {
+          "text": "[*Because I had kept the wallet safe, nothing was missing.|Because I kept wallet safe nothing missing was.|Wallet safe because nothing.]",
+          "feedback": "Clear cause and result."
+        },
+        {
+          "text": "[*It was an ordinary day that turned into a memorable experience.|It was ordinary day into memorable.|Ordinary day memorable experience turned.]",
+          "feedback": "Strong story ending."
+        }
+      ]
+    }
+  ]
+}

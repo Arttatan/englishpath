@@ -1,0 +1,79 @@
+{
+  "title": "University lecture excerpt",
+  "level": "b2",
+  "section": "listening",
+  "sort_order": 1,
+  "explanation": "<h2>University lecture excerpt</h2><p>Listen to part of a lecture on urban planning.</p><h3>Transcript</h3><p><strong>Lecturer:</strong> Today I want to focus on why some cities become more liveable than others. It is not enough to build taller buildings or wider roads. Successful cities invest in public transport, green spaces and affordable housing. They also encourage mixed neighbourhoods where people live, work and study close together. Without this balance, cities may grow economically but still fail to improve everyday life for residents.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The lecturer says taller buildings alone are [*not enough|the main solution|too expensive].",
+          "feedback": "It is not enough to build taller buildings."
+        },
+        {
+          "text": "Successful cities invest in affordable [*housing|advertising|entertainment].",
+          "feedback": "Affordable housing is mentioned."
+        },
+        {
+          "text": "Mixed neighbourhoods combine living, working and [*studying|shopping only|tourism].",
+          "feedback": "Live, work and study close together."
+        },
+        {
+          "text": "Some cities grow economically but fail to improve [*everyday life|international trade|weather conditions].",
+          "feedback": "That is the lecturer's warning."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The topic is urban ____.  | *planning | farming | painting",
+          "feedback": "Urban planning lecture."
+        },
+        {
+          "text": "Green spaces are presented as an important ____.  | *investment | competition | sentence",
+          "feedback": "Investment in green spaces."
+        },
+        {
+          "text": "The lecturer criticises cities that grow but remain ____.  | *unliveable | silent | private",
+          "feedback": "Fail to improve everyday life."
+        },
+        {
+          "text": "Public ____ is one key factor. | *transport | debate | recipe",
+          "feedback": "Public transport."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The speaker's tone is [*academic and analytical|emotional and angry|casual and humorous].",
+          "feedback": "University lecture style."
+        },
+        {
+          "text": "The main message is that growth must be [*balanced|avoided|secret].",
+          "feedback": "Balance is central."
+        },
+        {
+          "text": "The lecture would interest [*city planners and students|only doctors|only artists].",
+          "feedback": "Urban planning audience."
+        },
+        {
+          "text": "The lecturer implies design affects [*quality of life|only business profits|only tourism].",
+          "feedback": "Everyday life for residents."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=8O6272q0Awo"
+}

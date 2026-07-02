@@ -1,0 +1,86 @@
+{
+  "title": "Hedging and tentative language",
+  "level": "c1",
+  "section": "grammar",
+  "sort_order": 2,
+  "explanation": "<h2>Hedging and tentative language</h2><p>Hedging softens claims in academic and professional English.</p><ul><li><em>It would appear that...</em></li><li><em>There is some evidence to suggest...</em></li><li><em>This may well indicate...</em></li><li><em>Tends to, appears to, seems to</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "It [*would appear|appears definitely|must appear] that consumer habits are changing.",
+          "feedback": "Would appear hedges the claim."
+        },
+        {
+          "text": "There is [*some|no|total] evidence to suggest a link between sleep and memory.",
+          "feedback": "Some evidence hedges."
+        },
+        {
+          "text": "The results [*may well|must certainly|will never] indicate a broader trend.",
+          "feedback": "May well = cautious possibility."
+        },
+        {
+          "text": "Urban populations [*tend to|always|never] grow faster than rural ones.",
+          "feedback": "Tend to softens generalisation."
+        },
+        {
+          "text": "This [*could arguably|definitely must|clearly cannot] be seen as a turning point.",
+          "feedback": "Could arguably hedges."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The policy ____ to have reduced emissions slightly. | *appears | proves | guarantees",
+          "feedback": "Appears to hedge."
+        },
+        {
+          "text": "It is ____ possible that the figures were incomplete. | *entirely | somewhat | absolutely",
+          "feedback": "Somewhat possible."
+        },
+        {
+          "text": "The author ____ that further study is required. | *implies | proclaims | orders",
+          "feedback": "Implies is tentative."
+        },
+        {
+          "text": "These findings should be interpreted with ____. | *caution | certainty | anger",
+          "feedback": "Interpret with caution."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "It [*seems reasonable to assume|is proven absolutely|is impossible to assume] that costs will rise.",
+          "feedback": "Seems reasonable to assume."
+        },
+        {
+          "text": "The data [*suggests rather than proves|proves without doubt|denies completely] a connection.",
+          "feedback": "Suggests rather than proves."
+        },
+        {
+          "text": "One [*might argue|must argue|cannot argue] that the law needs reform.",
+          "feedback": "Might argue hedges."
+        },
+        {
+          "text": "The trend is [*likely to|definitely going to|never going to] continue.",
+          "feedback": "Likely to hedge."
+        },
+        {
+          "text": "It is [*not entirely clear|completely obvious|absolutely certain] why sales fell.",
+          "feedback": "Not entirely clear."
+        }
+      ]
+    }
+  ]
+}

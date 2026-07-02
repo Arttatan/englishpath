@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 1",
+  "level": "b2",
+  "section": "use-of-english",
+  "sort_order": 1,
+  "explanation": "<h2>Use of English - B2 Test 1</h2><p>Mixed grammar and vocabulary review.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Never before [*have I|I have|did I] seen such an enthusiastic audience.",
+          "feedback": "Never before have I - inversion."
+        },
+        {
+          "text": "You [*should have backed|should back|must back] up the files before the update.",
+          "feedback": "Regret about past action."
+        },
+        {
+          "text": "It was the CEO who [*made|did|had] the final decision.",
+          "feedback": "It was ... who."
+        },
+        {
+          "text": "The report is believed [*to contain|containing|contain] several inaccuracies.",
+          "feedback": "Passive reporting."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The government introduced new legislation on data ____.  | *protection | protect | protective",
+          "feedback": "Protection as noun."
+        },
+        {
+          "text": "Rising inflation has affected household ____.  | *budgets | budgeting | budgeted",
+          "feedback": "Household budgets."
+        },
+        {
+          "text": "The witness was asked ____ in court. | *to testify | testify | testifying",
+          "feedback": "Asked to testify."
+        },
+        {
+          "text": "The museum's latest ____ opens on Friday. | *exhibition | exhibit | exhibited",
+          "feedback": "Exhibition."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "She had her car [*serviced|service|servicing] at the garage.",
+          "feedback": "Causative have + past participle."
+        },
+        {
+          "text": "I enjoy hiking, and so [*do|am|have] my friends.",
+          "feedback": "So do my friends."
+        },
+        {
+          "text": "It is essential that he [*be|is|was] present at the meeting.",
+          "feedback": "Subjunctive be."
+        },
+        {
+          "text": "[*What|That|Which] worries me most is the lack of transparency.",
+          "feedback": "What-clause for emphasis."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "News report on climate policy",
+  "level": "b2",
+  "section": "listening",
+  "sort_order": 4,
+  "explanation": "<h2>News report on climate policy</h2><p>Listen to a short news report.</p><h3>Transcript</h3><p><strong>Reporter:</strong> Ministers have agreed to reduce national emissions by fifty per cent before 2035. The plan includes subsidies for electric vehicles, stricter rules for heavy industry and funding for home insulation. Environmental groups welcomed the targets but warned that enforcement will be critical. Opposition politicians argued the measures could raise energy costs for households in the short term.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The plan aims to cut emissions by [*fifty|thirty|seventy] per cent.",
+          "feedback": "Fifty per cent before 2035."
+        },
+        {
+          "text": "Subsidies will support [*electric vehicles|air travel|coal mining].",
+          "feedback": "Electric vehicles."
+        },
+        {
+          "text": "Environmental groups welcomed the targets but stressed [*enforcement|advertising|tourism].",
+          "feedback": "Enforcement will be critical."
+        },
+        {
+          "text": "Opposition politicians fear higher [*energy costs|school fees|ticket prices].",
+          "feedback": "Energy costs for households."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The report mentions stricter rules for heavy ____.  | *industry | fashion | theatre",
+          "feedback": "Heavy industry."
+        },
+        {
+          "text": "Funding will help improve home ____.  | *insulation | decoration | parking",
+          "feedback": "Home insulation."
+        },
+        {
+          "text": "Ministers have agreed on a new climate ____.  | *plan | holiday | concert",
+          "feedback": "Climate plan."
+        },
+        {
+          "text": "The deadline mentioned is the year ____.  | *2035 | 2020 | 2055",
+          "feedback": "Before 2035."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The report presents [*both support and criticism|only praise|only jokes].",
+          "feedback": "Groups welcome targets; opposition warns."
+        },
+        {
+          "text": "The policy focuses on [*reducing emissions|increasing tourism|building stadiums].",
+          "feedback": "Climate emissions."
+        },
+        {
+          "text": "The reporter's style is [*factual|emotional|humorous].",
+          "feedback": "News report tone."
+        },
+        {
+          "text": "Environmental groups think targets matter less than [*implementation|celebrities|sports].",
+          "feedback": "Enforcement is critical."
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://www.youtube.com/watch?v=HwMkN_2BTqs"
+}

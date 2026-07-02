@@ -1,0 +1,86 @@
+{
+  "title": "Modals of deduction",
+  "level": "b1plus",
+  "section": "grammar",
+  "sort_order": 5,
+  "explanation": "<h2>Modals of deduction</h2><p>Use <strong>must</strong> for strong logical conclusions, <strong>might / may / could</strong> for possibility, and <strong>can't</strong> for negative deduction.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "She has worked all night. She [*must be|can't be|might be] exhausted.",
+          "feedback": "Strong logical conclusion."
+        },
+        {
+          "text": "He is not answering. He [*might be|must be|can't be] in a meeting.",
+          "feedback": "Possible explanation."
+        },
+        {
+          "text": "That [*can't be|must be|might be] James - he is on holiday in Spain.",
+          "feedback": "Negative deduction."
+        },
+        {
+          "text": "The lights are off, but someone is inside. They [*must have gone|can't have gone|might have been going] to sleep early.",
+          "feedback": "Strong deduction about the past/result."
+        },
+        {
+          "text": "I am not sure where Anna is. She [*may have missed|must have missed|can't have missed] the train.",
+          "feedback": "Uncertain possibility."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "You have been travelling for twenty hours. You ____ tired. | *must be | can't be | might not",
+          "feedback": "Strong deduction."
+        },
+        {
+          "text": "The shop is closed already, so they ____ gone home. | *must have | can't have | might not have",
+          "feedback": "Logical conclusion about the past."
+        },
+        {
+          "text": "He knows nothing about the plan, so he ____ seen the email. | *can't have | must have | may have",
+          "feedback": "Impossible deduction."
+        },
+        {
+          "text": "I cannot find my keys - they ____ be in the kitchen. | *might | must | can't",
+          "feedback": "A possible guess."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "They [*must have forgotten|can't have forgotten|may not] about the appointment because nobody came.",
+          "feedback": "Most likely explanation."
+        },
+        {
+          "text": "This [*can't be|must be|might be] the right address - the number is wrong.",
+          "feedback": "Clear negative deduction."
+        },
+        {
+          "text": "She looks delighted. She [*must have passed|might have passed|can't have passed] the exam.",
+          "feedback": "Strong deduction."
+        },
+        {
+          "text": "Do not worry. There [*could be|must be|can't be] a simple explanation.",
+          "feedback": "Possibility, not certainty."
+        },
+        {
+          "text": "He sounds ill. He [*may need|can't need|mustn't need] to see a doctor.",
+          "feedback": "Possible deduction."
+        }
+      ]
+    }
+  ]
+}

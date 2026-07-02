@@ -1,0 +1,30 @@
+{
+  "title": "Weather",
+  "level": "a2",
+  "section": "vocabulary",
+  "sort_order": 7,
+  "explanation": "<h2>Weather</h2><ul><li><strong>nouns:</strong> forecast, storm, lightning, breeze, humidity</li><li><strong>adjectives:</strong> cloudy, foggy, mild, freezing, boiling</li><li><strong>verbs:</strong> pour, clear up, brighten up</li></ul>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "It's ____ — I can hardly see the road. | *foggy | mild | breeze", "feedback": "Foggy."},
+      {"text": "The weather ____ says it will rain tomorrow. | *forecast | storm | lightning", "feedback": "Weather forecast."},
+      {"text": "It's ____ outside — wear a warm coat. | *freezing | boiling | mild", "feedback": "Freezing = very cold."},
+      {"text": "It started to ____ — rain was falling heavily. | *pour | clear | brighten", "feedback": "Pour = rain heavily."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Choose the correct option. Use each option ONLY ONCE.", "type": "dropdown_gap", "use_once": true,
+      "word_bank": ["storm", "cloudy", "lightning", "mild", "humidity", "breeze", "boiling", "thunder", "clear up", "forecast"],
+      "questions": [
+        {"text": "There was ____ during the night. | thunder", "feedback": ""},
+        {"text": "It's a bit ____ today — not too hot, not too cold. | mild", "feedback": ""},
+        {"text": "The sky is grey and ____. | cloudy", "feedback": ""},
+        {"text": "I hope the weather ____ later. | clear up", "feedback": ""},
+        {"text": "We saw ____ in the distance. | lightning", "feedback": ""}
+      ]},
+    {"title": "Exercise 3", "instructions": "Choose the correct option for each gap.", "type": "lettered_gap", "questions": [
+      {"text": "It's ____ hot — 38 degrees! | *boiling | freezing | foggy", "feedback": "Boiling hot."},
+      {"text": "A light ____ made the heat easier. | *breeze | storm | humidity", "feedback": "Breeze."},
+      {"text": "The ____ is very high — it feels sticky. | *humidity | forecast | thunder", "feedback": "Humidity."},
+      {"text": "A big ____ is coming from the west. | *storm | breeze | mild", "feedback": "Storm."}
+    ]}
+  ]
+}

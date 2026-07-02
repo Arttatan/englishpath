@@ -1,0 +1,78 @@
+{
+  "title": "Writing a proposal",
+  "level": "c1",
+  "section": "writing",
+  "sort_order": 3,
+  "explanation": "<h2>Writing a proposal</h2><p>Proposals persuade decision-makers by defining a problem, objectives, method and expected outcomes.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*This proposal outlines a pilot programme to improve digital literacy among older adults.|Proposal outlines pilot programme digital literacy older adults.|Pilot proposal literacy digital adults.]",
+          "feedback": "Clear opening."
+        },
+        {
+          "text": "[*The primary objective is to reduce social isolation through structured training.|Primary objective reduce social isolation structured training.|Objective primary isolation reduce.]",
+          "feedback": "Objective statement."
+        },
+        {
+          "text": "[*The project will be evaluated using attendance records and participant surveys.|Project evaluated attendance records participant surveys.|Evaluated project attendance surveys.]",
+          "feedback": "Method."
+        },
+        {
+          "text": "[*We request funding of 18,000 euros for the initial six-month phase.|Request funding 18,000 euros initial six-month phase.|Funding request euros 18,000.]",
+          "feedback": "Specific request."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A proposal should identify a clear ____.  | *problem | joke | colour",
+          "feedback": "Problem."
+        },
+        {
+          "text": "Objectives should be measurable and ____.  | *realistic | secret | musical",
+          "feedback": "Realistic objectives."
+        },
+        {
+          "text": "Include a brief timeline and ____.  | *budget | poem | menu",
+          "feedback": "Budget."
+        },
+        {
+          "text": "The tone should remain professional and ____.  | *persuasive | aggressive | casual",
+          "feedback": "Persuasive."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*If approved, the programme could be expanded to neighbouring districts.|Approved programme expanded neighbouring districts.|Programme approved expanded districts.]",
+          "feedback": "Future benefit."
+        },
+        {
+          "text": "[*The need for action is supported by recent community surveys.|Need action supported community surveys recent.|Action need surveys supported.]",
+          "feedback": "Evidence."
+        },
+        {
+          "text": "[*We would be happy to provide further details upon request.|Happy provide further details upon request.|Details happy provide request.]",
+          "feedback": "Polite closing."
+        },
+        {
+          "text": "[*Thank you for considering this proposal.|Thank considering proposal this.|Proposal thank considering.]",
+          "feedback": "Professional ending."
+        }
+      ]
+    }
+  ]
+}

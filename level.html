@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Level — EnglishPath</title>
+  <meta name="description" content="Level sections: grammar, vocabulary, listening, reading, Use of English and writing." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: { DEFAULT: "#d63384", dark: "#b82a6f" } } } } };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-gray-100 bg-white/90 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="grid h-9 w-9 place-items-center rounded-lg bg-brand text-white font-extrabold">E</span>
+        <span class="text-lg font-extrabold tracking-tight" data-brand>EnglishPath</span>
+      </a>
+      <nav class="hidden items-center gap-1 md:flex">
+        <a href="index.html#levels" class="rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100">Levels</a>
+        <a href="index.html#pricing" class="rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100">Premium</a>
+        <span class="mx-2 h-5 w-px bg-gray-200"></span>
+        <!-- Auth buttons are filled by js/auth.js depending on login state -->
+        <div id="auth-desktop" class="flex items-center gap-1"></div>
+      </nav>
+      <button id="burger" class="rounded-md p-2 text-gray-700 hover:bg-gray-100 md:hidden" aria-label="Menu">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-gray-100 bg-white px-4 py-3 md:hidden">
+      <a href="index.html#levels" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100">Levels</a>
+      <a href="index.html#pricing" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100">Premium</a>
+      <!-- Auth buttons are filled by js/auth.js depending on login state -->
+      <div id="auth-mobile"></div>
+    </div>
+  </header>
+
+  <!-- Level header -->
+  <section class="bg-white">
+    <div class="mx-auto max-w-6xl px-4 py-12">
+      <nav class="mb-4 text-sm text-gray-500">
+        <a href="index.html" class="hover:text-brand">Home</a>
+        <span class="mx-1">/</span>
+        <span>Level</span>
+      </nav>
+      <div id="level-bar" class="mb-4 h-1.5 w-16 rounded-full bg-brand"></div>
+      <div class="flex items-baseline gap-3">
+        <h1 id="level-title" class="text-4xl font-extrabold tracking-tight">A1</h1>
+        <span id="level-subtitle" class="text-lg font-medium text-gray-500">Beginner</span>
+      </div>
+      <p id="level-desc" class="mt-3 max-w-2xl text-gray-600">Level description…</p>
+    </div>
+  </section>
+
+  <!-- Level sections -->
+  <section class="mx-auto max-w-6xl px-4 py-12">
+    <h2 class="mb-8 text-2xl font-extrabold tracking-tight">Sections</h2>
+    <div id="level-sections" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-100 bg-white">
+    <div class="mx-auto max-w-6xl px-4 py-8 text-center text-xs text-gray-400">
+      © <span id="year">2026</span> <span data-brand>EnglishPath</span>. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/level.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

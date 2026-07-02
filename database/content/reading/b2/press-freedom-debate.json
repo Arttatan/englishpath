@@ -1,0 +1,78 @@
+{
+  "title": "The debate over press freedom",
+  "level": "b2",
+  "section": "reading",
+  "sort_order": 2,
+  "explanation": "<h2>The debate over press freedom</h2><p>In democratic societies, a free press is often described as essential for holding power to account. Journalists investigate corruption, question official statements and inform public debate. Yet the same freedom can be misused to spread misinformation or invade privacy. Recent legislation in several countries attempts to balance protection for journalists with penalties for harmful false reporting. Critics warn that vague laws may silence legitimate criticism, while supporters argue that unchecked false stories can damage democracy itself.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "A free press helps hold [*power|sport|weather] to account.",
+          "feedback": "Holding power to account."
+        },
+        {
+          "text": "Journalists may investigate [*corruption|recipes|fashion trends only].",
+          "feedback": "Investigate corruption."
+        },
+        {
+          "text": "Freedom can be misused to spread [*misinformation|healthy food|classical music].",
+          "feedback": "Misinformation."
+        },
+        {
+          "text": "New laws try to balance journalist protection with penalties for harmful [*false reporting|travel delays|school holidays].",
+          "feedback": "False reporting."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Some laws may silence legitimate ____.  | *criticism | furniture | sunshine",
+          "feedback": "Legitimate criticism."
+        },
+        {
+          "text": "Unchecked false stories can damage ____.  | *democracy | gardens | shoes",
+          "feedback": "Damage democracy."
+        },
+        {
+          "text": "Journalists also inform public ____.  | *debate | sleep | traffic",
+          "feedback": "Public debate."
+        },
+        {
+          "text": "The issue involves privacy and ____.  | *misinformation | cooking | parking",
+          "feedback": "Privacy invasion."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The article presents [*competing viewpoints|only one joke|no arguments].",
+          "feedback": "Critics and supporters."
+        },
+        {
+          "text": "The tone is [*serious and balanced|comic|romantic].",
+          "feedback": "Serious debate."
+        },
+        {
+          "text": "The text is mainly about [*media regulation|space travel|gardening].",
+          "feedback": "Press freedom."
+        },
+        {
+          "text": "Supporters of new laws worry about unchecked [*false stories|art exhibitions|train tickets].",
+          "feedback": "False stories."
+        }
+      ]
+    }
+  ]
+}

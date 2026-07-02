@@ -1,0 +1,45 @@
+{
+  "title": "Questions: What, Where, When",
+  "level": "a1",
+  "section": "grammar",
+  "sort_order": 11,
+  "explanation": "<h2>Wh- questions</h2><ul><li><strong>What</strong> — thing / information: <em>What is your name?</em></li><li><strong>Where</strong> — place: <em>Where do you live?</em></li><li><strong>When</strong> — time: <em>When is your birthday?</em></li></ul><p>Remember word order: Wh-word + do/does + subject + verb (or am/is/are for the verb <em>be</em>).</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct question word.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "[*Where|What|When] do you live?", "feedback": "Place → Where."},
+        {"text": "[*What|Where|When] is your favourite colour?", "feedback": "Thing → What."},
+        {"text": "[*When|Where|What] does the shop open?", "feedback": "Time → When."},
+        {"text": "[*What|Where|When] time is it?", "feedback": "Fixed phrase: What time."},
+        {"text": "[*Where|What|When] is the nearest pharmacy?", "feedback": "Place → Where."},
+        {"text": "[*When|Where|What] is your English class?", "feedback": "Time → When."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "____ is your phone number? | *What | Where | When", "feedback": "Information → What."},
+        {"text": "____ does she work? — In a hospital. | *Where | What | When", "feedback": "Place → Where."},
+        {"text": "____ did you go on holiday? — In August. | *When | Where | What", "feedback": "Time → When."},
+        {"text": "____ are you doing? — I'm reading. | *What | Where | When", "feedback": "Activity → What."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct question form.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "[*What do|What does|What do you] you want to eat?", "feedback": "You → What do you."},
+        {"text": "[*Where is|Where are|Where do] the toilets?", "feedback": "The toilets = they → Where are."},
+        {"text": "[*When did|When do|When does] they arrive?", "feedback": "They → When did (past)."},
+        {"text": "[*What is|What are|What do] your name?", "feedback": "Your name → What is."},
+        {"text": "[*Where does|Where do|Where is] he live?", "feedback": "He → Where does he live."}
+      ]
+    }
+  ]
+}

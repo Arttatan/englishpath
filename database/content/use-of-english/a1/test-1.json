@@ -1,0 +1,42 @@
+{
+  "title": "Use of English — Test 1",
+  "level": "a1",
+  "section": "use-of-english",
+  "sort_order": 1,
+  "explanation": "<h2>Use of English — Test 1</h2><p>Mixed grammar and vocabulary practice for A1. Choose the best answer.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "She [*is|are|am] a student.", "feedback": "She → is."},
+        {"text": "I [*don't|doesn't|not] like cold weather.", "feedback": "I → don't."},
+        {"text": "We [*went|go|going] to the cinema yesterday.", "feedback": "Yesterday → past."},
+        {"text": "There [*are|is|am] two books on the table.", "feedback": "Two books → are."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "My brother is ____ than me. | *taller | tall | tallest", "feedback": "Comparing two → taller."},
+        {"text": "I ____ breakfast at seven. | *have | has | having", "feedback": "I have breakfast."},
+        {"text": "____ is your name? | *What | Where | When", "feedback": "What is your name?" },
+        {"text": "The cat is ____ the table. | *under | on | in", "feedback": "Context: under the table."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "They [*are playing|play|plays] football now.", "feedback": "Now → present continuous."},
+        {"text": "I [*will call|'ll calling|call] you tomorrow.", "feedback": "Future → will call."},
+        {"text": "She [*has|have|having] a red car.", "feedback": "She has."},
+        {"text": "[*How much|How many|How long] is the ticket?", "feedback": "Price → How much."}
+      ]
+    }
+  ]
+}

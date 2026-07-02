@@ -1,0 +1,95 @@
+{
+  "title": "Personality and behaviour",
+  "level": "b1plus",
+  "section": "vocabulary",
+  "sort_order": 7,
+  "explanation": "<h2>Personality and behaviour</h2><ul><li>traits: reliable, stubborn, generous, thoughtful, selfish</li><li>behaviour: interrupt, complain, apologise, encourage</li><li>phrases: keep your word, jump to conclusions</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "You can trust her completely - she is very ____. | *reliable | jealous | clumsy",
+          "feedback": "Reliable people do what they promise."
+        },
+        {
+          "text": "He never changes his mind. He is too ____. | *stubborn | generous | shy",
+          "feedback": "Stubborn = unwilling to change opinion."
+        },
+        {
+          "text": "It was very ____ of you to remember my birthday. | *thoughtful | formal | viral",
+          "feedback": "Thoughtful = kind and considerate."
+        },
+        {
+          "text": "Do not ____ to conclusions before you know the facts. | *jump | raise | broadcast",
+          "feedback": "Jump to conclusions is the expression."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "word",
+        "apologise",
+        "encourage",
+        "interrupt",
+        "generous",
+        "complain",
+        "selfish",
+        "patient",
+        "reliable",
+        "stubborn"
+      ],
+      "questions": [
+        {
+          "text": "She always keeps her ____. If she promises something, she does it. | word",
+          "feedback": ""
+        },
+        {
+          "text": "It was selfish of him not to ____ for being late. | apologise",
+          "feedback": ""
+        },
+        {
+          "text": "Parents should ____ children to ask questions. | encourage",
+          "feedback": ""
+        },
+        {
+          "text": "He tends to ____ when other people are speaking. | interrupt",
+          "feedback": ""
+        },
+        {
+          "text": "A ____ person often shares time and money with others. | generous",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "She can be a bit ____ when things do not go her way. | *selfish | renewable | formal",
+          "feedback": "Selfish behaviour."
+        },
+        {
+          "text": "Try not to ____ all the time; suggest a solution instead. | *complain | observe | hire",
+          "feedback": "Complain fits."
+        },
+        {
+          "text": "Good teachers are usually calm and ____. | *patient | viral | guilty",
+          "feedback": "Patient people stay calm."
+        },
+        {
+          "text": "If you give your word, you should ____ it. | *keep | break in | take",
+          "feedback": "Keep your word."
+        }
+      ]
+    }
+  ]
+}

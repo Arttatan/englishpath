@@ -1,0 +1,78 @@
+{
+  "title": "Should you take a gap year?",
+  "level": "b1plus",
+  "section": "reading",
+  "sort_order": 2,
+  "explanation": "<h2>Should you take a gap year?</h2><p>For some students, taking a gap year before university can be a valuable experience. It gives them time to travel, work, volunteer or simply think more carefully about what they want to study. Many say they return more independent and motivated. However, a gap year is not automatically useful. Without a plan, students may end up wasting time or spending too much money. Experts recommend setting clear goals, creating a budget and choosing activities that build useful skills rather than just filling time.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "A gap year happens [*before university|after retirement|during secondary school only].",
+          "feedback": "That is the context in the passage."
+        },
+        {
+          "text": "Some students return more [*independent and motivated|uncertain and tired|wealthy].",
+          "feedback": "This is one reported benefit."
+        },
+        {
+          "text": "A gap year is not useful [*without a plan|for volunteers|for travellers].",
+          "feedback": "The text warns against having no plan."
+        },
+        {
+          "text": "Experts recommend creating [*a budget|a business|a timetable for exams only].",
+          "feedback": "Creating a budget is advised."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A gap year can help students think more carefully about what they want to ____.  | *study | publish | replace",
+          "feedback": "Choosing a course is one reason."
+        },
+        {
+          "text": "Some people may end up ____ time if the year is not planned well. | *wasting | earning | saving",
+          "feedback": "The text uses wasting time."
+        },
+        {
+          "text": "Experts say students should set clear ____.  | *goals | symptoms | gate numbers",
+          "feedback": "Goals give direction."
+        },
+        {
+          "text": "Useful activities can help build important ____.  | *skills | alarms | receipts",
+          "feedback": "Skills are mentioned."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The writer's message is that a gap year can be [*helpful if well planned|always a bad idea|only for rich students].",
+          "feedback": "That is the balanced conclusion."
+        },
+        {
+          "text": "The article focuses on [*advantages and risks|only travel advice|university entrance exams].",
+          "feedback": "Both sides are discussed."
+        },
+        {
+          "text": "Volunteering is presented as one possible [*activity|problem|expense].",
+          "feedback": "It is listed among options."
+        },
+        {
+          "text": "The passage would probably appear in [*education advice|a recipe book|a sports report].",
+          "feedback": "It reads like education advice."
+        }
+      ]
+    }
+  ]
+}

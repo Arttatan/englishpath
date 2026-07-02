@@ -1,0 +1,78 @@
+{
+  "title": "Living with extreme weather",
+  "level": "b1plus",
+  "section": "reading",
+  "sort_order": 4,
+  "explanation": "<h2>Living with extreme weather</h2><p>In recent years, many regions have experienced more frequent extreme weather events, including floods, heatwaves and severe storms. Scientists say that while no single event can be explained by climate change alone, long-term trends make some events more likely and more intense. As a result, cities are beginning to rethink how they are built. Some are planting more trees to lower temperatures, while others are improving drainage systems to reduce flood damage. Adapting to extreme weather is expensive, but many experts believe the cost of doing nothing would be far greater.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Recent years have brought more frequent [*extreme weather events|music festivals|power cuts only].",
+          "feedback": "The passage opens with this idea."
+        },
+        {
+          "text": "Climate change may make some events more [*likely and intense|short and cheap|easy to predict].",
+          "feedback": "The article says more likely and more intense."
+        },
+        {
+          "text": "Some cities are planting more trees to lower [*temperatures|rent|traffic].",
+          "feedback": "Trees lower temperatures."
+        },
+        {
+          "text": "Experts think doing nothing would be [*more costly|safer|more relaxing].",
+          "feedback": "Doing nothing would cost more."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "One adaptation strategy is improving city ____ systems. | *drainage | lecture | refund",
+          "feedback": "Drainage reduces flood damage."
+        },
+        {
+          "text": "No single weather event can be explained by climate change ____.  | *alone | therefore | instead",
+          "feedback": "That exact idea appears in the text."
+        },
+        {
+          "text": "Heatwaves, storms and floods are all examples of extreme weather ____.  | *events | audiences | products",
+          "feedback": "Events is the key noun."
+        },
+        {
+          "text": "Adapting to these changes can be very ____.  | *expensive | formal | impossible",
+          "feedback": "The text says it is expensive."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The passage is mainly about [*responding to climate-related risks|farming methods|tourism in cities].",
+          "feedback": "It focuses on adaptation."
+        },
+        {
+          "text": "The writer's attitude is [*serious but practical|joking|uncertain about the existence of weather].",
+          "feedback": "The tone is serious and solution-focused."
+        },
+        {
+          "text": "The article suggests cities are [*already taking action|refusing to change|reducing public services].",
+          "feedback": "They are rethinking how they are built."
+        },
+        {
+          "text": "The text contrasts the cost of adaptation with the cost of [*doing nothing|tree planting|new housing].",
+          "feedback": "That is the final comparison."
+        }
+      ]
+    }
+  ]
+}

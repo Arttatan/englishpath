@@ -1,0 +1,45 @@
+{
+  "title": "Family and relationships",
+  "level": "a1",
+  "section": "vocabulary",
+  "sort_order": 2,
+  "explanation": "<h2>Family and relationships</h2><ul><li><strong>parents</strong> — mother and father</li><li><strong>siblings</strong> — brothers and sisters</li><li><strong>grandparents</strong> — grandmother and grandfather</li><li><strong>partner / husband / wife</strong></li><li><strong>colleague</strong> — person you work with</li><li><strong>neighbour</strong> — person who lives near you</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "My father's brother is my ____. | *uncle | aunt | cousin", "feedback": "Father's brother = uncle."},
+        {"text": "My mother's mother is my ____. | *grandmother | granddaughter | niece", "feedback": "Mother's mother = grandmother."},
+        {"text": "She lives with her ____ and two children. | *husband | nephew | colleague", "feedback": "Partner in marriage = husband."},
+        {"text": "Tom is my best ____. We play together every day. | *friend | neighbour | parent", "feedback": "Best friend."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option to complete these sentences. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": ["parents", "brother", "sister", "cousin", "grandfather", "aunt", "neighbour", "colleague"],
+      "questions": [
+        {"text": "My ____ live in the same city as me. | parents", "feedback": ""},
+        {"text": "I have one older ____. | brother", "feedback": ""},
+        {"text": "My ____ works in the same office. | colleague", "feedback": ""},
+        {"text": "Our ____ lives next door. | neighbour", "feedback": ""},
+        {"text": "My ____ is my mother's sister. | aunt", "feedback": ""}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "My father's daughter is my ____. | *sister | uncle | nephew", "feedback": "Father's daughter = sister (or you)."},
+        {"text": "My brother's son is my ____. | *nephew | niece | cousin", "feedback": "Brother's son = nephew."},
+        {"text": "They are a happy ____. | *family | colleague | neighbour", "feedback": "Family."},
+        {"text": "She is married — her ____ is a doctor. | *husband | sibling | grandparent", "feedback": "Married → husband."}
+      ]
+    }
+  ]
+}

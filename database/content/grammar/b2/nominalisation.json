@@ -1,0 +1,86 @@
+{
+  "title": "Nominalisation",
+  "level": "b2",
+  "section": "grammar",
+  "sort_order": 6,
+  "explanation": "<h2>Nominalisation</h2><p>Nominalisation turns verbs or adjectives into nouns to make writing more formal and concise.</p><ul><li>decide \u2192 decision</li><li>develop \u2192 development</li><li>aware \u2192 awareness</li><li>fail \u2192 failure</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The government's [*decision|decide|decisive] surprised many voters.",
+          "feedback": "Decide \u2192 decision."
+        },
+        {
+          "text": "There has been rapid [*development|develop|developed] in renewable energy.",
+          "feedback": "Develop \u2192 development."
+        },
+        {
+          "text": "The campaign aims to raise public [*awareness|aware|awaring] of mental health.",
+          "feedback": "Aware \u2192 awareness."
+        },
+        {
+          "text": "His [*failure|fail|failed] to reply cost him the contract.",
+          "feedback": "Fail \u2192 failure."
+        },
+        {
+          "text": "We need a full [*explanation|explain|explanatory] of the new policy.",
+          "feedback": "Explain \u2192 explanation."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The ____ of the new law took several months. | *introduction | introduce | introduced",
+          "feedback": "Introduce \u2192 introduction."
+        },
+        {
+          "text": "There was widespread ____ after the announcement. | *confusion | confuse | confused",
+          "feedback": "Confuse \u2192 confusion."
+        },
+        {
+          "text": "Her ____ to the team was immediate. | *contribution | contribute | contributing",
+          "feedback": "Contribute \u2192 contribution."
+        },
+        {
+          "text": "The report highlights the ____ of better training. | *importance | important | importantly",
+          "feedback": "Important \u2192 importance."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The company's [*expansion|expand|expanded] into Asia was successful.",
+          "feedback": "Expand \u2192 expansion."
+        },
+        {
+          "text": "There is growing [*concern|concerned|concerning] about data security.",
+          "feedback": "Concern as noun."
+        },
+        {
+          "text": "The judge questioned the [*accuracy|accurate|accurately] of the statement.",
+          "feedback": "Accurate \u2192 accuracy."
+        },
+        {
+          "text": "His sudden [*departure|depart|departing] shocked colleagues.",
+          "feedback": "Depart \u2192 departure."
+        },
+        {
+          "text": "We discussed the [*possibility|possible|possibly] of remote work.",
+          "feedback": "Possible \u2192 possibility."
+        }
+      ]
+    }
+  ]
+}

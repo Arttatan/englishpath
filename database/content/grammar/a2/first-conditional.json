@@ -1,0 +1,45 @@
+{
+  "title": "First conditional",
+  "level": "a2",
+  "section": "grammar",
+  "sort_order": 7,
+  "explanation": "<h2>First conditional</h2><p><strong>If + present simple, will + verb</strong></p><p>We use the first conditional for real possibilities in the future.</p><ul><li><em>If it rains, I will stay at home.</em></li><li><em>If you study, you will pass the exam.</em></li></ul><p>You can also use <em>unless</em> (= if not): <em>Unless you hurry, you will miss the bus.</em></p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "If it [*rains|will rain|rain], we will cancel the picnic.", "feedback": "If + present simple."},
+        {"text": "If you [*don't hurry|won't hurry|not hurry], you will be late.", "feedback": "If + present negative."},
+        {"text": "She [*will call|'ll calling|calls] you if she has time.", "feedback": "Main clause: will + verb."},
+        {"text": "If I [*see|will see|seeing] Tom, I'll tell him.", "feedback": "If + present."},
+        {"text": "Unless you [*ask|will ask|asked], they won't help.", "feedback": "Unless + present."},
+        {"text": "If we [*leave|will leave|leaving] now, we will catch the train.", "feedback": "If + present simple."}
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {"text": "If you heat ice, it ____. | *melts | will melt | melted", "feedback": "Zero/first: present in both for facts."},
+        {"text": "If she ____ hard, she will pass. | *works | will work | worked", "feedback": "If + present."},
+        {"text": "I will be angry if you ____ that again. | *do | will do | did", "feedback": "If + present."},
+        {"text": "If they don't arrive soon, we ____ without them. | *will start | start | started", "feedback": "Will in main clause."}
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {"text": "If you [*mix|will mix|mixed] red and blue, you get purple.", "feedback": "General truth → present."},
+        {"text": "I'll lend you money if you [*pay|will pay|paid] me back.", "feedback": "If + present."},
+        {"text": "If he [*doesn't come|won't come|not come], call me.", "feedback": "If + doesn't."},
+        {"text": "We [*will have|'ll having|have] fun if the weather is good.", "feedback": "Will have."},
+        {"text": "If I [*find|will find|found] your keys, I'll text you.", "feedback": "If + present."}
+      ]
+    }
+  ]
+}

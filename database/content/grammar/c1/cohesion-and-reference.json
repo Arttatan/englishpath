@@ -1,0 +1,86 @@
+{
+  "title": "Cohesion and reference",
+  "level": "c1",
+  "section": "grammar",
+  "sort_order": 6,
+  "explanation": "<h2>Cohesion and reference</h2><p>C1 texts use reference chains, substitution and conjunction precisely.</p><ul><li><em>this phenomenon, the former, the latter, such measures</em></li><li><em>do so, one, ones, the same</em></li><li><em>thereby, hence, accordingly</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "Two policies were proposed; [*the former|the ladder|the weather] focused on tax, [*the latter|the former|the ceiling] on spending.",
+          "feedback": "Former/latter reference."
+        },
+        {
+          "text": "The board approved the plan and [*did so|did it|did this] without delay.",
+          "feedback": "Did so substitutes approved the plan."
+        },
+        {
+          "text": "If regulations fail, [*such measures|such weather|such music] may lose public support.",
+          "feedback": "Such measures refers back."
+        },
+        {
+          "text": "The first model is cheaper; I prefer [*that one|that ones|those one].",
+          "feedback": "That one substitutes model."
+        },
+        {
+          "text": "Costs rose; [*hence|however|for instance] profits fell.",
+          "feedback": "Hence = therefore."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The experiment failed twice. ____ , the team redesigned the method. | *Accordingly | Nevertheless | For example",
+          "feedback": "Accordingly follows logically."
+        },
+        {
+          "text": "Three options were discussed, but only two of ____ were realistic. | *them | it | this",
+          "feedback": "Them refers to options."
+        },
+        {
+          "text": "She supported the proposal, and he did ____. | *likewise | never | backward",
+          "feedback": "Likewise = similarly."
+        },
+        {
+          "text": "The policy reduced emissions and ____ improved air quality. | *thereby | although | whereas",
+          "feedback": "Thereby shows result."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The report criticised delays; [*this criticism|this weather|this colour] angered officials.",
+          "feedback": "This criticism refers back."
+        },
+        {
+          "text": "I need a copy of the contract - do you have [*one|ones|it]?",
+          "feedback": "One substitutes copy."
+        },
+        {
+          "text": "Sales improved in Q1; [*by contrast|for instance|as usual] Q2 was weaker.",
+          "feedback": "By contrast."
+        },
+        {
+          "text": "They reached the same conclusion and wrote [*the same|same the|same it] in the summary.",
+          "feedback": "The same."
+        },
+        {
+          "text": "The law was vague; [*as a result|for example|on the other hand] courts interpreted it differently.",
+          "feedback": "As a result."
+        }
+      ]
+    }
+  ]
+}

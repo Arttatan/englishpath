@@ -1,0 +1,78 @@
+{
+  "title": "Writing a problem-solution email",
+  "level": "b1plus",
+  "section": "writing",
+  "sort_order": 3,
+  "explanation": "<h2>Writing a problem-solution email</h2><p>When writing about a problem, explain the situation clearly, describe the effect it has, and suggest a practical solution.</p><ul><li>State the problem directly.</li><li>Give useful details.</li><li>Suggest one or two realistic solutions.</li><li>Use polite, constructive language.</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*I am writing because several students are having problems with the timetable.|I write timetable problems many.|Problems timetable writing.]",
+          "feedback": "Clear opening sentence."
+        },
+        {
+          "text": "[*As a result, some of us are arriving late for lessons.|As result some late lessons.|Result arrive late.]",
+          "feedback": "Result sentence."
+        },
+        {
+          "text": "[*A possible solution would be to move the first class twenty minutes later.|Possible solution move class twenty minutes later.|Solution class twenty later.]",
+          "feedback": "Constructive suggestion."
+        },
+        {
+          "text": "[*I would appreciate it if you could consider this suggestion.|I appreciate consider suggestion.|Could consider suggestion appreciate.]",
+          "feedback": "Polite closing request."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "A good problem-solution email should focus on practical ____.  | *solutions | platforms | weather",
+          "feedback": "The genre is solution-based."
+        },
+        {
+          "text": "It is important to explain how the issue ____ people. | *affects | delays | publishes",
+          "feedback": "Explain impact."
+        },
+        {
+          "text": "The tone should remain polite and ____.  | *constructive | aggressive | careless",
+          "feedback": "Constructive is best."
+        },
+        {
+          "text": "Try to make your suggestions sound ____.  | *realistic | impossible | dramatic",
+          "feedback": "Realistic solutions are more persuasive."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*One option might be to provide clearer information in advance.|One option provide clearer information.|Provide clearer option in advance.]",
+          "feedback": "Good suggestion sentence."
+        },
+        {
+          "text": "[*This would help students organise their time more effectively.|This help students organise time effective.|Would help students effective.]",
+          "feedback": "Explaining benefit of the solution."
+        },
+        {
+          "text": "[*Please let me know if I can provide any further details.|Please let me know further details provide.|Further details if let me know.]",
+          "feedback": "Polite final line."
+        },
+        {
+          "text": "[*Thank you for taking the time to read this message.|Thank you read this message taking time.|Taking time read thank you.]",
+          "feedback": "Appropriate polite ending."
+        }
+      ]
+    }
+  ]
+}

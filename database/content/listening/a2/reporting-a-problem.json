@@ -1,0 +1,28 @@
+{
+  "title": "Reporting a problem",
+  "level": "a2",
+  "section": "listening",
+  "sort_order": 4,
+  "audio_url": "https://www.youtube.com/watch?v=fSrLeyfk9SM",
+  "explanation": "<h2>Reporting a problem</h2><h3>Transcript</h3><p><strong>Customer:</strong> Hello. I bought this phone online last week but it doesn't work.<br><strong>Assistant:</strong> I'm sorry to hear that. What's the problem?<br><strong>Customer:</strong> The screen goes black when I turn it on.<br><strong>Assistant:</strong> Do you have the receipt?<br><strong>Customer:</strong> Yes, here it is.<br><strong>Assistant:</strong> We can replace it or give you a refund.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "The customer bought the phone [*online|in a market|abroad].", "feedback": "Bought online."},
+      {"text": "The problem is with the [*screen|battery|camera].", "feedback": "Screen goes black."},
+      {"text": "The customer has the [*receipt|box|manual].", "feedback": "Yes, here it is."},
+      {"text": "The shop offers a replacement or a [*refund|discount|gift].", "feedback": "Replace or refund."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Listen again and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "The phone doesn't ____. | *work | fit | charge", "feedback": "Doesn't work."},
+      {"text": "The customer bought it last ____. | *week | month | year", "feedback": "Last week."},
+      {"text": "The screen goes ____ when they turn it on. | *black | blue | red", "feedback": "Goes black."},
+      {"text": "The assistant says: 'I'm sorry to ____ that.' | *hear | know | see", "feedback": "Sorry to hear that."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "The conversation is in a [*shop|hospital|school].", "feedback": "Return/refund context."},
+      {"text": "The assistant is [*helpful|rude|silent].", "feedback": "Offers solutions."},
+      {"text": "The customer explains the problem [*clearly|never|in writing].", "feedback": "Describes screen issue."},
+      {"text": "The customer bought the phone [*recently|years ago|never].", "feedback": "Last week."}
+    ]}
+  ]
+}

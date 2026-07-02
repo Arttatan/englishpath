@@ -1,0 +1,78 @@
+{
+  "title": "Use of English - Test 2",
+  "level": "c1",
+  "section": "use-of-english",
+  "sort_order": 2,
+  "explanation": "<h2>Use of English - C1 Test 2</h2><p>Second mixed review at C1 level.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Should|If should] you require assistance, contact the office.",
+          "feedback": "Formal Should you..."
+        },
+        {
+          "text": "There is [*some|total|no] evidence to suggest a link.",
+          "feedback": "Hedged some evidence."
+        },
+        {
+          "text": "Smith (2020) [*argues|tells|whispers] that reform is necessary.",
+          "feedback": "Argues academically."
+        },
+        {
+          "text": "I would [*rather|better|sooner not] you did not publish that draft.",
+          "feedback": "Would rather + past."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The scandal raised questions about ____.  | *accountability | account | accounting",
+          "feedback": "Accountability."
+        },
+        {
+          "text": "The poet seems to ____ classical myth. | *allude to | allude | allusion",
+          "feedback": "Allude to."
+        },
+        {
+          "text": "Economic ____ were imposed on the regime. | *sanctions | sanction | sanctioned",
+          "feedback": "Sanctions."
+        },
+        {
+          "text": "The frontal ____ is involved in planning. | *cortex | cortical | cortexes",
+          "feedback": "Cortex."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Such was|Was such] the demand that servers crashed.",
+          "feedback": "Such was the demand."
+        },
+        {
+          "text": "The board approved the plan and [*did so|did it|did this] quickly.",
+          "feedback": "Did so."
+        },
+        {
+          "text": "[*It is transparency that|Transparency is that|Is transparency that] builds trust.",
+          "feedback": "Cleft sentence."
+        },
+        {
+          "text": "The treaty requires parliamentary [*ratification|ratify|ratified].",
+          "feedback": "Ratification."
+        }
+      ]
+    }
+  ]
+}

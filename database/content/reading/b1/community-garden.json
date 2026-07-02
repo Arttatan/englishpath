@@ -1,0 +1,78 @@
+{
+  "title": "The community garden project",
+  "level": "b1",
+  "section": "reading",
+  "sort_order": 2,
+  "explanation": "<h2>The community garden project</h2><p>Two years ago, an empty piece of land behind the library was turned into a community garden. At first, only a few volunteers joined the project, but now more than fifty local residents help there every month. The garden produces vegetables, herbs and flowers, and local schools sometimes bring children to learn about nature. Organisers say the project has improved the area because neighbours now know each other better and spend more time outdoors.</p>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The garden was created [*behind the library|next to a school|on a farm].",
+          "feedback": "It was behind the library."
+        },
+        {
+          "text": "At first, only [*a few volunteers|fifty residents|schoolchildren] joined.",
+          "feedback": "Only a few volunteers at first."
+        },
+        {
+          "text": "The garden grows [*vegetables, herbs and flowers|only trees|fruit only].",
+          "feedback": "These three are listed."
+        },
+        {
+          "text": "The project has helped neighbours [*know each other better|move away|work indoors].",
+          "feedback": "That is one social benefit."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The land used to be ____ before the project began. | *empty | busy | private farmland",
+          "feedback": "It was an empty piece of land."
+        },
+        {
+          "text": "More than fifty residents help there every ____.  | *month | day | year",
+          "feedback": "Every month."
+        },
+        {
+          "text": "Schools bring children to learn about ____.  | *nature | law | history",
+          "feedback": "The visits are educational."
+        },
+        {
+          "text": "The organisers think the project has improved the ____.  | *area | weather | budget",
+          "feedback": "It improved the local area."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "The text suggests the project has both [*social and environmental benefits|financial losses only|no educational value].",
+          "feedback": "It mentions community and nature learning."
+        },
+        {
+          "text": "The number of volunteers has [*grown|fallen|stayed the same].",
+          "feedback": "From a few to over fifty."
+        },
+        {
+          "text": "The garden is an example of a [*local initiative|national law|private company].",
+          "feedback": "It is a community project."
+        },
+        {
+          "text": "The tone of the text is [*positive|critical|uncertain].",
+          "feedback": "The project is described positively."
+        }
+      ]
+    }
+  ]
+}

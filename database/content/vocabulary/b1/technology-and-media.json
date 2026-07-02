@@ -1,0 +1,95 @@
+{
+  "title": "Technology and media",
+  "level": "b1",
+  "section": "vocabulary",
+  "sort_order": 3,
+  "explanation": "<h2>Technology and media</h2><ul><li>digital words: device, update, password, privacy, account</li><li>media words: headline, article, channel, broadcast, documentary</li><li>verbs: stream, upload, subscribe, scroll</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Remember to install the latest security ____. | *update | channel | documentary",
+          "feedback": "Software update."
+        },
+        {
+          "text": "I changed my social media ____ after the hack. | *password | headline | scroll",
+          "feedback": "Password protects your account."
+        },
+        {
+          "text": "We watched a nature ____ last night. | *documentary | account | privacy",
+          "feedback": "A documentary is factual TV or film."
+        },
+        {
+          "text": "She likes to ____ music instead of downloading it. | *stream | scroll | print",
+          "feedback": "Stream audio online."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "headline",
+        "details",
+        "subscribe",
+        "privacy",
+        "scrolling",
+        "account",
+        "broadcast",
+        "device",
+        "article",
+        "editor"
+      ],
+      "questions": [
+        {
+          "text": "This newspaper ____ sounds surprising, but the article is more balanced. | headline",
+          "feedback": ""
+        },
+        {
+          "text": "Please do not share your banking ____ with anyone. | details",
+          "feedback": ""
+        },
+        {
+          "text": "I ____ to that science channel on YouTube. | subscribe",
+          "feedback": ""
+        },
+        {
+          "text": "The company promised to improve user ____. | privacy",
+          "feedback": ""
+        },
+        {
+          "text": "He spent an hour ____ through short videos. | scrolling",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The football match will be ____ live at 8 p.m. | *broadcast | uploaded | streamed off",
+          "feedback": "Broadcast means sent on TV or radio."
+        },
+        {
+          "text": "I read an interesting ____ about climate change. | *article | device | network",
+          "feedback": "Article = written text in a paper or online."
+        },
+        {
+          "text": "This ____ is too old to run the new app. | *device | headline | broadcast",
+          "feedback": "A phone or tablet is a device."
+        },
+        {
+          "text": "Log out of your ____ when you use a public computer. | *account | scroll | documentary",
+          "feedback": "Account = personal online profile."
+        }
+      ]
+    }
+  ]
+}

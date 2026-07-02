@@ -1,0 +1,28 @@
+{
+  "title": "Booking a hotel room",
+  "level": "a2",
+  "section": "listening",
+  "sort_order": 1,
+  "audio_url": "https://www.youtube.com/watch?v=8O6272q0Awo",
+  "explanation": "<h2>Booking a hotel room</h2><h3>Transcript</h3><p><strong>Receptionist:</strong> Good afternoon, Grand Hotel. How can I help you?<br><strong>Guest:</strong> Hello. I'd like to book a room for two nights, please.<br><strong>Receptionist:</strong> Single or double?<br><strong>Guest:</strong> A double room, from the fifteenth to the seventeenth of March.<br><strong>Receptionist:</strong> That's £120 per night. Breakfast is included.<br><strong>Guest:</strong> Perfect. I'll take it.</p>",
+  "exercise_sets": [
+    {"title": "Exercise 1", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "The guest wants a room for [*two|one|three] nights.", "feedback": "Two nights."},
+      {"text": "The room type is [*double|single|family].", "feedback": "A double room."},
+      {"text": "The price is [*£120|£90|£150] per night.", "feedback": "£120 per night."},
+      {"text": "[*Breakfast|Lunch|Dinner] is included.", "feedback": "Breakfast included."}
+    ]},
+    {"title": "Exercise 2", "instructions": "Listen again and choose the correct option.", "type": "lettered_gap", "questions": [
+      {"text": "The guest books from the fifteenth to the ____ of March. | *seventeenth | twentieth | tenth", "feedback": "Fifteenth to seventeenth."},
+      {"text": "The hotel is called the ____ Hotel. | *Grand | Royal | City", "feedback": "Grand Hotel."},
+      {"text": "The guest says: 'I'll ____ it.' | *take | leave | change", "feedback": "I'll take it."},
+      {"text": "The receptionist asks: 'Single or ____?' | *double | twin | suite", "feedback": "Single or double."}
+    ]},
+    {"title": "Exercise 3", "instructions": "Listen and choose the correct answer.", "type": "inline_choice", "questions": [
+      {"text": "The call is to [*book|cancel|change] a room.", "feedback": "Book a room."},
+      {"text": "The conversation is [*polite|rude|silent].", "feedback": "Polite exchange."},
+      {"text": "The guest stays in [*March|May|June].", "feedback": "March dates."},
+      {"text": "The guest agrees at the [*end|start|middle].", "feedback": "Perfect. I'll take it."}
+    ]}
+  ]
+}

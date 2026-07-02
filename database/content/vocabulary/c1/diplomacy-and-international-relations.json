@@ -1,0 +1,95 @@
+{
+  "title": "Diplomacy and international relations",
+  "level": "c1",
+  "section": "vocabulary",
+  "sort_order": 2,
+  "explanation": "<h2>Diplomacy and international relations</h2><ul><li>treaty, sanction, envoy, sovereignty, alliance</li><li>negotiation, ceasefire, summit, ratification, embargo</li><li>verbs: mediate, deploy, recognise, escalate</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The two states signed a peace ____ after months of talks. | *treaty | ticket | recipe",
+          "feedback": "Peace treaty."
+        },
+        {
+          "text": "The ambassador acted as an ____ during the crisis. | *envoy | enemy | editor",
+          "feedback": "Envoy = diplomatic representative."
+        },
+        {
+          "text": "Economic ____ were imposed to pressure the regime. | *sanctions | salaries | slogans",
+          "feedback": "Economic sanctions."
+        },
+        {
+          "text": "National ____ was a key issue in the debate. | *sovereignty | solidarity | software",
+          "feedback": "Sovereignty."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "summit",
+        "mediate",
+        "ratification",
+        "deployed",
+        "embargo",
+        "ceasefire",
+        "alliance",
+        "negotiation",
+        "escalate",
+        "recognise"
+      ],
+      "questions": [
+        {
+          "text": "Leaders met at an emergency ____ in Geneva. | summit",
+          "feedback": ""
+        },
+        {
+          "text": "The UN attempted to ____ between the warring parties. | mediate",
+          "feedback": ""
+        },
+        {
+          "text": "Parliament delayed ____ of the agreement. | ratification",
+          "feedback": ""
+        },
+        {
+          "text": "Troops were ____ to the border region. | deployed",
+          "feedback": ""
+        },
+        {
+          "text": "An ____ on oil exports increased tensions. | embargo",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Both sides agreed to a temporary ____.  | *ceasefire | campaign | concert",
+          "feedback": "Ceasefire."
+        },
+        {
+          "text": "The military ____ strengthened regional security. | *alliance | audience | article",
+          "feedback": "Military alliance."
+        },
+        {
+          "text": "Analysts fear the conflict could ____ further. | *escalate | educate | estimate",
+          "feedback": "Escalate."
+        },
+        {
+          "text": "Many countries refused to ____ the new government. | *recognise | recycle | recover",
+          "feedback": "Recognise a government."
+        }
+      ]
+    }
+  ]
+}

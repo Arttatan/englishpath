@@ -1,0 +1,86 @@
+{
+  "title": "Participle clauses",
+  "level": "b1plus",
+  "section": "grammar",
+  "sort_order": 4,
+  "explanation": "<h2>Participle clauses</h2><p>Participle clauses make sentences shorter and more formal.</p><ul><li><em>Feeling tired, she went to bed early.</em></li><li><em>Built in 1890, the theatre is still in use.</em></li><li><em>Having finished the report, he left the office.</em></li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Having finished|Finished|To finish] the meeting, we went for coffee.",
+          "feedback": "Perfect participle shows the first action happened before the second."
+        },
+        {
+          "text": "[*Built|Building|Having built] in the 18th century, the bridge is still standing.",
+          "feedback": "Past participle clause describes the bridge."
+        },
+        {
+          "text": "[*Feeling|Felt|To feel] unwell, she left work early.",
+          "feedback": "Present participle clause describes the subject's state."
+        },
+        {
+          "text": "[*Not knowing|Not known|Did not know] what to say, he stayed silent.",
+          "feedback": "Negative participle clause."
+        },
+        {
+          "text": "[*Having been told|Telling|Being tell] the news, they changed their plans.",
+          "feedback": "Perfect passive participle clause."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "____ for over an hour, we finally gave up. | *Having waited | Waited | To wait",
+          "feedback": "The waiting happened before giving up."
+        },
+        {
+          "text": "____ by his colleagues, he felt more confident. | *Encouraged | Encouraging | Having encourage",
+          "feedback": "Past participle clause."
+        },
+        {
+          "text": "____ the instructions carefully, she avoided mistakes. | *Having read | Read | To read",
+          "feedback": "One finished action before another."
+        },
+        {
+          "text": "____ any better idea, we followed his plan. | *Not having | No having | Not have",
+          "feedback": "Negative participle clause."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option.",
+      "type": "inline_choice",
+      "questions": [
+        {
+          "text": "[*Walking home|Walked home|To walk home], I saw an old friend.",
+          "feedback": "Present participle clause for simultaneous action."
+        },
+        {
+          "text": "The documents, [*signed by the director|signing by the director|having sign by the director], were sent immediately.",
+          "feedback": "Reduced passive clause."
+        },
+        {
+          "text": "[*Having lost|Losting|To lose] his keys, he could not get in.",
+          "feedback": "Perfect participle."
+        },
+        {
+          "text": "[*Born|Being born|Having born] in Canada, she speaks both English and French.",
+          "feedback": "Past participle clause for background fact."
+        },
+        {
+          "text": "[*Realising|Realised|To realise] the time, we rushed to the station.",
+          "feedback": "Present participle for immediate cause."
+        }
+      ]
+    }
+  ]
+}

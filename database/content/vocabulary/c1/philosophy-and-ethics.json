@@ -1,0 +1,95 @@
+{
+  "title": "Philosophy and ethics",
+  "level": "c1",
+  "section": "vocabulary",
+  "sort_order": 1,
+  "explanation": "<h2>Philosophy and ethics</h2><ul><li>morality, autonomy, utilitarianism, dilemma, conscience</li><li>virtue, obligation, consent, integrity, impartiality</li><li>verbs: justify, condemn, uphold, compromise</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The documentary explores a classic moral ____ faced by doctors. | *dilemma | receipt | platform",
+          "feedback": "Moral dilemma."
+        },
+        {
+          "text": "Respect for patient ____ is central to medical ethics. | *autonomy | economy | anatomy",
+          "feedback": "Patient autonomy."
+        },
+        {
+          "text": "She acted according to her ____ and resigned. | *conscience | contract | campaign",
+          "feedback": "Conscience."
+        },
+        {
+          "text": "Judges are expected to remain ____. | *impartial | impatient | informal",
+          "feedback": "Impartial judges."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "condemn",
+        "reach",
+        "compromise",
+        "uphold",
+        "justified",
+        "consent",
+        "integrity",
+        "obligation",
+        "virtue",
+        "morality"
+      ],
+      "questions": [
+        {
+          "text": "Critics ____ the decision as deeply unfair. | condemn",
+          "feedback": ""
+        },
+        {
+          "text": "The committee tried to ____ a difficult compromise. | reach",
+          "feedback": ""
+        },
+        {
+          "text": "He refused to ____ his principles for profit. | compromise",
+          "feedback": ""
+        },
+        {
+          "text": "The court must ____ the law even when it is unpopular. | uphold",
+          "feedback": ""
+        },
+        {
+          "text": "Can violence ever be ____ in self-defence? | justified",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "Informed ____ is required before the procedure. | *consent | content | comment",
+          "feedback": "Informed consent."
+        },
+        {
+          "text": "Professional ____ matters in public office. | *integrity | industry | inflation",
+          "feedback": "Integrity."
+        },
+        {
+          "text": "They debated whether pleasure should define ____.  | *morality | mobility | majority",
+          "feedback": "Morality."
+        },
+        {
+          "text": "Courage is often described as a moral ____.  | *virtue | verdict | vaccine",
+          "feedback": "Virtue."
+        }
+      ]
+    }
+  ]
+}

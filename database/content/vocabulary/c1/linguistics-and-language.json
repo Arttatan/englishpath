@@ -1,0 +1,95 @@
+{
+  "title": "Linguistics and language",
+  "level": "c1",
+  "section": "vocabulary",
+  "sort_order": 3,
+  "explanation": "<h2>Linguistics and language</h2><ul><li>syntax, semantics, dialect, fluency, corpus</li><li>pronunciation, register, bilingualism, acquisition, utterance</li><li>verbs: articulate, translate, interpret, coin</li></ul>",
+  "exercise_sets": [
+    {
+      "title": "Exercise 1",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "The course examines how ____ shapes sentence structure. | *syntax | symptom | system",
+          "feedback": "Syntax."
+        },
+        {
+          "text": "She speaks with remarkable ____ in three languages. | *fluency | frequency | fluids",
+          "feedback": "Fluency."
+        },
+        {
+          "text": "Researchers analysed a large ____ of spoken English. | *corpus | campus | census",
+          "feedback": "Language corpus."
+        },
+        {
+          "text": "Formal ____ differs from casual conversation. | *register | receipt | refund",
+          "feedback": "Language register."
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct option. Use each option ONLY ONCE.",
+      "type": "dropdown_gap",
+      "use_once": true,
+      "word_bank": [
+        "acquisition",
+        "interpret",
+        "articulate",
+        "coin",
+        "meaning",
+        "semantics",
+        "dialect",
+        "bilingualism",
+        "utterance",
+        "pronunciation"
+      ],
+      "questions": [
+        {
+          "text": "Children acquire grammar through gradual language ____.  | acquisition",
+          "feedback": ""
+        },
+        {
+          "text": "The interpreter had to ____ a highly technical speech. | interpret",
+          "feedback": ""
+        },
+        {
+          "text": "He struggled to ____ his ideas under pressure. | articulate",
+          "feedback": ""
+        },
+        {
+          "text": "Shakespeare helped ____ hundreds of new words. | coin",
+          "feedback": ""
+        },
+        {
+          "text": "The ____ of the phrase changed over centuries. | meaning",
+          "feedback": ""
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct option for each gap.",
+      "type": "lettered_gap",
+      "questions": [
+        {
+          "text": "____ studies how words combine to create sense. | *Semantics | Sematic | Semantician",
+          "feedback": "Semantics."
+        },
+        {
+          "text": "Regional ____ can vary sharply within one country. | *dialects | dialecting | dialected",
+          "feedback": "Dialects."
+        },
+        {
+          "text": "Early ____ may give children cognitive advantages. | *bilingualism | bilinguality | bilinguist",
+          "feedback": "Bilingualism."
+        },
+        {
+          "text": "Clear ____ helps learners be understood. | *pronunciation | pronounce | pronounced",
+          "feedback": "Pronunciation."
+        }
+      ]
+    }
+  ]
+}
