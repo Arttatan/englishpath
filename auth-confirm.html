@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confirming… — EnglishPath</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: { DEFAULT: "#d63384", dark: "#b82a6f" } } } } };
+  </script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="min-h-screen bg-gray-50 text-gray-900">
+  <main class="mx-auto max-w-md px-4 py-16 text-center">
+    <h1 class="text-xl font-extrabold text-brand">EnglishPath</h1>
+    <p id="status" class="mt-4 text-sm text-gray-600">Confirming your link…</p>
+    <p id="error" class="mt-4 hidden rounded-lg bg-red-50 px-4 py-3 text-sm text-red-700"></p>
+    <a id="fallback" href="login.html" class="mt-6 hidden text-sm font-semibold text-brand hover:underline">Back to log in</a>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script>
+    (async function () {
+      const statusEl = document.getElementById("status");
+      const errorEl = document.getElementById("error");
+      const fallback = document.getElementById("fallback");
+
+      function fail(message) {
+        statusEl.textContent = "Link could not be confirmed.";
+        errorEl.textContent = message;
+        errorEl.classList.remove("hidden");
+        fallback.classList.remove("hidden");
+      }
+
+      if (!window.SUPABASE_READY) {
+        fail("Database is not connected.");
+        return;
+      }
+
+      const params = new URLSearchParams(window.location.search);
+      const nextRaw = params.get("next") || "login.html";
+      const next = nextRaw.replace(/^\/+/, "") || "login.html";
+      const token_hash = params.get("token_hash");
+      const type = params.get("type");
+      const code = params.get("code");
+
+      try {
+        if (token_hash && type) {
+          const { error } = await window.sb.auth.verifyOtp({ token_hash, type });
+          if (error) return fail(error.message);
+          window.location.replace(next);
+          return;
+        }
+
+        if (code) {
+          const { error } = await window.sb.auth.exchangeCodeForSession(code);
+          if (error) return fail(error.message);
+          const target = type === "recovery" || next.includes("update-password") ? next : next;
+          window.location.replace(target);
+          return;
+        }
+
+        // Implicit / hash links: let the client pick up the session from the URL
+        await new Promise((resolve) => setTimeout(resolve, 400));
+        const { data } = await window.sb.auth.getSession();
+        if (data.session) {
+          window.location.replace(next);
+          return;
+        }
+
+        fail("This confirmation link is missing or has expired. Request a new one from the login page.");
+      } catch (err) {
+        fail(err.message || "Unexpected error while confirming the link.");
+      }
+    })();
+  </script>
+</body>
+</html>

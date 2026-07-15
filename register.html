@@ -109,8 +109,7 @@
       btn.disabled = true;
       btn.textContent = "Creating account...";
 
-      // After the user confirms their email, send them to the login page.
-      const redirectTo = window.location.href.replace(/register\.html.*$/, "login.html");
+      const redirectTo = new URL("login.html", window.location.origin).href;
 
       const { data, error } = await window.sb.auth.signUp({
         email,
@@ -122,7 +121,12 @@
       btn.textContent = "Create account";
 
       if (error) {
-        showMessage(error.message, "error");
+        const m = (error.message || "").toLowerCase();
+        if (m.includes("rate limit") || m.includes("over_email")) {
+          showMessage("Too many emails were sent recently. Please wait about 1 hour, then try again.", "error");
+        } else {
+          showMessage(error.message, "error");
+        }
         return;
       }
 
