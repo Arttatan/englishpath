@@ -22,29 +22,56 @@
         <a href="index.html#levels" class="rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100">Levels</a>
         <div id="auth-desktop" class="flex items-center gap-1"></div>
       </nav>
+      <button id="burger" class="rounded-md p-2 text-gray-700 hover:bg-gray-100 md:hidden" aria-label="Menu">☰</button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-gray-100 px-4 py-3 md:hidden">
+      <a href="index.html#levels" class="block rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100">Levels</a>
+      <div id="auth-mobile"></div>
     </div>
   </header>
 
-  <main class="mx-auto max-w-lg px-4 py-16 text-center">
-    <h1 class="text-2xl font-extrabold text-brand">My account</h1>
-    <p id="account-email" class="mt-3 text-sm text-gray-500"></p>
-    <p class="mt-6 text-gray-600">Progress tracking and subscription management are coming soon.</p>
-    <a href="index.html" class="mt-8 inline-block rounded-lg bg-brand px-6 py-3 text-sm font-semibold text-white hover:bg-brand-dark">Back to home</a>
+  <main class="mx-auto max-w-3xl px-4 py-10">
+    <h1 class="text-3xl font-extrabold tracking-tight text-brand">My account</h1>
+    <p id="account-email" class="mt-2 text-sm text-gray-500">Loading…</p>
+
+    <section class="mt-8 grid gap-4 sm:grid-cols-3">
+      <div class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-gray-100">
+        <p class="text-xs font-medium uppercase tracking-wide text-gray-400">Lessons done</p>
+        <p id="stat-lessons" class="mt-2 text-3xl font-extrabold text-gray-900">—</p>
+      </div>
+      <div class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-gray-100">
+        <p class="text-xs font-medium uppercase tracking-wide text-gray-400">Average score</p>
+        <p id="stat-avg" class="mt-2 text-3xl font-extrabold text-gray-900">—</p>
+      </div>
+      <div class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-gray-100">
+        <p class="text-xs font-medium uppercase tracking-wide text-gray-400">Plan</p>
+        <p id="stat-plan" class="mt-2 text-xl font-extrabold text-gray-900">Free</p>
+        <p class="mt-1 text-xs text-gray-400">Premium (ad-free) coming later</p>
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <div class="flex items-end justify-between gap-3">
+        <h2 class="text-lg font-bold text-gray-900">Recent progress</h2>
+        <a href="index.html#levels" class="text-sm font-semibold text-brand hover:underline">Continue learning →</a>
+      </div>
+      <p id="progress-status" class="mt-2 text-sm text-gray-500">Loading your progress…</p>
+      <div id="progress-list" class="mt-4 space-y-3"></div>
+    </section>
+
+    <section class="mt-10 rounded-xl bg-white p-5 shadow-sm ring-1 ring-gray-100">
+      <h2 class="text-lg font-bold text-gray-900">Account</h2>
+      <ul class="mt-3 space-y-2 text-sm text-gray-600">
+        <li><a href="forgot-password.html" class="font-medium text-brand hover:underline">Change password</a></li>
+        <li><a href="index.html" class="font-medium text-brand hover:underline">Back to home</a></li>
+      </ul>
+    </section>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/config.js"></script>
   <script src="js/data.js"></script>
   <script src="js/auth.js"></script>
-  <script>
-    document.querySelectorAll("[data-brand]").forEach((el) => (el.textContent = window.SITE?.brand || "EnglishPath"));
-    window.sb?.auth.getSession().then(({ data }) => {
-      if (!data?.session) {
-        window.location.href = "login.html";
-        return;
-      }
-      document.getElementById("account-email").textContent = data.session.user.email;
-    });
-  </script>
+  <script src="js/account.js"></script>
 </body>
 </html>
