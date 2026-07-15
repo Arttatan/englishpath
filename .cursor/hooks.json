@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "node .cursor/hooks/mark-qa-dirty.js",
+        "matcher": "Write|StrReplace|EditNotebook|Delete"
+      }
+    ],
+    "stop": [
+      {
+        "command": "node .cursor/hooks/qa-on-stop.js",
+        "loop_limit": 2
+      }
+    ]
+  }
+}

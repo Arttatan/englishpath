@@ -1,0 +1,15 @@
+---
+description: After EnglishPath code changes, run the expert QA tester skill, fix bugs, and report.
+alwaysApply: true
+---
+
+# Expert QA after changes
+
+After you finish a meaningful change to this project (HTML/JS/CSS, auth, legal, lessons, deploy config):
+
+1. Read and follow `.cursor/skills/englishpath-qa-tester/SKILL.md`.
+2. Test **what you changed** plus obvious regressions (don’t full-crawl all lessons).
+3. **Fix** confirmed bugs when safe.
+4. End the turn with the **QA Report** template from the skill (bugs found + fixed).
+
+Skip the full QA loop only for pure chat questions with no file edits.
