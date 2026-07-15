@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — EnglishPath</title>
+  <meta name="description" content="How EnglishPath collects, uses and protects your personal data." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: { DEFAULT: "#d63384", dark: "#b82a6f" } } } } };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="border-b border-gray-100 bg-white">
+    <div class="mx-auto flex max-w-3xl items-center justify-between px-4 py-3">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="grid h-9 w-9 place-items-center rounded-lg bg-brand text-white font-extrabold">E</span>
+        <span class="text-lg font-extrabold" data-brand>EnglishPath</span>
+      </a>
+      <a href="index.html" class="text-sm font-medium text-gray-600 hover:text-brand">Home</a>
+    </div>
+  </header>
+
+  <main class="prose prose-gray mx-auto max-w-3xl px-4 py-12">
+    <h1 class="text-3xl font-extrabold tracking-tight text-brand">Privacy Policy</h1>
+    <p class="text-sm text-gray-500">Last updated: 15 July 2026</p>
+
+    <div class="mt-8 space-y-6 text-sm leading-relaxed text-gray-700">
+      <p>
+        EnglishPath (“we”, “us”) provides an English-learning website with lessons, exercises and optional account features.
+        This policy explains what data we collect and how we use it.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">1. Who we are</h2>
+      <p>
+        The site is operated by the EnglishPath project. For privacy questions, contact us via
+        <a href="contact.html" class="font-semibold text-brand hover:underline">Contact</a>
+        or email <a href="mailto:art.tatan@gmail.com" class="font-semibold text-brand hover:underline">art.tatan@gmail.com</a>.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">2. Data we collect</h2>
+      <ul class="list-disc space-y-1 pl-5">
+        <li><strong>Account data:</strong> email address and authentication details when you sign up (handled by Supabase Auth).</li>
+        <li><strong>Learning progress:</strong> lesson scores and completion dates if you are logged in.</li>
+        <li><strong>Technical data:</strong> basic server/access logs, cookie preferences stored in your browser.</li>
+        <li><strong>Payment data (future):</strong> if you buy Premium via Stripe, payment details are processed by Stripe — we do not store full card numbers.</li>
+      </ul>
+
+      <h2 class="text-lg font-bold text-gray-900">3. How we use data</h2>
+      <ul class="list-disc space-y-1 pl-5">
+        <li>To provide and improve lessons, exercises and your account.</li>
+        <li>To keep you signed in and secure the service.</li>
+        <li>To send essential emails (confirmation, password reset).</li>
+        <li>To show advertising (e.g. Google AdSense) on free content, if enabled — and to respect your cookie choice where possible.</li>
+        <li>To manage Premium subscriptions when Stripe is connected.</li>
+      </ul>
+
+      <h2 class="text-lg font-bold text-gray-900">4. Cookies</h2>
+      <p>
+        We use <strong>essential cookies / local storage</strong> for login sessions and your cookie preference.
+        We may use <strong>analytics or advertising cookies</strong> (for example Google AdSense) after you accept them via the cookie banner.
+        You can choose “Essential only” to limit non-essential cookies in our banner (third-party tools may still have their own controls).
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">5. Service providers</h2>
+      <ul class="list-disc space-y-1 pl-5">
+        <li><strong>Supabase</strong> — authentication and database.</li>
+        <li><strong>Vercel</strong> — website hosting.</li>
+        <li><strong>Stripe</strong> (planned) — payments.</li>
+        <li><strong>Google</strong> (planned) — AdSense / analytics.</li>
+      </ul>
+
+      <h2 class="text-lg font-bold text-gray-900">6. Data retention</h2>
+      <p>
+        We keep account and progress data while your account exists. You may request deletion by contacting us.
+        Auth emails and security logs may be retained for a limited time for fraud prevention.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">7. Your rights</h2>
+      <p>
+        Depending on where you live (e.g. EU/EEA under GDPR), you may have rights to access, correct, delete or export your data,
+        and to object to certain processing. Contact us to exercise these rights.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">8. Children</h2>
+      <p>
+        The site is for general learning. If you are under the digital consent age in your country, please use the site with a parent or guardian.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">9. Changes</h2>
+      <p>We may update this policy. The “Last updated” date at the top will change when we do.</p>
+    </div>
+
+    <p class="mt-10 text-sm">
+      <a href="terms.html" class="font-semibold text-brand hover:underline">Terms of Service</a>
+      ·
+      <a href="contact.html" class="font-semibold text-brand hover:underline">Contact</a>
+    </p>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/cookies.js"></script>
+  <script>
+    document.querySelectorAll("[data-brand]").forEach((el) => (el.textContent = window.SITE?.brand || "EnglishPath"));
+  </script>
+</body>
+</html>

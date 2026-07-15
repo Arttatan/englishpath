@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — EnglishPath</title>
+  <meta name="description" content="Terms of use for the EnglishPath learning website." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: { DEFAULT: "#d63384", dark: "#b82a6f" } } } } };
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="border-b border-gray-100 bg-white">
+    <div class="mx-auto flex max-w-3xl items-center justify-between px-4 py-3">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="grid h-9 w-9 place-items-center rounded-lg bg-brand text-white font-extrabold">E</span>
+        <span class="text-lg font-extrabold" data-brand>EnglishPath</span>
+      </a>
+      <a href="index.html" class="text-sm font-medium text-gray-600 hover:text-brand">Home</a>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-3xl px-4 py-12">
+    <h1 class="text-3xl font-extrabold tracking-tight text-brand">Terms of Service</h1>
+    <p class="mt-2 text-sm text-gray-500">Last updated: 15 July 2026</p>
+
+    <div class="mt-8 space-y-6 text-sm leading-relaxed text-gray-700">
+      <p>By using EnglishPath, you agree to these Terms. If you do not agree, please do not use the site.</p>
+
+      <h2 class="text-lg font-bold text-gray-900">1. The service</h2>
+      <p>
+        EnglishPath offers English lessons and exercises by CEFR level. Most content is free.
+        Optional Premium features (for example an ad-free experience) may be offered later for a subscription fee.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">2. Accounts</h2>
+      <ul class="list-disc space-y-1 pl-5">
+        <li>You must provide a valid email address and keep your password secure.</li>
+        <li>You are responsible for activity under your account.</li>
+        <li>We may suspend accounts that abuse the service, break the law, or harm other users.</li>
+      </ul>
+
+      <h2 class="text-lg font-bold text-gray-900">3. Acceptable use</h2>
+      <p>You agree not to:</p>
+      <ul class="list-disc space-y-1 pl-5">
+        <li>Copy, scrape or redistribute lesson content at scale without permission.</li>
+        <li>Attempt to break or overload the site, authentication or database.</li>
+        <li>Use the service for spam, fraud or illegal activity.</li>
+        <li>Share Premium access in a way that violates your subscription (when Premium exists).</li>
+      </ul>
+
+      <h2 class="text-lg font-bold text-gray-900">4. Educational content</h2>
+      <p>
+        Lessons and exercises are provided for learning purposes. We aim for quality, but content may contain mistakes.
+        EnglishPath is not an official exam board and does not guarantee exam results.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">5. Payments &amp; Premium (when available)</h2>
+      <p>
+        Paid features will be billed via Stripe or a similar provider. Prices will be shown before you pay.
+        Refunds follow the rules stated at checkout and applicable consumer law.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">6. Advertising</h2>
+      <p>
+        Free access may include third-party ads. Premium (when available) may remove or reduce ads.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">7. Intellectual property</h2>
+      <p>
+        Site design, branding and original lesson materials belong to EnglishPath or its licensors.
+        You may use content for personal learning only.
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">8. Disclaimer</h2>
+      <p>
+        The site is provided “as is”. To the fullest extent allowed by law, we are not liable for indirect damages,
+        lost progress due to outages, or third-party service failures (hosting, auth, ads, payments).
+      </p>
+
+      <h2 class="text-lg font-bold text-gray-900">9. Changes</h2>
+      <p>We may update these Terms. Continued use after changes means you accept the updated Terms.</p>
+
+      <h2 class="text-lg font-bold text-gray-900">10. Contact</h2>
+      <p>
+        Questions: <a href="contact.html" class="font-semibold text-brand hover:underline">Contact page</a>
+        or <a href="mailto:art.tatan@gmail.com" class="font-semibold text-brand hover:underline">art.tatan@gmail.com</a>.
+      </p>
+    </div>
+
+    <p class="mt-10 text-sm">
+      <a href="privacy.html" class="font-semibold text-brand hover:underline">Privacy Policy</a>
+      ·
+      <a href="contact.html" class="font-semibold text-brand hover:underline">Contact</a>
+    </p>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/cookies.js"></script>
+  <script>
+    document.querySelectorAll("[data-brand]").forEach((el) => (el.textContent = window.SITE?.brand || "EnglishPath"));
+  </script>
+</body>
+</html>
