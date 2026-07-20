@@ -1,15 +1,10 @@
 {
   "name": "test-english-site",
   "version": "1.0.0",
-  "description": "An educational platform with lessons by level (A1, A2, B1, B1+, B2), exercises with\r instant checking, a paid subscription ($5/month via Stripe), and an admin panel for\r creating lessons without programming.",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "private": true,
+  "description": "EnglishPath — lessons + Stripe Premium on Vercel",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "stripe": "^17.7.0"
+  }
 }

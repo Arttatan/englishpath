@@ -1,5 +1,5 @@
 /*
-  Account page: show profile email + lesson progress from user_progress.
+  Account page: profile, progress, Stripe Premium actions.
 */
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -10,6 +10,23 @@ document.addEventListener("DOMContentLoaded", async () => {
   const mobileMenu = document.getElementById("mobile-menu");
   if (burger && mobileMenu) {
     burger.addEventListener("click", () => mobileMenu.classList.toggle("hidden"));
+  }
+
+  const billingMsg = document.getElementById("billing-message");
+  function showBillingMessage(text, type) {
+    if (!billingMsg) return;
+    billingMsg.textContent = text;
+    billingMsg.className =
+      "mt-6 rounded-lg px-4 py-3 text-sm " +
+      (type === "error" ? "bg-red-50 text-red-700" : "bg-green-50 text-green-700");
+    billingMsg.classList.remove("hidden");
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("checkout") === "success") {
+    showBillingMessage("Payment received. Premium activates within a minute — refresh if needed.", "success");
+  } else if (params.get("checkout") === "cancel") {
+    showBillingMessage("Checkout cancelled. You can upgrade anytime.", "error");
   }
 
   if (!window.sb || !window.SUPABASE_READY) {
@@ -32,8 +49,46 @@ document.addEventListener("DOMContentLoaded", async () => {
     .eq("id", user.id)
     .maybeSingle();
 
+  const isPremium = !!profile?.is_premium;
   const planEl = document.getElementById("stat-plan");
-  if (planEl) planEl.textContent = profile?.is_premium ? "Premium" : "Free";
+  const planNote = document.getElementById("stat-plan-note");
+  const btnUpgrade = document.getElementById("btn-upgrade");
+  const btnManage = document.getElementById("btn-manage");
+
+  if (planEl) planEl.textContent = isPremium ? "Premium" : "Free";
+  if (planNote) {
+    planNote.textContent = isPremium ? "Thank you for supporting EnglishPath" : "$5/mo optional Premium";
+  }
+  if (btnUpgrade) btnUpgrade.classList.toggle("hidden", isPremium);
+  if (btnManage) btnManage.classList.toggle("hidden", !isPremium);
+
+  if (btnUpgrade) {
+    btnUpgrade.addEventListener("click", async () => {
+      btnUpgrade.disabled = true;
+      btnUpgrade.textContent = "Redirecting…";
+      try {
+        await window.EnglishPathBilling.startCheckout();
+      } catch (err) {
+        showBillingMessage(err.message || "Checkout failed", "error");
+        btnUpgrade.disabled = false;
+        btnUpgrade.textContent = "Upgrade — $5/mo";
+      }
+    });
+  }
+
+  if (btnManage) {
+    btnManage.addEventListener("click", async () => {
+      btnManage.disabled = true;
+      btnManage.textContent = "Opening…";
+      try {
+        await window.EnglishPathBilling.openPortal();
+      } catch (err) {
+        showBillingMessage(err.message || "Could not open billing portal", "error");
+        btnManage.disabled = false;
+        btnManage.textContent = "Manage subscription";
+      }
+    });
+  }
 
   const statusEl = document.getElementById("progress-status");
   const listEl = document.getElementById("progress-list");
@@ -53,7 +108,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!rows || rows.length === 0) {
     document.getElementById("stat-lessons").textContent = "0";
     document.getElementById("stat-avg").textContent = "—";
-    statusEl.textContent = "No completed exercises yet. Open a lesson, check your answers, and your score will appear here.";
+    statusEl.textContent =
+      "No completed exercises yet. Open a lesson, check your answers, and your score will appear here.";
     listEl.innerHTML = "";
     return;
   }

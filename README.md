@@ -59,11 +59,11 @@ Test english site/
 - [x] **Step 3.** Lessons and exercises database + security (RLS).
 - [x] **Step 4.** Displaying lessons and exercises with instant checking (`section.html`, `lesson.html`).
 - [x] **Step 5.** Admin panel (`admin.html`) — lesson builder with rich text editor, exercises, publish/draft, preview, delete.
-- [ ] Step 6. Free vs premium lessons.
-- [ ] Step 7. Subscription via Stripe.
-- [ ] Step 8. User progress and account page.
-- [ ] Step 9. Legal pages, cookie banner, AdSense, SEO.
-- [ ] Step 10. Deploy to Vercel/Netlify.
+- [x] Step 6. Soft freemium labels (free vs premium bonus lessons).
+- [x] Step 7. Subscription via Stripe Checkout + webhook + Customer Portal (configure env keys on Vercel).
+- [x] Step 8. User progress and account page.
+- [x] Step 9. Legal pages, cookie banner (AdSense later when traffic exists).
+- [x] Step 10. Deploy to Vercel (custom domain optional).
 
 ---
 
