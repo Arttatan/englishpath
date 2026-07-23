@@ -24,6 +24,7 @@ module.exports = async function handler(req, res) {
     const portal = await stripe.billingPortal.sessions.create({
       customer: profile.stripe_customer_id,
       return_url: `${siteUrl}/account.html`,
+      locale: "en",
     });
 
     return sendJson(res, 200, { url: portal.url });
