@@ -23,9 +23,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   const params = new URLSearchParams(window.location.search);
-  if (params.get("checkout") === "success") {
-    showBillingMessage("Payment received. Premium activates within a minute — refresh if needed.", "success");
-  } else if (params.get("checkout") === "cancel") {
+  if (params.get("checkout") === "cancel") {
     showBillingMessage("Checkout cancelled. You can upgrade anytime.", "error");
   }
 
@@ -42,6 +40,26 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   document.getElementById("account-email").textContent = user.email || "";
+
+  // After Checkout (or on every visit) sync Premium from Stripe
+  if (window.EnglishPathBilling?.syncSubscription) {
+    try {
+      const sessionId = params.get("session_id");
+      await window.EnglishPathBilling.syncSubscription(
+        params.get("checkout") === "success" ? sessionId : null
+      );
+      if (params.get("checkout") === "success") {
+        showBillingMessage("Payment received. Your Premium status is up to date.", "success");
+      }
+    } catch (err) {
+      if (params.get("checkout") === "success") {
+        showBillingMessage(
+          "Payment received, but status sync failed: " + (err.message || "try refresh"),
+          "error"
+        );
+      }
+    }
+  }
 
   const { data: profile } = await window.sb
     .from("profiles")

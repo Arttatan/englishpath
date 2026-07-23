@@ -5,6 +5,7 @@
   "description": "EnglishPath — lessons + Stripe Premium on Vercel",
   "dependencies": {
     "@supabase/supabase-js": "^2.49.8",
+    "pg": "^8.16.3",
     "stripe": "^17.7.0"
   }
 }

@@ -1,6 +1,7 @@
 const {
   getStripe,
-  getServiceSupabase,
+  getProfileBilling,
+  updateProfileBilling,
   getSiteUrl,
   getUserFromAuthHeader,
   requireEnv,
@@ -15,15 +16,10 @@ module.exports = async function handler(req, res) {
     if (!user) return sendJson(res, 401, { error: "Please log in first." });
 
     const stripe = getStripe();
-    const supabase = getServiceSupabase();
     const siteUrl = getSiteUrl(req);
     const priceId = requireEnv("STRIPE_PRICE_ID");
 
-    const { data: profile } = await supabase
-      .from("profiles")
-      .select("stripe_customer_id, email, is_premium")
-      .eq("id", user.id)
-      .maybeSingle();
+    const profile = await getProfileBilling(user.id);
 
     if (profile?.is_premium) {
       return sendJson(res, 400, { error: "You already have Premium." });
@@ -36,10 +32,7 @@ module.exports = async function handler(req, res) {
         metadata: { supabase_user_id: user.id },
       });
       customerId = customer.id;
-      await supabase
-        .from("profiles")
-        .update({ stripe_customer_id: customerId })
-        .eq("id", user.id);
+      await updateProfileBilling(user.id, { stripe_customer_id: customerId });
     }
 
     const session = await stripe.checkout.sessions.create({
@@ -47,7 +40,7 @@ module.exports = async function handler(req, res) {
       customer: customerId,
       client_reference_id: user.id,
       line_items: [{ price: priceId, quantity: 1 }],
-      success_url: `${siteUrl}/account.html?checkout=success`,
+      success_url: `${siteUrl}/account.html?checkout=success&session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${siteUrl}/account.html?checkout=cancel`,
       allow_promotion_codes: true,
       subscription_data: {

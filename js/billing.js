@@ -50,4 +50,22 @@ window.EnglishPathBilling = {
     if (!json.url) throw new Error("No portal URL returned");
     window.location.href = json.url;
   },
+
+  async syncSubscription(sessionId) {
+    if (!window.sb || !window.SUPABASE_READY) return null;
+    const { data } = await window.sb.auth.getSession();
+    if (!data?.session) return null;
+
+    const res = await fetch("/api/sync-subscription", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: "Bearer " + data.session.access_token,
+      },
+      body: JSON.stringify(sessionId ? { session_id: sessionId } : {}),
+    });
+    const json = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(json.error || "Could not sync subscription");
+    return json;
+  },
 };

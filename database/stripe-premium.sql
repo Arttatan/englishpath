@@ -11,6 +11,7 @@ create unique index if not exists idx_profiles_stripe_customer
   where stripe_customer_id is not null;
 
 -- Clients may update their own profile row, but cannot change billing fields.
+-- service_role JWT and direct Postgres (server) may update them.
 create or replace function public.protect_billing_fields()
 returns trigger
 language plpgsql
@@ -22,6 +23,12 @@ declare
 begin
   jwt_role := coalesce(auth.jwt() ->> 'role', '');
   if jwt_role = 'service_role' then
+    return new;
+  end if;
+
+  if current_user = 'postgres'
+     or current_user = 'supabase_admin'
+     or current_user like 'postgres.%' then
     return new;
   end if;
 

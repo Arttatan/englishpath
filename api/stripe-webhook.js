@@ -1,4 +1,10 @@
-const { getStripe, getServiceSupabase, requireEnv, sendJson } = require("../lib/server-helpers");
+const {
+  getStripe,
+  updateProfileBilling,
+  updateProfileBillingByCustomer,
+  requireEnv,
+  sendJson,
+} = require("../lib/server-helpers");
 
 async function readRawBody(req) {
   const chunks = [];
@@ -8,31 +14,36 @@ async function readRawBody(req) {
   return Buffer.concat(chunks);
 }
 
-async function setPremiumByUserId(supabase, userId, premium, subscriptionId) {
+async function setPremiumByUserId(userId, premium, subscriptionId) {
   if (!userId) return;
   const patch = {
     is_premium: !!premium,
     stripe_subscription_id: subscriptionId || null,
   };
   if (!premium) patch.premium_until = null;
-  await supabase.from("profiles").update(patch).eq("id", userId);
+  await updateProfileBilling(userId, patch);
 }
 
-async function setPremiumByCustomerId(supabase, customerId, premium, subscriptionId) {
+async function setPremiumByCustomerId(customerId, premium, subscriptionId) {
   if (!customerId) return;
   const patch = {
     is_premium: !!premium,
     stripe_subscription_id: subscriptionId || null,
   };
   if (!premium) patch.premium_until = null;
-  await supabase.from("profiles").update(patch).eq("stripe_customer_id", customerId);
+  await updateProfileBillingByCustomer(customerId, patch);
 }
 
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") return sendJson(res, 405, { error: "Method not allowed" });
 
+  // Sandbox keys cannot create webhook endpoints until claimed.
+  // Sync via /api/sync-subscription works without this.
+  if (!process.env.STRIPE_WEBHOOK_SECRET) {
+    return sendJson(res, 503, { error: "Webhook not configured yet" });
+  }
+
   const stripe = getStripe();
-  const supabase = getServiceSupabase();
   const webhookSecret = requireEnv("STRIPE_WEBHOOK_SECRET");
 
   let event;
@@ -51,19 +62,20 @@ module.exports = async function handler(req, res) {
         const session = event.data.object;
         if (session.mode !== "subscription") break;
         const userId = session.client_reference_id || session.metadata?.supabase_user_id;
-        const subId = typeof session.subscription === "string" ? session.subscription : session.subscription?.id;
-        const customerId = typeof session.customer === "string" ? session.customer : session.customer?.id;
+        const subId =
+          typeof session.subscription === "string"
+            ? session.subscription
+            : session.subscription?.id;
+        const customerId =
+          typeof session.customer === "string" ? session.customer : session.customer?.id;
         if (userId) {
-          await supabase
-            .from("profiles")
-            .update({
-              is_premium: true,
-              stripe_customer_id: customerId || undefined,
-              stripe_subscription_id: subId || null,
-            })
-            .eq("id", userId);
+          await updateProfileBilling(userId, {
+            is_premium: true,
+            stripe_customer_id: customerId || undefined,
+            stripe_subscription_id: subId || null,
+          });
         } else if (customerId) {
-          await setPremiumByCustomerId(supabase, customerId, true, subId);
+          await setPremiumByCustomerId(customerId, true, subId);
         }
         break;
       }
@@ -73,16 +85,16 @@ module.exports = async function handler(req, res) {
         const active = ["active", "trialing"].includes(sub.status);
         const userId = sub.metadata?.supabase_user_id;
         const customerId = typeof sub.customer === "string" ? sub.customer : sub.customer?.id;
-        if (userId) await setPremiumByUserId(supabase, userId, active, sub.id);
-        else await setPremiumByCustomerId(supabase, customerId, active, sub.id);
+        if (userId) await setPremiumByUserId(userId, active, sub.id);
+        else await setPremiumByCustomerId(customerId, active, sub.id);
         break;
       }
       case "customer.subscription.deleted": {
         const sub = event.data.object;
         const userId = sub.metadata?.supabase_user_id;
         const customerId = typeof sub.customer === "string" ? sub.customer : sub.customer?.id;
-        if (userId) await setPremiumByUserId(supabase, userId, false, null);
-        else await setPremiumByCustomerId(supabase, customerId, false, null);
+        if (userId) await setPremiumByUserId(userId, false, null);
+        else await setPremiumByCustomerId(customerId, false, null);
         break;
       }
       default:
@@ -96,7 +108,6 @@ module.exports = async function handler(req, res) {
   return sendJson(res, 200, { received: true });
 };
 
-// Needed so Stripe signature verification gets the raw body
 module.exports.config = {
   api: {
     bodyParser: false,

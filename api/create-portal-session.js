@@ -1,6 +1,6 @@
 const {
   getStripe,
-  getServiceSupabase,
+  getProfileBilling,
   getSiteUrl,
   getUserFromAuthHeader,
   sendJson,
@@ -14,14 +14,8 @@ module.exports = async function handler(req, res) {
     if (!user) return sendJson(res, 401, { error: "Please log in first." });
 
     const stripe = getStripe();
-    const supabase = getServiceSupabase();
     const siteUrl = getSiteUrl(req);
-
-    const { data: profile } = await supabase
-      .from("profiles")
-      .select("stripe_customer_id")
-      .eq("id", user.id)
-      .maybeSingle();
+    const profile = await getProfileBilling(user.id);
 
     if (!profile?.stripe_customer_id) {
       return sendJson(res, 400, { error: "No billing account yet. Subscribe to Premium first." });
