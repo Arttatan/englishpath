@@ -1,11 +1,13 @@
 /*
   Lesson page — test-english.com flow:
-  One exercise block at a time → Check → score → Next exercise.
+  Classic sets: one exercise block at a time → Check → score → Next.
+  multiple_choice: one set of N questions, 10 per page, progress bar, Check scores all.
 */
 
 document.addEventListener("DOMContentLoaded", async () => {
   const EE = window.ExerciseEngine;
   const site = window.SITE;
+  const PAGE_SIZE = 10;
 
   if (site) document.querySelectorAll("[data-brand]").forEach((el) => (el.textContent = site.brand));
   document.getElementById("year").textContent = new Date().getFullYear();
@@ -16,10 +18,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   let lesson = null;
   let sets = [];
   let currentSet = 0;
+  let currentPage = 0;
   /** @type {Set<number>} */
   const completedSets = new Set();
   /** @type {Map<number, { score: number, total: number, pct: number, answers: Array<object> }>} */
   const setSnapshots = new Map();
+  /** Selected MCQ answers by global question index: number | null */
+  let mcqAnswers = [];
+  let mcqChecked = false;
 
   const burger = document.getElementById("burger");
   const mobileMenu = document.getElementById("mobile-menu");
@@ -69,6 +75,15 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("next-btn").addEventListener("click", onNextClick);
 
   showExerciseSet(0);
+
+  function isMcqSet(set) {
+    return set && set.type === "multiple_choice";
+  }
+
+  function pageCount(set) {
+    const n = Array.isArray(set.questions) ? set.questions.length : 0;
+    return Math.max(1, Math.ceil(n / PAGE_SIZE));
+  }
 
   function setupHeader(lesson, site) {
     const levelInfo = site?.levels.find((l) => l.id === lesson.level);
@@ -120,6 +135,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const ph = document.getElementById("pdf-placeholder");
     if (lesson.pdf_url) {
       link.href = lesson.pdf_url;
+      link.textContent = lesson.pdf_url.endsWith(".html") ? "Open printable worksheet" : "Download PDF";
       link.classList.remove("hidden");
       ph.classList.add("hidden");
     }
@@ -135,17 +151,38 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function renderExerciseNav() {
-    const html =
-      `<span class="font-semibold text-gray-700">Exercises:</span>` +
-      sets
-        .map((_, i) => {
-          const locked = i > maxUnlockedSet();
-          const done = completedSets.has(i);
-          return `<button type="button" data-set="${i}" class="te-ex-num ${i === currentSet ? "te-ex-num-active" : ""} ${done ? "te-ex-num-done" : ""} ${locked ? "te-ex-num-locked" : ""}" ${locked ? "disabled" : ""}>${i + 1}</button>`;
-        })
-        .join("");
+    const set = sets[currentSet];
+    let html = "";
+
+    if (isMcqSet(set)) {
+      const pages = pageCount(set);
+      html =
+        `<span class="font-semibold text-gray-700">Exercises:</span>` +
+        Array.from({ length: pages }, (_, i) => {
+          return `<button type="button" data-page="${i}" class="te-ex-num ${i === currentPage ? "te-ex-num-active" : ""} ${mcqChecked ? "te-ex-num-done" : ""}">${i + 1}</button>`;
+        }).join("");
+    } else {
+      html =
+        `<span class="font-semibold text-gray-700">Exercises:</span>` +
+        sets
+          .map((_, i) => {
+            const locked = i > maxUnlockedSet();
+            const done = completedSets.has(i);
+            return `<button type="button" data-set="${i}" class="te-ex-num ${i === currentSet ? "te-ex-num-active" : ""} ${done ? "te-ex-num-done" : ""} ${locked ? "te-ex-num-locked" : ""}" ${locked ? "disabled" : ""}>${i + 1}</button>`;
+          })
+          .join("");
+    }
+
     document.getElementById("exercise-nav").innerHTML = html;
     document.getElementById("exercise-nav-bottom").innerHTML = html;
+
+    document.querySelectorAll("[data-page]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        saveMcqPageAnswers();
+        currentPage = Number(btn.dataset.page);
+        renderMcqPage();
+      });
+    });
 
     document.querySelectorAll("[data-set]").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -155,19 +192,53 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
+  function updateProgress() {
+    const wrap = document.getElementById("progress-wrap");
+    const set = sets[currentSet];
+    if (!isMcqSet(set)) {
+      wrap.classList.add("hidden");
+      return;
+    }
+    wrap.classList.remove("hidden");
+    const total = Array.isArray(set.questions) ? set.questions.length : 0;
+    const answered = mcqAnswers.filter((v) => v != null).length;
+    const pct = total ? Math.round((answered / total) * 100) : 0;
+    document.getElementById("progress-label").textContent = `${answered} of ${total} answered`;
+    document.getElementById("progress-pct").textContent = `${pct}%`;
+    document.getElementById("progress-bar").style.width = `${pct}%`;
+  }
+
   function showExerciseSet(index, resetChecked = true) {
-    if (index > maxUnlockedSet()) return;
+    if (!isMcqSet(sets[index]) && index > maxUnlockedSet()) return;
 
     currentSet = index;
-    renderExerciseNav();
+    currentPage = 0;
+    const set = sets[index];
 
+    if (isMcqSet(set)) {
+      const n = Array.isArray(set.questions) ? set.questions.length : 0;
+      if (resetChecked || mcqAnswers.length !== n) {
+        mcqAnswers = Array(n).fill(null);
+        mcqChecked = false;
+      }
+      document.getElementById("exercise-title").textContent = set.title || "Exercises";
+      document.getElementById("exercise-instructions").textContent =
+        set.instructions || "Choose the best answer for each question.";
+      document.getElementById("score-box").classList.add("hidden");
+      document.getElementById("next-btn").classList.add("hidden");
+      document.getElementById("check-btn").classList.remove("hidden");
+      document.getElementById("check-btn").disabled = mcqChecked;
+      renderMcqPage();
+      return;
+    }
+
+    document.getElementById("progress-wrap").classList.add("hidden");
     document.getElementById("score-box").classList.add("hidden");
     document.getElementById("next-btn").classList.add("hidden");
     document.getElementById("next-btn").textContent = "Continue to next exercise →";
     document.getElementById("check-btn").classList.remove("hidden");
     document.getElementById("check-btn").disabled = false;
 
-    const set = sets[index];
     document.getElementById("exercise-title").textContent = set.title || `Exercise ${index + 1}`;
     document.getElementById("exercise-instructions").textContent =
       set.instructions || "Complete the exercise below.";
@@ -200,9 +271,88 @@ document.addEventListener("DOMContentLoaded", async () => {
       EE.wireDropdownUseOnce(list);
     }
     EE.initLetteredStacks(list);
+    renderExerciseNav();
 
     if (!resetChecked && completedSets.has(index) && setSnapshots.has(index)) {
       restoreSnapshot(index);
+    }
+  }
+
+  function saveMcqPageAnswers() {
+    const set = sets[currentSet];
+    if (!isMcqSet(set)) return;
+    const questions = Array.isArray(set.questions) ? set.questions : [];
+    const start = currentPage * PAGE_SIZE;
+    const end = Math.min(start + PAGE_SIZE, questions.length);
+    for (let qi = start; qi < end; qi++) {
+      const body = document.querySelector(`.te-question-body[data-q-key="mcq-${qi}"]`);
+      if (!body) continue;
+      const selected = body.querySelector("input[data-lettered-choice]:checked");
+      mcqAnswers[qi] = selected ? Number(selected.value) : mcqAnswers[qi];
+    }
+  }
+
+  function renderMcqPage() {
+    const set = sets[currentSet];
+    const questions = Array.isArray(set.questions) ? set.questions : [];
+    const start = currentPage * PAGE_SIZE;
+    const end = Math.min(start + PAGE_SIZE, questions.length);
+    const list = document.getElementById("questions-list");
+    const pageLabel = currentPage + 1;
+
+    document.getElementById("exercise-title").textContent =
+      set.title || `Exercise ${pageLabel}`;
+
+    list.innerHTML = questions
+      .slice(start, end)
+      .map((q, offset) => {
+        const qi = start + offset;
+        const qKey = `mcq-${qi}`;
+        const body = EE.renderMultipleChoice(q, qKey);
+        return `
+          <li class="te-question-item" data-qi="${qi}">
+            <span class="te-q-num">${qi + 1}</span>
+            <div class="te-question-body" data-q-key="${qKey}">${body}</div>
+          </li>`;
+      })
+      .join("");
+
+    // Restore selections for this page
+    for (let qi = start; qi < end; qi++) {
+      if (mcqAnswers[qi] == null) continue;
+      const inp = list.querySelector(
+        `.te-question-body[data-q-key="mcq-${qi}"] input[data-lettered-choice][value="${mcqAnswers[qi]}"]`
+      );
+      if (inp) {
+        inp.checked = true;
+        const row = inp.closest(".te-option-row");
+        if (row) row.classList.add("te-selected");
+      }
+    }
+
+    EE.initLetteredStacks(list, () => {
+      saveMcqPageAnswers();
+      updateProgress();
+    });
+
+    if (mcqChecked) {
+      applyMcqResults(start, end, true);
+      EE.lockLettered(list, true);
+    }
+
+    renderExerciseNav();
+    updateProgress();
+  }
+
+  function applyMcqResults(start, end, silent) {
+    const set = sets[currentSet];
+    const questions = Array.isArray(set.questions) ? set.questions : [];
+    for (let qi = start; qi < end; qi++) {
+      const q = questions[qi];
+      const body = document.querySelector(`.te-question-body[data-q-key="mcq-${qi}"]`);
+      if (!body || !q) continue;
+      const stack = body.querySelector(".te-options-stack");
+      if (stack) EE.checkMultipleChoice(stack, q.correct);
     }
   }
 
@@ -247,6 +397,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   function onNextClick() {
+    const set = sets[currentSet];
+    if (isMcqSet(set)) {
+      document.querySelector('[data-tab="explanation"]')?.click();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
     if (currentSet < sets.length - 1) {
       goNextExercise();
     } else {
@@ -257,6 +413,42 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   function checkCurrentSet(silent, fromSnapshot = false) {
     const set = sets[currentSet];
+
+    if (isMcqSet(set)) {
+      saveMcqPageAnswers();
+      const questions = Array.isArray(set.questions) ? set.questions : [];
+      let score = 0;
+      questions.forEach((q, qi) => {
+        if (mcqAnswers[qi] === Number(q.correct)) score++;
+      });
+      mcqChecked = true;
+      completedSets.add(currentSet);
+
+      const total = questions.length;
+      const pct = total ? score / total : 0;
+      const box = document.getElementById("score-box");
+      box.classList.remove("hidden");
+      if (pct === 1) {
+        box.className = "te-score-box te-score-good";
+        box.innerHTML = `<strong>Perfect!</strong> You got ${score} out of ${total} correct.`;
+      } else if (pct >= 0.5) {
+        box.className = "te-score-box te-score-ok";
+        box.innerHTML = `<strong>Good job!</strong> You got ${score} out of ${total} correct. Review the red answers, then open Explanation.`;
+      } else {
+        box.className = "te-score-box te-score-low";
+        box.innerHTML = `<strong>Keep practising.</strong> You got ${score} out of ${total}. Read the Explanation tab and try again.`;
+      }
+
+      document.getElementById("check-btn").disabled = true;
+      const nextBtn = document.getElementById("next-btn");
+      nextBtn.classList.remove("hidden");
+      nextBtn.textContent = "Go to Explanation →";
+
+      renderMcqPage();
+      if (!silent) saveProgress(lesson.id, score, total);
+      return;
+    }
+
     const questions = Array.isArray(set.questions) ? set.questions : [];
     let score = 0;
     const usedBank = new Set();

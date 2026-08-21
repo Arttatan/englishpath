@@ -4,10 +4,10 @@ Load lesson JSON files from database/content/ into Supabase Postgres.
 Usage (PowerShell):
     $env:SUPA_DB_URL = "postgresql://..."
     python database/seed_content.py
-    python database/seed_content.py database/content/grammar/a1
+    python database/seed_content.py database/content/grammar/a1/present-simple-to-be.json --upsert
 
-Skips lessons that already exist (matched by title + level + section).
-Re-running is safe.
+By default, skips lessons that already exist (title + level + section).
+With --upsert, replaces explanation/sets/cover for matching lessons.
 """
 
 import json
@@ -44,41 +44,28 @@ def load_lesson(path: Path) -> dict:
     return data
 
 
-def seed_lesson(cur, data: dict) -> str:
-    cur.execute(
-        """
-        SELECT id FROM public.lessons
-        WHERE title = %s AND level = %s AND section = %s
-        LIMIT 1
-        """,
-        (data["title"], data["level"], data["section"]),
-    )
-    row = cur.fetchone()
-    if row:
-        return f"skip  {data['level']}/{data['section']}: {data['title']}"
+def normalize_questions(es: dict) -> list:
+    """Support classic {text,feedback} and MCQ {prompt,options,correct,feedback}."""
+    out = []
+    for q in es["questions"]:
+        if "options" in q and "correct" in q:
+            out.append(
+                {
+                    "prompt": q.get("prompt") or q.get("text") or "",
+                    "options": q["options"],
+                    "correct": q["correct"],
+                    "feedback": q.get("feedback", ""),
+                }
+            )
+        else:
+            out.append({"text": q.get("text", ""), "feedback": q.get("feedback", "")})
+    return out
 
-    cur.execute(
-        """
-        INSERT INTO public.lessons
-          (title, level, section, explanation, audio_url, pdf_url,
-           is_published, is_premium, sort_order, updated_at)
-        VALUES (%s, %s, %s, %s, %s, %s, true, false, %s, now())
-        RETURNING id
-        """,
-        (
-            data["title"],
-            data["level"],
-            data["section"],
-            data["explanation"],
-            data.get("audio_url"),
-            data.get("pdf_url"),
-            data.get("sort_order", 0),
-        ),
-    )
-    lesson_id = cur.fetchone()[0]
 
+def insert_sets(cur, lesson_id: int, data: dict) -> None:
+    cur.execute("DELETE FROM public.exercise_sets WHERE lesson_id = %s", (lesson_id,))
     for i, es in enumerate(data["exercise_sets"], start=1):
-        questions = [{"text": q["text"], "feedback": q.get("feedback", "")} for q in es["questions"]]
+        questions = normalize_questions(es)
         word_bank = es.get("word_bank")
         cur.execute(
             """
@@ -98,6 +85,68 @@ def seed_lesson(cur, data: dict) -> str:
             ),
         )
 
+
+def seed_lesson(cur, data: dict, upsert: bool = False) -> str:
+    cur.execute(
+        """
+        SELECT id FROM public.lessons
+        WHERE title = %s AND level = %s AND section = %s
+        LIMIT 1
+        """,
+        (data["title"], data["level"], data["section"]),
+    )
+    row = cur.fetchone()
+
+    if row and not upsert:
+        return f"skip  {data['level']}/{data['section']}: {data['title']}"
+
+    if row and upsert:
+        lesson_id = row[0]
+        cur.execute(
+            """
+            UPDATE public.lessons SET
+              explanation = %s,
+              audio_url = %s,
+              pdf_url = %s,
+              sort_order = %s,
+              cover_key = %s,
+              is_published = true,
+              updated_at = now()
+            WHERE id = %s
+            """,
+            (
+                data["explanation"],
+                data.get("audio_url"),
+                data.get("pdf_url"),
+                data.get("sort_order", 0),
+                data.get("cover_key"),
+                lesson_id,
+            ),
+        )
+        insert_sets(cur, lesson_id, data)
+        return f"upsert {data['level']}/{data['section']}: {data['title']} (id {lesson_id})"
+
+    cur.execute(
+        """
+        INSERT INTO public.lessons
+          (title, level, section, explanation, audio_url, pdf_url,
+           is_published, is_premium, sort_order, cover_key, updated_at)
+        VALUES (%s, %s, %s, %s, %s, %s, true, false, %s, %s, now())
+        RETURNING id
+        """,
+        (
+            data["title"],
+            data["level"],
+            data["section"],
+            data["explanation"],
+            data.get("audio_url"),
+            data.get("pdf_url"),
+            data.get("sort_order", 0),
+            data.get("cover_key"),
+        ),
+    )
+    lesson_id = cur.fetchone()[0]
+    insert_sets(cur, lesson_id, data)
     return f"added {data['level']}/{data['section']}: {data['title']} (id {lesson_id})"
 
 
@@ -107,7 +156,10 @@ def main():
         print("ERROR: set SUPA_DB_URL environment variable.")
         sys.exit(1)
 
-    targets = [Path(p) for p in sys.argv[1:]] if len(sys.argv) > 1 else [CONTENT_DIR]
+    args = [a for a in sys.argv[1:] if a != "--upsert"]
+    upsert = "--upsert" in sys.argv[1:]
+
+    targets = [Path(p) for p in args] if args else [CONTENT_DIR]
     files = []
     for t in targets:
         files.extend(collect_json_files(t))
@@ -127,9 +179,9 @@ def main():
                     continue
                 try:
                     data = load_lesson(path)
-                    msg = seed_lesson(cur, data)
+                    msg = seed_lesson(cur, data, upsert=upsert)
                     print(msg)
-                    if msg.startswith("added"):
+                    if msg.startswith("added") or msg.startswith("upsert"):
                         added += 1
                     else:
                         skipped += 1
@@ -139,7 +191,7 @@ def main():
     finally:
         conn.close()
 
-    print(f"\nDone: {added} added, {skipped} skipped, {errors} errors.")
+    print(f"\nDone: {added} added/upserted, {skipped} skipped, {errors} errors.")
 
 
 if __name__ == "__main__":

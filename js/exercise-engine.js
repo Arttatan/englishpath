@@ -175,14 +175,36 @@ window.ExerciseEngine = (function () {
     selects.forEach((sel) => sel.addEventListener("change", refresh));
   }
 
+  /** multiple_choice: 4 vertical options A–D */
+  function renderMultipleChoice(q, qIndex) {
+    const options = Array.isArray(q.options) ? q.options : [];
+    let html = `<p class="te-q-sentence">${escapeHtml(q.prompt || q.text || "")}</p>`;
+    html += `<div class="te-options-stack" data-stack-for="${qIndex}" data-mcq="1">`;
+    options.forEach((opt, oi) => {
+      html += `
+        <label class="te-option-row">
+          <input type="radio" class="sr-only" name="q${qIndex}" value="${oi}" data-lettered-choice data-mcq-choice />
+          <span class="te-option-letter">${LETTERS[oi]}.</span>
+          <span class="te-option-text">${escapeHtml(opt)}</span>
+        </label>`;
+    });
+    html += `</div>`;
+    return html;
+  }
+
+  function checkMultipleChoice(stackEl, correctIndex) {
+    return checkLetteredStack(stackEl, Number(correctIndex));
+  }
+
   /** Pink highlight when student picks an option (before Check) */
-  function initLetteredStacks(rootEl) {
+  function initLetteredStacks(rootEl, onChange) {
     rootEl.querySelectorAll(".te-options-stack").forEach((stack) => {
       stack.querySelectorAll("input[data-lettered-choice]").forEach((inp) => {
         inp.addEventListener("change", () => {
           stack.querySelectorAll(".te-option-row").forEach((row) => row.classList.remove("te-selected"));
           const row = inp.closest(".te-option-row");
           if (row) row.classList.add("te-selected");
+          if (typeof onChange === "function") onChange();
         });
       });
     });
@@ -215,7 +237,9 @@ window.ExerciseEngine = (function () {
     renderLettered,
     renderLetteredGap,
     renderDropdown,
+    renderMultipleChoice,
     checkLetteredStack,
+    checkMultipleChoice,
     checkDropdown,
     wireDropdownUseOnce,
     initLetteredStacks,
