@@ -1,0 +1,28 @@
+# Keeps the Free-tier Supabase project awake (pauses after ~7 days of no DB traffic).
+# Docs: https://supabase.com/docs/guides/platform/free-project-pausing
+name: Supabase keep-alive
+
+on:
+  schedule:
+    # Once a day (UTC). A few DB requests per week are enough; daily is safer.
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping lessons table
+        env:
+          # Public anon key is already in js/config.js; used only for a tiny SELECT.
+          SUPABASE_URL: https://ktijitzwdpmzshspuepp.supabase.co
+          SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt0aWppdHp3ZHBtenNoc3B1ZXBwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI3NjczNTMsImV4cCI6MjA5ODM0MzM1M30.h2KTV4_5mYAn7E4-VQc19vsnqcsIfUMaw4S_LXiqYkw
+        run: |
+          set -e
+          code=$(curl -sS -o /tmp/keepalive.json -w "%{http_code}" \
+            "${SUPABASE_URL}/rest/v1/lessons?select=id&limit=1" \
+            -H "apikey: ${SUPABASE_ANON_KEY}" \
+            -H "Authorization: Bearer ${SUPABASE_ANON_KEY}")
+          echo "HTTP $code"
+          cat /tmp/keepalive.json
+          test "$code" = "200"
