@@ -1,0 +1,185 @@
+/* Explanation charts for grammar lessons (A1 to be, etc.) */
+.lesson-content .be-chart {
+  margin: 1.25rem 0 1.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff;
+}
+.lesson-content .be-chart-title {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #111827;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+.lesson-content .be-form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+@media (min-width: 720px) {
+  .lesson-content .be-form-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.lesson-content .be-col {
+  padding: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+@media (min-width: 720px) {
+  .lesson-content .be-col {
+    border-top: none;
+    border-left: 1px solid #e5e7eb;
+  }
+  .lesson-content .be-col:first-child {
+    border-left: none;
+  }
+}
+.lesson-content .be-col-h {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.lesson-content .be-col-pos .be-col-h { background: #2563eb; }
+.lesson-content .be-col-neg .be-col-h { background: #ea580c; }
+.lesson-content .be-col-q .be-col-h { background: #7c3aed; }
+.lesson-content .be-pill {
+  display: block;
+  width: 100%;
+  margin: 0.35rem 0;
+  padding: 0.45rem 0.65rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  background: #eff6ff;
+  color: #1e3a8a;
+}
+.lesson-content .be-col-neg .be-pill { background: #fff7ed; color: #9a3412; }
+.lesson-content .be-col-q .be-pill { background: #f5f3ff; color: #5b21b6; }
+.lesson-content .be-short {
+  padding: 1rem;
+  border-top: 1px solid #e5e7eb;
+  background: #fffbeb;
+}
+.lesson-content .be-short-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 640px) {
+  .lesson-content .be-short-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.lesson-content .be-short h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #92400e;
+}
+.lesson-content .be-rule {
+  margin: 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 0.75rem;
+  background: #fef3c7;
+  border: 1px solid #fcd34d;
+  color: #78350f;
+  font-size: 0.9rem;
+}
+.lesson-content .be-rule strong { color: #92400e; }
+.lesson-content .be-ok { color: #166534; font-weight: 700; }
+.lesson-content .be-bad {
+  color: #b91c1c;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+.lesson-content .be-use-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+@media (min-width: 640px) {
+  .lesson-content .be-use-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.lesson-content .be-use-card {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.85rem;
+  border-radius: 0.85rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+}
+.lesson-content .be-use-icon {
+  flex-shrink: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 9999px;
+  display: grid;
+  place-items: center;
+  font-size: 1.15rem;
+  background: #fce7f3;
+}
+.lesson-content .be-use-card h4 {
+  margin: 0 0 0.35rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #be185d;
+}
+.lesson-content .be-use-card p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #374151;
+}
+.lesson-content .be-use-card em {
+  font-style: normal;
+  font-weight: 700;
+  color: #d63384;
+}
+.lesson-content .be-example {
+  margin: 0.5rem 0;
+  padding: 0.65rem 0.85rem;
+  border-left: 3px solid #d63384;
+  background: #fdf2f8;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.lesson-content .be-note {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border-radius: 0.75rem;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  color: #0c4a6e;
+  font-size: 0.9rem;
+}
+.lesson-content .be-figure {
+  margin: 1.25rem 0 1.5rem;
+}
+.lesson-content .be-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.85rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+.lesson-content .be-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #6b7280;
+  text-align: center;
+}
