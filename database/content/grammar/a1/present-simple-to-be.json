@@ -9,25 +9,74 @@
   "explanation": "<h2>Present simple forms of <em>to be</em>: am / is / are</h2>\n<p>The verb <strong>to be</strong> is one of the most important verbs in English. At A1, you use it to talk about identity, feelings, places, and simple facts.</p>\n\n<h3>The forms</h3>\n<table style=\"width:100%;border-collapse:collapse;margin:1rem 0\">\n<thead><tr><th style=\"text-align:left;padding:0.4rem;border-bottom:1px solid #e5e7eb\">Subject</th><th style=\"text-align:left;padding:0.4rem;border-bottom:1px solid #e5e7eb\">Form</th><th style=\"text-align:left;padding:0.4rem;border-bottom:1px solid #e5e7eb\">Example</th></tr></thead>\n<tbody>\n<tr><td style=\"padding:0.4rem\">I</td><td style=\"padding:0.4rem\"><strong>am</strong></td><td style=\"padding:0.4rem\">I am a student.</td></tr>\n<tr><td style=\"padding:0.4rem\">He / She / It</td><td style=\"padding:0.4rem\"><strong>is</strong></td><td style=\"padding:0.4rem\">She is my sister.</td></tr>\n<tr><td style=\"padding:0.4rem\">You / We / They</td><td style=\"padding:0.4rem\"><strong>are</strong></td><td style=\"padding:0.4rem\">They are at home.</td></tr>\n</tbody>\n</table>\n\n<h3>Short forms (contractions)</h3>\n<ul>\n<li>I am → <strong>I'm</strong></li>\n<li>he is / she is / it is → <strong>he's / she's / it's</strong></li>\n<li>you are / we are / they are → <strong>you're / we're / they're</strong></li>\n</ul>\n<p>In everyday American English, short forms are very common in speaking and informal writing.</p>\n\n<h3>Negatives</h3>\n<ul>\n<li>I am not → <strong>I'm not</strong></li>\n<li>he/she/it is not → <strong>isn't</strong> (or <strong>is not</strong>)</li>\n<li>you/we/they are not → <strong>aren't</strong> (or <strong>are not</strong>)</li>\n</ul>\n\n<h3>Questions</h3>\n<p>Put <strong>am / is / are</strong> <em>before</em> the subject:</p>\n<ul>\n<li><strong>Are</strong> you okay?</li>\n<li><strong>Is</strong> she your teacher?</li>\n<li><strong>Am</strong> I late?</li>\n</ul>\n<p>Short answers: Yes, I am. / No, she isn't. / Yes, they are.</p>\n\n<h3>Common mistakes</h3>\n<ul>\n<li>❌ <em>She are</em> my friend. → ✅ <strong>She is</strong> my friend.</li>\n<li>❌ <em>I is</em> tired. → ✅ <strong>I am</strong> tired.</li>\n<li>❌ <em>They is</em> here. → ✅ <strong>They are</strong> here.</li>\n<li>❌ <em>Is you</em> ready? → ✅ <strong>Are you</strong> ready?</li>\n</ul>\n\n<h3>Quick tip</h3>\n<p>Think of the subject first. If you can replace it with <strong>he/she/it</strong>, use <strong>is</strong>. If you can replace it with <strong>they</strong>, use <strong>are</strong>. With <strong>I</strong>, always use <strong>am</strong>.</p>",
   "exercise_sets": [
     {
-      "title": "Exercises",
-      "instructions": "Choose the correct form of to be (am / is / are) for each gap. There is only one correct answer.",
-      "type": "multiple_choice",
+      "title": "Exercise 1",
+      "instructions": "Choose the correct present simple forms of ‘to be’ for the gaps below.",
+      "type": "inline_dropdown",
       "use_once": false,
       "sort_order": 1,
       "questions": [
         {
-          "prompt": "A: _____ you a teacher? B: Yes, I am.",
+          "text": "A: [*Are|Is] you a nurse? B: Yes, I [*am|are].",
+          "feedback": "Are you…? / Yes, I am."
+        },
+        {
+          "text": "A: [*Is|Are] your name Elena? B: Yes, it [*is|are].",
+          "feedback": "Is your name…? / Yes, it is."
+        },
+        {
+          "text": "A: [*Are|Is] your kids in the garden? B: No, they [*aren't|isn't].",
+          "feedback": "Are your kids…? / No, they aren't."
+        },
+        {
+          "text": "A: [*Is|Are] this your backpack? B: No, it [*isn't|aren't].",
+          "feedback": "Is this…? / No, it isn't."
+        },
+        {
+          "text": "A: Where [*are|is] we? B: I think this [*is|are] King Street.",
+          "feedback": "Where are we? / this is…"
+        },
+        {
+          "text": "A: [*Is|Are] it Friday today? B: No, it [*is|are] Saturday.",
+          "feedback": "Is it Friday? / No, it is Saturday."
+        },
+        {
+          "text": "A: [*Are|Is] your cousins from Canada? B: No, [*they're|it's] from Mexico.",
+          "feedback": "Are your cousins…? / No, they're from…"
+        },
+        {
+          "text": "A: Hello, Anna. How [*are|is] you? B: [*I'm|He's] fine, thanks.",
+          "feedback": "How are you? / I'm fine."
+        },
+        {
+          "text": "A: How old [*is|are] Mark? B: I think [*he's|they're] 28 years old.",
+          "feedback": "How old is Mark? / I think he's…"
+        },
+        {
+          "text": "A: [*Are|Is] Jake and Lily here? B: Yes, [*they're|it's] next to the window.",
+          "feedback": "Are Jake and Lily…? / Yes, they're…"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "instructions": "Choose the correct form of to be (am / is / are). Only one answer is correct.",
+      "type": "multiple_choice",
+      "use_once": false,
+      "sort_order": 2,
+      "questions": [
+        {
+          "prompt": "I _____ from Toronto.",
           "options": [
-            "Are",
-            "Is",
-            "Am",
-            "Be"
+            "am",
+            "is",
+            "are",
+            "be"
           ],
           "correct": 0,
-          "feedback": "Use Are with you."
+          "feedback": "I + am"
         },
         {
-          "prompt": "My name _____ Marcus.",
+          "prompt": "She _____ my coworker.",
           "options": [
             "am",
             "is",
@@ -35,43 +84,10 @@
             "be"
           ],
           "correct": 1,
-          "feedback": "Use is with he/she/it and singular names."
+          "feedback": "She + is"
         },
         {
-          "prompt": "I _____ from Canada.",
-          "options": [
-            "is",
-            "are",
-            "am",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "Use am with I."
-        },
-        {
-          "prompt": "She _____ my sister.",
-          "options": [
-            "am",
-            "are",
-            "be",
-            "is"
-          ],
-          "correct": 3,
-          "feedback": "Use is with she."
-        },
-        {
-          "prompt": "They _____ at school today.",
-          "options": [
-            "is",
-            "am",
-            "are",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "Use are with they."
-        },
-        {
-          "prompt": "We _____ happy to see you.",
+          "prompt": "They _____ at the library.",
           "options": [
             "am",
             "is",
@@ -79,43 +95,32 @@
             "be"
           ],
           "correct": 2,
-          "feedback": "Use are with we."
+          "feedback": "They + are"
         },
         {
-          "prompt": "It _____ cold outside.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 1,
-          "feedback": "Use is with it."
-        },
-        {
-          "prompt": "He _____ not at home right now.",
-          "options": [
-            "am",
-            "are",
-            "is",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "Negative: he is not / he isn't."
-        },
-        {
-          "prompt": "_____ this your bag?",
+          "prompt": "_____ you ready to leave?",
           "options": [
             "Am",
-            "Are",
             "Is",
+            "Are",
             "Be"
           ],
           "correct": 2,
-          "feedback": "Questions with this/that use Is."
+          "feedback": "Are you…?"
         },
         {
-          "prompt": "You _____ my best friend.",
+          "prompt": "It _____ warm in here.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1,
+          "feedback": "It + is"
+        },
+        {
+          "prompt": "We _____ late for class.",
           "options": [
             "am",
             "is",
@@ -123,10 +128,32 @@
             "be"
           ],
           "correct": 2,
-          "feedback": "Use are with you (singular or plural)."
+          "feedback": "We + are"
         },
         {
-          "prompt": "A: _____ she a doctor? B: Yes, she is.",
+          "prompt": "He _____ not in the office.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1,
+          "feedback": "He + is"
+        },
+        {
+          "prompt": "The chairs _____ new.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 2,
+          "feedback": "Plural + are"
+        },
+        {
+          "prompt": "_____ this your jacket?",
           "options": [
             "Am",
             "Is",
@@ -134,10 +161,10 @@
             "Be"
           ],
           "correct": 1,
-          "feedback": "Use Is with she."
+          "feedback": "Is this…?"
         },
         {
-          "prompt": "The books _____ on the table.",
+          "prompt": "You _____ a great cook.",
           "options": [
             "am",
             "is",
@@ -145,10 +172,41 @@
             "be"
           ],
           "correct": 2,
-          "feedback": "Plural noun → are."
+          "feedback": "You + are"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "instructions": "Choose the correct form of to be (am / is / are). Only one answer is correct.",
+      "type": "multiple_choice",
+      "use_once": false,
+      "sort_order": 3,
+      "questions": [
+        {
+          "prompt": "A: _____ she a dentist? B: Yes, she is.",
+          "options": [
+            "Am",
+            "Is",
+            "Are",
+            "Be"
+          ],
+          "correct": 1,
+          "feedback": "Is she…?"
         },
         {
-          "prompt": "My brother _____ tall.",
+          "prompt": "My keys _____ in my pocket.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 2,
+          "feedback": "Keys = plural → are"
+        },
+        {
+          "prompt": "My sister _____ short.",
           "options": [
             "am",
             "is",
@@ -156,32 +214,32 @@
             "be"
           ],
           "correct": 1,
-          "feedback": "Singular person → is."
+          "feedback": "Sister + is"
         },
         {
-          "prompt": "I _____ not hungry.",
+          "prompt": "I _____ not thirsty.",
           "options": [
+            "am",
             "is",
             "are",
-            "am",
             "be"
           ],
-          "correct": 2,
-          "feedback": "I am not / I'm not."
+          "correct": 0,
+          "feedback": "I am not"
         },
         {
-          "prompt": "_____ they your parents?",
+          "prompt": "_____ they your neighbors?",
           "options": [
-            "Is",
             "Am",
+            "Is",
             "Are",
             "Be"
           ],
           "correct": 2,
-          "feedback": "Use Are with they."
+          "feedback": "Are they…?"
         },
         {
-          "prompt": "This _____ a great idea.",
+          "prompt": "That _____ a funny movie.",
           "options": [
             "am",
             "is",
@@ -189,10 +247,10 @@
             "be"
           ],
           "correct": 1,
-          "feedback": "This + is."
+          "feedback": "That + is"
         },
         {
-          "prompt": "Those shoes _____ new.",
+          "prompt": "These boots _____ expensive.",
           "options": [
             "am",
             "is",
@@ -200,10 +258,10 @@
             "be"
           ],
           "correct": 2,
-          "feedback": "Those + plural → are."
+          "feedback": "These + are"
         },
         {
-          "prompt": "We _____ in New York this week.",
+          "prompt": "We _____ in Miami this month.",
           "options": [
             "am",
             "is",
@@ -211,10 +269,10 @@
             "be"
           ],
           "correct": 2,
-          "feedback": "We + are."
+          "feedback": "We + are"
         },
         {
-          "prompt": "A: How old _____ you? B: I'm 20.",
+          "prompt": "A: How old _____ you? B: I'm 19.",
           "options": [
             "am",
             "is",
@@ -225,40 +283,7 @@
           "feedback": "How old are you?"
         },
         {
-          "prompt": "The weather _____ nice today.",
-          "options": [
-            "am",
-            "are",
-            "is",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "The weather = it → is."
-        },
-        {
-          "prompt": "My friends _____ from Spain.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "Plural friends → are."
-        },
-        {
-          "prompt": "_____ I late?",
-          "options": [
-            "Is",
-            "Are",
-            "Am",
-            "Be"
-          ],
-          "correct": 2,
-          "feedback": "Questions with I use Am."
-        },
-        {
-          "prompt": "She _____ a student at this school.",
+          "prompt": "The sky _____ blue today.",
           "options": [
             "am",
             "is",
@@ -266,10 +291,19 @@
             "be"
           ],
           "correct": 1,
-          "feedback": "She + is."
-        },
+          "feedback": "The sky + is"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 4",
+      "instructions": "Choose the correct form of to be (am / is / are). Only one answer is correct.",
+      "type": "multiple_choice",
+      "use_once": false,
+      "sort_order": 4,
+      "questions": [
         {
-          "prompt": "You and Tom _____ neighbors.",
+          "prompt": "My classmates _____ from Italy.",
           "options": [
             "am",
             "is",
@@ -277,131 +311,21 @@
             "be"
           ],
           "correct": 2,
-          "feedback": "You and Tom = they → are."
+          "feedback": "Classmates + are"
         },
         {
-          "prompt": "There _____ a cat under the chair.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 1,
-          "feedback": "There is + singular."
-        },
-        {
-          "prompt": "There _____ two apples in the bowl.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "There are + plural."
-        },
-        {
-          "prompt": "A: Where _____ the keys? B: On the desk.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "Keys = plural → are."
-        },
-        {
-          "prompt": "My phone _____ in my bag.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 1,
-          "feedback": "Phone = singular → is."
-        },
-        {
-          "prompt": "He _____ English. He's from London.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 1,
-          "feedback": "He is English."
-        },
-        {
-          "prompt": "We _____ not ready yet.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "We are not / we aren't."
-        },
-        {
-          "prompt": "_____ your mother at work?",
+          "prompt": "_____ I early?",
           "options": [
             "Am",
             "Is",
             "Are",
             "Be"
-          ],
-          "correct": 1,
-          "feedback": "Your mother = she → Is."
-        },
-        {
-          "prompt": "These cookies _____ delicious.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "These + plural → are."
-        },
-        {
-          "prompt": "I _____ a little tired today.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
           ],
           "correct": 0,
-          "feedback": "I + am."
+          "feedback": "Am I…?"
         },
         {
-          "prompt": "The children _____ in the park.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
-          ],
-          "correct": 2,
-          "feedback": "Children = plural → are."
-        },
-        {
-          "prompt": "A: _____ it Monday today? B: No, it's Tuesday.",
-          "options": [
-            "Am",
-            "Are",
-            "Is",
-            "Be"
-          ],
-          "correct": 2,
-          "feedback": "It + Is."
-        },
-        {
-          "prompt": "Our teacher _____ very kind.",
+          "prompt": "She _____ a volunteer here.",
           "options": [
             "am",
             "is",
@@ -409,10 +333,10 @@
             "be"
           ],
           "correct": 1,
-          "feedback": "Teacher = singular → is."
+          "feedback": "She + is"
         },
         {
-          "prompt": "You _____ always welcome here.",
+          "prompt": "You and Sam _____ teammates.",
           "options": [
             "am",
             "is",
@@ -420,10 +344,10 @@
             "be"
           ],
           "correct": 2,
-          "feedback": "You + are."
+          "feedback": "You and Sam → are"
         },
         {
-          "prompt": "That _____ my favorite song.",
+          "prompt": "There _____ a dog in the yard.",
           "options": [
             "am",
             "is",
@@ -431,10 +355,10 @@
             "be"
           ],
           "correct": 1,
-          "feedback": "That + is."
+          "feedback": "There is + singular"
         },
         {
-          "prompt": "My parents _____ on vacation.",
+          "prompt": "There _____ three cups on the shelf.",
           "options": [
             "am",
             "is",
@@ -442,18 +366,51 @@
             "be"
           ],
           "correct": 2,
-          "feedback": "Parents = plural → are."
+          "feedback": "There are + plural"
         },
         {
-          "prompt": "A: Who _____ that man? B: He's my uncle.",
+          "prompt": "A: Where _____ my glasses? B: On your desk.",
           "options": [
             "am",
-            "are",
             "is",
+            "are",
             "be"
           ],
           "correct": 2,
-          "feedback": "Who is that man?"
+          "feedback": "Glasses → are"
+        },
+        {
+          "prompt": "His laptop _____ in the bag.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1,
+          "feedback": "Laptop + is"
+        },
+        {
+          "prompt": "He _____ American. He's from Chicago.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 1,
+          "feedback": "He is American"
+        },
+        {
+          "prompt": "We _____ not finished yet.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "correct": 2,
+          "feedback": "We are not"
         }
       ]
     }

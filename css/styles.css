@@ -245,6 +245,7 @@ body {
   display: inline-block;
   margin: 0 0.15rem;
   max-width: 14rem;
+  min-width: 4.5rem;
   padding: 0.35rem 1.75rem 0.35rem 0.5rem;
   font-size: 0.9375rem;
   border: 1px solid #d1d5db;
@@ -253,6 +254,11 @@ body {
   appearance: none;
   vertical-align: baseline;
   cursor: pointer;
+}
+.te-inline-dd {
+  min-width: 5.5rem;
+  font-weight: 600;
+  border-color: #9ca3af;
 }
 .te-dropdown:focus {
   outline: 2px solid var(--brand);

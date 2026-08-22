@@ -175,6 +175,56 @@ window.ExerciseEngine = (function () {
     selects.forEach((sel) => sel.addEventListener("change", refresh));
   }
 
+  /**
+   * Inline dropdowns per gap (test-english grammar style).
+   * Text uses same [opt|*correct|opt] markers as inline_choice.
+   */
+  function renderInlineDropdown(parts, qIndex) {
+    let html = `<p class="te-q-sentence te-q-sentence-inline">`;
+    let gap = 0;
+    parts.forEach((p) => {
+      if (p.type === "text") {
+        html += escapeHtml(p.value);
+        return;
+      }
+      const opts = p.options
+        .map(
+          (o, i) =>
+            `<option value="${i}">${escapeHtml(o)}</option>`
+        )
+        .join("");
+      html += `<select class="te-dropdown te-inline-dd" data-q="${qIndex}" data-gap="${gap}" data-correct="${p.correct}" aria-label="Choose an option">
+        <option value="">—</option>
+        ${opts}
+      </select>`;
+      gap += 1;
+    });
+    html += `</p>`;
+    return html;
+  }
+
+  function checkInlineDropdown(container) {
+    const selects = container.querySelectorAll("select.te-inline-dd");
+    if (!selects.length) return false;
+    let allOk = true;
+    selects.forEach((sel) => {
+      const expected = Number(sel.getAttribute("data-correct"));
+      const got = sel.value === "" ? NaN : Number(sel.value);
+      const ok = got === expected;
+      if (!ok) allOk = false;
+      sel.classList.toggle("te-select-correct", ok);
+      sel.classList.toggle("te-select-wrong", !ok);
+      sel.disabled = true;
+    });
+    return allOk;
+  }
+
+  function lockInlineDropdown(container, locked) {
+    container.querySelectorAll("select.te-inline-dd").forEach((sel) => {
+      sel.disabled = locked;
+    });
+  }
+
   /** multiple_choice: 4 vertical options A–D */
   function renderMultipleChoice(q, qIndex) {
     const options = Array.isArray(q.options) ? q.options : [];
@@ -237,10 +287,13 @@ window.ExerciseEngine = (function () {
     renderLettered,
     renderLetteredGap,
     renderDropdown,
+    renderInlineDropdown,
     renderMultipleChoice,
     checkLetteredStack,
     checkMultipleChoice,
     checkDropdown,
+    checkInlineDropdown,
+    lockInlineDropdown,
     wireDropdownUseOnce,
     initLetteredStacks,
     lockLettered,
