@@ -59,120 +59,117 @@
     },
     {
       "title": "Exercise 2",
-      "instructions": "Choose the correct form of to be (am / is / are). Only one answer is correct.",
-      "type": "multiple_choice",
+      "instructions": "Rewrite the sentences using the short forms of be.",
+      "type": "type_gap",
       "use_once": false,
       "sort_order": 2,
       "questions": [
         {
-          "prompt": "I _____ from Toronto.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
+          "example": true,
+          "source": "They are good friends",
+          "before": "",
+          "after": " good friends.",
+          "answers": [
+            "They're"
           ],
-          "correct": 0,
-          "feedback": "I + am"
+          "feedback": "Example"
         },
         {
-          "prompt": "She _____ my coworker.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
+          "source": "Maya is fantastic",
+          "before": "",
+          "after": " fantastic.",
+          "answers": [
+            "She's",
+            "Maya's"
           ],
-          "correct": 1,
-          "feedback": "She + is"
+          "feedback": "She's / Maya's"
         },
         {
-          "prompt": "They _____ at the library.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
+          "source": "We are in Portugal",
+          "before": "",
+          "after": " in Portugal.",
+          "answers": [
+            "We're"
           ],
-          "correct": 2,
-          "feedback": "They + are"
+          "feedback": "We're"
         },
         {
-          "prompt": "_____ you ready to leave?",
-          "options": [
-            "Am",
-            "Is",
-            "Are",
-            "Be"
+          "source": "You are not my neighbor",
+          "before": "You ",
+          "after": " my neighbor.",
+          "answers": [
+            "aren't",
+            "are not"
           ],
-          "correct": 2,
-          "feedback": "Are you…?"
+          "feedback": "aren't"
         },
         {
-          "prompt": "It _____ warm in here.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
+          "source": "Priya is from Boston",
+          "before": "",
+          "after": " from Boston.",
+          "answers": [
+            "Priya's",
+            "She's"
           ],
-          "correct": 1,
-          "feedback": "It + is"
+          "feedback": "Priya's"
         },
         {
-          "prompt": "We _____ late for class.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
+          "source": "The tables are not expensive",
+          "before": "The tables ",
+          "after": " expensive.",
+          "answers": [
+            "aren't",
+            "are not"
           ],
-          "correct": 2,
-          "feedback": "We + are"
+          "feedback": "aren't"
         },
         {
-          "prompt": "He _____ not in the office.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
+          "source": "I am not Canadian",
+          "before": "",
+          "after": " Canadian.",
+          "answers": [
+            "I'm not",
+            "I am not"
           ],
-          "correct": 1,
-          "feedback": "He + is"
+          "feedback": "I'm not"
         },
         {
-          "prompt": "The chairs _____ new.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
+          "source": "Nina is a good student",
+          "before": "",
+          "after": " a good student.",
+          "answers": [
+            "Nina's",
+            "She's"
           ],
-          "correct": 2,
-          "feedback": "Plural + are"
+          "feedback": "Nina's"
         },
         {
-          "prompt": "_____ this your jacket?",
-          "options": [
-            "Am",
-            "Is",
-            "Are",
-            "Be"
+          "source": "You are amazing",
+          "before": "",
+          "after": " amazing.",
+          "answers": [
+            "You're"
           ],
-          "correct": 1,
-          "feedback": "Is this…?"
+          "feedback": "You're"
         },
         {
-          "prompt": "You _____ a great cook.",
-          "options": [
-            "am",
-            "is",
-            "are",
-            "be"
+          "source": "They are my cousins",
+          "before": "",
+          "after": " my cousins.",
+          "answers": [
+            "They're"
           ],
-          "correct": 2,
-          "feedback": "You + are"
+          "feedback": "They're"
+        },
+        {
+          "source": "He is not angry",
+          "before": "He ",
+          "after": " angry.",
+          "answers": [
+            "isn't",
+            "is not"
+          ],
+          "feedback": "isn't"
         }
       ]
     },

@@ -260,6 +260,58 @@ body {
   font-weight: 600;
   border-color: #9ca3af;
 }
+
+/* Typed short-form gaps */
+.te-type-gap .te-type-source {
+  margin-bottom: 0.5rem;
+}
+.te-type-arrow {
+  color: #9ca3af;
+  font-weight: 700;
+  margin: 0 0.25rem;
+}
+.te-type-target {
+  margin: 0;
+}
+.te-type-input {
+  display: inline-block;
+  min-width: 7rem;
+  max-width: 14rem;
+  margin: 0 0.2rem;
+  padding: 0.4rem 0.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #d1d5db;
+  border-radius: 0.35rem;
+  background: #fff;
+  vertical-align: baseline;
+}
+.te-type-input:focus {
+  outline: 2px solid var(--brand);
+  outline-offset: 1px;
+  border-color: var(--brand);
+}
+.te-type-example .te-type-input {
+  background: #f9fafb;
+  color: #111827;
+}
+.te-example-label {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #6b7280;
+  margin-right: 0.35rem;
+}
+.te-example-item .te-q-num {
+  background: #9ca3af;
+  font-size: 0.65rem;
+}
+.te-type-reveal {
+  color: #166534;
+  font-size: 0.875rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
 .te-dropdown:focus {
   outline: 2px solid var(--brand);
   outline-offset: 1px;

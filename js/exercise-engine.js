@@ -225,6 +225,65 @@ window.ExerciseEngine = (function () {
     });
   }
 
+  function normalizeAnswer(s) {
+    return String(s || "")
+      .trim()
+      .replace(/[’‘`]/g, "'")
+      .replace(/\s+/g, " ")
+      .toLowerCase();
+  }
+
+  /**
+   * type_gap: rewrite / fill blank by typing.
+   * q: { source, before, after, answers: ["She's", ...], example?: bool }
+   */
+  function renderTypeGap(q, qIndex) {
+    const source = escapeHtml(q.source || "");
+    const before = escapeHtml(q.before || "");
+    const after = escapeHtml(q.after || "");
+    const isExample = !!q.example;
+    const prefill = isExample && Array.isArray(q.answers) && q.answers[0] ? escapeAttr(q.answers[0]) : "";
+    const disabled = isExample ? "disabled" : "";
+    const exampleClass = isExample ? " te-type-example" : "";
+    const label = isExample
+      ? `<span class="te-example-label">EXAMPLE:</span> `
+      : "";
+
+    return `
+      <div class="te-type-gap${exampleClass}" data-type-gap="${qIndex}">
+        <p class="te-q-sentence te-type-source">${label}${source} <span class="te-type-arrow" aria-hidden="true">⇒</span></p>
+        <p class="te-q-sentence te-type-target">
+          ${before}<input type="text" class="te-type-input" data-type-input autocomplete="off" spellcheck="false"
+            value="${prefill}" ${disabled} aria-label="Type the short form" />${after}
+        </p>
+      </div>`;
+  }
+
+  function checkTypeGap(container, answers) {
+    const input = container.querySelector("input.te-type-input");
+    if (!input) return false;
+    if (input.disabled) return true; // example row
+    const got = normalizeAnswer(input.value);
+    const ok = (answers || []).some((a) => normalizeAnswer(a) === got);
+    input.classList.toggle("te-select-correct", ok);
+    input.classList.toggle("te-select-wrong", !ok);
+    input.disabled = true;
+    if (!ok && answers && answers[0]) {
+      const hint = document.createElement("span");
+      hint.className = "te-type-reveal";
+      hint.textContent = " → " + answers[0];
+      input.insertAdjacentElement("afterend", hint);
+    }
+    return ok;
+  }
+
+  function lockTypeGap(container, locked) {
+    container.querySelectorAll("input.te-type-input:not([disabled])").forEach((inp) => {
+      // examples stay disabled; others lock after check
+      if (locked) inp.disabled = true;
+    });
+  }
+
   /** multiple_choice: 4 vertical options A–D */
   function renderMultipleChoice(q, qIndex) {
     const options = Array.isArray(q.options) ? q.options : [];
@@ -288,12 +347,15 @@ window.ExerciseEngine = (function () {
     renderLetteredGap,
     renderDropdown,
     renderInlineDropdown,
+    renderTypeGap,
     renderMultipleChoice,
     checkLetteredStack,
     checkMultipleChoice,
     checkDropdown,
     checkInlineDropdown,
+    checkTypeGap,
     lockInlineDropdown,
+    lockTypeGap,
     wireDropdownUseOnce,
     initLetteredStacks,
     lockLettered,

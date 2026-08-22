@@ -325,6 +325,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const questions = Array.isArray(set.questions) ? set.questions : [];
     const list = document.getElementById("questions-list");
+    let displayNum = 1;
 
     list.innerHTML = questions
       .map((q, qi) => {
@@ -334,6 +335,8 @@ document.addEventListener("DOMContentLoaded", async () => {
           body = EE.renderLettered(EE.parseInlineText(q.text || ""), qKey);
         } else if (set.type === "inline_dropdown") {
           body = EE.renderInlineDropdown(EE.parseInlineText(q.text || ""), qKey);
+        } else if (set.type === "type_gap") {
+          body = EE.renderTypeGap(q, qKey);
         } else if (set.type === "lettered_gap") {
           body = EE.renderLetteredGap(EE.parseLetteredGap(q.text || ""), qKey);
         } else if (set.type === "dropdown_gap") {
@@ -341,10 +344,11 @@ document.addEventListener("DOMContentLoaded", async () => {
           const bank = Array.isArray(set.word_bank) ? set.word_bank : [];
           body = EE.renderDropdown(parsed.sentence, qKey, bank);
         }
+        const numLabel = q.example ? "Ex" : String(displayNum++);
         return `
-          <li class="te-question-item" data-qi="${qi}">
-            <span class="te-q-num">${qi + 1}</span>
-            <div class="te-question-body" data-q-key="${qKey}" data-q-text="${escapeAttr(q.text || "")}">${body}</div>
+          <li class="te-question-item${q.example ? " te-example-item" : ""}" data-qi="${qi}">
+            <span class="te-q-num">${numLabel}</span>
+            <div class="te-question-body" data-q-key="${qKey}" data-q-text="${escapeAttr(q.text || q.source || "")}">${body}</div>
           </li>`;
       })
       .join("");
@@ -452,6 +456,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (inlineDd.length) {
         return { kind: "inline_dd", values: inlineDd.map((s) => s.value) };
       }
+      const typeInp = body.querySelector("input.te-type-input");
+      if (typeInp) {
+        return { kind: "type_gap", value: typeInp.value };
+      }
       const selects = [...body.querySelectorAll("select.te-dropdown")];
       return { kind: "dropdown", values: selects.map((s) => s.value) };
     });
@@ -476,6 +484,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         body.querySelectorAll("select.te-inline-dd").forEach((sel, i) => {
           if (ans.values[i] !== undefined && ans.values[i] !== "") sel.value = ans.values[i];
         });
+      } else if (ans.kind === "type_gap" && ans.value != null) {
+        const inp = body.querySelector("input.te-type-input");
+        if (inp && !inp.disabled) inp.value = ans.value;
       } else if (ans.kind === "dropdown") {
         body.querySelectorAll("select.te-dropdown").forEach((sel, i) => {
           if (ans.values[i]) sel.value = ans.values[i];
@@ -580,6 +591,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (stack && choice) ok = EE.checkLetteredStack(stack, choice.correct);
       } else if (set.type === "inline_dropdown") {
         ok = EE.checkInlineDropdown(body);
+      } else if (set.type === "type_gap") {
+        ok = EE.checkTypeGap(body, q.answers || []);
+        if (q.example) return;
       } else if (set.type === "lettered_gap") {
         const parsed = EE.parseLetteredGap(q.text || "");
         if (stack) ok = EE.checkLetteredStack(stack, parsed.correct);
@@ -594,7 +608,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     completedSets.add(currentSet);
 
-    const total = questions.length;
+    const total =
+      set.type === "type_gap"
+        ? questions.filter((q) => !q.example).length
+        : questions.length;
     const pct = total ? score / total : 0;
     const box = document.getElementById("score-box");
     box.classList.remove("hidden");

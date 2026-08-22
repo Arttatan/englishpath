@@ -45,7 +45,7 @@ def load_lesson(path: Path) -> dict:
 
 
 def normalize_questions(es: dict) -> list:
-    """Support classic {text,feedback} and MCQ {prompt,options,correct,feedback}."""
+    """Support classic, MCQ, and type_gap question shapes."""
     out = []
     for q in es["questions"]:
         if "options" in q and "correct" in q:
@@ -57,6 +57,17 @@ def normalize_questions(es: dict) -> list:
                     "feedback": q.get("feedback", ""),
                 }
             )
+        elif "answers" in q and ("source" in q or q.get("example")):
+            item = {
+                "source": q.get("source", ""),
+                "before": q.get("before", ""),
+                "after": q.get("after", ""),
+                "answers": q["answers"],
+                "feedback": q.get("feedback", ""),
+            }
+            if q.get("example"):
+                item["example"] = True
+            out.append(item)
         else:
             out.append({"text": q.get("text", ""), "feedback": q.get("feedback", "")})
     return out

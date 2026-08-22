@@ -3,7 +3,7 @@
 alter table public.exercise_sets drop constraint if exists exercise_sets_type_check;
 alter table public.exercise_sets
   add constraint exercise_sets_type_check
-  check (type in ('inline_choice', 'dropdown_gap', 'lettered_gap', 'multiple_choice', 'inline_dropdown'));
+  check (type in ('inline_choice', 'dropdown_gap', 'lettered_gap', 'multiple_choice', 'inline_dropdown', 'type_gap'));
 
 alter table public.lessons
   add column if not exists cover_key text;
