@@ -203,20 +203,101 @@ window.ExerciseEngine = (function () {
     return html;
   }
 
+  function decorateControl(el, ok, correctText) {
+    if (!el) return;
+    el.classList.remove("te-select-correct", "te-select-wrong", "te-no-answer");
+    const empty =
+      (el.tagName === "SELECT" && el.value === "") ||
+      (el.tagName === "INPUT" && !String(el.value || "").trim());
+
+    if (empty && !ok) {
+      if (el.tagName === "INPUT") {
+        el.value = "[no answer]";
+        el.classList.add("te-no-answer");
+      }
+      el.classList.add("te-select-wrong");
+    } else {
+      el.classList.toggle("te-select-correct", ok);
+      el.classList.toggle("te-select-wrong", !ok);
+    }
+
+    el.disabled = true;
+
+    let mark = el.nextElementSibling;
+    while (mark && (mark.classList.contains("te-type-reveal") || mark.classList.contains("te-answer-mark"))) {
+      const next = mark.nextElementSibling;
+      mark.remove();
+      mark = next;
+    }
+
+    mark = document.createElement("span");
+    mark.className = `te-answer-mark ${ok ? "te-mark-ok" : "te-mark-bad"}`;
+    mark.setAttribute("aria-hidden", "true");
+    mark.textContent = ok ? "✓" : "✕";
+    el.insertAdjacentElement("afterend", mark);
+
+    if (!ok && correctText) {
+      const hint = document.createElement("span");
+      hint.className = "te-type-reveal";
+      hint.textContent = " → " + correctText;
+      mark.insertAdjacentElement("afterend", hint);
+    }
+  }
+
+  function clearDecorations(root) {
+    root.querySelectorAll(".te-answer-mark, .te-type-reveal, .te-q-feedback").forEach((n) => n.remove());
+    root.querySelectorAll(".te-select-correct, .te-select-wrong, .te-no-answer").forEach((el) => {
+      el.classList.remove("te-select-correct", "te-select-wrong", "te-no-answer");
+      if (el.tagName === "INPUT" && el.value === "[no answer]") el.value = "";
+      if (!el.classList.contains("te-type-example") && !el.closest(".te-type-example")) {
+        el.disabled = false;
+      }
+    });
+  }
+
+  function formatTipsHtml(tips) {
+    if (!tips) return "";
+    const list = Array.isArray(tips)
+      ? tips
+      : String(tips)
+          .split(/\n+/)
+          .map((s) => s.trim())
+          .filter(Boolean);
+    if (!list.length) return "";
+    return `<ul>${list
+      .map((t) => `<li>${String(t).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")}</li>`)
+      .join("")}</ul>`;
+  }
+
+  function appendQuestionFeedback(container, correctLabel, tips) {
+    if (!container) return;
+    container.querySelectorAll(".te-q-feedback").forEach((n) => n.remove());
+    if (!correctLabel && !tips) return;
+    const box = document.createElement("div");
+    box.className = "te-q-feedback";
+    const label = correctLabel
+      ? `<p class="te-q-feedback-correct">Correct answer${String(correctLabel).includes("/") || String(correctLabel).includes(" / ") ? "s" : ""}: ${escapeHtml(correctLabel)}</p>`
+      : "";
+    box.innerHTML = label + formatTipsHtml(tips);
+    container.appendChild(box);
+  }
+
   function checkInlineDropdown(container) {
     const selects = container.querySelectorAll("select.te-inline-dd");
-    if (!selects.length) return false;
+    if (!selects.length) return { ok: false, correctLabel: "" };
     let allOk = true;
+    const correctParts = [];
     selects.forEach((sel) => {
       const expected = Number(sel.getAttribute("data-correct"));
       const got = sel.value === "" ? NaN : Number(sel.value);
       const ok = got === expected;
       if (!ok) allOk = false;
-      sel.classList.toggle("te-select-correct", ok);
-      sel.classList.toggle("te-select-wrong", !ok);
-      sel.disabled = true;
+      const opt = sel.querySelector(`option[value="${expected}"]`);
+      const correctText = opt ? opt.textContent.trim() : "";
+      if (correctText) correctParts.push(correctText);
+      decorateControl(sel, ok, ok ? "" : correctText);
     });
-    return allOk;
+    return { ok: allOk, correctLabel: correctParts.join(" / ") };
   }
 
   function lockInlineDropdown(container, locked) {
@@ -261,25 +342,20 @@ window.ExerciseEngine = (function () {
 
   function checkTypeGap(container, answers) {
     const input = container.querySelector("input.te-type-input");
-    if (!input) return false;
-    if (input.disabled) return true; // example row
-    const got = normalizeAnswer(input.value);
-    const ok = (answers || []).some((a) => normalizeAnswer(a) === got);
-    input.classList.toggle("te-select-correct", ok);
-    input.classList.toggle("te-select-wrong", !ok);
-    input.disabled = true;
-    if (!ok && answers && answers[0]) {
-      const hint = document.createElement("span");
-      hint.className = "te-type-reveal";
-      hint.textContent = " → " + answers[0];
-      input.insertAdjacentElement("afterend", hint);
+    if (!input) return { ok: false, correctLabel: "" };
+    if (input.disabled && input.closest(".te-type-example")) {
+      return { ok: true, correctLabel: (answers && answers[0]) || "" };
     }
-    return ok;
+    const raw = String(input.value || "").trim();
+    const got = normalizeAnswer(raw === "[no answer]" ? "" : raw);
+    const ok = got !== "" && (answers || []).some((a) => normalizeAnswer(a) === got);
+    const correctLabel = (answers && answers[0]) || "";
+    decorateControl(input, ok, ok ? "" : correctLabel);
+    return { ok, correctLabel };
   }
 
   function lockTypeGap(container, locked) {
     container.querySelectorAll("input.te-type-input:not([disabled])").forEach((inp) => {
-      // examples stay disabled; others lock after check
       if (locked) inp.disabled = true;
     });
   }
@@ -327,6 +403,102 @@ window.ExerciseEngine = (function () {
     });
   }
 
+  function renderDualTypeGap(q, qIndex) {
+    const source = escapeHtml(q.source || "");
+    const isExample = !!q.example;
+    const negPre = isExample && q.neg_answers?.[0] ? escapeAttr(q.neg_answers[0]) : "";
+    const qPre = isExample && q.q_answers?.[0] ? escapeAttr(q.q_answers[0]) : "";
+    const disabled = isExample ? "disabled" : "";
+    const label = isExample ? `<span class="te-example-label">EXAMPLE:</span> ` : "";
+
+    return `
+      <div class="te-dual-gap${isExample ? " te-type-example" : ""}" data-dual-gap="${qIndex}">
+        <p class="te-q-sentence te-type-source">${label}${source}</p>
+        <p class="te-q-sentence te-type-target">
+          <span class="te-type-arrow">⇒</span>
+          <input type="text" class="te-type-input" data-dual="neg" autocomplete="off" spellcheck="false"
+            value="${negPre}" ${disabled} aria-label="Negative form" />
+          ${escapeHtml(q.neg_after || "")}
+        </p>
+        <p class="te-q-sentence te-type-target">
+          <span class="te-type-arrow">⇒</span>
+          <input type="text" class="te-type-input" data-dual="q" autocomplete="off" spellcheck="false"
+            value="${qPre}" ${disabled} aria-label="Question form" />
+          ${escapeHtml(q.q_after || "")}
+        </p>
+      </div>`;
+  }
+
+  function checkDualTypeGap(container, q) {
+    const neg = container.querySelector('input[data-dual="neg"]');
+    const ques = container.querySelector('input[data-dual="q"]');
+    if (!neg || !ques) return { ok: false, correctLabel: "" };
+    if (neg.disabled && ques.disabled && container.querySelector(".te-type-example")) {
+      return {
+        ok: true,
+        correctLabel: `${(q.neg_answers || [])[0] || ""} / ${(q.q_answers || [])[0] || ""}`,
+      };
+    }
+
+    const negRaw = String(neg.value || "").trim();
+    const qRaw = String(ques.value || "").trim();
+    const negGot = normalizeAnswer(negRaw === "[no answer]" ? "" : negRaw);
+    const qGot = normalizeAnswer(qRaw === "[no answer]" ? "" : qRaw);
+    const negOk = negGot !== "" && (q.neg_answers || []).some((a) => normalizeAnswer(a) === negGot);
+    const qOk = qGot !== "" && (q.q_answers || []).some((a) => normalizeAnswer(a) === qGot);
+    const negLabel = (q.neg_answers || [])[0] || "";
+    const qLabel = (q.q_answers || [])[0] || "";
+    decorateControl(neg, negOk, negOk ? "" : negLabel);
+    decorateControl(ques, qOk, qOk ? "" : qLabel);
+    return {
+      ok: negOk && qOk,
+      correctLabel: `${negLabel} / ${qLabel}`.replace(/^ \/ | \/ $/g, ""),
+    };
+  }
+
+  /**
+   * dialogue_gap: one block with numbered typed gaps.
+   * q: { script: [{speaker, html}], gaps: [{answers:[...]}, ...] }
+   * html uses {{1}} {{2}} placeholders (1-based).
+   */
+  function renderDialogueGap(q) {
+    const script = Array.isArray(q.script) ? q.script : [];
+    let html = `<div class="te-dialogue" data-dialogue="1">`;
+    script.forEach((line) => {
+      const parts = String(line.html || "").split(/(\{\{\d+\}\})/g);
+      const lineHtml = parts
+        .map((part) => {
+          const m = part.match(/^\{\{(\d+)\}\}$/);
+          if (!m) return escapeHtml(part);
+          const n = Number(m[1]);
+          return `<span class="te-dialogue-gap"><span class="te-dialogue-num">${n}</span><input type="text" class="te-type-input te-dialogue-input" data-gap="${n}" autocomplete="off" spellcheck="false" aria-label="Gap ${n}" /></span>`;
+        })
+        .join("");
+      html += `<p class="te-dialogue-line"><strong class="te-dialogue-speaker">${escapeHtml(line.speaker || "")}:</strong> ${lineHtml}</p>`;
+    });
+    html += `</div>`;
+    return html;
+  }
+
+  function checkDialogueGap(container, gaps) {
+    let score = 0;
+    const total = (gaps || []).length;
+    const wrong = [];
+    (gaps || []).forEach((g, i) => {
+      const n = i + 1;
+      const input = container.querySelector(`input.te-dialogue-input[data-gap="${n}"]`);
+      if (!input) return;
+      const raw = String(input.value || "").trim();
+      const got = normalizeAnswer(raw === "[no answer]" ? "" : raw);
+      const ok = got !== "" && (g.answers || []).some((a) => normalizeAnswer(a) === got);
+      const correctLabel = (g.answers && g.answers[0]) || "";
+      decorateControl(input, ok, ok ? "" : correctLabel);
+      if (ok) score++;
+      else wrong.push({ n, correctLabel });
+    });
+    return { score, total, wrong };
+  }
+
   function escapeHtml(text) {
     return String(text)
       .replace(/&/g, "&amp;")
@@ -348,12 +520,19 @@ window.ExerciseEngine = (function () {
     renderDropdown,
     renderInlineDropdown,
     renderTypeGap,
+    renderDualTypeGap,
+    renderDialogueGap,
     renderMultipleChoice,
     checkLetteredStack,
     checkMultipleChoice,
     checkDropdown,
     checkInlineDropdown,
     checkTypeGap,
+    checkDualTypeGap,
+    checkDialogueGap,
+    decorateControl,
+    clearDecorations,
+    appendQuestionFeedback,
     lockInlineDropdown,
     lockTypeGap,
     wireDropdownUseOnce,

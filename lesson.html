@@ -71,6 +71,7 @@
       <div id="exercise-card" class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
         <h2 id="exercise-title" class="text-xl font-bold text-brand">Exercise 1</h2>
         <div id="exercise-instructions" class="te-instruction-box mt-4"></div>
+        <div id="score-box" class="hidden w-full mt-6"></div>
         <div id="progress-wrap" class="te-progress-wrap mt-5 hidden">
           <div class="flex items-center justify-between text-xs font-medium text-gray-500">
             <span id="progress-label">0 of 40 answered</span>
@@ -84,7 +85,7 @@
 
         <div class="mt-10 flex flex-col items-center gap-4 border-t border-gray-100 pt-8">
           <button id="check-btn" type="button" class="te-check-btn">Check</button>
-          <div id="score-box" class="hidden w-full max-w-lg"></div>
+          <button id="try-again-btn" type="button" class="te-next-btn hidden">Try again</button>
           <button id="next-btn" type="button" class="te-next-btn hidden">Continue to next exercise →</button>
         </div>
       </div>
@@ -102,7 +103,33 @@
 
     <!-- Downloads panel -->
     <div id="panel-downloads" class="mt-6 hidden">
-      <div class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm text-center">
+      <!-- A1: subscription paywall (non-Premium) -->
+      <div id="downloads-paywall" class="te-downloads-paywall hidden rounded-xl border border-gray-200 bg-white p-6 shadow-sm md:p-8">
+        <div class="te-downloads-grid">
+          <div class="te-downloads-media" aria-hidden="true">
+            <div class="te-downloads-video-frame">
+              <div class="te-downloads-video-inner">
+                <span class="te-downloads-pro-badge">EnglishPath Premium</span>
+                <p class="te-downloads-video-title">PDF downloads &amp; more</p>
+                <p class="te-downloads-video-sub">Practice offline · Ad-free · Support the project</p>
+              </div>
+            </div>
+          </div>
+          <div class="te-downloads-copy">
+            <h2 class="te-downloads-heading">Subscribe to enjoy PDF downloads!</h2>
+            <p class="te-downloads-lead">Premium includes:</p>
+            <ul class="te-downloads-features">
+              <li>PDF downloads for lessons (where available)</li>
+              <li>Ad-free experience when ads are enabled on the free site</li>
+              <li>Support EnglishPath development</li>
+            </ul>
+            <button type="button" id="btn-check-plans" class="te-downloads-cta">Check our plans</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PDF download (Premium A1, or any level without paywall) -->
+      <div id="downloads-content" class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm text-center">
         <p class="text-gray-600">Download a PDF version of this lesson for offline practice.</p>
         <a id="pdf-link" href="#" target="_blank" rel="noopener"
            class="mt-4 inline-block hidden rounded-lg bg-brand px-6 py-3 text-sm font-semibold text-white hover:bg-brand-dark">
@@ -116,15 +143,20 @@
   <footer class="border-t border-gray-100 bg-white">
     <div class="mx-auto max-w-6xl px-4 py-8 text-center text-xs text-gray-400">
       © <span id="year">2026</span> <span data-brand>EnglishPath</span>. All rights reserved.
+      · <a href="privacy.html" class="hover:text-brand">Privacy</a>
+      · <a href="terms.html" class="hover:text-brand">Terms</a>
+      · <a href="contact.html" class="hover:text-brand">Contact</a>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/config.js"></script>
   <script src="js/data.js"></script>
+  <script src="js/catalog.js"></script>
   <script src="js/exercise-engine.js"></script>
   <script src="js/lesson.js"></script>
   <script src="js/auth.js"></script>
+  <script src="js/billing.js"></script>
   <script src="js/cookies.js"></script>
 </body>
 </html>

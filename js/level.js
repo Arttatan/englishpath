@@ -39,9 +39,13 @@ document.addEventListener("DOMContentLoaded", () => {
   if (descEl) descEl.textContent = level.description;
   if (barEl) barEl.style.background = level.color;
 
-  // Level sections
+  // Level sections (A1: only sections with finished public lessons)
   if (grid) {
-    grid.innerHTML = data.sections
+    const sections =
+      window.EnglishPathCatalog && typeof window.EnglishPathCatalog.sectionsForLevel === "function"
+        ? window.EnglishPathCatalog.sectionsForLevel(level.id, data.sections)
+        : data.sections;
+    grid.innerHTML = sections
       .map(
         (s) => `
         <a href="section.html?level=${level.id}&section=${s.id}"
